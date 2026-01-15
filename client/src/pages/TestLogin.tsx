@@ -16,7 +16,8 @@ export default function TestLogin() {
     setError("");
 
     try {
-      const response = await fetch("/api/test-auth/login", {
+      const apiUrl = import.meta.env.VITE_API_URL || '';
+      const response = await fetch(`${apiUrl}/api/test-auth/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
