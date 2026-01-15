@@ -1,0 +1,133 @@
+{
+  "id": "feedback_1767665522078_5l2seqpx2",
+  "personaId": "persona_1767665359040_k889vtoaz",
+  "personaName": "Anya Sharma",
+  "simulationId": "realistic_1767665510907_1p0im4ly9",
+  "iteration": 1,
+  "overallSatisfaction": 8,
+  "wouldRecommend": true,
+  "moduleFeedback": [
+    {
+      "module": "question_generation",
+      "rating": 8,
+      "strengths": [
+        "Questions were highly relevant to a Mid-Level BI Analyst role (e.g., ETL, visualization, stakeholder communication).",
+        "The questions built upon previous answers, maintaining context and flow.",
+        "Good mix of behavioral (STAR) and technical questions."
+      ],
+      "weaknesses": [
+        "The technical depth sometimes felt slightly generic, lacking a truly challenging, domain-specific scenario that would differentiate a mid-level candidate."
+      ],
+      "specificIssues": [
+        "The question regarding 'integrating transaction data with customer segmentation profiles' was good, but the follow-up didn't probe the technical complexities of schema misalignment or performance optimization."
+      ],
+      "suggestions": [
+        "Introduce one or two questions requiring specific knowledge of common BI tools (e.g., 'How would you handle a performance bottleneck in Looker/Tableau dashboard loading?').",
+        "Ensure technical follow-ups probe deeper into architecture decisions and trade-offs."
+      ]
+    },
+    {
+      "module": "hint_system",
+      "rating": 7,
+      "strengths": [
+        "The hints were available when needed, which helped when I felt momentarily stuck.",
+        "They guided the response without giving away the full answer."
+      ],
+      "weaknesses": [
+        "The hints felt slightly too broad; they focused on the general topic (e.g., stakeholder management) rather than the specific angle the interviewer was looking for (e.g., managing risk perception)."
+      ],
+      "specificIssues": [
+        "The hint for the stakeholder resistance question was too general."
+      ],
+      "suggestions": [
+        "Make hints slightly more targeted towards the expected direction of the answer, perhaps by suggesting key concepts or frameworks relevant to the specific question."
+      ]
+    },
+    {
+      "module": "response_analysis",
+      "rating": 9,
+      "strengths": [
+        "The interviewer's responses were highly contextual and acknowledged specific details I mentioned (e.g., 'fraud detection mode...', '90-day plan').",
+        "The summaries provided excellent validation and reinforcement, making the conversation feel realistic.",
+        "The final summary was comprehensive and highlighted specific strengths effectively."
+      ],
+      "weaknesses": [
+        "The analysis was sometimes overly positive, even when the answer might have been slightly vague."
+      ],
+      "specificIssues": [
+        "None specific, the analysis was generally strong."
+      ],
+      "suggestions": [
+        "Occasionally introduce a neutral or slightly challenging follow-up based on a potential weakness in the candidate's previous response to test resilience."
+      ]
+    },
+    {
+      "module": "overall_flow",
+      "rating": 9,
+      "strengths": [
+        "The pacing was excellent; the interview moved quickly and efficiently.",
+        "The structure followed a logical progression (behavioral -> technical -> strategic -> closing).",
+        "The transitions between topics were smooth and well-justified by the interviewer."
+      ],
+      "weaknesses": [
+        "The interview felt slightly rushed due to the rapid pace, which might prevent deeper exploration of complex topics."
+      ],
+      "specificIssues": [
+        "The transition from the ETL/architecture question to the visualization question was a bit abrupt."
+      ],
+      "suggestions": [
+        "Allow for slightly more time or depth in the technical section to simulate a real-world technical deep dive."
+      ]
+    },
+    {
+      "module": "persona_simulation",
+      "rating": 8,
+      "strengths": [
+        "The interviewer maintained a professional and engaging tone throughout.",
+        "The language used was appropriate for a senior BI manager.",
+        "The final summary provided a strong sense of closure and feedback."
+      ],
+      "weaknesses": [
+        "The interviewer's responses were consistently complimentary, lacking the subtle probing or critical evaluation typical of a high-stakes interview."
+      ],
+      "specificIssues": [
+        "The interviewer did not challenge any assumptions or ask 'what if' scenarios."
+      ],
+      "suggestions": [
+        "Integrate minor challenges or pushback (e.g., 'That sounds expensive, how would you justify the ROI?') to test the candidate's conviction and critical thinking."
+      ]
+    }
+  ],
+  "emotionalJourney": "I felt engaged and focused throughout the interview. The quick pace kept me on my toes, but the positive reinforcement from the interviewer was encouraging. There was a brief moment of frustration when I needed a hint for a seemingly straightforward question, but overall, it was a smooth and positive experience.",
+  "frustratingMoments": [
+    "Having to use a hint on the stakeholder communication question; I felt the prompt was slightly ambiguous about the expected focus.",
+    "The interview ending before I could elaborate further on the technical modeling aspects."
+  ],
+  "positiveHighlights": [
+    "The interviewer explicitly acknowledging my 'Exceptional ability to translate complex technical analysis' in the final summary.",
+    "The question about the 90-day plan was strategic and allowed me to demonstrate forward-thinking.",
+    "The natural flow of the conversation, especially how questions referenced previous answers."
+  ],
+  "prioritizedSuggestions": [
+    {
+      "priority": "high",
+      "suggestion": "Increase the technical depth of follow-up questions, requiring candidates to discuss trade-offs, scalability, and specific tool knowledge relevant to the BI field.",
+      "affectedModule": "question_generation",
+      "expectedImpact": "Significantly improves the fidelity of the simulation for mid-to-senior level technical roles."
+    },
+    {
+      "priority": "medium",
+      "suggestion": "Introduce minor critical challenges or pushback into the interviewer persona to test the candidate's ability to defend their decisions and handle pressure.",
+      "affectedModule": "persona_simulation",
+      "expectedImpact": "Enhances realism and tests crucial soft skills (resilience, conviction)."
+    },
+    {
+      "priority": "low",
+      "suggestion": "Refine the hint system to provide more targeted guidance related to the specific framework or concept the question is aiming for.",
+      "affectedModule": "hint_system",
+      "expectedImpact": "Improves usability for candidates who need a quick nudge in the right direction."
+    }
+  ],
+  "rawFeedback": "Overall, this was a highly effective and realistic mock interview experience. The system excels at maintaining conversational flow and generating relevant questions for a Business Intelligence role, covering the necessary breadth from technical skills (ETL, modeling) to strategic thinking (visualization, 90-day plan).\n\nThe primary area for improvement lies in increasing the technical rigor, particularly in follow-up questions. For a mid-level role, the interviewer needs to probe deeper into architectural decisions and potential pitfalls rather than simply validating the existence of the skill. While the positive reinforcement is encouraging, introducing moderate challenges would better simulate the pressure and critical evaluation present in real-world interviews. I would definitely recommend this tool for preparing for BI/Data Analyst roles, provided the technical depth is slightly enhanced.",
+  "createdAt": "2026-01-06T02:12:02.078Z"
+}

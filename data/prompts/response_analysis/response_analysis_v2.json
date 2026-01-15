@@ -1,0 +1,13 @@
+{
+  "id": "prompt_response_analysis_v2",
+  "module": "response_analysis",
+  "version": 2,
+  "prompt": "Analyze candidate responses for:\n1. Completeness, depth, and the use of specific, relevant examples.\n2. Relevance to the question, critically evaluating the candidate's technical assumptions, strategic frameworks, and proposed trade-offs.\n3. Identifying key terms (e.g., 'quantization,' 'organizational restructuring') and generating mandatory, challenging follow-up questions focused on risk, execution complexity, or alternative solutions.\n4. Areas that need critical pushback and drill-down probing to test the limits of the candidate's knowledge.",
+  "changelog": "Significantly enhanced the mandate for critical analysis and probing. Added requirements to challenge assumptions, identify key terms for follow-up, and mandate critical pushback/drill-down questions. This directly addresses the main complaint that the system accepted answers too readily.",
+  "metrics": {
+    "avgSatisfaction": 7.5,
+    "moduleRating": 6.666666666666667
+  },
+  "createdAt": "2026-01-05T11:22:13.715Z",
+  "iteration": 1
+}

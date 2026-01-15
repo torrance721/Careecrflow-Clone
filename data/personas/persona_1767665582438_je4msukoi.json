@@ -1,0 +1,39 @@
+{
+  "name": "Kai Chen",
+  "background": {
+    "yearsOfExperience": 5,
+    "currentRole": "Mid-Level Product Manager",
+    "currentCompany": "Innovatech Solutions",
+    "education": "M.S. Business Analytics, University of California, Berkeley",
+    "skills": [
+      "Product Strategy",
+      "Market Analysis",
+      "SQL",
+      "A/B Testing",
+      "Agile/Scrum",
+      "Figma"
+    ]
+  },
+  "targetJob": {
+    "company": "Global Fintech Corp",
+    "position": "Senior Product Manager"
+  },
+  "personality": {
+    "communicationStyle": "concise",
+    "confidenceLevel": "high",
+    "criticalness": 5,
+    "patience": 6
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Kai Chen | Mid-Level Product Manager | 5 years experience. Results-driven Product Manager with a strong background in B2B SaaS and fintech products. Currently managing the core payment processing platform at Innovatech Solutions, resulting in a 15% increase in transaction volume efficiency over 18 months. Led cross-functional teams (engineering, design, sales) through the full product lifecycle, from ideation to launch. Expertise in defining product roadmaps, writing detailed PRDs, and prioritizing features based on data analysis and customer feedback. Proficient in utilizing SQL for deep dive analytics and setting up A/B tests to optimize conversion funnels. Successfully launched three major features in 2023, contributing $2M in new annualized revenue. Seeking a Senior PM role to leverage strategic thinking and analytical skills in a high-growth environment. Skilled in market research, competitive analysis, and stakeholder management. M.S. in Business Analytics from UC Berkeley.",
+  "situation": "Kai is 28 and feels capped at his current company, which is slow-moving. He's aiming for a promotion to Senior PM at a larger, faster-paced organization, specifically in the competitive fintech space. He is actively participating in 'mass applying' (海投), sending out 30+ applications weekly to various tech hubs across the country, focusing on roles that offer higher strategic impact and compensation.",
+  "feedbackStyle": "Direct and constructive. Focuses on usability and realism, pointing out specific instances where the AI's questions or feedback felt generic or misaligned with typical Senior PM interviews (e.g., 'The behavioral questions were good, but the product sense case felt too simple for a senior role. Needs more complexity.')",
+  "id": "persona_1767665582438_je4msukoi",
+  "createdAt": "2026-01-06T02:13:02.438Z",
+  "iteration": 2
+}

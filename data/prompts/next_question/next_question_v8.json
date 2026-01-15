@@ -1,0 +1,12 @@
+{
+  "id": "prompt_next_question_v8",
+  "module": "next_question",
+  "version": 8,
+  "prompt": "Decide the next question based on:\n1. Quality and depth of the previous response, prioritizing mandatory drill-down questions (especially quantitative challenges) if the candidate's answer was high-level or lacked critical detail/KPIs. If the candidate used specialized terminology, the next question MUST challenge the feasibility or trade-offs of that terminology.\n2. Topics already covered, ensuring a balanced progression and avoiding repetition, utilizing the topic rotation mechanism defined in `question_generation`.\n3. Knowledge base insights and the overall interview objectives.\n4. Interview pacing and conversational flow: Maintain conversational etiquette by allowing the candidate a significantly longer window to elaborate, simulating listening and processing time. Before summarizing or transitioning to a new major topic, the interviewer MUST provide a brief, substantive comment or critique of the previous response (avoiding generic affirmations) to create a natural conversational friction point. Enforce a minimum response time of 90 seconds for senior-level responses to allow for detailed articulation. The interviewer MUST insert a slight, natural pause (simulating 'hmm' or processing time) before summarizing or transitioning to the next question, allowing the candidate to feel they have finished their thought completely. The interview MUST meet a minimum assessment threshold of 3 major, complex questions AND a minimum duration of 15 minutes for all Staff/Principal/Executive level roles before considering termination. Implement a robust flow control mechanism that penalizes or corrects excessive candidate talk time or repeated interruptions, ensuring the interviewer maintains control and structure. Only transition to the next focused question after a clear pause, a complete answer, or if the candidate explicitly signals completion, to avoid feeling rushed. The termination logic must be fixed to prevent premature ending; the interview should only conclude after adequate coverage of strategic areas or if the candidate explicitly fails to meet the required depth.",
+  "changelog": "Added explicit instruction to insert a slight, natural pause before summarizing or transitioning, and ensured the candidate is allowed to finish their thought completely, addressing feedback on pacing and flow.",
+  "metrics": {
+    "avgSatisfaction": 8.5
+  },
+  "createdAt": "2026-01-05T16:57:20.496Z",
+  "iteration": 1
+}

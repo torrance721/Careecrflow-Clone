@@ -1,0 +1,129 @@
+{
+  "id": "feedback_1767632228316_f39vtswhg",
+  "personaId": "persona_1767632095790_rum2kg69p",
+  "personaName": "Aisha Khan",
+  "simulationId": "sim_1767632216710_e6idvmy21",
+  "iteration": 1,
+  "overallSatisfaction": 8.5,
+  "wouldRecommend": true,
+  "moduleFeedback": [
+    {
+      "module": "question_generation",
+      "rating": 8,
+      "strengths": [
+        "The questions felt very relevant to a Product Designer role at a health tech company like GHI.",
+        "The questions built upon each other nicely, showing a good flow of thought from the interviewer."
+      ],
+      "weaknesses": [
+        "Sometimes the questions felt a little too focused on regulatory constraints, which is an area I'm still developing expertise in."
+      ],
+      "specificIssues": [
+        "The shift from the B2B data handling question to the HIPAA/GDPR approach felt a bit abrupt, even though it was related."
+      ],
+      "suggestions": [
+        "Maybe include more behavioral questions about collaboration or user empathy, just to balance out the technical compliance focus."
+      ]
+    },
+    {
+      "module": "hint_system",
+      "rating": 9,
+      "strengths": [
+        "The hints were very gentle and non-judgmental, which helped me feel less stressed when I got stuck.",
+        "They provided just enough guidance to redirect my thinking without giving away the answer."
+      ],
+      "weaknesses": [
+        "I wish the hint system could also suggest ways to structure an answer, not just content areas."
+      ],
+      "specificIssues": [
+        "When I asked for the second hint, the prompt felt slightly repetitive of the previous question's core theme (legal constraints)."
+      ],
+      "suggestions": [
+        "Ensure hints offer diverse angles on the topic, perhaps focusing on process or stakeholder management when compliance is the core issue."
+      ]
+    },
+    {
+      "module": "response_analysis",
+      "rating": 7.5,
+      "strengths": [
+        "The interviewer acknowledged my points clearly ('That's a very clear explanation').",
+        "It picked up on my self-critical comments ('feels a bit messy sometimes') and used them to drive the next question, which felt like active listening."
+      ],
+      "weaknesses": [
+        "The analysis sometimes summarized my points too quickly without pausing for me to elaborate, making me feel like I needed to rush."
+      ],
+      "specificIssues": [
+        "The interviewer seemed to jump on the 'limited experience' with HIPAA/GDPR quite fast, which made me slightly anxious."
+      ],
+      "suggestions": [
+        "Allow the candidate to finish their thought completely before summarizing or pivoting to the next question."
+      ]
+    },
+    {
+      "module": "overall_flow",
+      "rating": 8.5,
+      "strengths": [
+        "The interview felt very professional and structured, which helped reduce my overall nervousness.",
+        "The pacing was good, even though the total time was short, it covered a lot of ground."
+      ],
+      "weaknesses": [
+        "I felt a little rushed toward the end, maybe because I was rambling a bit, but the transition to the wrap-up was quick."
+      ],
+      "specificIssues": [
+        "I interrupted the interviewer at the very beginning, and the system handled it smoothly, which was reassuring."
+      ],
+      "suggestions": [
+        "Provide a clearer 'time check' or pacing indicator if the candidate is taking too long on a specific question."
+      ]
+    },
+    {
+      "module": "persona_simulation",
+      "rating": 9,
+      "strengths": [
+        "The interviewer sounded very supportive and professional, exactly what I'd expect from a Lead Product Designer.",
+        "The tone was encouraging and made the high-pressure situation feel much calmer."
+      ],
+      "weaknesses": [
+        "The interviewer's responses were highly formal; maybe a touch more conversational language could make it feel even more realistic."
+      ],
+      "specificIssues": [
+        "None major. The persona was excellent and helped me stay engaged."
+      ],
+      "suggestions": [
+        "Introduce a slight pause or 'hmm' sound occasionally to simulate deeper thinking."
+      ]
+    }
+  ],
+  "emotionalJourney": "I started off feeling quite nervous, especially when the first question was so detailed. However, the supportive tone of the interviewer really helped settle me down. I felt a slight dip in confidence when I had to use the hints, but the hints themselves were so helpful that it quickly brought my mood back up. By the end, I felt positive and relieved, even though I know I need to practice my responses on compliance topics more.",
+  "frustratingMoments": [
+    "Feeling like I didn't have enough specific knowledge about HIPAA/GDPR to satisfy the interviewer's deep dive.",
+    "The moment I realized I had to ask for a second hint, which made me feel unprepared.",
+    "Worrying that I was rambling too much, especially at the end when I was trying to wrap up my thoughts."
+  ],
+  "positiveHighlights": [
+    "The interviewer's positive feedback on my explanation of B2B data handling ('That's a very clear explanation').",
+    "The gentle nature of the hint system, which didn't feel punitive.",
+    "The fact that the interviewer picked up on my self-reflection about my process being 'messy sometimes' and used it constructively."
+  ],
+  "prioritizedSuggestions": [
+    {
+      "priority": "medium",
+      "suggestion": "Introduce more conversational filler or slight variations in language to make the interviewer persona feel less robotic and highly formal.",
+      "affectedModule": "persona_simulation",
+      "expectedImpact": "Increase realism and reduce candidate anxiety by making the interaction feel more human."
+    },
+    {
+      "priority": "low",
+      "suggestion": "When a candidate uses multiple hints, ensure the subsequent hint provides a distinctly different angle or framework for answering.",
+      "affectedModule": "hint_system",
+      "expectedImpact": "Improve the utility of repeated hints and prevent the candidate from feeling stuck in a loop."
+    },
+    {
+      "priority": "low",
+      "suggestion": "Allow for slightly longer pauses after a candidate's response before summarizing or transitioning to the next question.",
+      "affectedModule": "response_analysis",
+      "expectedImpact": "Give the candidate confidence that their answer was fully received and reduce the feeling of being rushed."
+    }
+  ],
+  "rawFeedback": "Overall, this was a fantastic experience. I felt like the platform did a wonderful job simulating a high-stakes interview environment while still being incredibly supportive. The questions were sharp and targeted exactly where a Product Designer in health tech needs to be proficient, which is great practice for me. I really appreciate how the interviewer persona maintained a calm and encouraging tone throughout. It made me feel much less nervous than I usually would be in a real interview.\n\nMy main takeaway is that I need to work on my specific knowledge around regulatory compliance, but the system helped me identify that gap without making me feel bad about it. The hint system is a major strength; it's subtle and effective. I would definitely recommend this tool to other job seekers, especially those who struggle with interview anxiety. It felt like a safe space to practice and make mistakes.\n\nIf I had to offer one small suggestion, it would be to slightly vary the language used in the interviewer's summaries to make the conversation flow even more naturally. But honestly, that’s just nitpicking. I feel much more prepared now, and I know exactly what I need to focus on next. Thank you!",
+  "createdAt": "2026-01-05T16:57:08.316Z"
+}

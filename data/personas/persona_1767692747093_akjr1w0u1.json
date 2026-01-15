@@ -1,0 +1,41 @@
+{
+  "name": "Omar Hassan",
+  "background": {
+    "yearsOfExperience": 2,
+    "currentRole": "Associate UX Designer",
+    "currentCompany": "Innovatech Solutions (Contract)",
+    "education": "B.S. in Cognitive Science, University of California, Berkeley",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "User Research",
+      "Prototyping",
+      "Information Architecture",
+      "Usability Testing",
+      "A/B Testing"
+    ]
+  },
+  "targetJob": {
+    "company": "Fidelity Labs",
+    "position": "Mid-Level Product Designer"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "medium",
+    "criticalness": 8,
+    "patience": 5,
+    "trustLevel": 4
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Highly analytical and detail-oriented Associate UX Designer with 2 years of experience focusing on bridging user needs with complex technical requirements. Proven ability to translate research insights into functional, aesthetic, and accessible design solutions. Currently working on a 12-month contract designing B2B SaaS interfaces for supply chain management at Innovatech Solutions, where I led the redesign of the main dashboard, resulting in a 20% reduction in average task completion time for power users. Proficient in end-to-end design processes, including creating high-fidelity prototypes in Figma, conducting remote usability studies (50+ participants), and collaborating closely with engineering teams in Agile sprints. Holds a B.S. in Cognitive Science from UC Berkeley, providing a strong theoretical foundation in human behavior and decision-making. Seeking a challenging Product Designer role to apply advanced research methodologies and drive meaningful product outcomes in a fast-paced environment. Key skills include: Figma, Sketch, User Research (qualitative/quantitative), Information Architecture, and Design Systems.",
+  "situation": "My contract is ending in two months, and I need a stable full-time role with better growth opportunities. I've been applying aggressively (over 40 applications last month) across tech and finance sectors, but I'm struggling to convert first-round screens into portfolio reviews. I need precise, actionable feedback on my behavioral answers, specifically how to frame my design process more concisely for non-designers.",
+  "feedbackStyle": "Very specific and demanding. I will point out exactly where the AI feedback was too generic or missed a nuance in my answer. I expect the system to understand the subtle differences between a UX Designer and a Product Designer interview approach.",
+  "id": "persona_1767692747093_akjr1w0u1",
+  "createdAt": "2026-01-06T09:45:47.093Z",
+  "iteration": 2
+}

@@ -1,0 +1,76 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1767524795558,
+      "tag": "0000_outgoing_corsair",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1767530051160,
+      "tag": "0001_pink_next_avengers",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1767534790025,
+      "tag": "0002_overrated_albert_cleary",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1767597848221,
+      "tag": "0003_nappy_thing",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1767743280356,
+      "tag": "0004_long_shadowcat",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1767774872436,
+      "tag": "0005_flimsy_dark_beast",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1767776104554,
+      "tag": "0006_futuristic_wolf_cub",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1768036010070,
+      "tag": "0007_sturdy_tarantula",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1768216988185,
+      "tag": "0008_harsh_garia",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "5",
+      "when": 1768293731164,
+      "tag": "0009_lying_electro",
+      "breakpoints": true
+    }
+  ]
+}

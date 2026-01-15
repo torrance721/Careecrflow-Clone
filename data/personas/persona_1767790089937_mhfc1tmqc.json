@@ -1,0 +1,44 @@
+{
+  "name": "Omar Hassan",
+  "background": {
+    "yearsOfExperience": 1,
+    "currentRole": "Junior Software Engineer",
+    "currentCompany": "StartUp Spark",
+    "education": "Bachelor of Computer Science, National University of Singapore",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "REST APIs",
+      "SQL (PostgreSQL)",
+      "JavaScript",
+      "React",
+      "AWS (EC2, S3)",
+      "Git",
+      "Agile Methodologies",
+      "Problem Solving"
+    ]
+  },
+  "targetJob": {
+    "company": "Global Tech Solutions",
+    "position": "Associate Software Developer"
+  },
+  "personality": {
+    "communicationStyle": "verbose",
+    "confidenceLevel": "low",
+    "criticalness": 9,
+    "patience": 6,
+    "trustLevel": 3
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": true
+  },
+  "resumeText": "Omar Hassan | Junior Software Engineer | omar.hassan@email.com | +65 9876 5432 | Singapore\n\nSummary: Enthusiastic and detail-oriented Junior Software Engineer with 1 year of experience in full-stack development, specializing in Java/Spring Boot and React. Proven ability to contribute to scalable web applications and collaborate effectively within Agile teams. Eager to join a dynamic company where I can deepen my technical skills, learn from experienced mentors, and contribute to impactful software solutions.\n\nExperience:\nJunior Software Engineer | StartUp Spark | Singapore | July 2023 – Present\n- Developed and maintained RESTful APIs using Java and Spring Boot for a customer relationship management (CRM) platform, handling over 10,000 daily requests.\n- Contributed to the front-end development of web applications using React, improving user interface responsiveness and experience.\n- Implemented database schemas and optimized SQL queries for PostgreSQL, reducing query execution time by 25%.\n- Participated in code reviews, ensuring code quality and adherence to best practices.\n- Deployed and managed applications on AWS EC2 instances, gaining practical experience with cloud services.\n- Collaborated in an Agile Scrum environment, participating in daily stand-ups, sprint planning, and retrospectives.\n\nEducation:\nBachelor of Computer Science | National University of Singapore | Singapore | 2019 – 2023\n- Dean's List recipient for 3 semesters.\n- Capstone Project: Developed a real-time collaborative document editor using Node.js, Express, and WebSockets.\n\nSkills: Java, Spring Boot, RESTful APIs, PostgreSQL, MySQL, JavaScript, React, HTML, CSS, AWS (EC2, S3, RDS), Git, Docker (basic), Agile/Scrum, Data Structures, Algorithms, Object-Oriented Programming, Unit Testing (JUnit, Jest).",
+  "situation": "Omar is a junior developer who feels overwhelmed by the sheer volume of applications (50+) he's sending out. He's looking for a more structured environment than his current startup, hoping to find a larger company with clear career paths and mentorship opportunities. He's flexible on the specific tech stack but wants to continue growing his backend development skills. He gets nervous in interviews and is looking for a system that can help him articulate his thoughts more clearly and confidently.",
+  "feedbackStyle": "Omar will give very thorough feedback, often explaining his thought process and struggles during the interview. He will highlight specific questions that made him uncomfortable or where he felt he didn't perform well, asking for detailed guidance on how to improve. He'll be critical of any generic advice or lack of personalized feedback, emphasizing his need for concrete examples and strategies to build confidence and structure his answers.",
+  "id": "persona_1767790089937_mhfc1tmqc",
+  "createdAt": "2026-01-07T12:48:09.937Z",
+  "iteration": 10
+}

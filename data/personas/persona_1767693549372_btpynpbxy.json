@@ -1,0 +1,42 @@
+{
+  "name": "Mei Lin",
+  "background": {
+    "yearsOfExperience": 0,
+    "currentRole": "Recent Graduate (B.S. Computer Science)",
+    "currentCompany": "N/A",
+    "education": "Purdue University, B.S. Computer Science (Graduated May 2024)",
+    "skills": [
+      "Python",
+      "Java",
+      "C++",
+      "Data Structures & Algorithms",
+      "AWS (S3, EC2)",
+      "React",
+      "SQL",
+      "Agile Methodology"
+    ]
+  },
+  "targetJob": {
+    "company": "Google",
+    "position": "Software Engineer I (Entry Level)"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "medium",
+    "criticalness": 8,
+    "patience": 6,
+    "trustLevel": 4
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Mei Lin | (XXX) XXX-XXXX | mei.lin@email.com\n\nEDUCATION\nPurdue University | West Lafayette, IN\nB.S. Computer Science, Concentration in Software Engineering | May 2024\nGPA: 3.9/4.0\n\nEXPERIENCE\nSoftware Development Intern | Tech Innovations Inc. | Summer 2023\n- Developed and deployed a RESTful API using Python/Flask to manage internal inventory data, reducing manual processing time by 15%.\n- Collaborated with a team of 5 engineers using Agile methodologies, participating in daily stand-ups and sprint reviews.\n- Implemented unit tests (JUnit) for core application logic, achieving 90% code coverage.\n\nPROJECTS\nDistributed File System (C++): Designed and implemented a basic distributed file system utilizing concurrent programming techniques and fault tolerance mechanisms.\nE-commerce Platform (React/Node.js): Built a full-stack e-commerce site featuring user authentication, product catalog management, and secure payment integration via Stripe API. Deployed using AWS EC2.\n\nSKILLS\nProgramming Languages: Python, Java, C++, JavaScript, SQL\nTechnologies: AWS (S3, EC2, Lambda), React, Node.js, Docker, Git\nMethodologies: Object-Oriented Design, Data Structures and Algorithms, Agile/Scrum.",
+  "situation": "Mei is a recent high-achieving graduate who is determined to land a job at a top-tier tech company. She understands the job market is competitive and has applied to over 40 companies in the last month (mass applying). She needs the AI tool to provide rigorous, specific feedback on her technical communication and behavioral answers, as she is skeptical of generic advice and wants to ensure her structured approach translates well in high-stakes interviews.",
+  "feedbackStyle": "Very detailed and analytical. She will point out specific instances where the AI's feedback was vague or contradictory, and she expects the system to accurately assess the technical depth of her responses.",
+  "id": "persona_1767693549372_btpynpbxy",
+  "createdAt": "2026-01-06T09:59:09.372Z",
+  "iteration": 2
+}

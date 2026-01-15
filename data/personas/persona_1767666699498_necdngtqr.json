@@ -1,0 +1,39 @@
+{
+  "name": "Omar Hassan",
+  "background": {
+    "yearsOfExperience": 2,
+    "currentRole": "Financial Analyst",
+    "currentCompany": "Regional Commercial Bank (Mid-size)",
+    "education": "B.S. Finance, University of Texas at Austin (2022)",
+    "skills": [
+      "Financial Modeling (DCF, LBO)",
+      "Valuation",
+      "Excel (Advanced)",
+      "Python (Pandas, NumPy)",
+      "SQL",
+      "Data Visualization (Tableau)"
+    ]
+  },
+  "targetJob": {
+    "company": "Fidelity Investments",
+    "position": "Investment Banking Analyst Associate"
+  },
+  "personality": {
+    "communicationStyle": "concise",
+    "confidenceLevel": "medium",
+    "criticalness": 5,
+    "patience": 6
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Omar Hassan | (512) XXX-XXXX | omar.hassan@email.com\n\nSUMMARY\nHighly analytical Financial Analyst with 2 years of experience in commercial banking, specializing in credit risk assessment and financial planning. Proven ability to construct complex financial models and synthesize large datasets to inform strategic decisions. Seeking transition into investment banking to leverage quantitative skills and drive high-impact transactions.\n\nEXPERIENCE\nFinancial Analyst | Regional Commercial Bank | Austin, TX | 2022 – Present\n* Managed a portfolio of 40+ commercial clients, performing quarterly financial statement analysis and credit risk evaluations.\n* Developed and maintained complex Excel models for forecasting liquidity needs and capital requirements, reducing reporting time by 15%.\n* Utilized SQL and Python (Pandas) to extract and clean transaction data, improving accuracy in regulatory compliance reports.\n* Presented detailed financial findings and recommendations to senior management regarding loan approvals and restructuring.\n\nEDUCATION\nUniversity of Texas at Austin | Austin, TX\nB.S. Finance, Minor in Economics | Graduated 2022 | GPA: 3.8/4.0",
+  "situation": "Omar is looking to jump from commercial banking into a more demanding and higher-paying investment banking role. He is currently applying to 30+ associate-level roles at major financial institutions across the country, focusing heavily on technical finance interviews (modeling, valuation). He needs efficient, targeted practice.",
+  "feedbackStyle": "Direct and pragmatic. He will focus feedback on the technical accuracy of the AI's questions and the realism of the scenario, rather than the conversational flow.",
+  "id": "persona_1767666699498_necdngtqr",
+  "createdAt": "2026-01-06T02:31:39.498Z",
+  "iteration": 2
+}

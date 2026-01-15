@@ -1,0 +1,39 @@
+{
+  "name": "Anya Sharma",
+  "background": {
+    "yearsOfExperience": 3,
+    "currentRole": "Junior Data Analyst",
+    "currentCompany": "FinTech Innovations Inc.",
+    "education": "M.S. Data Science, University of California, Berkeley",
+    "skills": [
+      "Python (Pandas, NumPy, Scikit-learn)",
+      "SQL (PostgreSQL, MySQL)",
+      "Tableau",
+      "A/B Testing",
+      "Statistical Modeling",
+      "AWS S3"
+    ]
+  },
+  "targetJob": {
+    "company": "Global Consumer Analytics (GCA)",
+    "position": "Mid-Level Business Intelligence Analyst"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "high",
+    "criticalness": 9,
+    "patience": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Anya Sharma | (555) 123-4567 | anya.sharma@email.com\n\nSUMMARY\nHighly analytical and results-driven professional with 3 years of experience in data analysis and business intelligence within the financial technology sector. Proven ability to translate complex datasets into actionable insights that drive business strategy and optimize operational efficiency. Seeking a challenging Mid-Level Business Intelligence Analyst role to leverage advanced statistical modeling and data visualization skills.\n\nEXPERIENCE\nJunior Data Analyst | FinTech Innovations Inc. | 2021 – Present\n* Led end-to-end analysis of customer churn rates, resulting in a 12% reduction in losses through targeted retention campaigns.\n* Developed and maintained complex SQL queries and stored procedures for reporting on key performance indicators (KPIs) across sales and marketing departments.\n* Designed and implemented interactive dashboards using Tableau, reducing manual reporting time by 40%.\n* Collaborated with engineering teams to ensure data integrity and optimize ETL processes.\n\nEDUCATION\nM.S. Data Science, University of California, Berkeley (2020)\nB.S. Statistics, Stanford University (2018)",
+  "situation": "Anya is 27 and feels undervalued at her current FinTech company. She is highly ambitious and believes her Master's degree and three years of solid experience qualify her for a higher-paying, more impactful role at a larger corporation. She has applied to over 40 companies in the last month, focusing on data and BI roles, and needs rigorous practice for behavioral and technical case studies to ensure she performs flawlessly in these competitive interviews.",
+  "feedbackStyle": "Extremely detailed and specific. She will critique the AI's response structure, clarity, and relevance to the industry standards. She expects the tool to challenge her deeply on technical assumptions and provide benchmark comparisons to ideal answers.",
+  "id": "persona_1767666966668_61gr1hkfo",
+  "createdAt": "2026-01-06T02:36:06.668Z",
+  "iteration": 1
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Anya Sharma",
+  "background": {
+    "yearsOfExperience": 3,
+    "currentRole": "Junior Data Analyst",
+    "currentCompany": "FinTech Innovations Inc.",
+    "education": "M.S. Data Science, University of California, Berkeley",
+    "skills": [
+      "Python (Pandas, NumPy, Scikit-learn)",
+      "SQL",
+      "Tableau",
+      "A/B Testing",
+      "Statistical Modeling"
+    ]
+  },
+  "targetJob": {
+    "company": "Global Consumer Insights (GCI)",
+    "position": "Mid-Level Business Intelligence Analyst"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "medium",
+    "criticalness": 4,
+    "patience": 7
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": false,
+    "getsNervous": false
+  },
+  "resumeText": "Anya Sharma | (555) 123-4567 | anya.sharma@email.com\n\nSummary\nHighly analytical and results-driven Data Analyst with 3 years of experience specializing in financial data modeling and visualization. Proven ability to translate complex datasets into actionable business strategies, resulting in measurable improvements in operational efficiency and risk management. Seeking a challenging role in Business Intelligence to leverage advanced statistical techniques.\n\nExperience\nJunior Data Analyst | FinTech Innovations Inc. | 2021 – Present\n* Developed and maintained SQL queries for extracting, transforming, and loading large datasets (average 1TB per quarter) for regulatory reporting.\n* Led A/B testing initiatives for optimizing user interface features, resulting in a 12% increase in user engagement over six months.\n* Created interactive dashboards using Tableau to track key performance indicators (KPIs) for the executive team, reducing manual reporting time by 20 hours monthly.\n* Utilized Python (Pandas/Scikit-learn) for predictive modeling of customer churn risk.\n\nEducation\nM.S. Data Science, University of California, Berkeley (2020)\nB.A. Economics, Stanford University (2018)",
+  "situation": "Anya is currently employed but feels stagnant in her role and believes her current company lacks opportunities for growth into advanced BI roles. She is actively mass applying (targeting 30+ companies) to mid-level analyst positions across various industries (tech, retail, finance) hoping to secure a 15-20% salary increase and more complex project work.",
+  "feedbackStyle": "Anya is generally polite and constructive. Her feedback will focus on usability and whether the AI's questions accurately reflect industry standards for data analysis interviews. She might mention if the technical depth was too shallow or too esoteric.",
+  "id": "persona_1767665359040_k889vtoaz",
+  "createdAt": "2026-01-06T02:09:19.040Z",
+  "iteration": 1
+}

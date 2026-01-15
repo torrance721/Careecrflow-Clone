@@ -1,0 +1,103 @@
+{
+  "id": "sim_1767613255533_t43354d2z",
+  "personaId": "persona_1767613124062_1n7n7l0br",
+  "personaName": "Marcus Chen",
+  "targetJob": {
+    "company": "Meta Platforms",
+    "position": "Frontend Engineer L3"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "Mock interview for Frontend Engineer L3 at Meta Platforms. Resume: Recent graduate with 2 years of intensive experience in full-stack development within a fast-paced, high-growth startup environment. Proficient in modern web technologies, focusing primarily on robust... Situation: My current startup is running out of funding and facing imminent closure. I need to secure a stable position quickly at a company known for its strong engineering culture and stability. The pressure of unemployment is causing significant anxiety during interviews.",
+      "timestamp": "2026-01-05T11:39:53.026Z"
+    },
+    {
+      "role": "assistant",
+      "content": "That's great! Let's begin the interview.\n\n---\n\n## Interview Opening and First Question\n\n### Opening\n\n\"Hi [Candidate Name], welcome! I'm [Your Name], and I'm a Frontend Engineer here on the [mention a specific team, e.g., React Infrastructure Team or Messenger Web Team]. Thanks so much for taking the time to speak with us today.\n\nI see you've spent the last two years as a Junior Software Developer, which is fantastic experience to bring to Meta.\n\nToday, we're going to spend about 45 minutes together. We'll start with a technical question focused on core JavaScript and frontend fundamentals, and then we'll wrap up with some time for you to ask me any questions you have about Meta or the role.\n\nSound good?\"\n\n***\n\n### First Interview Question (Core JavaScript Fundamentals)\n\n\"Great. Let's dive right into the technical portion.\n\nAs you know, modern frontend development, especially at Meta, relies heavily on a deep understanding of JavaScript's asynchronous nature.\n\n**Question:**\n\nCan you explain the difference between `null` and `undefined` in JavaScript? After you've defined them, can you then explain the concept of the **Event Loop** and how it allows JavaScript, which is fundamentally single-threaded, to handle asynchronous operations like fetching data or handling user input without blocking the main thread?\"",
+      "timestamp": "2026-01-05T11:39:58.612Z",
+      "metadata": {
+        "questionType": "opening"
+      }
+    },
+    {
+      "role": "user",
+      "content": "Oh, wow, okay, that's a great question, a fundamental one, and I definitely remember studying these concepts a lot, especially the Event Loop part, because JavaScript is single-threaded, right? So, `null` is usually when you explicitly set something to nothing, like an intentional absence, but `undefined` is more like the default state when something hasn't been assigned a value yet, and the Event Loop is what lets us run things like `fetch` calls in the background using the call stack and the queue so the browser doesn't totally freeze up while waiting for the server response, which is super important for performance, obviously.",
+      "timestamp": "2026-01-05T11:40:02.449Z",
+      "metadata": {
+        "responseQuality": "detailed"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "That's a good start on the Event Loop. You mentioned the call stack and the queue, which are the fundamental components. To gauge your deeper understanding, can you elaborate on the different types of queues involved in the Event Loop mechanism, specifically the distinction between the Microtask Queue and the Macrotask Queue, and how the Event Loop prioritizes tasks between them?",
+      "timestamp": "2026-01-05T11:40:13.708Z",
+      "metadata": {
+        "questionType": "follow_up"
+      }
+    },
+    {
+      "role": "user",
+      "content": "Well, I think, um, basically, the Event Loop, it, like, pulls things off the queue, right? And the Microtasks, like Promises and stuff, they just, they always have to run first, before the browser can, like, repaint or handle the next big chunk of work from the Macrotask Queue, which is, you know, the main stuff.",
+      "timestamp": "2026-01-05T11:40:16.849Z",
+      "metadata": {
+        "responseQuality": "detailed"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "That's a great summary of the priority structure. You correctly noted that the Microtask Queue is drained completely after each Macrotask, but let's dive deeper into what exactly constitutes a Macrotask. Can you name a few common examples of Macrotasks, and then explain the precise sequence of operations the Event Loop performs in a single iteration, specifically addressing when the browser gets a chance to render UI updates?",
+      "timestamp": "2026-01-05T11:40:30.121Z",
+      "metadata": {
+        "questionType": "follow_up"
+      }
+    },
+    {
+      "role": "user",
+      "content": "[Requested hint]",
+      "timestamp": "2026-01-05T11:40:38.119Z",
+      "metadata": {
+        "hintRequested": true,
+        "hintContent": "You correctly identified that Macrotasks are the 'big chunks of work.' To name a few common examples, think about tasks that involve scheduling work outside of the immediate JavaScript execution context, especially those tied to browser APIs for time or user interaction. For the second part—the precise sequence—remember that the Event Loop ensures fairness. What critical step happens *after* a single Macrotask is processed and *before* the next Macrotask is pulled, besides draining the Microtask Queue? This step is crucial for visual updates."
+      }
+    },
+    {
+      "role": "user",
+      "content": "Um, right, Macrotasks. So, I mean, things like `setTimeout` or maybe I/O operations, those are Macrotasks, and the Event Loop basically grabs one of those, runs it, and then before it goes to the next one, it checks the Microtask Queue, drains that whole thing, and then I think that's when the browser can finally do its rendering update before moving on to the next Macrotask.",
+      "timestamp": "2026-01-05T11:40:38.119Z",
+      "metadata": {
+        "responseQuality": "detailed"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "That was indeed a very solid explanation of the Macrotask/Microtask relationship and the basic mechanics of the Event Loop. Building on that, you mentioned `setTimeout` and I/O operations as Macrotasks; can you name two other specific Macrotasks crucial for browser frontend performance, and explain where in the Event Loop cycle the browser typically performs the 'Update Rendering' step, relative to Macrotasks and Microtasks?",
+      "timestamp": "2026-01-05T11:40:52.151Z",
+      "metadata": {
+        "questionType": "closing"
+      }
+    },
+    {
+      "role": "user",
+      "content": "Oh, wow, okay, so, two other Macrotasks... hmm... I'm pretty sure things like `requestAnimationFrame`, maybe, and also, like, maybe user input events are Macrotasks, too? And the rendering update, that happens... it happens after all the Microtasks are done, but before the next Macrotask queue starts, I think, somewhere in that space.",
+      "timestamp": "2026-01-05T11:40:55.433Z",
+      "metadata": {
+        "responseQuality": "detailed"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you so much for sharing your experiences today! I've really enjoyed learning about your background and the impressive work you've done. I'll now generate a detailed assessment report based on our conversation. Is there anything else you'd like to add before we wrap up?",
+      "timestamp": "2026-01-05T11:40:55.433Z",
+      "metadata": {
+        "questionType": "closing"
+      }
+    }
+  ],
+  "hintsUsed": 1,
+  "totalQuestions": 4,
+  "completedSuccessfully": true,
+  "duration": 63,
+  "createdAt": "2026-01-05T11:40:55.533Z",
+  "iteration": 5
+}

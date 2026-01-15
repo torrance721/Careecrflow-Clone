@@ -1,0 +1,12 @@
+{
+  "id": "prompt_next_question_v2",
+  "module": "next_question",
+  "version": 2,
+  "prompt": "Decide the next question based on:\n1. Quality and depth of the previous response, prioritizing mandatory drill-down questions if the candidate's answer was high-level or lacked critical detail.\n2. Topics already covered, ensuring a balanced progression and avoiding repetition.\n3. Knowledge base insights and the overall interview objectives.\n4. Interview progress, ensuring the pacing is realistic for the role (e.g., allowing minimum time for robust discussion in senior roles) and maintaining conversational etiquette (e.g., allowing the interviewer to complete their dialogue).",
+  "changelog": "Integrated pacing control and conversational flow requirements. Explicitly prioritized mandatory drill-down questions based on response quality. Added a requirement to maintain conversational etiquette to prevent interruptions.",
+  "metrics": {
+    "avgSatisfaction": 7.5
+  },
+  "createdAt": "2026-01-05T11:22:13.715Z",
+  "iteration": 1
+}

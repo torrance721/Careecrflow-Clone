@@ -1,0 +1,112 @@
+{
+  "id": "feedback_1767663362675_nz9hufs0g",
+  "personaId": "persona_1767663106255_oj7jkojiq",
+  "personaName": "Maria Rodriguez",
+  "simulationId": "realistic_1767663352396_cc5xsvxob",
+  "iteration": 1,
+  "overallSatisfaction": 8.5,
+  "wouldRecommend": true,
+  "moduleFeedback": [
+    {
+      "module": "question_generation",
+      "rating": 9,
+      "strengths": [
+        "Questions were highly relevant to an APM role, focusing on metric setting, trade-off analysis, and data rigor.",
+        "The follow-up questions successfully dug deeper into the candidate's assumptions and statistical methods (e.g., M/M/c queuing, 90th percentile choice)."
+      ],
+      "weaknesses": [
+        "The depth of questioning became almost academic, focusing heavily on statistical frameworks rather than broader product strategy after the initial setup."
+      ],
+      "specificIssues": [],
+      "suggestions": [
+        "Ensure a better balance between quantitative rigor checks and strategic product thinking (e.g., stakeholder management, risk assessment outside of churn models)."
+      ]
+    },
+    {
+      "module": "hint_system",
+      "rating": 7,
+      "strengths": [
+        "Hints were available quickly when requested."
+      ],
+      "weaknesses": [
+        "The hints provided were sometimes overly detailed or pointed directly to the required statistical concept (e.g., standard deviation, right skew), rather than guiding the thought process more generally."
+      ],
+      "specificIssues": [
+        "One hint felt like it gave away the answer too easily, reducing the challenge of independent problem-solving."
+      ],
+      "suggestions": [
+        "Make hints slightly more abstract or focused on the 'why' rather than the 'what' to encourage deeper candidate thinking."
+      ]
+    },
+    {
+      "module": "response_analysis",
+      "rating": 9,
+      "strengths": [
+        "The interviewer consistently acknowledged complex data points (e.g., '18-hour standard deviation,' 'M/M/c framework') and used them to formulate the next, highly specific challenge.",
+        "Excellent ability to maintain the thread of the conversation through multiple follow-ups."
+      ],
+      "weaknesses": [],
+      "specificIssues": [],
+      "suggestions": []
+    },
+    {
+      "module": "overall_flow",
+      "rating": 7.5,
+      "strengths": [
+        "The interview started strong with clear context setting."
+      ],
+      "weaknesses": [
+        "The flow became extremely focused on a single topic (the statistical justification of the 72-hour baseline) for the majority of the interview, making it feel less like a holistic interview and more like a quantitative deep dive."
+      ],
+      "specificIssues": [
+        "The transition to the final question felt abrupt after the intense focus on the DES/queuing model."
+      ],
+      "suggestions": [
+        "Introduce a mid-interview pivot or time-box the deep dive to ensure coverage of other key PM competencies."
+      ]
+    },
+    {
+      "module": "persona_simulation",
+      "rating": 9,
+      "strengths": [
+        "The interviewer maintained a highly professional, challenging, and data-literate persona throughout.",
+        "The tone was consistently impressive and sounded like a senior product leader."
+      ],
+      "weaknesses": [],
+      "specificIssues": [],
+      "suggestions": []
+    }
+  ],
+  "emotionalJourney": "The journey was initially engaging and professional, quickly transitioning into a highly stimulating and intellectually challenging environment. I felt a strong need to be precise with my language and data points. Towards the end, the intensity was high, and I felt relieved when the conversation finally moved past the statistical modeling.",
+  "frustratingMoments": [
+    "The relentless focus on the statistical models (DES, M/M/c) felt slightly excessive for an initial APM interview; it started to feel like a statistics exam.",
+    "Using the hint system felt necessary because the interviewer was asking for increasingly niche statistical terminology, which slightly broke my flow."
+  ],
+  "positiveHighlights": [
+    "The interviewer's ability to track and challenge specific numbers (like the 3.5% churn risk confidence interval) was excellent and forced me to think rigorously.",
+    "The final summary given by the interviewer was very complimentary and specific to my performance.",
+    "The initial setup and the first few questions were perfectly balanced."
+  ],
+  "prioritizedSuggestions": [
+    {
+      "priority": "high",
+      "suggestion": "Introduce a mechanism to pivot the conversation after 3-4 follow-up questions on a single topic, ensuring broader coverage of the candidate's skills.",
+      "affectedModule": "overall_flow",
+      "expectedImpact": "Improve the realism and holistic nature of the interview assessment."
+    },
+    {
+      "priority": "medium",
+      "suggestion": "Refine the hint system to offer conceptual guidance or framing questions rather than specific technical terms.",
+      "affectedModule": "hint_system",
+      "expectedImpact": "Increase the challenge and better test the candidate's ability to structure an answer independently."
+    },
+    {
+      "priority": "low",
+      "suggestion": "Ensure the transition between the final deep dive question and the candidate's question is smoother, perhaps with a brief concluding statement.",
+      "affectedModule": "overall_flow",
+      "expectedImpact": "Improve the conversational rhythm."
+    }
+  ],
+  "rawFeedback": "Overall, this was an extremely high-quality mock interview, particularly strong in its ability to challenge quantitative claims. The interviewer's persona was excellent—highly intelligent, professional, and rigorous, which made the experience feel very realistic for a top-tier tech company. The response analysis module performed flawlessly, consistently picking up on complex terminology and using it to formulate the next challenge.\n\nThe main area for improvement lies in the overall flow and scope. While the deep dive into statistical modeling was impressive, it consumed nearly the entire interview, neglecting other critical PM areas like prioritization, user research, or cross-functional collaboration. For an Associate PM role, this level of statistical rigor felt slightly disproportionate.\n\nI recommend this tool highly for candidates needing to practice defending their data and assumptions. A minor adjustment to the hint system and ensuring the conversation pivots more frequently would make the experience perfect.",
+  "createdAt": "2026-01-06T01:36:02.675Z"
+}

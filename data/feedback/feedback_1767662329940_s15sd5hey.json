@@ -1,0 +1,133 @@
+{
+  "id": "feedback_1767662329940_s15sd5hey",
+  "personaId": "persona_1767662050987_c77h6eqpj",
+  "personaName": "Lena Petrova",
+  "simulationId": "realistic_1767662317099_t1643tepa",
+  "iteration": 4,
+  "overallSatisfaction": 5.5,
+  "wouldRecommend": true,
+  "moduleFeedback": [
+    {
+      "module": "question_generation",
+      "rating": 8,
+      "strengths": [
+        "Questions were highly specific and technical, appropriate for a senior Demand Generation role.",
+        "The interviewer successfully drilled down into complex topics like MQL scoring, statistical rigor, and A/B testing methodology."
+      ],
+      "weaknesses": [
+        "Initial questions lacked the necessary complexity for true behavioral/scenario testing (e.g., 'Tell me about a time you failed a campaign').",
+        "The focus became almost exclusively technical, neglecting critical managerial competencies like team leadership, cross-functional conflict resolution, or budget allocation strategy."
+      ],
+      "specificIssues": [
+        "The transition from high-level strategy to deep statistical modeling felt abrupt and slightly unbalanced for a Marketing Manager role interview."
+      ],
+      "suggestions": [
+        "Ensure a better balance between technical depth and managerial/leadership questions.",
+        "Structure follow-ups to test soft skills and strategic thinking *in addition* to technical correctness."
+      ]
+    },
+    {
+      "module": "hint_system",
+      "rating": 4,
+      "strengths": [
+        "The hint was available when requested."
+      ],
+      "weaknesses": [
+        "The hint provided was too generic and did not address the specific, highly technical statistical context of the preceding question (Type I/Type II errors, sequential testing).",
+        "A high-quality hint should guide the candidate toward the specific concept the interviewer is testing, not just offer general advice on behavioral answers."
+      ],
+      "specificIssues": [
+        "When asked about the statistical trade-offs in sequential testing, the hint should have referenced concepts like 'Bayesian A/B testing' or 'early stopping rules' rather than general STAR structure."
+      ],
+      "suggestions": [
+        "Contextualize hints based on the technical domain of the current question stream."
+      ]
+    },
+    {
+      "module": "response_analysis",
+      "rating": 6,
+      "strengths": [
+        "The interviewer demonstrated excellent comprehension of complex technical concepts (e.g., detecting effect size, power calculation, MQL-to-SQL conversion rates).",
+        "The follow-up questions were highly logical, forcing me to defend my methodology (e.g., the two-month timeframe for A/B testing)."
+      ],
+      "weaknesses": [
+        "The final feedback provided by the interviewer was generic ('Exceptional ability to connect tactical execution...'). It lacked specific, actionable critique on my statistical defense or my initial strategy answers.",
+        "The system failed to provide feedback tied to the *target role* requirements (e.g., 'Your answer lacked focus on stakeholder alignment, a key requirement for a Manager')."
+      ],
+      "specificIssues": [
+        "I need to know if my defense of the two-month A/B test was convincing enough for a Manager role, or if a better answer would have involved risk mitigation planning."
+      ],
+      "suggestions": [
+        "Integrate a final feedback rubric that analyzes the candidate's answers against the implicit requirements of the target job level and function.",
+        "Provide specific critique on the *quality* of the defense provided, not just the fact that a defense was given."
+      ]
+    },
+    {
+      "module": "overall_flow",
+      "rating": 7,
+      "strengths": [
+        "The interview maintained a consistent, professional, and challenging tone.",
+        "The progression of follow-up questions created a deep, sustained stress test."
+      ],
+      "weaknesses": [
+        "The flow became overly focused on a single technical case study (the lead scoring optimization), which limited the scope of skills tested."
+      ],
+      "specificIssues": [
+        "The interview felt more like a technical deep-dive with a data scientist than a holistic interview for a Marketing Manager."
+      ],
+      "suggestions": [
+        "Ensure the flow pivots to different domains (e.g., team management, vendor negotiation, budget ownership) after a deep dive is completed."
+      ]
+    },
+    {
+      "module": "persona_simulation",
+      "rating": 8.5,
+      "strengths": [
+        "The interviewer maintained a highly intelligent and skeptical persona, forcing me to justify every decision with data and rigor.",
+        "The technical knowledge demonstrated by the interviewer was impressive and highly realistic for a senior hiring manager in this domain."
+      ],
+      "weaknesses": [
+        "The persona lacked moments of 'soft' interaction or checking for cultural fit, which is crucial in real-world manager interviews."
+      ],
+      "specificIssues": [
+        "N/A"
+      ],
+      "suggestions": [
+        "Introduce subtle cues or questions that test cultural fit or leadership style, even within technical discussions."
+      ]
+    }
+  ],
+  "emotionalJourney": "The initial phase was engaging and challenging. However, as the interview devolved into a highly technical defense of statistical methodology, I felt frustrated that the system was neglecting the broader strategic and managerial competencies required for the role. I felt intellectually stimulated but ultimately slightly dissatisfied with the scope of the evaluation.",
+  "frustratingMoments": [
+    "The hint system failed to provide relevant technical guidance when I needed it most.",
+    "The relentless focus on statistical rigor (N-size, power calculation) felt disproportionate for a Marketing Manager role, potentially missing the forest for the trees.",
+    "The final summary feedback was too vague and did not provide the specific, actionable critique I require to improve my strategic communication."
+  ],
+  "positiveHighlights": [
+    "The interviewer's ability to challenge my defense of the two-month A/B test timeframe was excellent and forced critical thinking.",
+    "The deep dive into MQL scoring criteria (MQL definition, SAL rate) was highly relevant to the Demand Gen function.",
+    "The simulation of a highly intelligent and skeptical interviewer persona was very effective."
+  ],
+  "prioritizedSuggestions": [
+    {
+      "priority": "critical",
+      "suggestion": "Mandate that the final feedback module provides 3-5 actionable critiques directly tied to the target job level/description, analyzing communication style, strategic depth, and leadership potential, not just technical correctness.",
+      "affectedModule": "response_analysis",
+      "expectedImpact": "Significantly increases the utility and actionable value of the entire simulation for career advancement."
+    },
+    {
+      "priority": "high",
+      "suggestion": "Ensure the hint system is contextually aware of the current technical domain. If the user is discussing statistics, the hint should reference statistical concepts, not generic STAR advice.",
+      "affectedModule": "hint_system",
+      "expectedImpact": "Prevents user frustration and maintains the realism of the high-stakes technical environment."
+    },
+    {
+      "priority": "medium",
+      "suggestion": "Introduce at least one pivot question to a non-technical domain (e.g., 'How would you handle a conflict between Sales and Marketing over lead quality?') to test managerial breadth.",
+      "affectedModule": "overall_flow",
+      "expectedImpact": "Provides a more holistic and realistic evaluation for management-level roles."
+    }
+  ],
+  "rawFeedback": "This simulation excels at providing a rigorous, technical stress test. The depth of the follow-up questions regarding statistical methodology, A/B testing, and lead scoring optimization was truly impressive and forced me to defend my decisions with precision. The persona simulation of a highly knowledgeable interviewer was spot on.\n\nHowever, the simulation suffers from tunnel vision. For a Marketing Manager role, the interview became too heavily weighted toward data science and statistical defense, neglecting crucial managerial competencies like strategic planning, team leadership, stakeholder management, and budget oversight. The overall evaluation felt incomplete because of this imbalance.\n\nMy primary disappointment lies in the final feedback. After enduring such a demanding, detailed cross-examination, the concluding summary was vague and lacked the specific, actionable guidance required for a candidate operating at this level. If the tool aims to prepare candidates for senior roles, the feedback must be equally critical, specific, and tied directly to the skills demanded by the job description.",
+  "createdAt": "2026-01-06T01:18:49.940Z"
+}

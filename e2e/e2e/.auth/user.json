@@ -1,0 +1,15 @@
+{
+  "cookies": [
+    {
+      "name": "app_session_id",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcGVuSWQiOiJ0ZXN0LXVzZXItMDAxIiwiYXBwSWQiOiJEcVBjWVFQakw2R1VWbzdpeW1UemZoIiwibmFtZSI6IlRlc3QgVXNlciBPbmUiLCJleHAiOjE3OTk2OTIzNzd9.Cw9CWgGl2-Bl_Wss3s4P-79_OdrKwvjk5UMcH9ga3b0",
+      "domain": "3000-iisjt9cinx09mr1nfjq4t-0ef77896.sg1.manus.computer",
+      "path": "/",
+      "expires": 1799692377,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Maria Rodriguez",
+  "background": {
+    "yearsOfExperience": 3,
+    "currentRole": "Marketing Specialist",
+    "currentCompany": "Local Eats Marketing Agency",
+    "education": "Bachelor of Arts in Communications, University of Texas at Austin",
+    "skills": [
+      "Content Marketing",
+      "SEO",
+      "Social Media Management",
+      "Google Analytics",
+      "Email Marketing",
+      "CRM (HubSpot)",
+      "Project Management"
+    ]
+  },
+  "targetJob": {
+    "company": "Global Brands Inc.",
+    "position": "Digital Marketing Manager"
+  },
+  "personality": {
+    "communicationStyle": "concise",
+    "confidenceLevel": "high",
+    "criticalness": 6,
+    "patience": 6,
+    "trustLevel": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": false,
+    "getsNervous": false
+  },
+  "resumeText": "Maria Rodriguez456 Oak Avenue, Austin, TX | (555) 987-6543 | maria.rodriguez@email.comSummaryDynamic and results-oriented Marketing Specialist with 3 years of experience in developing and executing comprehensive digital marketing strategies. Proven ability to drive brand awareness, engage target audiences, and generate leads through compelling content, SEO, and social media initiatives. Seeking a challenging Digital Marketing Manager role at a reputable company where I can leverage my expertise to achieve significant business growth and expand my strategic capabilities.ExperienceMarketing Specialist | Local Eats Marketing Agency | Austin, TX | July 2021 – Present- Managed end-to-end digital marketing campaigns for 10+ local restaurant clients, resulting in an average 25% increase in online engagement and 15% growth in customer acquisition.- Developed and implemented SEO strategies, including keyword research and on-page optimization, leading to a 20% improvement in organic search rankings for client websites.- Created engaging content for various platforms, including blog posts, social media updates, and email newsletters, aligning with brand voice and marketing objectives.- Utilized Google Analytics to monitor website performance, track campaign effectiveness, and provide data-driven recommendations to clients.- Oversaw social media presence across platforms (Facebook, Instagram, X), growing follower counts by an average of 30% per client.- Managed email marketing campaigns from conception to execution using HubSpot, achieving average open rates of 25% and click-through rates of 5%.- Collaborated with graphic designers and web developers to ensure cohesive brand messaging and user experience.EducationBachelor of Arts in Communications | University of Texas at Austin | Austin, TX | May 2021- Specialization: Digital Media and Public Relations.- Relevant Coursework: Marketing Communications, Social Media Analytics, Brand Management.SkillsDigital Marketing: SEO/SEM, Content Marketing, Social Media Marketing, Email Marketing, PPC (Google Ads)Analytics & CRM: Google Analytics, HubSpot, Mailchimp, Salesforce (basic)Tools: WordPress, Canva, Buffer, Asana",
+  "situation": "Maria is looking to move from an agency setting to an in-house role at a larger, more established company with a strong brand. She's applied to over 40 positions, aiming for a managerial role that offers more strategic input and career advancement. She's confident in her skills but wants to refine her interview techniques to stand out in a competitive market and ensure she lands a role with good growth prospects.",
+  "feedbackStyle": "Maria will give direct and concise feedback, focusing on the practical utility of the system's suggestions. She'll point out if an answer felt too generic or if it didn't align with current industry best practices. She'll also suggest improvements for efficiency and relevance to real-world scenarios.",
+  "id": "persona_1767778603114_8fi5ii243",
+  "createdAt": "2026-01-07T09:36:43.114Z",
+  "iteration": 7
+}

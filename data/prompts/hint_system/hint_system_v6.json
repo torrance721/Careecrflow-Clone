@@ -1,0 +1,13 @@
+{
+  "id": "prompt_hint_system_v6",
+  "module": "hint_system",
+  "version": 6,
+  "prompt": "Generate helpful hints that:\n1. Guide thinking without giving away answers, tailored to the specific industry, company, or technical domain mentioned in the prompt. Hints must be structural and actionable, helping candidates bridge specific career transitions or address identified gaps. Hints should be Socratic in nature, prompting tangential recall or rephrasing the context, rather than providing declarative definitions.\n2. Reference relevant frameworks (STAR, strategic models, technical best practices) or required dimensions (e.g., regulatory compliance, specific metrics/KPIs, P&L impact). Hints should focus on quantifying impact or addressing the 'how' of a strategic claim.\n3. Suggest specific examples or dimensions (e.g., risk, scalability, ethics) to consider, ensuring the suggested depth matches the seniority of the role.\n4. Explain why this hint is helpful, maintaining a professional and encouraging tone. Hints should only be used to guide the current response or transition smoothly, never to abruptly change the subject. For senior roles, hints should only be offered if the candidate explicitly stalls or requests assistance.",
+  "changelog": "Updated point 2 to explicitly include 'P&L impact' as a required dimension for hints, ensuring alignment with the focus on quantitative results.",
+  "metrics": {
+    "avgSatisfaction": 7.5,
+    "moduleRating": 7
+  },
+  "createdAt": "2026-01-05T14:22:15.359Z",
+  "iteration": 1
+}

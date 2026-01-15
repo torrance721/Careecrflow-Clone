@@ -1,0 +1,40 @@
+{
+  "name": "Anya Sharma",
+  "background": {
+    "yearsOfExperience": 3,
+    "currentRole": "Mid-Level Software Developer",
+    "currentCompany": "FinTech Innovators Inc.",
+    "education": "B.S. Computer Science, University of California, Berkeley",
+    "skills": [
+      "Python",
+      "Django",
+      "React",
+      "AWS Lambda",
+      "PostgreSQL",
+      "REST APIs",
+      "Agile/Scrum"
+    ]
+  },
+  "targetJob": {
+    "position": "Software Engineer",
+    "company": "Google"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "medium",
+    "criticalness": 6,
+    "patience": 7
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Anya Sharma | (555) 123-4567 | anya.sharma@email.com\n\nSummary\nHighly motivated Mid-Level Software Developer with 3 years of experience specializing in full-stack development within high-volume FinTech environments. Proven ability to design, implement, and optimize scalable microservices and user interfaces. Seeking challenging opportunities to apply technical expertise and drive innovation at a global technology leader.\n\nExperience\nMid-Level Software Developer | FinTech Innovators Inc. | San Francisco, CA | 2021 – Present\n* Led the development of a secure transaction processing API using Python and Django, handling over 1 million requests daily with 99.9% uptime.\n* Optimized database queries in PostgreSQL, resulting in a 30% reduction in average latency for critical financial reports.\n* Developed and maintained front-end components using React, improving user experience for the internal analytics dashboard.\n* Implemented CI/CD pipelines using Jenkins and deployed serverless functions via AWS Lambda, reducing deployment time by 40%.\n\nJunior Software Developer | Tech Solutions Startup | Remote | 2020 – 2021\n* Contributed to the development of a SaaS platform, focusing on backend logic and API integration.\n* Participated in daily stand-ups and utilized Agile methodologies to deliver features on time.\n\nEducation\nB.S. Computer Science | University of California, Berkeley | 2016 – 2020\n* GPA: 3.8/4.0. Relevant coursework included Algorithms, Distributed Systems, and Database Management.",
+  "situation": "Anya is currently employed but feels her growth potential at her current FinTech company is limited. She is 25 years old and believes now is the time to make a jump to a top-tier tech company. She is actively 'mass applying' (海投) to 40+ companies, focusing primarily on large tech firms like Google, Meta, and Amazon, and needs rigorous practice to refine her system design and behavioral answers for the highly competitive roles.",
+  "feedbackStyle": "Anya provides structured feedback, focusing on whether the AI interviewer covered all necessary technical depth (e.g., edge cases in algorithms or scalability concerns in system design). She will rate the clarity of the questions and the realism of the scenario presented.",
+  "id": "persona_1767667500072_ha4cxg5jn",
+  "createdAt": "2026-01-06T02:45:00.072Z",
+  "iteration": 1
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Kenji Tanaka",
+  "background": {
+    "yearsOfExperience": 4,
+    "currentRole": "Junior Product Manager",
+    "currentCompany": "TechSolutions Co.",
+    "education": "Master of Science in Information Systems, Carnegie Mellon University",
+    "skills": [
+      "Product Management",
+      "Agile Methodologies",
+      "SQL",
+      "Data Analysis",
+      "Market Research",
+      "UI/UX Principles",
+      "Jira",
+      "Confluence"
+    ]
+  },
+  "targetJob": {
+    "company": "InnovateLabs",
+    "position": "Associate Product Manager"
+  },
+  "personality": {
+    "communicationStyle": "concise",
+    "confidenceLevel": "high",
+    "criticalness": 9,
+    "patience": 6,
+    "trustLevel": 3
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Kenji Tanaka | Junior Product Manager | kenji.tanaka@email.com | LinkedIn.com/in/kenjitanaka\n\nSummary:\nResults-driven Junior Product Manager with 4 years of experience in software development and product lifecycle management. Possesses a strong analytical mindset and a proven track record of translating user needs into successful product features. Seeking an Associate Product Manager role at a forward-thinking company that prioritizes innovation and provides ample opportunities for career advancement and skill development.\n\nExperience:\nJunior Product Manager, TechSolutions Co., Seattle, WA | July 2021 - Present\n- Managed the product backlog and roadmap for a B2B SaaS platform, leading to a 10% increase in user engagement.\n- Collaborated with engineering, design, and sales teams to define product requirements and user stories.\n- Conducted market research and competitive analysis to identify new product opportunities and inform strategic decisions.\n- Utilized SQL to analyze user data and inform feature prioritization, resulting in a 15% reduction in customer churn for specific modules.\n- Facilitated Agile ceremonies including sprint planning, daily stand-ups, and retrospectives.\n\nBusiness Analyst, Global Data Insights, Seattle, WA | August 2019 - June 2021\n- Performed data analysis to identify business trends and support strategic initiatives.\n- Developed dashboards and reports using Tableau to visualize key performance indicators.\n- Gathered and documented business requirements for software development projects.\n\nEducation:\nMaster of Science in Information Systems, Carnegie Mellon University, Pittsburgh, PA | 2019\nBachelor of Science in Computer Science, University of Washington, Seattle, WA | 2017\n\nSkills:\nProduct Management, Agile/Scrum, SQL, Data Analysis, JIRA, Confluence, Figma, User Research, Market Research, UI/UX Principles, Stakeholder Management, Public Speaking.",
+  "situation": "Kenji is a Junior Product Manager who feels his current company is too slow-moving and offers limited scope for growth. He's actively applying to 50+ Associate Product Manager positions at various tech companies, looking for a dynamic environment where he can quickly take on more responsibility and learn cutting-edge product strategies. He needs an interview prep system that is highly efficient and provides precise, actionable feedback.",
+  "feedbackStyle": "Kenji will give very direct and concise feedback, often highlighting specific areas where the system's performance fell short of his expectations. He expects the system to be highly accurate and will point out any perceived inefficiencies or inaccuracies, demanding clear justifications for suggested improvements.",
+  "id": "persona_1767781489266_bdwxxfwnu",
+  "createdAt": "2026-01-07T10:24:49.266Z",
+  "iteration": 9
+}

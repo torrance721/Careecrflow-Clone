@@ -1,0 +1,42 @@
+{
+  "name": "Priya Sharma",
+  "background": {
+    "yearsOfExperience": 1,
+    "currentRole": "Junior Marketing Associate",
+    "currentCompany": "Digital Wave Agency",
+    "education": "Bachelor of Business Administration (Marketing), New York University",
+    "skills": [
+      "Content Marketing",
+      "Social Media Management",
+      "SEO Basics",
+      "Google Analytics",
+      "Email Marketing",
+      "CRM Software",
+      "Copywriting",
+      "Market Research"
+    ]
+  },
+  "targetJob": {
+    "company": "BrandForge Solutions",
+    "position": "Marketing Specialist"
+  },
+  "personality": {
+    "communicationStyle": "verbose",
+    "confidenceLevel": "medium",
+    "criticalness": 9,
+    "patience": 8,
+    "trustLevel": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": true
+  },
+  "resumeText": "Enthusiastic and creative Junior Marketing Associate with 1 year of experience in digital marketing strategies. Skilled in developing engaging content, managing social media campaigns, and analyzing performance metrics to optimize outreach. At Digital Wave Agency, successfully contributed to client campaigns, increasing social media engagement by 20% and improving email open rates by 10%. Proficient in Google Analytics, Mailchimp, and various social media platforms. Holds a BBA in Marketing from NYU. Eager to transition into a Marketing Specialist role where I can expand my strategic planning capabilities, learn advanced SEO/SEM techniques, and contribute to a company's brand growth. Passionate about understanding consumer behavior and crafting impactful narratives.",
+  "situation": "Priya, 24, is feeling stagnant in her current junior role, which she finds too focused on execution rather than strategy. She's applying to over 40 companies, seeking a Marketing Specialist position that offers more autonomy, opportunities for professional development, and exposure to diverse marketing channels. She prioritizes joining a company known for its innovative marketing campaigns and a supportive learning environment.",
+  "feedbackStyle": "Priya will provide very thorough feedback, often describing her emotional state and thought process during the interview. She'll point out areas where the system's questions felt unclear or where she struggled, and suggest how the system could offer more empathetic guidance or specific examples for improvement. She'll be critical of any perceived lack of depth or personalization in the feedback provided by the system.",
+  "id": "persona_1767789305772_mqf7mx7cd",
+  "createdAt": "2026-01-07T12:35:05.772Z",
+  "iteration": 9
+}

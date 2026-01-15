@@ -1,0 +1,469 @@
+{
+  "id": "realistic_1767636906941_o709pgntv",
+  "personaId": "persona_1767636817185_ks65qo27s",
+  "personaName": "Chloé Dubois",
+  "targetJob": {
+    "company": "Chanel",
+    "position": "Director of Global Product Marketing"
+  },
+  "journey": {
+    "homepage": {
+      "arrivalTime": "2026-01-05T18:13:37.185Z",
+      "browseTime": 7193.58129926994,
+      "actions": [
+        {
+          "type": "read",
+          "target": "hero_section",
+          "duration": 2404.447431233443,
+          "timestamp": "2026-01-05T18:13:37.185Z",
+          "thought": "这个网站看起来挺专业的"
+        },
+        {
+          "type": "wait",
+          "target": "carousel",
+          "duration": 3789.1338680364975,
+          "timestamp": "2026-01-05T18:13:45.185Z",
+          "thought": "看看有什么推荐的职位"
+        },
+        {
+          "type": "click",
+          "target": "carousel_item",
+          "value": "Director of Global Product Marketing at Chanel",
+          "duration": 500,
+          "timestamp": "2026-01-05T18:13:48.185Z"
+        },
+        {
+          "type": "click",
+          "target": "start_button",
+          "duration": 500,
+          "timestamp": "2026-01-05T18:13:50.185Z",
+          "thought": "开始面试吧！"
+        }
+      ],
+      "jobInputMethod": "carousel_click",
+      "jobInput": "Director of Global Product Marketing at Chanel"
+    },
+    "preparation": {
+      "startTime": "2026-01-05T18:13:37.185Z",
+      "waitTime": 12461.907225912813,
+      "userPatience": "patient",
+      "actions": [
+        {
+          "type": "read",
+          "target": "thinking_animation",
+          "duration": 3738.572167773844,
+          "timestamp": "2026-01-05T18:13:37.185Z",
+          "thought": "正在准备中..."
+        },
+        {
+          "type": "wait",
+          "duration": 7477.144335547688,
+          "timestamp": "2026-01-05T18:13:42.169Z"
+        }
+      ]
+    },
+    "interview": {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Mock interview for Director of Global Product Marketing at Chanel. Resume: Chloé Dubois | Senior Product Marketing Manager | Luxury Retail\n\nSummary: Highly accomplished Senior Product Marketing Manager with 12 years of experience driving successful product launches and marke... Situation: Chloé is highly successful in her current role but feels she has reached the ceiling at her current mid-sized company. She is looking for a significant step up to a Director level at a globally recognized luxury house (Chanel) where she can manage larger teams and budgets and influence global brand strategy. The move is motivated by career progression and greater strategic impact.",
+          "timestamp": "2026-01-05T18:13:37.185Z"
+        },
+        {
+          "role": "assistant",
+          "content": "This is a fantastic opportunity, and we're delighted you're here.\n\n---\n\n## Interview Opening & First Question\n\n**(Interviewer Tone: Warm, poised, and genuinely enthusiastic. The pacing is measured, reflecting the luxury environment.)**\n\n\"Welcome. Thank you so much for taking the time to speak with us today. We’ve been very impressed with your background; 12 years in product marketing is a substantial achievement, and your experience aligns well with the complexity of our global portfolio.\"\n\n\"My name is [Interviewer Name], and I lead the Global Marketing Strategy team. We are incredibly excited about this Director role. It’s a pivotal position that sits right at the intersection of creation, commerce, and brand narrative. At Chanel, our products are more than just items—they are embodiments of our heritage and future.\"\n\n\"Before we dive into the specifics of the role, I’d love to hear a bit more about what drives you. You’ve had a successful career as a Senior Product Marketing Manager. **What specifically drew you to this Director of Global Product Marketing role at Chanel, and what do you believe is the single biggest difference between managing a product marketing strategy and truly leading a global product marketing vision?**\"",
+          "timestamp": "2026-01-05T18:13:42.127Z",
+          "metadata": {
+            "questionType": "opening"
+          }
+        },
+        {
+          "role": "user",
+          "content": "Thank you, [Interviewer Name]. It is a genuine pleasure to be here.\n\nWhat drew me to Chanel is the unparalleled opportunity to transition from managing a successful portfolio to truly shaping a global narrative. At Lumière, I successfully managed the P&L for our skincare line, increasing market share by 18% over three years through targeted GTM strategies, but I’ve reached the ceiling regarding strategic influence. The difference between managing strategy and leading vision, particularly at this scale, is the shift from optimizing existing plans to defining the future direction of the brand itself. Leading vision means setting the strategic framework that empowers global teams, ensuring every product launch—from concept to consumer—is a cohesive, high-impact embodiment of Chanel’s enduring legacy and future ambition. I am motivated by the challenge of translating that vision into measurable commercial success across diverse, high-value markets.",
+          "timestamp": "2026-01-05T18:13:47.077Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 26960,
+              "timestamp": "2026-01-05T18:13:42.128Z"
+            },
+            {
+              "type": "think",
+              "duration": 15324,
+              "timestamp": "2026-01-05T18:14:09.088Z",
+              "thought": "让我想想最相关的经历..."
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "Thank you, [Interviewer Name]. It is a genuine pleasure to be here.\n\nWhat drew me to Chanel is the unparalleled opportunity to transition from managing a successful portfolio to truly shaping a global narrative. At Lumière, I successfully managed the P&L for our skincare line, increasing market share by 18% over three years through targeted GTM strategies, but I’ve reached the ceiling regarding strategic influence. The difference between managing strategy and leading vision, particularly at this scale, is the shift from optimizing existing plans to defining the future direction of the brand itself. Leading vision means setting the strategic framework that empowers global teams, ensuring every product launch—from concept to consumer—is a cohesive, high-impact embodiment of Chanel’s enduring legacy and future ambition. I am motivated by the challenge of translating that vision into measurable commercial success across diverse, high-value markets.",
+              "duration": 123166,
+              "timestamp": "2026-01-05T18:14:24.412Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T18:16:27.578Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 15324,
+            "typingTime": 123166,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That is a very clear articulation of your strategic vision and the quantitative results speak for themselves. Moving into the luxury space, particularly at Chanel, requires a unique understanding of brand equity and cultural relevance. Can you describe a time you successfully launched a product or campaign that required balancing global consistency with local market adaptation, especially in a highly competitive or culturally sensitive region?",
+          "timestamp": "2026-01-05T18:14:00.586Z",
+          "metadata": {
+            "questionType": "follow_up",
+            "seniorityLevel": "executive",
+            "skepticMode": true
+          }
+        },
+        {
+          "role": "user",
+          "content": "That is an excellent point regarding the duality of global luxury marketing. At Lumière, I led the GTM strategy for our flagship anti-aging serum, \"Éternité,\" targeting the APAC region, which required significant cultural nuance. Our global positioning emphasized scientific efficacy and Parisian heritage, but we knew the Chinese market, specifically, valued ingredient transparency and traditional wellness rituals more highly than pure clinical metrics. To balance this, we maintained the core visual identity and product narrative (global consistency) but adapted the digital messaging and influencer strategy (local adaptation). Specifically, we localized the campaign by partnering with three key opinion leaders (KOLs) focused on traditional Chinese medicine principles, resulting in a 45% increase in localized content engagement and exceeding our Q3 sales targets in Mainland China by 18% while preserving the high-end brand perception.",
+          "timestamp": "2026-01-05T18:14:04.910Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 10940,
+              "timestamp": "2026-01-05T18:14:00.686Z"
+            },
+            {
+              "type": "think",
+              "duration": 8423,
+              "timestamp": "2026-01-05T18:14:11.626Z",
+              "thought": "让我想想最相关的经历..."
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That is an excellent point regarding the duality of global luxury marketing. At Lumière, I led the GTM strategy for our flagship anti-aging serum, \"Éternité,\" targeting the APAC region, which required significant cultural nuance. Our global positioning emphasized scientific efficacy and Parisian heritage, but we knew the Chinese market, specifically, valued ingredient transparency and traditional wellness rituals more highly than pure clinical metrics. To balance this, we maintained the core visual identity and product narrative (global consistency) but adapted the digital messaging and influencer strategy (local adaptation). Specifically, we localized the campaign by partnering with three key opinion leaders (KOLs) focused on traditional Chinese medicine principles, resulting in a 45% increase in localized content engagement and exceeding our Q3 sales targets in Mainland China by 18% while preserving the high-end brand perception.",
+              "duration": 113935,
+              "timestamp": "2026-01-05T18:14:20.049Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T18:16:13.984Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 8423,
+            "typingTime": 113935,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "Let me challenge you on that. Your approach successfully balanced global consistency (visual identity/narrative) with local adaptation (digital messaging/influencers). However, this 'hybrid' strategy is often the most complex and resource-intensive. Why not pursue a simpler, more extreme path? Specifically, what alternatives did you reject, such as a purely global, 'Parisian heritage only' campaign (banking on the aspirational luxury appeal), or conversely, a heavily localized, fully bespoke campaign that might have captured even more market share by completely integrating traditional Chinese wellness? What did you give up in terms of speed, budget, or potential market penetration by settling on this middle ground, and how did you quantify that opportunity cost?",
+          "timestamp": "2026-01-05T18:14:15.193Z",
+          "metadata": {
+            "questionType": "follow_up",
+            "seniorityLevel": "executive",
+            "skepticMode": true
+          }
+        },
+        {
+          "role": "user",
+          "content": "That is an excellent challenge, and it forces us to revisit the core strategic trade-offs we analyzed during the planning phase. We rejected the extremes because neither provided the necessary balance for sustainable growth in that specific market. A purely global, \"Parisian heritage only\" campaign, while faster to execute, would have alienated the 40% of our target demographic who prioritize culturally relevant product benefits, leading to a projected 15% lower Q1 revenue based on our initial focus group testing. Conversely, a fully bespoke, hyper-localized campaign was simply too resource-intensive; it would have required a 30% increase in regional staffing and delayed the launch by two quarters, sacrificing first-mover advantage. Our hybrid approach—maintaining the core global narrative while localizing 60% of the digital content and activating 12 regional micro-influencers—was the optimal path, delivering an 8% higher ROI than the purely global model while remaining within the allocated budget and achieving a 95% brand consistency score globally.",
+          "timestamp": "2026-01-05T18:14:20.360Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 17440,
+              "timestamp": "2026-01-05T18:14:15.293Z"
+            },
+            {
+              "type": "think",
+              "duration": 11425,
+              "timestamp": "2026-01-05T18:14:32.733Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That is an excellent challenge, and it forces us to revisit the core strategic trade-offs we analyzed during the planning phase. We rejected the extremes because neither provided the necessary balance for sustainable growth in that specific market. A purely global, \"Parisian heritage only\" campaign, while faster to execute, would have alienated the 40% of our target demographic who prioritize culturally relevant product benefits, leading to a projected 15% lower Q1 revenue based on our initial focus group testing. Conversely, a fully bespoke, hyper-localized campaign was simply too resource-intensive; it would have required a 30% increase in regional staffing and delayed the launch by two quarters, sacrificing first-mover advantage. Our hybrid approach—maintaining the core global narrative while localizing 60% of the digital content and activating 12 regional micro-influencers—was the optimal path, delivering an 8% higher ROI than the purely global model while remaining within the allocated budget and achieving a 95% brand consistency score globally.",
+              "duration": 135102,
+              "timestamp": "2026-01-05T18:14:44.158Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T18:16:59.260Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 11425,
+            "typingTime": 135102,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "Let me challenge you on that. You project a '15% lower Q1 revenue' based on 'initial focus group testing.' What was the exact methodology used to extrapolate focus group sentiment into a specific 15% revenue loss? Specifically, how many participants were in the focus groups, what was the statistical confidence interval for the 40% alienation figure, and what was the control group or baseline campaign used in that testing to establish the 15% delta?",
+          "timestamp": "2026-01-05T18:14:30.414Z",
+          "metadata": {
+            "questionType": "follow_up",
+            "seniorityLevel": "executive",
+            "skepticMode": true
+          }
+        },
+        {
+          "role": "user",
+          "content": "That is an excellent and necessary challenge regarding the rigor of our projection model. To address the methodology directly, we utilized three distinct focus groups—totaling 75 high-value existing customers across Paris, London, and New York—to establish the 40% alienation figure. This qualitative data was then cross-referenced with a quantitative survey of 500 customers, achieving a statistical confidence interval of 95% with a 4% margin of error. The 15% revenue delta was not a direct extrapolation, but rather the result of applying the alienation rate specifically to our forecasted Q1 sales of the 'Éclat' line, using the previous year's successful 'Sérénité' launch as the control baseline for conversion rates and average order value. Ultimately, the projection served as a critical risk flag, forcing us to pivot the creative direction before launch, which successfully mitigated the potential loss.",
+          "timestamp": "2026-01-05T18:14:35.668Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 11040,
+              "timestamp": "2026-01-05T18:14:30.515Z"
+            },
+            {
+              "type": "think",
+              "duration": 12547,
+              "timestamp": "2026-01-05T18:14:41.555Z",
+              "thought": "让我想想最相关的经历..."
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That is an excellent and necessary challenge regarding the rigor of our projection model. To address the methodology directly, we utilized three distinct focus groups—totaling 75 high-value existing customers across Paris, London, and New York—to establish the 40% alienation figure. This qualitative data was then cross-referenced with a quantitative survey of 500 customers, achieving a statistical confidence interval of 95% with a 4% margin of error. The 15% revenue delta was not a direct extrapolation, but rather the result of applying the alienation rate specifically to our forecasted Q1 sales of the 'Éclat' line, using the previous year's successful 'Sérénité' launch as the control baseline for conversion rates and average order value. Ultimately, the projection served as a critical risk flag, forcing us to pivot the creative direction before launch, which successfully mitigated the potential loss.",
+              "duration": 118232,
+              "timestamp": "2026-01-05T18:14:54.102Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T18:16:52.334Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 12547,
+            "typingTime": 118232,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "Let me challenge you on that. You claim 75 customers established the 40% alienation figure, cross-referenced with a 500-customer survey. What was the exact demographic breakdown of those 75 'high-value' customers, specifically their average annual spend and tenure, and how did you mathematically translate their qualitative feedback into a precise 40% quantitative alienation metric? Furthermore, what was the calculated statistical power of the 500-customer survey, and what was the precise response rate achieved to maintain that stated 4% margin of error?",
+          "timestamp": "2026-01-05T18:14:45.570Z",
+          "metadata": {
+            "questionType": "follow_up",
+            "seniorityLevel": "executive",
+            "skepticMode": true
+          }
+        },
+        {
+          "role": "user",
+          "content": "That is an excellent challenge, and I appreciate the deep dive into the methodology, as statistical rigor is paramount in luxury strategy. To address your points sequentially: The 75 'high-value' customers were defined as our top 1% by spend—specifically, an average annual spend of €15,000 and an average tenure of 8.5 years. The 40% alienation metric was derived using a weighted qualitative scoring model, where four key themes (lack of personalization, reduced exclusivity, packaging changes, and loyalty tier confusion) were assigned a severity score; 40% represents the aggregate score exceeding the 'high dissatisfaction' threshold across that segment. Regarding the 500-customer survey, the response rate was 68%, achieved through personalized outreach via our concierge service, which allowed us to maintain the stated 4% margin of error. The calculated statistical power was 0.85, confirming the reliability of the findings that ultimately led us to overhaul our loyalty program and recover €3M in projected churn.",
+          "timestamp": "2026-01-05T18:14:51.996Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 13180,
+              "timestamp": "2026-01-05T18:14:45.670Z"
+            },
+            {
+              "type": "think",
+              "duration": 5343,
+              "timestamp": "2026-01-05T18:14:58.850Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That is an excellent challenge, and I appreciate the deep dive into the methodology, as statistical rigor is paramount in luxury strategy. To address your points sequentially: The 75 'high-value' customers were defined as our top 1% by spend—specifically, an average annual spend of €15,000 and an average tenure of 8.5 years. The 40% alienation metric was derived using a weighted qualitative scoring model, where four key themes (lack of personalization, reduced exclusivity, packaging changes, and loyalty tier confusion) were assigned a severity score; 40% represents the aggregate score exceeding the 'high dissatisfaction' threshold across that segment. Regarding the 500-customer survey, the response rate was 68%, achieved through personalized outreach via our concierge service, which allowed us to maintain the stated 4% margin of error. The calculated statistical power was 0.85, confirming the reliability of the findings that ultimately led us to overhaul our loyalty program and recover €3M in projected churn.",
+              "duration": 131968,
+              "timestamp": "2026-01-05T18:15:04.193Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T18:17:16.161Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 5343,
+            "typingTime": 131968,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "We have discussed your successful track record in balancing global consistency with local execution, the challenge of interpreting early, limited data (15% lower Q1 revenue based on initial focus groups) versus established customer alienation data (75 customers yielding 40% alienation), and the importance of clear strategic vision.\n\nImagine you have secured the necessary funding, but the board mandates a 25% reduction in *staffing* across your entire portfolio and requires you to simultaneously increase market share by 10% within 18 months. Given these constraints, how would you strategically allocate the remaining resources—prioritizing between maintaining global consistency, investing in the localized initiatives suggested by the 40% alienation figure, or pursuing the high-risk, high-reward strategy implied by the early revenue projection—and what is the single metric you would use to justify your final portfolio decision to the board?",
+          "timestamp": "2026-01-05T18:14:56.998Z",
+          "metadata": {
+            "questionType": "closing",
+            "seniorityLevel": "executive",
+            "skepticMode": true
+          }
+        },
+        {
+          "role": "user",
+          "content": "[Requested hint]",
+          "timestamp": "2026-01-05T18:15:06.840Z",
+          "userActions": [
+            {
+              "type": "click",
+              "target": "hint_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T18:15:34.188Z"
+            }
+          ],
+          "metadata": {
+            "hintRequested": true,
+            "hintContent": "Focus on the constraint first: a 25% staff reduction means you must prioritize efficiency and automation. Consider which of the three strategic options (Global Consistency, Localized Alienation Fix, High-Risk Revenue) can be executed *most efficiently* with fewer people, while still directly contributing to the 10% market share goal. Your final decision should hinge on which investment offers the highest leverage (impact per remaining resource)."
+          }
+        },
+        {
+          "role": "user",
+          "content": "This is a classic resource allocation challenge requiring immediate strategic triage. My approach would be structured in three phases: Prioritization, Execution Focus, and Measurement.\n\nFirst, the 25% staff reduction necessitates a radical streamlining of our portfolio, focusing resources exclusively on high-leverage activities. We must prioritize the established customer alienation data (the 40% figure) because maintaining the core luxury consumer base is non-negotiable; losing 40% of established clients destroys long-term brand equity far faster than a single quarter's revenue dip. Therefore, 60% of remaining resources would be immediately funneled into localized, high-touch loyalty and retention initiatives—for example, deploying personalized digital experiences in key alienated markets like APAC, rather than broad, costly global campaigns. Global consistency will be maintained only on core brand identity elements, not execution tactics. The high-risk, high-reward strategy suggested by the early data is deferred until 12 months when retention stabilizes. The single metric I would use to justify this decision to the board is **Customer Lifetime Value (CLV)**, specifically targeting a 15% increase in CLV among the top 20% of our existing customer segment within the first year, proving we stabilized the foundation before expanding aggressively.",
+          "timestamp": "2026-01-05T18:15:06.840Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 21020,
+              "timestamp": "2026-01-05T18:14:57.098Z"
+            },
+            {
+              "type": "think",
+              "duration": 14070,
+              "timestamp": "2026-01-05T18:15:18.118Z",
+              "thought": "让我想想最相关的经历..."
+            },
+            {
+              "type": "hesitate",
+              "duration": 2000,
+              "timestamp": "2026-01-05T18:15:32.188Z",
+              "thought": "这个问题有点难，我需要一些提示..."
+            },
+            {
+              "type": "click",
+              "target": "hint_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T18:15:34.188Z"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "This is a classic resource allocation challenge requiring immediate strategic triage. My approach would be structured in three phases: Prioritization, Execution Focus, and Measurement.\n\nFirst, the 25% staff reduction necessitates a radical streamlining of our portfolio, focusing resources exclusively on high-leverage activities. We must prioritize the established customer alienation data (the 40% figure) because maintaining the core luxury consumer base is non-negotiable; losing 40% of established clients destroys long-term brand equity far faster than a single quarter's revenue dip. Therefore, 60% of remaining resources would be immediately funneled into localized, high-touch loyalty and retention initiatives—for example, deploying personalized digital experiences in key alienated markets like APAC, rather than broad, costly global campaigns. Global consistency will be maintained only on core brand identity elements, not execution tactics. The high-risk, high-reward strategy suggested by the early data is deferred until 12 months when retention stabilizes. The single metric I would use to justify this decision to the board is **Customer Lifetime Value (CLV)**, specifically targeting a 15% increase in CLV among the top 20% of our existing customer segment within the first year, proving we stabilized the foundation before expanding aggressively.",
+              "duration": 164958,
+              "timestamp": "2026-01-05T18:15:37.188Z"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "[editing]",
+              "duration": 4000,
+              "timestamp": "2026-01-05T18:18:17.146Z",
+              "thought": "让我再改一下..."
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T18:18:21.146Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 14070,
+            "typingTime": 164958,
+            "editCount": 2
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "Thank you so much for sharing your experiences today! I've really enjoyed learning about your background. I'll now generate a detailed assessment report. Is there anything else you'd like to add?",
+          "timestamp": "2026-01-05T18:15:06.840Z",
+          "metadata": {
+            "questionType": "closing"
+          }
+        }
+      ],
+      "hintsUsed": 1,
+      "totalQuestions": 6,
+      "averageResponseTime": 142415.5,
+      "averageThinkingTime": 11188.666666666666
+    },
+    "assessment": {
+      "viewTime": 23033.813300989175,
+      "scrollDepth": 80,
+      "sectionsRead": [
+        "overall_score",
+        "strengths",
+        "recommendations",
+        "next_steps"
+      ],
+      "actions": [
+        {
+          "type": "read",
+          "target": "overall_score",
+          "duration": 4109.272853162228,
+          "timestamp": "2026-01-05T18:15:06.941Z",
+          "thought": "让我看看我的分数..."
+        },
+        {
+          "type": "scroll",
+          "target": "strengths",
+          "duration": 1000,
+          "timestamp": "2026-01-05T18:15:11.941Z"
+        },
+        {
+          "type": "read",
+          "target": "strengths",
+          "duration": 3472.157096933306,
+          "timestamp": "2026-01-05T18:15:12.941Z"
+        },
+        {
+          "type": "scroll",
+          "target": "recommendations",
+          "duration": 1000,
+          "timestamp": "2026-01-05T18:15:16.413Z"
+        },
+        {
+          "type": "read",
+          "target": "recommendations",
+          "duration": 5513.571149203752,
+          "timestamp": "2026-01-05T18:15:17.413Z"
+        },
+        {
+          "type": "scroll",
+          "target": "next_steps",
+          "duration": 1000,
+          "timestamp": "2026-01-05T18:15:22.926Z"
+        },
+        {
+          "type": "read",
+          "target": "next_steps",
+          "duration": 6048.0850548521175,
+          "timestamp": "2026-01-05T18:15:23.926Z"
+        }
+      ]
+    }
+  },
+  "totalDuration": 90,
+  "completedSuccessfully": true,
+  "createdAt": "2026-01-05T18:15:06.941Z",
+  "iteration": 3
+}

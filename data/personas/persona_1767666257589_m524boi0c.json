@@ -1,0 +1,40 @@
+{
+  "name": "Lena Petrova",
+  "background": {
+    "yearsOfExperience": 4,
+    "currentRole": "Marketing Automation Specialist",
+    "currentCompany": "GrowthHack Solutions (Startup)",
+    "education": "B.S. in Marketing Technology, University of Berlin",
+    "skills": [
+      "HubSpot",
+      "Marketo",
+      "Salesforce CRM",
+      "A/B Testing",
+      "Lead Nurturing",
+      "SQL Basics",
+      "Content Strategy"
+    ]
+  },
+  "targetJob": {
+    "company": "GlobalTech Innovations",
+    "position": "Mid-Level Demand Generation Manager"
+  },
+  "personality": {
+    "communicationStyle": "verbose",
+    "confidenceLevel": "high",
+    "criticalness": 7,
+    "patience": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Lena Petrova | Marketing Automation Specialist\n\nSummary: Highly results-driven Marketing Automation Specialist with 4 years of experience optimizing demand generation funnels for B2B SaaS companies. Proven ability to leverage complex marketing technology stacks (MarTech) to drive qualified leads and improve conversion rates by an average of 25%. Seeking a challenging Demand Generation role to apply expertise in large-scale campaign execution and strategic planning.\n\nExperience:\nGrowthHack Solutions (2020 – Present) - Marketing Automation Specialist\n\n*   Managed and executed all email marketing campaigns across the customer lifecycle using Marketo, serving 50,000+ contacts.\n*   Developed and implemented lead scoring models in Salesforce and Marketo, resulting in a 30% increase in sales-qualified leads (SQLs).\n*   Designed and maintained automated nurture sequences, reducing customer churn by 15% within the first year.\n*   Conducted rigorous A/B testing on landing pages and email subject lines, improving open rates by 8 percentage points.\n\nEduTech Systems (2018 – 2020) - Marketing Coordinator\n\n*   Assisted in the migration from Mailchimp to HubSpot, ensuring data integrity and seamless campaign transition.\n*   Created monthly performance reports detailing campaign ROI and funnel efficiency.\n\nEducation:\nB.S. in Marketing Technology, University of Berlin (Graduated 2018). Dean's List all semesters.",
+  "situation": "Lena's current startup is facing financial instability, prompting her to seek a more secure, larger company environment. She is highly confident in her specialized MarTech skills and is applying for 40+ Mid-Level Demand Generation and Marketing Operations roles across major tech firms. She needs the AI tool to validate her detailed, strategic answers and ensure she is hitting the right metrics for corporate hiring managers.",
+  "feedbackStyle": "She provides lengthy, specific feedback, focusing heavily on whether the AI's questions accurately reflect the complexity of real-world MarTech challenges and if the system correctly interpreted the technical jargon in her answers.",
+  "id": "persona_1767666257589_m524boi0c",
+  "createdAt": "2026-01-06T02:24:17.589Z",
+  "iteration": 4
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Anya Sharma",
+  "background": {
+    "yearsOfExperience": 3,
+    "currentRole": "Junior Product Manager",
+    "currentCompany": "Innovate Solutions Inc.",
+    "education": "Bachelor of Business Administration, University of Toronto",
+    "skills": [
+      "Product Management",
+      "Market Research",
+      "Agile Methodologies",
+      "User Stories",
+      "Jira",
+      "Data Analysis",
+      "Stakeholder Management"
+    ]
+  },
+  "targetJob": {
+    "company": "TechGrowth Ventures",
+    "position": "Associate Product Manager"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "medium",
+    "criticalness": 6,
+    "patience": 7,
+    "trustLevel": 6
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Anya Sharma | Junior Product Manager | Toronto, ON | an.sharma@email.com | (123) 456-7890\n\nSummary: Dynamic and results-driven Junior Product Manager with 3 years of experience in developing and launching SaaS products. Proven ability to translate market needs into product requirements, manage product backlogs, and collaborate effectively with cross-functional teams. Seeking a challenging Associate Product Manager role to leverage analytical skills and contribute to innovative product development.\n\nExperience:\nInnovate Solutions Inc., Toronto, ON\nJunior Product Manager | May 2021 – Present\n- Managed product lifecycle for a B2B SaaS platform, contributing to a 15% increase in user engagement over 18 months.\n- Conducted market research and competitive analysis to identify new product opportunities and features.\n- Wrote detailed user stories and acceptance criteria, maintaining a well-groomed product backlog in Jira.\n- Collaborated with engineering, design, and marketing teams to ensure successful product launches and iterations.\n- Analyzed product performance data to inform strategic decisions and optimize user experience.\n\nEducation:\nUniversity of Toronto, Toronto, ON\nBachelor of Business Administration | Graduated April 2021\n- Major: Marketing and Product Development\n- Relevant Coursework: Product Strategy, Digital Marketing, Business Analytics\n\nSkills: Product Management, Agile/Scrum, Jira, Confluence, Google Analytics, SQL (basic), User Research, Wireframing, Public Speaking, Cross-functional Team Leadership.",
+  "situation": "Anya is actively seeking a new Associate Product Manager role because her current company's growth has stagnated, limiting her career development opportunities. She's mass applying to 30-40 tech companies, focusing on those known for strong product cultures and mentorship programs. She values efficiency in her interview prep to manage the volume of applications.",
+  "feedbackStyle": "Anya will provide structured and constructive feedback, highlighting specific areas where the system's responses or suggestions could be more detailed or tailored. She'll offer clear examples of what she found useful and what needs improvement, focusing on practical applicability.",
+  "id": "persona_1767777096419_ocqoqjwxj",
+  "createdAt": "2026-01-07T09:11:36.419Z",
+  "iteration": 6
+}

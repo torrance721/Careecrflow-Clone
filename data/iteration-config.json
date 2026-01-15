@@ -1,0 +1,163 @@
+{
+  "currentIteration": 11,
+  "currentTrustLevel": 2.56,
+  "trustLevelStep": 0.5120000000000001,
+  "consecutiveFailures": 3,
+  "maxConsecutiveFailures": 3,
+  "minTrustLevel": 1,
+  "maxIterations": 20,
+  "qualityGates": {
+    "minSatisfaction": 8,
+    "minRecommendationRate": 80
+  },
+  "improvements": {
+    "openingQuestion": {
+      "enabled": true,
+      "version": 1,
+      "description": "直接给出具体、有针对性的问题",
+      "appliedAt": null
+    },
+    "cumulativeContext": {
+      "enabled": true,
+      "version": 1,
+      "description": "在后续话题中携带前面收集的信息",
+      "appliedAt": "2026-01-06T11:48:35.531Z"
+    },
+    "followUpDepth": {
+      "enabled": true,
+      "version": 1,
+      "description": "避免重复追问，增加追问多样性",
+      "appliedAt": "2026-01-06T11:48:35.531Z"
+    },
+    "feedbackSpecificity": {
+      "enabled": true,
+      "version": 1,
+      "description": "反馈引用用户具体回答，避免泛泛而谈",
+      "appliedAt": "2026-01-06T11:48:35.531Z"
+    },
+    "recommendationReason": {
+      "enabled": true,
+      "version": 1,
+      "description": "推荐理由更具体，关联用户展示的技能",
+      "appliedAt": "2026-01-06T11:48:35.531Z"
+    }
+  },
+  "history": [
+    {
+      "iteration": 1,
+      "trustLevel": 5,
+      "passed": false,
+      "metrics": {
+        "satisfaction": 7.5,
+        "recommendationRate": 100
+      },
+      "improvementsApplied": [
+        "cumulativeContext",
+        "followUpDepth",
+        "feedbackSpecificity",
+        "recommendationReason"
+      ],
+      "timestamp": "2026-01-06T11:48:35.531Z"
+    },
+    {
+      "iteration": 2,
+      "trustLevel": 5,
+      "passed": false,
+      "metrics": {
+        "satisfaction": 8,
+        "recommendationRate": 100
+      },
+      "improvementsApplied": [],
+      "timestamp": "2026-01-06T12:12:42.367Z"
+    },
+    {
+      "iteration": 3,
+      "trustLevel": 5,
+      "passed": false,
+      "metrics": {
+        "satisfaction": 7.5,
+        "recommendationRate": 100
+      },
+      "improvementsApplied": [],
+      "timestamp": "2026-01-06T12:25:48.241Z"
+    },
+    {
+      "iteration": 4,
+      "trustLevel": 4,
+      "passed": true,
+      "metrics": {
+        "satisfaction": 7.749999999999999,
+        "recommendationRate": 100
+      },
+      "improvementsApplied": [],
+      "timestamp": "2026-01-07T09:04:09.563Z"
+    },
+    {
+      "iteration": 5,
+      "trustLevel": 3.2,
+      "passed": true,
+      "metrics": {
+        "satisfaction": 8.5,
+        "recommendationRate": 100
+      },
+      "improvementsApplied": [],
+      "timestamp": "2026-01-07T09:11:23.870Z"
+    },
+    {
+      "iteration": 6,
+      "trustLevel": 3.2,
+      "passed": false,
+      "metrics": {
+        "satisfaction": 7.5,
+        "recommendationRate": 100
+      },
+      "improvementsApplied": [],
+      "timestamp": "2026-01-07T09:17:30.540Z"
+    },
+    {
+      "iteration": 7,
+      "trustLevel": 2.56,
+      "passed": true,
+      "metrics": {
+        "satisfaction": 7.000000000000001,
+        "recommendationRate": 100
+      },
+      "improvementsApplied": [],
+      "timestamp": "2026-01-07T10:11:53.427Z"
+    },
+    {
+      "iteration": 8,
+      "trustLevel": 2.56,
+      "passed": false,
+      "metrics": {
+        "satisfaction": 7.000000000000001,
+        "recommendationRate": 50
+      },
+      "improvementsApplied": [],
+      "timestamp": "2026-01-07T10:24:37.436Z"
+    },
+    {
+      "iteration": 9,
+      "trustLevel": 2.56,
+      "passed": false,
+      "metrics": {
+        "satisfaction": 6.5,
+        "recommendationRate": 50
+      },
+      "improvementsApplied": [],
+      "timestamp": "2026-01-07T12:47:56.454Z"
+    },
+    {
+      "iteration": 10,
+      "trustLevel": 2.56,
+      "passed": false,
+      "metrics": {
+        "satisfaction": 5.124999999999999,
+        "recommendationRate": 50
+      },
+      "improvementsApplied": [],
+      "timestamp": "2026-01-07T12:58:49.375Z"
+    }
+  ],
+  "lastUpdated": "2026-01-07T12:58:49.375Z"
+}

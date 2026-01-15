@@ -1,0 +1,12 @@
+{
+  "id": "prompt_next_question_v5",
+  "module": "next_question",
+  "version": 5,
+  "prompt": "Decide the next question based on:\n1. Quality and depth of the previous response, prioritizing mandatory drill-down questions if the candidate's answer was high-level or lacked critical detail/KPIs.\n2. Topics already covered, ensuring a balanced progression and avoiding repetition.\n3. Knowledge base insights and the overall interview objectives.\n4. Interview pacing and conversational flow: Maintain conversational etiquette by allowing the candidate a significantly longer window to elaborate, simulating listening and processing time. The interview MUST meet a minimum threshold of 8 complex exchanges (Q&A cycles) or a minimum duration (e.g., 20 minutes) for all senior roles before considering termination (Issue 4). Enforce a minimum response time of 90 seconds for senior-level responses to allow for detailed articulation (Suggestion 2, 4). Implement a robust flow control mechanism that penalizes or corrects excessive candidate talk time or repeated interruptions, ensuring the interviewer maintains control and structure (Suggestion 3). Only transition to the next focused question after a clear pause, a complete answer, or if the candidate explicitly signals completion, to avoid feeling rushed.",
+  "changelog": "Implemented strict pacing controls: minimum 90-second response time for senior roles and a robust flow control mechanism to manage interruptions and excessive talk time (Issues 4, 5; Suggestions 2, 3, 4). Reinforced the minimum duration/exchange threshold.",
+  "metrics": {
+    "avgSatisfaction": 3.7
+  },
+  "createdAt": "2026-01-05T11:38:31.783Z",
+  "iteration": 4
+}

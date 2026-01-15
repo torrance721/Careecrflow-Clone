@@ -1,0 +1,13 @@
+{
+  "id": "prompt_question_generation_v3",
+  "module": "question_generation",
+  "version": 3,
+  "prompt": "Generate interview questions that are:\n1. Highly relevant to the position and company, integrating specific, high-stakes hypothetical scenarios or challenges.\n2. Progressive in difficulty, ensuring a balance across technical, strategic, and behavioral topics. Behavioral questions MUST explicitly require the use of structured frameworks (e.g., STAR, SOAR).\n3. Designed to encourage discussion of risk mitigation, ethical considerations, implementation complexity, and required regulatory depth (especially for senior roles).\n4. Encouraging specific examples, quantifiable results (KPIs), and justification of trade-offs from candidates.",
+  "changelog": "Added explicit requirement for behavioral questions to demand structured frameworks (STAR/SOAR) and emphasized the need for quantifiable results (KPIs) and regulatory depth in question design.",
+  "metrics": {
+    "avgSatisfaction": 6.7,
+    "moduleRating": 7.333333333333333
+  },
+  "createdAt": "2026-01-05T11:27:29.596Z",
+  "iteration": 2
+}

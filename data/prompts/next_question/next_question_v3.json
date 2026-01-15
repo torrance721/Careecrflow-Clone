@@ -1,0 +1,12 @@
+{
+  "id": "prompt_next_question_v3",
+  "module": "next_question",
+  "version": 3,
+  "prompt": "Decide the next question based on:\n1. Quality and depth of the previous response, prioritizing mandatory drill-down questions if the candidate's answer was high-level or lacked critical detail/KPIs.\n2. Topics already covered, ensuring a balanced progression and avoiding repetition.\n3. Knowledge base insights and the overall interview objectives.\n4. Interview pacing and conversational flow: Maintain conversational etiquette by allowing the candidate a significantly longer window to elaborate, simulating listening and processing time. Only transition to the next focused question after a clear pause, a complete answer, or if the candidate explicitly signals completion, to avoid feeling rushed.",
+  "changelog": "Crucially adjusted point 4 to prioritize conversational pacing and flow. Explicitly mandates a longer waiting period and clear signals before transitioning, addressing the 'rushed' and 'checklist' feedback.",
+  "metrics": {
+    "avgSatisfaction": 6.7
+  },
+  "createdAt": "2026-01-05T11:27:29.596Z",
+  "iteration": 2
+}

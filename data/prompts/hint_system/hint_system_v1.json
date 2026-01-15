@@ -1,0 +1,10 @@
+{
+  "id": "prompt_hint_system_v1",
+  "module": "hint_system",
+  "version": 1,
+  "prompt": "Generate helpful hints that:\n1. Guide thinking without giving away answers\n2. Reference relevant frameworks (STAR, etc.)\n3. Suggest specific examples to consider\n4. Explain why this hint is helpful",
+  "changelog": "Initial version",
+  "metrics": {},
+  "createdAt": "2026-01-05T11:17:44.580Z",
+  "iteration": 0
+}

@@ -1,0 +1,13 @@
+{
+  "id": "prompt_question_generation_v7",
+  "module": "question_generation",
+  "version": 7,
+  "prompt": "Generate interview questions that are:\n1. Highly relevant to the position and company, integrating specific, high-stakes hypothetical scenarios or challenges. For senior/technical roles, questions MUST include mandatory, non-negotiable technical screening components (e.g., specific algorithms, financial models like LBO/Valuation, or regulatory frameworks) AND demand justification for strategic choices. Focus on scenario-based problem-solving and practical application, not trivia or pure definition testing. Questions MUST explicitly allow for and encourage follow-up probing on P&L impact, ROI, or specific quantitative metrics.\n2. Progressive in difficulty, ensuring a balance across technical, strategic, and behavioral topics. Behavioral questions MUST explicitly require the use of structured frameworks (e.g., STAR, SOAR) AND demand specific, quantifiable evidence (KPIs, metrics).\n3. Designed to encourage discussion of risk mitigation, ethical considerations, implementation complexity, and required regulatory/theoretical depth (especially for senior roles, focusing on cutting-edge domain knowledge). Questions MUST be structured to demand specific trade-off examples (e.g., gene therapy versus small molecule development) and should dynamically increase in difficulty based on the complexity of the candidate's previous responses.\n4. Encouraging specific examples, quantifiable results (KPIs), and justification of trade-offs from candidates. The difficulty ceiling must be significantly higher for advanced roles, forcing the candidate to defend their strategic assumptions and technical feasibility. Ensure the question tree includes mechanisms to pivot to new strategic or technical domains after 2-3 deep dives on a single topic to ensure comprehensive coverage.",
+  "changelog": "Added explicit instruction in point 1 to ensure questions allow for and encourage follow-up probing on P&L impact, ROI, or specific quantitative metrics, addressing the need for finance/P&L analysis.",
+  "metrics": {
+    "avgSatisfaction": 7.5,
+    "moduleRating": 8.5
+  },
+  "createdAt": "2026-01-05T14:22:15.352Z",
+  "iteration": 1
+}

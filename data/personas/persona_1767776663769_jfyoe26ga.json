@@ -1,0 +1,41 @@
+{
+  "name": "David Miller",
+  "background": {
+    "yearsOfExperience": 3,
+    "currentRole": "Junior Data Analyst",
+    "currentCompany": "Retail Innovations Inc.",
+    "education": "B.S. in Statistics, University of California, Berkeley",
+    "skills": [
+      "Python",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Data Visualization",
+      "Statistical Analysis",
+      "A/B Testing"
+    ]
+  },
+  "targetJob": {
+    "company": "TechGrowth Solutions",
+    "position": "Data Scientist"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "medium",
+    "criticalness": 6,
+    "patience": 7,
+    "trustLevel": 6
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "DAVID MILLER\n(123) 456-7890 | david.miller@email.com | LinkedIn.com/in/davidmiller\n\nSUMMARY\nAnalytical and results-driven Junior Data Analyst with 3 years of experience in extracting insights from complex datasets to drive business decisions. Proficient in Python, SQL, and data visualization tools. Eager to transition into a Data Scientist role, leveraging statistical modeling and machine learning to solve challenging problems and contribute to innovative projects in a growth-oriented company.\n\nEXPERIENCE\nJunior Data Analyst | Retail Innovations Inc. | San Francisco, CA | June 2021 – Present\n* Developed and maintained SQL queries to extract, transform, and load data for reporting and analysis, improving data retrieval efficiency by 20%.\n* Performed A/B testing analysis for marketing campaigns, identifying key drivers for customer engagement and increasing conversion rates by 15%.\n* Created interactive dashboards using Tableau to visualize sales trends and customer behavior, providing actionable insights to product and marketing teams.\n* Collaborated with cross-functional teams to define data requirements and deliver ad-hoc analyses supporting strategic initiatives.\n\nEDUCATION\nB.S. in Statistics | University of California, Berkeley | Berkeley, CA | May 2021\n* Relevant Coursework: Probability Theory, Statistical Inference, Regression Analysis, Machine Learning Fundamentals, Data Structures.\n* Capstone Project: Predictive Modeling for E-commerce Churn Rate using Python and scikit-learn.\n\nSKILLS\nProgramming: Python (Pandas, NumPy, Scikit-learn), SQL\nTools: Tableau, Excel, Google Analytics, Jira\nConcepts: Statistical Analysis, A/B Testing, Predictive Modeling, Data Cleaning, ETL, Data Storytelling",
+  "situation": "David is a 25-year-old Junior Data Analyst feeling stagnant at his current company. He's looking for a Data Scientist role that offers more advanced technical challenges and clear career growth opportunities. He's actively mass applying to 30+ tech companies, hoping to land a position where he can learn new skills and make a bigger impact. He needs efficient and structured interview prep to handle the volume of applications.",
+  "feedbackStyle": "David provides constructive and detailed feedback, often suggesting specific areas for improvement. He values clear, actionable advice and will point out if the feedback feels generic or misses the mark on specific technical nuances. He's generally polite but firm about his expectations for quality.",
+  "id": "persona_1767776663769_jfyoe26ga",
+  "createdAt": "2026-01-07T09:04:23.769Z",
+  "iteration": 5
+}

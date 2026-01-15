@@ -1,0 +1,443 @@
+{
+  "id": "realistic_1767633602197_mc4qq98w9",
+  "personaId": "persona_1767633487096_sluypchdf",
+  "personaName": "Marcus Chen",
+  "targetJob": {
+    "company": "Quantum Leap Technologies",
+    "position": "VP of Engineering, Platform"
+  },
+  "journey": {
+    "homepage": {
+      "arrivalTime": "2026-01-05T17:18:07.096Z",
+      "browseTime": 11007.077149695719,
+      "actions": [
+        {
+          "type": "read",
+          "target": "hero_section",
+          "duration": 2612.5711131105168,
+          "timestamp": "2026-01-05T17:18:07.096Z",
+          "thought": "这个网站看起来挺专业的"
+        },
+        {
+          "type": "scroll",
+          "target": "success_stories",
+          "duration": 3087.0572016832043,
+          "timestamp": "2026-01-05T17:18:10.096Z",
+          "thought": "看看其他人的成功经历"
+        },
+        {
+          "type": "read",
+          "target": "success_story_card",
+          "duration": 2286.8057027984387,
+          "timestamp": "2026-01-05T17:18:13.096Z"
+        },
+        {
+          "type": "wait",
+          "target": "carousel",
+          "duration": 2020.643132103559,
+          "timestamp": "2026-01-05T17:18:15.096Z",
+          "thought": "看看有什么推荐的职位"
+        },
+        {
+          "type": "click",
+          "target": "carousel_item",
+          "value": "VP of Engineering, Platform at Quantum Leap Technologies",
+          "duration": 500,
+          "timestamp": "2026-01-05T17:18:18.096Z"
+        },
+        {
+          "type": "click",
+          "target": "start_button",
+          "duration": 500,
+          "timestamp": "2026-01-05T17:18:20.096Z",
+          "thought": "开始面试吧！"
+        }
+      ],
+      "jobInputMethod": "carousel_click",
+      "jobInput": "VP of Engineering, Platform at Quantum Leap Technologies"
+    },
+    "preparation": {
+      "startTime": "2026-01-05T17:18:07.096Z",
+      "waitTime": 28017.837140846463,
+      "userPatience": "patient",
+      "actions": [
+        {
+          "type": "read",
+          "target": "thinking_animation",
+          "duration": 8405.351142253938,
+          "timestamp": "2026-01-05T17:18:07.096Z",
+          "thought": "正在准备中..."
+        },
+        {
+          "type": "wait",
+          "duration": 16810.702284507875,
+          "timestamp": "2026-01-05T17:18:18.303Z"
+        }
+      ]
+    },
+    "interview": {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Mock interview for VP of Engineering, Platform at Quantum Leap Technologies. Resume: Marcus Chen | Principal Software Architect\n\nSummary: Highly accomplished and results-driven Principal Software Architect with 15 years of experience designing, implementing, and scaling complex distri... Situation: After 8 years at his current company, Marcus feels they have become stagnant and risk-averse. He is seeking a leadership role (VP level) at a rapidly growing, innovative company where he can have significant strategic impact and build out an entire platform team from scratch.",
+          "timestamp": "2026-01-05T17:18:07.096Z"
+        },
+        {
+          "role": "assistant",
+          "content": "This is a fantastic opportunity. Here is the warm opening and the first strategic question.\n\n---\n\n## Mock Interview Opening\n\n**(The interviewer smiles warmly, making eye contact.)**\n\n\"Welcome, [Candidate Name]. Thank you so much for taking the time to speak with us today. I’m [Your Name], and I lead the Technology Strategy team here at Quantum Leap. We’re genuinely excited about this conversation—your background as a Principal Architect is incredibly impressive, and we see a strong potential fit with the strategic direction we’re taking the Platform organization.\"\n\n\"Before we dive into the specific details of the role, I want to emphasize that this is a two-way conversation. We want you to understand our challenges and culture just as much as we want to understand your vision and experience. Please feel free to stop me and ask questions at any point.\"\n\n\"To start, I'd love to hear a bit about what drew you to Quantum Leap and this specific VP of Platform role. But let's kick things off with a slightly broader, more strategic question.\"\n\n---\n\n## First Interview Question (Strategic & Architectural)\n\n\"Given your extensive experience as a Principal Architect, you've clearly been responsible for designing and scaling complex systems. When you look at the leap from being the primary technical visionary—the architect—to being the leader responsible for the entire Platform organization, the focus shifts from **'how we build'** to **'what we enable.'**\"\n\n\"Imagine you step into this VP role. In the first 90 days, you discover that our core Platform is technically sound but is causing significant friction: deployment cycles are slow, cross-functional teams complain about dependency hell, and our overall developer velocity is stagnating. **How do you leverage your architectural expertise to diagnose this organizational and technical friction, and what is the single most critical, non-technical decision you would make to start fixing the Platform's relationship with the rest of the engineering organization?**\"",
+          "timestamp": "2026-01-05T17:18:14.381Z",
+          "metadata": {
+            "questionType": "opening"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That is an excellent framing, moving from the technical 'how' to the organizational 'enablement.' My approach in the first 90 days would be structured around diagnosis and alignment. Technically, the diagnosis phase involves quantifying the friction—I would immediately implement a DORA metrics baseline, specifically focusing on Change Lead Time and Deployment Frequency, to move the conversation from anecdotal complaints to measurable data points. Architecturally, slow deployments and dependency hell usually point to tightly coupled services or insufficient platform abstraction, which needs a targeted technical roadmap. However, the *single most critical, non-technical decision* I would make is establishing an internal Platform Service Level Agreement (SLA) with our key engineering consumers, defining clear metrics like 99.9% uptime for the CI/CD pipeline and a maximum 1-hour response time for platform support escalations. This shifts the perception of the Platform team from a gatekeeper to a reliable, accountable internal product provider, immediately improving trust and forcing us to prioritize reliability over feature velocity initially.",
+          "timestamp": "2026-01-05T17:18:19.623Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 42620,
+              "timestamp": "2026-01-05T17:18:14.381Z"
+            },
+            {
+              "type": "think",
+              "duration": 13183,
+              "timestamp": "2026-01-05T17:18:57.001Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That is an excellent framing, moving from the technical 'how' to the organizational 'enablement.' My approach in the first 90 days would be structured around diagnosis and alignment. Technically, the diagnosis phase involves quantifying the friction—I would immediately implement a DORA metrics baseline, specifically focusing on Change Lead Time and Deployment Frequency, to move the conversation from anecdotal complaints to measurable data points. Architecturally, slow deployments and dependency hell usually point to tightly coupled services or insufficient platform abstraction, which needs a targeted technical roadmap. However, the *single most critical, non-technical decision* I would make is establishing an internal Platform Service Level Agreement (SLA) with our key engineering consumers, defining clear metrics like 99.9% uptime for the CI/CD pipeline and a maximum 1-hour response time for platform support escalations. This shifts the perception of the Platform team from a gatekeeper to a reliable, accountable internal product provider, immediately improving trust and forcing us to prioritize reliability over feature velocity initially.",
+              "duration": 138382,
+              "timestamp": "2026-01-05T17:19:10.184Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:21:28.566Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 13183,
+            "typingTime": 138382,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That focus on establishing a clear Platform SLA and using DORA metrics for internal diagnosis is excellent. Let's delve into execution: If your DORA analysis reveals significant friction points—perhaps low deployment frequency or high lead time—how do you translate that data into a prioritized technical roadmap? Specifically, what is the process for deciding which architectural changes get funded and staffed first, and how do you ensure the product engineering teams buy into these platform-driven priorities?",
+          "timestamp": "2026-01-05T17:18:33.151Z",
+          "metadata": {
+            "questionType": "follow_up"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That's a critical junction, and it requires a data-driven, phased approach. When DORA metrics flag a bottleneck—say, our Lead Time for Changes is consistently above 14 days—the first step is a targeted architectural root cause analysis, often revealing issues like monolithic service dependencies or complex integration testing environments. We translate this friction into a quantifiable business case: reducing lead time by 50% will unlock 15% more feature velocity. The prioritization process involves three tiers: immediate stability fixes, high-impact architectural decoupling (like breaking out the core Payment Service into a dedicated microservice using GoLang), and then long-term strategic investments. To secure funding and product team buy-in, we frame these platform initiatives not as technical debt, but as *velocity accelerators*. For instance, at Innovatech, we showed that automating our CI/CD pipeline, driven by a high Change Failure Rate metric, saved 40 engineering hours per week, directly justifying the two-quarter investment and ensuring immediate adoption across all product lines.",
+          "timestamp": "2026-01-05T17:18:38.198Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 12260,
+              "timestamp": "2026-01-05T17:18:33.252Z"
+            },
+            {
+              "type": "think",
+              "duration": 7771,
+              "timestamp": "2026-01-05T17:18:45.512Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That's a critical junction, and it requires a data-driven, phased approach. When DORA metrics flag a bottleneck—say, our Lead Time for Changes is consistently above 14 days—the first step is a targeted architectural root cause analysis, often revealing issues like monolithic service dependencies or complex integration testing environments. We translate this friction into a quantifiable business case: reducing lead time by 50% will unlock 15% more feature velocity. The prioritization process involves three tiers: immediate stability fixes, high-impact architectural decoupling (like breaking out the core Payment Service into a dedicated microservice using GoLang), and then long-term strategic investments. To secure funding and product team buy-in, we frame these platform initiatives not as technical debt, but as *velocity accelerators*. For instance, at Innovatech, we showed that automating our CI/CD pipeline, driven by a high Change Failure Rate metric, saved 40 engineering hours per week, directly justifying the two-quarter investment and ensuring immediate adoption across all product lines.",
+              "duration": 136771,
+              "timestamp": "2026-01-05T17:18:53.283Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:21:10.054Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 7771,
+            "typingTime": 136771,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That deep dive into platform prioritization and the feedback loop is incredibly insightful and demonstrates a strong grasp of strategic execution. Moving beyond the internal efficiency of the platform itself, let's discuss the organizational structure and talent necessary to sustain this success. As VP of Platform, how do you approach the hiring, development, and retention of specialized platform engineers, and how do you structure your teams to maximize both velocity and reliability?",
+          "timestamp": "2026-01-05T17:18:54.840Z",
+          "metadata": {
+            "questionType": "follow_up"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That's an excellent follow-up, because technology is only as good as the talent executing it. My approach is structured around three pillars: specialized hiring, focused development, and strategic retention. For hiring, I look for \"T-shaped\" engineers—deep expertise in areas like GoLang or distributed databases, but also broad empathy for developer experience. Specifically, I would structure teams into dedicated domains—for example, a 'Core Infrastructure Team' focused on Kubernetes and Observability, measured by a 99.99% uptime SLA, and a separate 'Developer Enablement Team' focused purely on CI/CD pipeline velocity. Development involves creating clear career ladders that reward deep technical specialization, not just management track progression. Finally, retention is driven by autonomy and strategic impact; engineers must feel they are building the *future* platform, not just maintaining the legacy one, which is something I've found lacking in stagnant environments.",
+          "timestamp": "2026-01-05T17:19:00.050Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 11780,
+              "timestamp": "2026-01-05T17:18:54.941Z"
+            },
+            {
+              "type": "think",
+              "duration": 5646,
+              "timestamp": "2026-01-05T17:19:06.721Z",
+              "thought": "让我想想最相关的经历..."
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That's an excellent follow-up, because technology is only as good as the talent executing it. My approach is structured around three pillars: specialized hiring, focused development, and strategic retention. For hiring, I look for \"T-shaped\" engineers—deep expertise in areas like GoLang or distributed databases, but also broad empathy for developer experience. Specifically, I would structure teams into dedicated domains—for example, a 'Core Infrastructure Team' focused on Kubernetes and Observability, measured by a 99.99% uptime SLA, and a separate 'Developer Enablement Team' focused purely on CI/CD pipeline velocity. Development involves creating clear career ladders that reward deep technical specialization, not just management track progression. Finally, retention is driven by autonomy and strategic impact; engineers must feel they are building the *future* platform, not just maintaining the legacy one, which is something I've found lacking in stagnant environments.",
+              "duration": 117222,
+              "timestamp": "2026-01-05T17:19:12.367Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:21:09.589Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 5646,
+            "typingTime": 117222,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That focus on talent and culture is essential for long-term platform success. Speaking of long-term success, let's shift gears slightly and discuss strategy in a different dimension: financial and organizational alignment. As VP of Engineering, Platform, you are a significant cost center, but you are also expected to drive immense value. How do you approach the financial modeling, chargeback mechanisms, or internal pricing strategies for your platform services to ensure transparency, drive adoption, and ultimately demonstrate clear ROI to the executive team and the business units consuming your services?",
+          "timestamp": "2026-01-05T17:19:15.386Z",
+          "metadata": {
+            "questionType": "follow_up"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That is an excellent question that gets right to the core of platform leadership: translating technical efficiency into business value. My approach is structured around three pillars: Transparency, Optimization, and Value Metrics. First, transparency is achieved through a clear, consumption-based internal pricing model—not a simple chargeback, but a \"showback\" initially, like we implemented at Innovatech for our centralized logging service, where teams saw their costs without being immediately penalized. Second, we focus on optimization; the platform team's goal is to drive down the unit cost of compute and operations for the entire organization, which directly impacts the company's gross margin. Finally, ROI must be quantified using specific metrics, such as measuring the platform's impact on developer velocity (e.g., reducing the average time-to-production from 4 weeks to 3 days) and quantifying the resulting revenue acceleration or opportunity cost savings. This shifts the perception from \"cost center\" to \"strategic enabler.\"",
+          "timestamp": "2026-01-05T17:19:20.620Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 14220,
+              "timestamp": "2026-01-05T17:19:15.486Z"
+            },
+            {
+              "type": "think",
+              "duration": 15685,
+              "timestamp": "2026-01-05T17:19:29.706Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That is an excellent question that gets right to the core of platform leadership: translating technical efficiency into business value. My approach is structured around three pillars: Transparency, Optimization, and Value Metrics. First, transparency is achieved through a clear, consumption-based internal pricing model—not a simple chargeback, but a \"showback\" initially, like we implemented at Innovatech for our centralized logging service, where teams saw their costs without being immediately penalized. Second, we focus on optimization; the platform team's goal is to drive down the unit cost of compute and operations for the entire organization, which directly impacts the company's gross margin. Finally, ROI must be quantified using specific metrics, such as measuring the platform's impact on developer velocity (e.g., reducing the average time-to-production from 4 weeks to 3 days) and quantifying the resulting revenue acceleration or opportunity cost savings. This shifts the perception from \"cost center\" to \"strategic enabler.\"",
+              "duration": 127294,
+              "timestamp": "2026-01-05T17:19:45.391Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:21:52.685Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 15685,
+            "typingTime": 127294,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That's a crucial distinction, and your experience moving beyond simple reporting is exactly what we're looking for. To dig into the implementation, can you elaborate on the mechanics: how did you define the unit of consumption for your core platform services, and how did you manage the transition from a 'showback' model to an eventual 'chargeback' or budget allocation model designed to truly influence consumption behavior?",
+          "timestamp": "2026-01-05T17:19:33.904Z",
+          "metadata": {
+            "questionType": "follow_up"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That is an excellent question, as the transition from showback to true chargeback is where governance actually starts influencing engineering behavior. We approached this in three phases, beginning with defining the unit of consumption based on the service type. For our core data processing platform—built on AWS EKS and Kafka—the unit was standardized as \"Normalized Compute Unit Hours\" (NCUH), which factored in CPU, memory, and I/O baseline usage. Phase two involved implementing detailed tagging and instrumentation using Prometheus and Grafana, ensuring 98% accuracy in attributing NCUH usage to specific business domains. The critical step, phase three, was the soft 'chargeback' pilot: we allocated notional budgets to three high-consumption teams, and within six months, the visibility and accountability drove a measurable 22% reduction in overall staging environment compute costs simply through better resource scheduling and right-sizing.",
+          "timestamp": "2026-01-05T17:19:40.934Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 10520,
+              "timestamp": "2026-01-05T17:19:34.003Z"
+            },
+            {
+              "type": "think",
+              "duration": 5519,
+              "timestamp": "2026-01-05T17:19:44.523Z",
+              "thought": "这个问题有点复杂，我需要好好想想"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That is an excellent question, as the transition from showback to true chargeback is where governance actually starts influencing engineering behavior. We approached this in three phases, beginning with defining the unit of consumption based on the service type. For our core data processing platform—built on AWS EKS and Kafka—the unit was standardized as \"Normalized Compute Unit Hours\" (NCUH), which factored in CPU, memory, and I/O baseline usage. Phase two involved implementing detailed tagging and instrumentation using Prometheus and Grafana, ensuring 98% accuracy in attributing NCUH usage to specific business domains. The critical step, phase three, was the soft 'chargeback' pilot: we allocated notional budgets to three high-consumption teams, and within six months, the visibility and accountability drove a measurable 22% reduction in overall staging environment compute costs simply through better resource scheduling and right-sizing.",
+              "duration": 118377,
+              "timestamp": "2026-01-05T17:19:50.042Z"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "[editing]",
+              "duration": 2000,
+              "timestamp": "2026-01-05T17:21:48.419Z",
+              "thought": "让我再改一下..."
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:21:50.419Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 5519,
+            "typingTime": 118377,
+            "editCount": 1
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That level of detail on the NCUH model and the resulting 22% reduction is fantastic. Building on that success, I need to understand the governance: was that 22% reduction achieved through a true financial chargeback model—where budgets were directly debited—or was it achieved through a budget allocation model where teams were penalized or incentivized based on usage? Finally, what was the long-term roadmap for achieving full financial chargeback governance?",
+          "timestamp": "2026-01-05T17:19:55.181Z",
+          "metadata": {
+            "questionType": "closing"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That’s a critical distinction, and the initial 22% reduction was achieved through a hybrid model, primarily driven by strict budget *allocation* and executive mandate, not direct financial chargeback. Specifically, we implemented what we called a \"shadow debit\" system for the first 18 months, where teams received monthly reports showing exactly what their cloud consumption would have cost them under a true chargeback model. This drove behavioral change—for example, the Data Services team reduced their non-production environment run-hours by 45% simply by seeing the shadow cost. The long-term roadmap, which I championed, was a three-phase transition: Phase I (Shadow Debits), Phase II (Internal Service Credits for optimization), and Phase III, which was scheduled to implement full, direct financial chargeback governance by Q4 2024, ensuring accountability was hard-wired into the P&L.",
+          "timestamp": "2026-01-05T17:20:02.096Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 11220,
+              "timestamp": "2026-01-05T17:19:55.282Z"
+            },
+            {
+              "type": "think",
+              "duration": 11131,
+              "timestamp": "2026-01-05T17:20:06.502Z",
+              "thought": "这个问题有点复杂，我需要好好想想"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That’s a critical distinction, and the initial 22% reduction was achieved through a hybrid model, primarily driven by strict budget *allocation* and executive mandate, not direct financial chargeback. Specifically, we implemented what we called a \"shadow debit\" system for the first 18 months, where teams received monthly reports showing exactly what their cloud consumption would have cost them under a true chargeback model. This drove behavioral change—for example, the Data Services team reduced their non-production environment run-hours by 45% simply by seeing the shadow cost. The long-term roadmap, which I championed, was a three-phase transition: Phase I (Shadow Debits), Phase II (Internal Service Credits for optimization), and Phase III, which was scheduled to implement full, direct financial chargeback governance by Q4 2024, ensuring accountability was hard-wired into the P&L.",
+              "duration": 112061,
+              "timestamp": "2026-01-05T17:20:17.633Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:22:09.694Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 11131,
+            "typingTime": 112061,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "Thank you so much for sharing your experiences today! I've really enjoyed learning about your background. I'll now generate a detailed assessment report. Is there anything else you'd like to add?",
+          "timestamp": "2026-01-05T17:20:02.096Z",
+          "metadata": {
+            "questionType": "closing"
+          }
+        }
+      ],
+      "hintsUsed": 0,
+      "totalQuestions": 6,
+      "averageResponseTime": 134840.33333333334,
+      "averageThinkingTime": 9822.5
+    },
+    "assessment": {
+      "viewTime": 22304.521860665733,
+      "scrollDepth": 80,
+      "sectionsRead": [
+        "overall_score",
+        "strengths",
+        "areas_to_improve",
+        "recommendations"
+      ],
+      "actions": [
+        {
+          "type": "read",
+          "target": "overall_score",
+          "duration": 4121.285207537414,
+          "timestamp": "2026-01-05T17:20:02.197Z",
+          "thought": "让我看看我的分数..."
+        },
+        {
+          "type": "scroll",
+          "target": "strengths",
+          "duration": 1000,
+          "timestamp": "2026-01-05T17:20:07.197Z"
+        },
+        {
+          "type": "read",
+          "target": "strengths",
+          "duration": 5593.4255718442555,
+          "timestamp": "2026-01-05T17:20:08.197Z"
+        },
+        {
+          "type": "scroll",
+          "target": "areas_to_improve",
+          "duration": 1000,
+          "timestamp": "2026-01-05T17:20:13.790Z"
+        },
+        {
+          "type": "read",
+          "target": "areas_to_improve",
+          "duration": 4843.387079531653,
+          "timestamp": "2026-01-05T17:20:14.790Z"
+        },
+        {
+          "type": "scroll",
+          "target": "recommendations",
+          "duration": 1000,
+          "timestamp": "2026-01-05T17:20:19.633Z"
+        },
+        {
+          "type": "read",
+          "target": "recommendations",
+          "duration": 3867.7092092898233,
+          "timestamp": "2026-01-05T17:20:20.633Z"
+        }
+      ]
+    }
+  },
+  "totalDuration": 115,
+  "completedSuccessfully": true,
+  "createdAt": "2026-01-05T17:20:02.197Z",
+  "iteration": 3
+}

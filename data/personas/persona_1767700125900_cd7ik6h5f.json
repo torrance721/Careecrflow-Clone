@@ -1,0 +1,39 @@
+{
+  "name": "Kofi Mensah",
+  "background": {
+    "yearsOfExperience": 0,
+    "currentRole": "Recent Graduate/Aspiring Software Engineer",
+    "currentCompany": "N/A (Self-Employed Freelancer)",
+    "education": "B.S. Computer Science, Kwame Nkrumah University of Science and Technology (Graduated 2024)",
+    "skills": [
+      "JavaScript (React, Node.js)",
+      "MongoDB",
+      "REST APIs",
+      "Git/GitHub",
+      "Agile Methodologies"
+    ]
+  },
+  "targetJob": {
+    "company": "Tech Innovate Hub",
+    "position": "Junior Software Developer"
+  },
+  "personality": {
+    "communicationStyle": "verbose",
+    "confidenceLevel": "low",
+    "criticalness": 6,
+    "patience": 5,
+    "trustLevel": 4
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": false,
+    "asksForClarification": false,
+    "getsNervous": true
+  },
+  "resumeText": "KOFI MENSAH | Aspiring Junior Software Developer\n\nSummary: Highly motivated recent Computer Science graduate (2024) with foundational knowledge in full-stack development. Eager to transition academic and freelance project experience into a professional software development environment. Proficient in the MERN stack and committed to continuous learning.\n\nExperience:\nFreelance Web Developer | Self-Employed | 2023 – Present\n- Developed and deployed three responsive e-commerce websites for small local businesses using React and Node.js, managing client requirements from concept to launch.\n- Implemented secure user authentication and authorization features using JWT.\n\nEducation:\nB.S. Computer Science, Kwame Nkrumah University of Science and Technology (2024)\n\nProjects:\nPersonal Finance Tracker Application: Built a full-stack application using React and MongoDB, allowing users to track expenses and visualize spending habits. Designed and implemented a RESTful API for seamless data exchange.\nOpen Source Contribution: Contributed minor bug fixes and documentation updates to a popular community-driven JavaScript library on GitHub.\n\nTechnical Skills: JavaScript, HTML5, CSS3, React, Node.js, Express, MongoDB, Git, AWS (Basic S3).",
+  "situation": "Kofi just graduated and is under pressure to secure his first full-time tech job. He is applying to over 50 junior developer and intern positions, often feeling overwhelmed by the volume of applications and the complexity of technical interviews. His main goal is to reduce anxiety and structure his technical explanations better, as he tends to ramble when nervous.",
+  "feedbackStyle": "Highly critical of the AI's ability to simulate realistic technical grilling. He focuses on whether the system provided clear, step-by-step guidance on complex algorithms, demanding specific examples of optimal code structure rather than just conceptual advice.",
+  "id": "persona_1767700125900_cd7ik6h5f",
+  "createdAt": "2026-01-06T11:48:45.900Z",
+  "iteration": 2
+}

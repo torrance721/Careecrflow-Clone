@@ -1,0 +1,40 @@
+{
+  "name": "Javier Rodriguez",
+  "background": {
+    "yearsOfExperience": 3,
+    "currentRole": "Supply Chain Analyst",
+    "currentCompany": "Global Logistics Corp",
+    "education": "M.S. in Operations Research, MIT",
+    "skills": [
+      "Supply Chain Optimization",
+      "SQL",
+      "Python (Pandas, NumPy)",
+      "Tableau",
+      "Inventory Management",
+      "Predictive Modeling"
+    ]
+  },
+  "targetJob": {
+    "company": "Tech Innovate Solutions",
+    "position": "Senior Operations Analyst"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "medium",
+    "criticalness": 8,
+    "patience": 5,
+    "trustLevel": 4
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Highly analytical and results-driven Supply Chain Analyst with 3 years of experience optimizing complex logistics networks and inventory management systems. Proven ability to leverage advanced statistical modeling and data visualization tools (SQL, Python, Tableau) to drive cost reduction and efficiency gains. At Global Logistics Corp, led a project utilizing predictive analytics to forecast demand fluctuations, reducing emergency stock orders by 18% and saving the company $1.2M annually. Developed and maintained automated reporting dashboards for key performance indicators (KPIs), improving decision-making speed by 25%. Seeking a challenging Senior Operations Analyst role where quantitative skills and strategic thinking can directly impact large-scale business operations and supply chain resilience. Proficient in Lean Six Sigma methodologies and experienced in cross-functional collaboration with procurement and manufacturing teams.",
+  "situation": "Javier has been at his current company for three years and feels pigeonholed. He wants to transition into a high-growth tech environment where his operations research background is valued more highly. He is applying to 40+ mid-level roles across major tech companies and startups, aiming for a significant salary increase and better career trajectory. He uses the AI tool to ensure his highly technical answers are clearly communicated to non-technical hiring managers.",
+  "feedbackStyle": "Very specific and technical. He will point out exactly which part of the AI's feedback was vague or if the suggested phrasing failed to capture the technical nuance of his answer. He expects the system to handle complex, scenario-based behavioral questions effectively.",
+  "id": "persona_1767693187367_7rcgrqrhi",
+  "createdAt": "2026-01-06T09:53:07.367Z",
+  "iteration": 1
+}

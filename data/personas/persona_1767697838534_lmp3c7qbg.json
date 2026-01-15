@@ -1,0 +1,41 @@
+{
+  "name": "Omar Hassan",
+  "background": {
+    "yearsOfExperience": 6,
+    "currentRole": "Lead Frontend Developer",
+    "currentCompany": "Innovatech Solutions (Mid-sized Tech Consulting)",
+    "education": "B.S. Computer Science, Stanford University (2018)",
+    "skills": [
+      "React",
+      "TypeScript",
+      "AWS Amplify",
+      "CI/CD",
+      "Micro-frontend Architecture",
+      "Performance Optimization",
+      "Agile/Scrum"
+    ]
+  },
+  "targetJob": {
+    "company": "Stripe",
+    "position": "Staff Software Engineer (Frontend Focus)"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "high",
+    "criticalness": 8,
+    "patience": 5,
+    "trustLevel": 3
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Highly accomplished Lead Frontend Developer with 6 years of experience specializing in scalable, high-performance web applications using modern JavaScript frameworks. Currently leading a team of 4 developers at Innovatech Solutions, responsible for designing and implementing a micro-frontend architecture that reduced load times by 35%. Proven expertise in React, TypeScript, and state management (Redux/Zustand). Extensive experience with cloud deployment pipelines (AWS Amplify, GitHub Actions) and rigorous code review processes. Seeking a challenging Staff Engineer role to apply deep technical knowledge and leadership skills in optimizing critical user-facing products. Key achievements include migrating a legacy codebase of 500k lines to TypeScript, resulting in a 20% reduction in production bugs over six months, and mentoring junior and mid-level engineers on best practices in component design and testing.",
+  "situation": "Omar is 28 and feels capped at his current consulting firm. He has 6 years of experience but wants to transition into a high-growth product company to tackle larger scale challenges. He is aggressively applying (50+ applications) to Staff and Senior roles at top-tier tech companies across the US, focusing on roles that emphasize architecture and technical leadership. He needs the interview prep system to handle advanced system design questions and behavioral scenarios specific to a Staff-level role.",
+  "feedbackStyle": "Highly analytical and technical. He will dissect the AI's feedback for logical inconsistencies, challenge vague advice, and demand specific, actionable metrics on his performance, particularly regarding the depth and completeness of his technical explanations.",
+  "id": "persona_1767697838534_lmp3c7qbg",
+  "createdAt": "2026-01-06T11:10:38.534Z",
+  "iteration": 1
+}

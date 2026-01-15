@@ -1,0 +1,104 @@
+{
+  "id": "feedback_1767661373269_8e2sqajna",
+  "personaId": "persona_1767661222247_in94hnld3",
+  "personaName": "Anya Sharma",
+  "simulationId": "realistic_1767661365645_qaw7tnxi3",
+  "iteration": 1,
+  "overallSatisfaction": 8.5,
+  "wouldRecommend": true,
+  "moduleFeedback": [
+    {
+      "module": "question_generation",
+      "rating": 9,
+      "strengths": [
+        "Questions were highly relevant to a Mid-Level BI Analyst role.",
+        "Good progression from high-level business impact to technical details (e.g., ID standardization)."
+      ],
+      "weaknesses": [
+        "None major."
+      ],
+      "specificIssues": [],
+      "suggestions": [
+        "Ensure all questions maintain relevance to the target job description."
+      ]
+    },
+    {
+      "module": "hint_system",
+      "rating": 7,
+      "strengths": [
+        "Hint was available when needed."
+      ],
+      "weaknesses": [
+        "Only used once, hard to judge robustness."
+      ],
+      "specificIssues": [],
+      "suggestions": [
+        "Ensure hints provide a gentle nudge rather than giving away the answer."
+      ]
+    },
+    {
+      "module": "response_analysis",
+      "rating": 8,
+      "strengths": [
+        "The interviewer acknowledged specific technical points (e.g., 'technical analysis is solid', 'integration workflow')."
+      ],
+      "weaknesses": [
+        "Responses were sometimes slightly repetitive in tone ('That's a great question')."
+      ],
+      "specificIssues": [],
+      "suggestions": [
+        "Vary the acknowledgment language slightly."
+      ]
+    },
+    {
+      "module": "overall_flow",
+      "rating": 9,
+      "strengths": [
+        "The interview felt professional and moved logically through different topics (impact, governance, technical)."
+      ],
+      "weaknesses": [],
+      "specificIssues": [],
+      "suggestions": [
+        "Maintain current pacing and structure."
+      ]
+    },
+    {
+      "module": "persona_simulation",
+      "rating": 8,
+      "strengths": [
+        "The tone was consistently professional and encouraging."
+      ],
+      "weaknesses": [
+        "The use of 'That’s a great question' was slightly overused."
+      ],
+      "specificIssues": [],
+      "suggestions": [
+        "Introduce more varied professional phrasing."
+      ]
+    }
+  ],
+  "emotionalJourney": "The experience was focused and professional. I felt engaged because the questions directly related to the skills required for the BI Analyst role. There was a brief moment of pause when I requested the hint, but the flow quickly resumed.",
+  "frustratingMoments": [
+    "The interviewer's acknowledgement phrases ('That's a great question') felt a bit repetitive after the third time."
+  ],
+  "positiveHighlights": [
+    "The deep dive into ID standardization was highly relevant and challenging.",
+    "The overall professional and welcoming tone of the interviewer."
+  ],
+  "prioritizedSuggestions": [
+    {
+      "priority": "medium",
+      "suggestion": "Vary the acknowledgment phrases used by the interviewer (e.g., replace some 'That's a great question' instances with other professional transitions).",
+      "affectedModule": "persona_simulation",
+      "expectedImpact": "Improve conversational realism and reduce perceived repetition."
+    },
+    {
+      "priority": "low",
+      "suggestion": "Ensure the final wrap-up feedback from the interviewer is concise and focuses on 2-3 key takeaways.",
+      "affectedModule": "response_analysis",
+      "expectedImpact": "Enhance the feeling of a natural conclusion."
+    }
+  ],
+  "rawFeedback": "Overall, this was a very successful mock interview simulation. The questions were highly targeted towards the Mid-Level Business Intelligence Analyst role, covering necessary areas like strategic impact, data governance, and technical implementation (like data integration and ID standardization).\n\nThe professional tone was maintained throughout, making the experience feel realistic. The only minor area for improvement is the variation in conversational filler phrases used by the interviewer, which became slightly noticeable due to repetition. I would definitely recommend this tool for practicing job-specific interview responses.",
+  "createdAt": "2026-01-06T01:02:53.269Z"
+}

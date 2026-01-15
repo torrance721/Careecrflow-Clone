@@ -1,0 +1,41 @@
+{
+  "name": "Lena Petrova",
+  "background": {
+    "yearsOfExperience": 3,
+    "currentRole": "Operations Analyst",
+    "currentCompany": "Global Logistics Solutions",
+    "education": "Bachelor of Science in Business Analytics, University of London",
+    "skills": [
+      "Data Analysis",
+      "SQL",
+      "Python (Pandas, NumPy)",
+      "Tableau",
+      "Process Optimization",
+      "Supply Chain Management",
+      "Project Coordination"
+    ]
+  },
+  "targetJob": {
+    "company": "Tech Innovations Inc.",
+    "position": "Business Intelligence Analyst"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "medium",
+    "criticalness": 9,
+    "patience": 7,
+    "trustLevel": 4
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Lena Petrova | Operations & Business Intelligence Analyst | lenapetrova@email.com | +44 7123 456789 | London, UK\n\nSummary: Highly analytical Operations Analyst with 3 years of experience leveraging data to optimize business processes and drive strategic decisions. Proficient in SQL, Python, and Tableau, with a proven track record of identifying inefficiencies and implementing data-driven solutions. Seeking a challenging Business Intelligence Analyst role to contribute to data strategy and enhance reporting capabilities within a growth-oriented tech company.\n\nExperience:\nOperations Analyst | Global Logistics Solutions | London, UK | June 2021 – Present\n- Led data analysis projects to identify bottlenecks in global supply chain operations, resulting in a 15% reduction in shipping delays.\n- Developed and maintained SQL queries and Python scripts to extract, transform, and load data from various operational databases for reporting.\n- Created interactive dashboards in Tableau to visualize key performance indicators (KPIs) for senior management, improving decision-making speed by 20%.\n- Collaborated with cross-functional teams to implement process improvements, enhancing operational efficiency by 10% annually.\n- Conducted root cause analysis for operational discrepancies, providing actionable insights for corrective measures.\n\nEducation:\nBachelor of Science in Business Analytics | University of London | London, UK | 2018 – 2021\n- Graduated with First-Class Honours.\n- Relevant Coursework: Predictive Analytics, Data Mining, Statistical Modeling, Database Management, Business Process Design.\n\nSkills: Data Analysis, SQL, Python (Pandas, NumPy, Matplotlib), Tableau, Excel, Power BI, Process Optimization, Supply Chain Analytics, Project Management, A/B Testing, Data Visualization, Communication.",
+  "situation": "Lena is actively mass applying to 40+ roles in Business Intelligence and Data Analytics. She's looking to transition from a logistics-focused operations role to a pure tech company where she can apply her analytical skills to a broader range of business problems and gain exposure to more advanced data tools. She feels her current company offers limited growth opportunities and wants to join a company known for innovation and employee development.",
+  "feedbackStyle": "Lena will provide highly detailed and structured feedback, pointing out specific areas where the AI's responses were vague or lacked depth. She will offer constructive criticism on the relevance of follow-up questions and suggest improvements for scenario-based questions, often comparing it to her ideal interview experience. She expects the system to be precise and highly relevant to her target roles.",
+  "id": "persona_1767790089937_izpc711rm",
+  "createdAt": "2026-01-07T12:48:09.937Z",
+  "iteration": 10
+}

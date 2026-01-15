@@ -1,0 +1,413 @@
+{
+  "id": "realistic_1767667493266_b12nz689r",
+  "personaId": "persona_1767667395519_qim2iqibm",
+  "personaName": "Anya Sharma",
+  "targetJob": {
+    "position": "Product Designer",
+    "company": "Figma"
+  },
+  "journey": {
+    "homepage": {
+      "arrivalTime": "2026-01-06T02:43:15.521Z",
+      "browseTime": 9243.036173993652,
+      "actions": [
+        {
+          "type": "read",
+          "target": "hero_section",
+          "duration": 4998.150553817637,
+          "timestamp": "2026-01-06T02:43:15.521Z",
+          "thought": "这个网站看起来挺专业的"
+        },
+        {
+          "type": "wait",
+          "target": "carousel",
+          "duration": 3244.8856201760163,
+          "timestamp": "2026-01-06T02:43:23.521Z",
+          "thought": "看看有什么推荐的职位"
+        },
+        {
+          "type": "click",
+          "target": "carousel_item",
+          "value": "Product Designer at Figma",
+          "duration": 500,
+          "timestamp": "2026-01-06T02:43:26.521Z"
+        },
+        {
+          "type": "click",
+          "target": "start_button",
+          "duration": 500,
+          "timestamp": "2026-01-06T02:43:28.521Z",
+          "thought": "开始面试吧！"
+        }
+      ],
+      "jobInputMethod": "carousel_click",
+      "jobInput": "Product Designer at Figma"
+    },
+    "preparation": {
+      "startTime": "2026-01-06T02:43:15.522Z",
+      "waitTime": 20636.088794900323,
+      "userPatience": "patient",
+      "actions": [
+        {
+          "type": "read",
+          "target": "thinking_animation",
+          "duration": 6190.826638470096,
+          "timestamp": "2026-01-06T02:43:15.522Z",
+          "thought": "正在准备中..."
+        },
+        {
+          "type": "wait",
+          "duration": 12381.653276940193,
+          "timestamp": "2026-01-06T02:43:23.776Z"
+        }
+      ]
+    },
+    "interview": {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Mock interview for Product Designer at Figma. Resume: A highly motivated UX/UI Designer with 3 years of experience specializing in B2B SaaS platforms. Proven ability to translate complex user needs into intuitive and scalable design solutions. Led the re... Situation: Anya is currently employed but feels her growth potential is limited at her current B2B company, which prioritizes function over design innovation. She is eager to transition to a consumer-facing, design-first organization like Figma. She has been actively 'mass applying' (海投) for the last two months, sending out over 40 applications to top-tier tech companies. She needs practice articulating her design process concisely and demonstrating how her B2B experience translates to a high-growth consumer product environment.",
+          "timestamp": "2026-01-06T02:43:15.522Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Hello [Candidate Name], welcome!\n\nThank you so much for taking the time to speak with us today. I’m [Your Name], and I’m a Product Design Lead here at Figma. We’re all really excited to chat with you—we’ve been impressed with your portfolio and your background at [Mention a previous company/type of company if known, or just 'your previous roles'].\n\nAt Figma, we truly believe that design is about solving complex problems through collaboration and deep user understanding, and we're always looking for designers who are passionate about the craft and the community.\n\nThis conversation is really a chance for us to get to know you better, understand how you approach your work, and for you to ask us any questions you have about life here at Figma. Please feel free to relax; this is a discussion, not a test!\n\nReady to jump in?\n\n***\n\n### First Interview Question\n\nTo kick things off, could you walk me through your background and career journey so far? Specifically, I'm interested in hearing about what initially drew you to product design, and what you feel is the most significant shift or lesson you’ve learned in your three years as a designer.",
+          "timestamp": "2026-01-06T02:43:19.796Z",
+          "metadata": {
+            "questionType": "opening"
+          }
+        },
+        {
+          "role": "user",
+          "content": "Thank you, [Interviewer Name]. I appreciate the warm welcome.\n\nMy journey into product design started three years ago at Innovatech Solutions, drawn by the challenge of making complex B2B workflows intuitive—I realized early on that good design isn't just aesthetics, it's about reducing cognitive load. I quickly transitioned from general UI tasks to focusing on high-impact features, like leading the redesign of our core analytics dashboard. That project was a significant lesson; we initially focused too much on feature parity, but after integrating deep user research and accessibility standards (WCAG 2.1), we saw a measurable 25% increase in daily active use. The most significant shift I've learned is that design success hinges less on the initial concept and more on establishing scalable processes, like building a robust design system in Figma, which cut our development handoff time by 15%. I’m now looking to apply that structured approach to a design-forward, consumer-facing environment where innovation is prioritized.",
+          "timestamp": "2026-01-06T02:43:24.607Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 25020,
+              "timestamp": "2026-01-06T02:43:19.797Z"
+            },
+            {
+              "type": "think",
+              "duration": 14715,
+              "timestamp": "2026-01-06T02:43:44.817Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "Thank you, [Interviewer Name]. I appreciate the warm welcome.\n\nMy journey into product design started three years ago at Innovatech Solutions, drawn by the challenge of making complex B2B workflows intuitive—I realized early on that good design isn't just aesthetics, it's about reducing cognitive load. I quickly transitioned from general UI tasks to focusing on high-impact features, like leading the redesign of our core analytics dashboard. That project was a significant lesson; we initially focused too much on feature parity, but after integrating deep user research and accessibility standards (WCAG 2.1), we saw a measurable 25% increase in daily active use. The most significant shift I've learned is that design success hinges less on the initial concept and more on establishing scalable processes, like building a robust design system in Figma, which cut our development handoff time by 15%. I’m now looking to apply that structured approach to a design-forward, consumer-facing environment where innovation is prioritized.",
+              "duration": 189059,
+              "timestamp": "2026-01-06T02:43:59.532Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-06T02:47:08.591Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 14715,
+            "typingTime": 189059,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That's a very impressive result, seeing a 25% increase in daily active use tied directly to integrating deep user research and accessibility standards (WCAG 2.1). Since you mentioned that redesign was a significant learning experience, could you elaborate on the *process* of integrating those accessibility standards into a complex B2B analytics dashboard? Specifically, what were the biggest challenges you faced in balancing compliance with the need for high information density, and how did you measure the impact of those accessibility improvements beyond just the increase in DAU?",
+          "timestamp": "2026-01-06T02:43:40.901Z",
+          "metadata": {
+            "questionType": "follow_up",
+            "seniorityLevel": "junior",
+            "skepticMode": false
+          }
+        },
+        {
+          "role": "user",
+          "content": "That’s a great question, as accessibility integration in B2B analytics dashboards is inherently challenging due to the sheer data volume. Our process was structured around three phases: Audit, Prioritization, and Validation. The biggest challenge was definitely balancing color contrast (WCAG 2.1 AA) with data visualization; we had to move away from our brand-primary teal for critical data states and establish a new, accessible palette of 12 distinct colors for charting, which required extensive stakeholder buy-in. To address information density, we implemented progressive disclosure techniques and ensured keyboard navigation was flawless across all nested tables and filters. Beyond the DAU increase, we measured impact specifically through support tickets related to visual impairment issues, which dropped by 45% post-launch, and through a post-implementation survey where self-identified users with disabilities rated the platform's usability 1.5 points higher on a 5-point scale.",
+          "timestamp": "2026-01-06T02:43:47.076Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 13720,
+              "timestamp": "2026-01-06T02:43:41.001Z"
+            },
+            {
+              "type": "think",
+              "duration": 20666,
+              "timestamp": "2026-01-06T02:43:54.721Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That’s a great question, as accessibility integration in B2B analytics dashboards is inherently challenging due to the sheer data volume. Our process was structured around three phases: Audit, Prioritization, and Validation. The biggest challenge was definitely balancing color contrast (WCAG 2.1 AA) with data visualization; we had to move away from our brand-primary teal for critical data states and establish a new, accessible palette of 12 distinct colors for charting, which required extensive stakeholder buy-in. To address information density, we implemented progressive disclosure techniques and ensured keyboard navigation was flawless across all nested tables and filters. Beyond the DAU increase, we measured impact specifically through support tickets related to visual impairment issues, which dropped by 45% post-launch, and through a post-implementation survey where self-identified users with disabilities rated the platform's usability 1.5 points higher on a 5-point scale.",
+              "duration": 170575,
+              "timestamp": "2026-01-06T02:44:15.387Z"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "[editing]",
+              "duration": 4000,
+              "timestamp": "2026-01-06T02:47:05.962Z",
+              "thought": "让我再改一下..."
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-06T02:47:09.962Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 20666,
+            "typingTime": 170575,
+            "editCount": 2
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That's a very detailed breakdown of managing complexity and achieving measurable results. You mentioned that establishing an accessible color palette required 'extensive stakeholder buy-in' because it meant moving away from the brand-primary teal for critical data states. Given that you are applying to Figma, where design systems are central to our product, can you walk me through a specific instance where you had to advocate for a design decision—like the accessible palette—that conflicted directly with established brand guidelines or stakeholder preference? How did you structure your argument, and what metrics did you use to successfully persuade the leadership team to prioritize user needs over brand aesthetics?",
+          "timestamp": "2026-01-06T02:44:02.330Z",
+          "metadata": {
+            "questionType": "follow_up",
+            "seniorityLevel": "junior",
+            "skepticMode": false
+          }
+        },
+        {
+          "role": "user",
+          "content": "That’s an excellent question, and yes, that accessible color palette project was a significant advocacy effort. My approach was structured around three key pillars: risk, compliance, and efficiency. First, I framed the issue not as an aesthetic preference, but as a compliance risk; specifically, I presented WCAG 2.1 AA contrast failure rates for our existing dashboard, showing 18% of data visualizations were non-compliant, which posed a legal risk for our enterprise clients. Second, I conducted a small A/B test with 50 internal users, demonstrating that the new, higher-contrast palette reduced task completion time for data interpretation by 12 seconds on average, directly linking accessibility to improved user efficiency—a core B2B metric. Finally, I proposed a compromise: retaining the brand teal for non-critical elements while strictly enforcing the accessible palette for all interactive states and data visualization, successfully gaining approval from both Marketing and Product leadership by prioritizing function over brand identity in critical user flows.",
+          "timestamp": "2026-01-06T02:44:07.671Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 16480,
+              "timestamp": "2026-01-06T02:44:02.430Z"
+            },
+            {
+              "type": "think",
+              "duration": 8302,
+              "timestamp": "2026-01-06T02:44:18.910Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That’s an excellent question, and yes, that accessible color palette project was a significant advocacy effort. My approach was structured around three key pillars: risk, compliance, and efficiency. First, I framed the issue not as an aesthetic preference, but as a compliance risk; specifically, I presented WCAG 2.1 AA contrast failure rates for our existing dashboard, showing 18% of data visualizations were non-compliant, which posed a legal risk for our enterprise clients. Second, I conducted a small A/B test with 50 internal users, demonstrating that the new, higher-contrast palette reduced task completion time for data interpretation by 12 seconds on average, directly linking accessibility to improved user efficiency—a core B2B metric. Finally, I proposed a compromise: retaining the brand teal for non-critical elements while strictly enforcing the accessible palette for all interactive states and data visualization, successfully gaining approval from both Marketing and Product leadership by prioritizing function over brand identity in critical user flows.",
+              "duration": 186486,
+              "timestamp": "2026-01-06T02:44:27.212Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-06T02:47:33.698Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 8302,
+            "typingTime": 186486,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That successful compromise—retaining the brand teal for non-critical elements while enforcing the accessible palette for data visualization—demonstrates excellent political and systemic thinking. Since you are applying to Figma, where design systems are the foundation for scaling design decisions, how did you ensure that this new, complex color logic (brand vs. accessible data palette) was systematically enforced and maintained within your design system? Specifically, what mechanisms or documentation did you implement to prevent designers or engineers from accidentally reverting to the non-compliant brand colors when building new components or features?",
+          "timestamp": "2026-01-06T02:44:25.007Z",
+          "metadata": {
+            "questionType": "closing",
+            "seniorityLevel": "junior",
+            "skepticMode": false
+          }
+        },
+        {
+          "role": "user",
+          "content": "[Requested hint]",
+          "timestamp": "2026-01-06T02:44:38.665Z",
+          "userActions": [
+            {
+              "type": "click",
+              "target": "hint_button",
+              "duration": 500,
+              "timestamp": "2026-01-06T02:45:00.606Z"
+            }
+          ],
+          "metadata": {
+            "hintRequested": true,
+            "hintContent": "The interviewer is specifically asking about *systemic* solutions within your design tools (like Figma) and development workflow. Think about the technical controls you put in place. Did you use specific features like Figma Variables, Modes, or Scoping (e.g., creating separate, restricted color libraries)? How did you structure your tokens (e.g., using semantic tokens like `color-data-primary` instead of literal tokens like `color-teal-500`) to make the accessible palette the default choice for data components?"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That’s a great question, as maintaining consistency and accessibility at scale is precisely why we built the system. We approached this in three phases: documentation, tokenization, and enforcement. First, we created detailed documentation within ZeroHeight, clearly defining the 'Data Palette' as distinct from the 'Brand Palette,' specifying usage rules and mandatory WCAG 2.1 AA compliance for all data visualizations. Second, we implemented semantic design tokens in Figma, prefixing all accessible data colors with `data-viz-` (e.g., `data-viz-primary-series`) and restricting engineers to only these tokens for chart components. Finally, the critical enforcement mechanism was a custom linting rule integrated into our Storybook environment; if an engineer tried to use a non-compliant brand token like `color-teal-500` within a component tagged as a data visualization, the build would fail, ensuring systematic adherence before deployment. This mechanism reduced color-related accessibility bugs in the analytics dashboard by 90% within the first quarter.",
+          "timestamp": "2026-01-06T02:44:38.665Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 15220,
+              "timestamp": "2026-01-06T02:44:25.107Z"
+            },
+            {
+              "type": "think",
+              "duration": 18279,
+              "timestamp": "2026-01-06T02:44:40.327Z",
+              "thought": "这个问题有点复杂，我需要好好想想"
+            },
+            {
+              "type": "hesitate",
+              "duration": 2000,
+              "timestamp": "2026-01-06T02:44:58.606Z",
+              "thought": "这个问题有点难，我需要一些提示..."
+            },
+            {
+              "type": "click",
+              "target": "hint_button",
+              "duration": 500,
+              "timestamp": "2026-01-06T02:45:00.606Z"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That’s a great question, as maintaining consistency and accessibility at scale is precisely why we built the system. We approached this in three phases: documentation, tokenization, and enforcement. First, we created detailed documentation within ZeroHeight, clearly defining the 'Data Palette' as distinct from the 'Brand Palette,' specifying usage rules and mandatory WCAG 2.1 AA compliance for all data visualizations. Second, we implemented semantic design tokens in Figma, prefixing all accessible data colors with `data-viz-` (e.g., `data-viz-primary-series`) and restricting engineers to only these tokens for chart components. Finally, the critical enforcement mechanism was a custom linting rule integrated into our Storybook environment; if an engineer tried to use a non-compliant brand token like `color-teal-500` within a component tagged as a data visualization, the build would fail, ensuring systematic adherence before deployment. This mechanism reduced color-related accessibility bugs in the analytics dashboard by 90% within the first quarter.",
+              "duration": 178813,
+              "timestamp": "2026-01-06T02:45:03.606Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-06T02:47:57.419Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 18279,
+            "typingTime": 178813,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That detailed explanation of how you enforced adherence using custom linting rules to fail the build demonstrates exactly the level of systemic rigor and proactive problem-solving we look for in our Design Systems team here at Figma. That was the last of the core questions I had prepared for you today. I’m very impressed with the depth of your experience scaling complex accessibility requirements. Before we wrap up, I want to make sure we’ve covered everything you need to know about the role and the team. Do you have any final questions for me?\n\nI appreciate you sharing your experiences with me. Do you have any questions about the position or the company that I can help answer?",
+          "timestamp": "2026-01-06T02:44:48.833Z",
+          "metadata": {
+            "questionType": "closing_transition"
+          }
+        },
+        {
+          "role": "user",
+          "content": "Given the collaborative nature of Figma and the need for junior designers to receive structured feedback and growth opportunities, a realistic question reflecting Anya's structured, medium-confidence personality would focus on the practical mechanisms of mentorship and integration into the design process.\n\nHow is the mentorship structured for new junior designers on this team, specifically regarding the frequency of 1:1 design critiques and the process for transitioning from guided projects to owning features independently?",
+          "timestamp": "2026-01-06T02:44:53.165Z",
+          "metadata": {
+            "questionType": "candidate_question"
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "Thank you for this engaging conversation. We covered 5 key areas today, and I was particularly impressed by your Strong ability to articulate the design process clearly and concisely. and Demonstrates measurable impact using quantitative data (25% DAU increase, 45% reduction in support tickets, 90% reduction in bugs)..\n\nOur recruiting team will be in touch soon with next steps. Thank you again for your time today.\n\nThank you for sharing such detailed insights into your process, particularly your innovative approach to enforcing accessibility through design tokens and linting. We appreciate you taking the time to speak with us today. We will be in touch shortly regarding the next steps in the process.\n\n---\n\n📋 **Interview Summary**\n\n**Topics Covered:**\n• Career trajectory and motivation for moving from B2B to consumer-facing design\n• Applying user research and accessibility (WCAG 2.1) in complex B2B environments\n• Measuring design impact beyond standard metrics (e.g., support tickets, usability scores)\n• Stakeholder management and design advocacy (balancing brand aesthetics vs. accessibility/function)\n• Systemic design thinking, design system implementation, and technical enforcement (tokens, linting)\n\n**Strengths Observed:**\n✓ Strong ability to articulate the design process clearly and concisely.\n✓ Demonstrates measurable impact using quantitative data (25% DAU increase, 45% reduction in support tickets, 90% reduction in bugs).\n✓ Excellent advocacy skills, framing design decisions (like accessibility) in terms of business risk, compliance, and efficiency.\n✓ Deep understanding of design system mechanics, including semantic tokenization (`data-viz-`), documentation (ZeroHeight), and technical enforcement (custom linting rules in Storybook).\n✓ Effective at managing complexity and balancing competing needs (e.g., high information density vs. accessibility).\n\n**Areas for Further Discussion:**\n→ Transitioning B2B experience to consumer-facing products (the candidate stated this was a goal, but the conversation focused entirely on B2B examples).\n→ Specific examples of collaboration with cross-functional partners (Engineers, PMs) beyond the handoff phase.\n→ How the candidate approaches rapid prototyping or innovation in a high-growth environment.\n→ Cultural fit and alignment with Figma's community-driven ethos.\n\n**Overall Impression:**\nThe candidate is highly articulate, technically proficient, and demonstrates a mature understanding of systemic design thinking and stakeholder management. Their ability to quantify design impact, particularly in complex areas like accessibility and design systems, is a significant strength. They possess the technical rigor required for a platform like Figma, although their experience is currently rooted in B2B SaaS.",
+          "timestamp": "2026-01-06T02:44:53.165Z",
+          "metadata": {
+            "questionType": "closing_final",
+            "summary": {
+              "topicsCovered": [
+                "Career trajectory and motivation for moving from B2B to consumer-facing design",
+                "Applying user research and accessibility (WCAG 2.1) in complex B2B environments",
+                "Measuring design impact beyond standard metrics (e.g., support tickets, usability scores)",
+                "Stakeholder management and design advocacy (balancing brand aesthetics vs. accessibility/function)",
+                "Systemic design thinking, design system implementation, and technical enforcement (tokens, linting)"
+              ],
+              "strengthsObserved": [
+                "Strong ability to articulate the design process clearly and concisely.",
+                "Demonstrates measurable impact using quantitative data (25% DAU increase, 45% reduction in support tickets, 90% reduction in bugs).",
+                "Excellent advocacy skills, framing design decisions (like accessibility) in terms of business risk, compliance, and efficiency.",
+                "Deep understanding of design system mechanics, including semantic tokenization (`data-viz-`), documentation (ZeroHeight), and technical enforcement (custom linting rules in Storybook).",
+                "Effective at managing complexity and balancing competing needs (e.g., high information density vs. accessibility)."
+              ],
+              "areasToExplore": [
+                "Transitioning B2B experience to consumer-facing products (the candidate stated this was a goal, but the conversation focused entirely on B2B examples).",
+                "Specific examples of collaboration with cross-functional partners (Engineers, PMs) beyond the handoff phase.",
+                "How the candidate approaches rapid prototyping or innovation in a high-growth environment.",
+                "Cultural fit and alignment with Figma's community-driven ethos."
+              ],
+              "overallImpression": "The candidate is highly articulate, technically proficient, and demonstrates a mature understanding of systemic design thinking and stakeholder management. Their ability to quantify design impact, particularly in complex areas like accessibility and design systems, is a significant strength. They possess the technical rigor required for a platform like Figma, although their experience is currently rooted in B2B SaaS.",
+              "closingMessage": "Thank you for sharing such detailed insights into your process, particularly your innovative approach to enforcing accessibility through design tokens and linting. We appreciate you taking the time to speak with us today. We will be in touch shortly regarding the next steps in the process."
+            }
+          }
+        }
+      ],
+      "hintsUsed": 1,
+      "totalQuestions": 4,
+      "averageResponseTime": 196723.75,
+      "averageThinkingTime": 15490.5
+    },
+    "assessment": {
+      "viewTime": 24887.29646118868,
+      "scrollDepth": 80,
+      "sectionsRead": [
+        "overall_score",
+        "strengths",
+        "areas_to_improve",
+        "next_steps"
+      ],
+      "actions": [
+        {
+          "type": "read",
+          "target": "overall_score",
+          "duration": 4467.283277602861,
+          "timestamp": "2026-01-06T02:44:53.266Z",
+          "thought": "让我看看我的分数..."
+        },
+        {
+          "type": "scroll",
+          "target": "strengths",
+          "duration": 1000,
+          "timestamp": "2026-01-06T02:44:58.266Z"
+        },
+        {
+          "type": "read",
+          "target": "strengths",
+          "duration": 5742.86779632334,
+          "timestamp": "2026-01-06T02:44:59.266Z"
+        },
+        {
+          "type": "scroll",
+          "target": "areas_to_improve",
+          "duration": 1000,
+          "timestamp": "2026-01-06T02:45:05.008Z"
+        },
+        {
+          "type": "read",
+          "target": "areas_to_improve",
+          "duration": 4183.3897970071375,
+          "timestamp": "2026-01-06T02:45:06.008Z"
+        },
+        {
+          "type": "scroll",
+          "target": "next_steps",
+          "duration": 1000,
+          "timestamp": "2026-01-06T02:45:10.192Z"
+        },
+        {
+          "type": "read",
+          "target": "next_steps",
+          "duration": 6961.0388678582,
+          "timestamp": "2026-01-06T02:45:11.192Z"
+        }
+      ]
+    }
+  },
+  "totalDuration": 98,
+  "completedSuccessfully": true,
+  "createdAt": "2026-01-06T02:44:53.266Z",
+  "iteration": 1
+}

@@ -1,0 +1,430 @@
+{
+  "id": "realistic_1767634228717_i6hdc7iag",
+  "personaId": "persona_1767634118888_jj5n2lgit",
+  "personaName": "Javier Rodriguez",
+  "targetJob": {
+    "company": "Nexus Capital Partners",
+    "position": "Investment Associate"
+  },
+  "journey": {
+    "homepage": {
+      "arrivalTime": "2026-01-05T17:28:38.889Z",
+      "browseTime": 16473.299963425052,
+      "actions": [
+        {
+          "type": "read",
+          "target": "hero_section",
+          "duration": 4797.161131738316,
+          "timestamp": "2026-01-05T17:28:38.889Z",
+          "thought": "这个网站看起来挺专业的"
+        },
+        {
+          "type": "click",
+          "target": "job_input",
+          "duration": 500,
+          "timestamp": "2026-01-05T17:28:46.889Z"
+        },
+        {
+          "type": "think",
+          "duration": 3198.1388316867365,
+          "timestamp": "2026-01-05T17:28:47.389Z",
+          "thought": "我想面试 Investment Associate 这个职位"
+        },
+        {
+          "type": "type",
+          "target": "job_input",
+          "value": "Investment Associate at Nexus Capital Partners",
+          "duration": 7478,
+          "timestamp": "2026-01-05T17:28:48.889Z"
+        },
+        {
+          "type": "click",
+          "target": "start_button",
+          "duration": 500,
+          "timestamp": "2026-01-05T17:28:51.889Z",
+          "thought": "开始面试吧！"
+        }
+      ],
+      "jobInputMethod": "typing",
+      "jobInput": "Investment Associate at Nexus Capital Partners"
+    },
+    "preparation": {
+      "startTime": "2026-01-05T17:28:38.889Z",
+      "waitTime": 23212.326750999782,
+      "userPatience": "neutral",
+      "actions": [
+        {
+          "type": "read",
+          "target": "thinking_animation",
+          "duration": 6963.698025299935,
+          "timestamp": "2026-01-05T17:28:38.889Z",
+          "thought": "正在准备中..."
+        },
+        {
+          "type": "wait",
+          "duration": 13927.39605059987,
+          "timestamp": "2026-01-05T17:28:48.173Z"
+        }
+      ]
+    },
+    "interview": {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Mock interview for Investment Associate at Nexus Capital Partners. Resume: Javier Rodriguez | Senior Financial Analyst\n\nSummary: Highly analytical and results-oriented Senior Financial Analyst with 7 years of experience in the energy sector, specializing in complex financial... Situation: Javier is looking to pivot from corporate finance into the high-stakes world of private equity. He feels his current role is too slow-paced and lacks the direct deal exposure he craves. He needs to sharpen his behavioral responses and ensure his technical finance knowledge is presented clearly under pressure, as he often over-explains concepts when nervous about technical accuracy.",
+          "timestamp": "2026-01-05T17:28:38.889Z"
+        },
+        {
+          "role": "assistant",
+          "content": "## Mock Interview Start\n\n**Setting the Scene:** The interviewer, Sarah Chen (VP of Investments), is sitting across the table (or screen) from the candidate.\n\n---\n\n### Warm, Professional Opening\n\n\"Good morning/afternoon, [Candidate Name]. Welcome to Nexus Capital Partners. I’m Sarah Chen, and I lead a few of our sector-focused investment teams here. Thanks so much for taking the time to speak with us today.\n\nWe’ve been really impressed with your background—seven years as a Senior Financial Analyst is significant, and your work at [mention a previous company or industry if known, or just 'your previous roles'] shows a deep understanding of complex financial modeling.\n\nMy goal today is really to understand how your experience aligns with the Investment Associate role, which is much more focused on deal origination, due diligence, and portfolio management. We want this to be a conversation, so please feel free to ask questions at any point.\n\nHow was the journey over here/how has your week been so far?\"\n\n*(Pause for a brief, relaxed response from the candidate.)*\n\n---\n\n### First Interview Question\n\n\"Great. Let’s dive in. Since you’re transitioning from a deep corporate finance role into a deal-focused investment role, we often start here:\n\n**\"Tell us about your career path so far, and specifically, what motivated you to make the shift from being a Senior Financial Analyst to pursuing an Investment Associate role at a firm like Nexus Capital Partners? What is the core difference you expect to find in this new challenge?\"**",
+          "timestamp": "2026-01-05T17:28:46.279Z",
+          "metadata": {
+            "questionType": "opening"
+          }
+        },
+        {
+          "role": "user",
+          "content": "Thank you, Sarah. It’s a pleasure to be here at Nexus Capital Partners; I’ve been following your work in the infrastructure space for some time. My career path has been very focused, starting seven years ago at Global Energy Solutions, where I quickly moved into the Senior Analyst role. For the past five years, my primary function has been driving strategic capital allocation—I led the financial modeling and due diligence for our largest recent expansion project, a $350 million solar farm acquisition, where my risk assessment models ultimately saved the company 4% on the initial valuation by identifying key regulatory hurdles. While that work is deeply analytical and satisfying, the reality is that corporate finance, especially in a large, established energy company, is inherently slow-paced and focused on long-term operational efficiency rather than aggressive growth and direct deal execution. The core difference I expect, and frankly, what motivates this transition, is moving from supporting internal capital decisions to being directly accountable for identifying and executing external value creation opportunities, which is precisely the high-stakes, rapid-fire environment I am seeking to thrive in here at Nexus.",
+          "timestamp": "2026-01-05T17:28:51.872Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 32840,
+              "timestamp": "2026-01-05T17:28:46.279Z"
+            },
+            {
+              "type": "think",
+              "duration": 11999,
+              "timestamp": "2026-01-05T17:29:19.119Z",
+              "thought": "这个问题有点复杂，我需要好好想想"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "Thank you, Sarah. It’s a pleasure to be here at Nexus Capital Partners; I’ve been following your work in the infrastructure space for some time. My career path has been very focused, starting seven years ago at Global Energy Solutions, where I quickly moved into the Senior Analyst role. For the past five years, my primary function has been driving strategic capital allocation—I led the financial modeling and due diligence for our largest recent expansion project, a $350 million solar farm acquisition, where my risk assessment models ultimately saved the company 4% on the initial valuation by identifying key regulatory hurdles. While that work is deeply analytical and satisfying, the reality is that corporate finance, especially in a large, established energy company, is inherently slow-paced and focused on long-term operational efficiency rather than aggressive growth and direct deal execution. The core difference I expect, and frankly, what motivates this transition, is moving from supporting internal capital decisions to being directly accountable for identifying and executing external value creation opportunities, which is precisely the high-stakes, rapid-fire environment I am seeking to thrive in here at Nexus.",
+              "duration": 225466,
+              "timestamp": "2026-01-05T17:29:31.118Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:33:16.584Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 11999,
+            "typingTime": 225466,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That's a very helpful context on your previous experience and motivations. Building on that, I'd like to pivot now to the core technical skills required for this role. We often deal with complex, long-term infrastructure projects that require rigorous financial modeling and due diligence, particularly around risk assessment and structuring. Can you walk me through a specific example of a recent investment or project where you built a complex financial model from scratch, highlighting how you incorporated key sensitivities, addressed regulatory or political risks, and ultimately drove the investment recommendation?",
+          "timestamp": "2026-01-05T17:29:04.975Z",
+          "metadata": {
+            "questionType": "follow_up"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That’s an excellent question, and it speaks directly to the complexity of the energy sector, especially when evaluating long-duration assets. I can certainly walk you through a recent model I developed for a potential $350 million liquefied natural gas (LNG) terminal expansion project we were considering in the Gulf Coast region. The core of the model was a detailed 25-year DCF, built entirely from scratch in Excel, which needed to incorporate highly specific regulatory hurdles, such as FERC approval timelines and evolving carbon tax structures—which, frankly, were the biggest variables. To address the political and regulatory risks, I implemented a three-scenario sensitivity analysis—base, optimistic (faster permitting), and a downside case where the carbon tax increased by an incremental 5% annually after Year 10—driving a 400 basis point swing in the project IRR, from 9.5% to 5.5%. We used Monte Carlo simulations on the downside scenario, specifically focusing on commodity price volatility and construction cost overruns, which ultimately informed our decision to structure the financing with a higher proportion of non-recourse debt, mitigating the immediate balance sheet risk and allowing us to negotiate a more favorable PPA structure with the off-taker.",
+          "timestamp": "2026-01-05T17:29:09.700Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 14420,
+              "timestamp": "2026-01-05T17:29:05.075Z"
+            },
+            {
+              "type": "think",
+              "duration": 18504,
+              "timestamp": "2026-01-05T17:29:19.495Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That’s an excellent question, and it speaks directly to the complexity of the energy sector, especially when evaluating long-duration assets. I can certainly walk you through a recent model I developed for a potential $350 million liquefied natural gas (LNG) terminal expansion project we were considering in the Gulf Coast region. The core of the model was a detailed 25-year DCF, built entirely from scratch in Excel, which needed to incorporate highly specific regulatory hurdles, such as FERC approval timelines and evolving carbon tax structures—which, frankly, were the biggest variables. To address the political and regulatory risks, I implemented a three-scenario sensitivity analysis—base, optimistic (faster permitting), and a downside case where the carbon tax increased by an incremental 5% annually after Year 10—driving a 400 basis point swing in the project IRR, from 9.5% to 5.5%. We used Monte Carlo simulations on the downside scenario, specifically focusing on commodity price volatility and construction cost overruns, which ultimately informed our decision to structure the financing with a higher proportion of non-recourse debt, mitigating the immediate balance sheet risk and allowing us to negotiate a more favorable PPA structure with the off-taker.",
+              "duration": 230545,
+              "timestamp": "2026-01-05T17:29:37.999Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:33:28.544Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 18504,
+            "typingTime": 230545,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That's a very clear demonstration of your quantitative skills and ability to manage risk in modeling. Now, let's shift focus to the qualitative side of investment evaluation; can you walk me through a due diligence process where you identified a non-obvious operational or commercial risk, or conversely, a significant value-creation lever that wasn't immediately apparent in the initial financial projections?",
+          "timestamp": "2026-01-05T17:29:23.722Z",
+          "metadata": {
+            "questionType": "follow_up"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That is an excellent question, and it really gets to the heart of why I am looking to transition into private equity—the opportunity to uncover those deeper, non-obvious insights. During a recent potential acquisition analysis, a smaller renewable energy infrastructure firm, the initial financial projections looked solid, showing a standard 12% IRR based on existing PPA contracts. However, during the operational due diligence phase, specifically reviewing their long-term maintenance agreements, we discovered a significant hidden risk: their primary turbine supplier was based in a politically unstable region, and the contract included a poorly defined force majeure clause favoring the supplier. This wasn't reflected in the standard Opex forecast, but after modeling a scenario where we had to rapidly switch suppliers—which involved a $4.5 million upfront retooling cost and a six-month delay in achieving full capacity—the projected IRR dropped to 8.5%. We ultimately used this detailed risk quantification as leverage during negotiations, resulting in a $7 million reduction in the purchase price, effectively mitigating that operational exposure before closing the deal.",
+          "timestamp": "2026-01-05T17:29:27.969Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 10200,
+              "timestamp": "2026-01-05T17:29:23.823Z"
+            },
+            {
+              "type": "think",
+              "duration": 10520,
+              "timestamp": "2026-01-05T17:29:34.023Z",
+              "thought": "让我想想最相关的经历..."
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That is an excellent question, and it really gets to the heart of why I am looking to transition into private equity—the opportunity to uncover those deeper, non-obvious insights. During a recent potential acquisition analysis, a smaller renewable energy infrastructure firm, the initial financial projections looked solid, showing a standard 12% IRR based on existing PPA contracts. However, during the operational due diligence phase, specifically reviewing their long-term maintenance agreements, we discovered a significant hidden risk: their primary turbine supplier was based in a politically unstable region, and the contract included a poorly defined force majeure clause favoring the supplier. This wasn't reflected in the standard Opex forecast, but after modeling a scenario where we had to rapidly switch suppliers—which involved a $4.5 million upfront retooling cost and a six-month delay in achieving full capacity—the projected IRR dropped to 8.5%. We ultimately used this detailed risk quantification as leverage during negotiations, resulting in a $7 million reduction in the purchase price, effectively mitigating that operational exposure before closing the deal.",
+              "duration": 205073,
+              "timestamp": "2026-01-05T17:29:44.543Z"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "[editing]",
+              "duration": 4000,
+              "timestamp": "2026-01-05T17:33:09.616Z",
+              "thought": "让我再改一下..."
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:33:13.616Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 10520,
+            "typingTime": 205073,
+            "editCount": 2
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That's a great example of successful diligence and risk mitigation, demonstrating how you translate identified risks into actionable diligence steps. Moving away from deal execution for a moment, let's discuss portfolio management and value creation. Nexus often takes an active role in the companies we acquire; can you describe a situation where you were involved post-acquisition in driving operational improvements or strategic change within a portfolio company, and what specific metrics you used to measure success?",
+          "timestamp": "2026-01-05T17:29:43.044Z",
+          "metadata": {
+            "questionType": "follow_up"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That is an excellent point about active value creation; frankly, that hands-on strategic involvement is precisely what draws me to private equity. While my role at Global Energy Solutions was primarily focused on pre-deal diligence and capital allocation, I did lead a significant post-merger integration project following our acquisition of a smaller, regional distribution network in 2021. The mandate was to rationalize their legacy IT infrastructure and streamline their procurement processes, which were severely fragmented. Specifically, we identified that their inventory turnover ratio was lagging the industry average by nearly 40%, primarily due to decentralized warehousing and inefficient order fulfillment cycles tracked across three disparate systems. My team utilized the data from the newly integrated SAP FICO module to pinpoint bottlenecks, resulting in the consolidation of two major distribution centers and the implementation of standardized vendor contracts. Within 18 months, we successfully improved the inventory turnover ratio by 25% and reduced the average cost of goods sold by 3.5%, which translated directly into a measurable increase in the acquired entity's operating margin, demonstrating clear operational synergy realization.",
+          "timestamp": "2026-01-05T17:29:49.429Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 12420,
+              "timestamp": "2026-01-05T17:29:43.145Z"
+            },
+            {
+              "type": "think",
+              "duration": 19156,
+              "timestamp": "2026-01-05T17:29:55.565Z",
+              "thought": "让我想想最相关的经历..."
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That is an excellent point about active value creation; frankly, that hands-on strategic involvement is precisely what draws me to private equity. While my role at Global Energy Solutions was primarily focused on pre-deal diligence and capital allocation, I did lead a significant post-merger integration project following our acquisition of a smaller, regional distribution network in 2021. The mandate was to rationalize their legacy IT infrastructure and streamline their procurement processes, which were severely fragmented. Specifically, we identified that their inventory turnover ratio was lagging the industry average by nearly 40%, primarily due to decentralized warehousing and inefficient order fulfillment cycles tracked across three disparate systems. My team utilized the data from the newly integrated SAP FICO module to pinpoint bottlenecks, resulting in the consolidation of two major distribution centers and the implementation of standardized vendor contracts. Within 18 months, we successfully improved the inventory turnover ratio by 25% and reduced the average cost of goods sold by 3.5%, which translated directly into a measurable increase in the acquired entity's operating margin, demonstrating clear operational synergy realization.",
+              "duration": 215452,
+              "timestamp": "2026-01-05T17:30:14.721Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:33:50.173Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 19156,
+            "typingTime": 215452,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That is a fantastic breakdown of the operational successes and the immediate financial impact. Those metrics—the 15% reduction in COGS and 400 basis point margin improvement—are very impressive. However, active value creation often involves more than just operational synergies, so I'm curious: beyond the immediate cost savings, how did this strategic integration change the combined entity's market positioning, long-term growth trajectory, or overall competitive advantage in the energy sector?",
+          "timestamp": "2026-01-05T17:30:03.299Z",
+          "metadata": {
+            "questionType": "follow_up"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That is a very insightful observation, and it touches on exactly why that integration was strategically critical, not just financially expedient. While the COGS reduction was the immediate win, the true long-term value was the vertical integration of the midstream assets. Specifically, acquiring the smaller pipeline operator gave Global Energy Solutions proprietary control over transportation in the Permian Basin, which immediately reduced our reliance on third-party shippers—a major risk factor. This strategic control allowed us to guarantee delivery capacity for our upstream production, effectively de-risking approximately $850 million in future capital expenditure allocated for new well development. Furthermore, this move significantly enhanced our competitive advantage by offering bundled services to smaller producers, allowing us to capture an additional 5% of the regional market share within 18 months, securing a more defensible long-term growth trajectory in a highly volatile sector.",
+          "timestamp": "2026-01-05T17:30:08.586Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 11940,
+              "timestamp": "2026-01-05T17:30:03.399Z"
+            },
+            {
+              "type": "think",
+              "duration": 10271,
+              "timestamp": "2026-01-05T17:30:15.339Z",
+              "thought": "这个问题有点复杂，我需要好好想想"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That is a very insightful observation, and it touches on exactly why that integration was strategically critical, not just financially expedient. While the COGS reduction was the immediate win, the true long-term value was the vertical integration of the midstream assets. Specifically, acquiring the smaller pipeline operator gave Global Energy Solutions proprietary control over transportation in the Permian Basin, which immediately reduced our reliance on third-party shippers—a major risk factor. This strategic control allowed us to guarantee delivery capacity for our upstream production, effectively de-risking approximately $850 million in future capital expenditure allocated for new well development. Furthermore, this move significantly enhanced our competitive advantage by offering bundled services to smaller producers, allowing us to capture an additional 5% of the regional market share within 18 months, securing a more defensible long-term growth trajectory in a highly volatile sector.",
+              "duration": 169723,
+              "timestamp": "2026-01-05T17:30:25.610Z"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "[editing]",
+              "duration": 2000,
+              "timestamp": "2026-01-05T17:33:15.333Z",
+              "thought": "让我再改一下..."
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:33:17.333Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 10271,
+            "typingTime": 169723,
+            "editCount": 1
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That's very helpful context regarding your approach to risk mitigation in complex transactions. We've certainly covered a wide range of topics today, from your quantitative modeling skills to strategic integration; before we conclude, is there anything we haven't discussed—perhaps a specific deal, a unique skill, or a personal motivation—that you feel is critical for us to know as we consider you for the Investment Associate role at Nexus Capital Partners?",
+          "timestamp": "2026-01-05T17:30:22.305Z",
+          "metadata": {
+            "questionType": "closing"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That is an excellent question, and I appreciate the opportunity to provide a final summary of my fit. While we've extensively covered my technical proficiency in modeling and due diligence—particularly the DCF and LBO frameworks—I want to reiterate how my seven years at Global Energy Solutions have prepared me for the pace and complexity of private equity. Frankly, my current role, while rewarding, often involves analyzing potential transactions that ultimately stall due to bureaucratic inertia; I am eager to transition to an environment like Nexus Capital Partners where decisions are made swiftly and capital is deployed strategically. For instance, in 2022, I spearheaded the financial analysis for a potential $350 million acquisition of a midstream pipeline operator, calculating the accretion/dilution impact under three different debt scenarios and identifying $15 million in achievable cost synergies within the first 18 months, yet the deal was ultimately shelved due to internal political resistance, which was incredibly frustrating. My motivation isn't just about the technical work; it's about seeing complex financial strategies executed and having a direct impact on value creation, and I believe my proven ability to handle high-stakes valuation and integrate disparate data sets, coupled with my drive, makes me an ideal candidate for this Associate role.",
+          "timestamp": "2026-01-05T17:30:28.616Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 11200,
+              "timestamp": "2026-01-05T17:30:22.406Z"
+            },
+            {
+              "type": "think",
+              "duration": 16468,
+              "timestamp": "2026-01-05T17:30:33.606Z",
+              "thought": "这个问题有点复杂，我需要好好想想"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That is an excellent question, and I appreciate the opportunity to provide a final summary of my fit. While we've extensively covered my technical proficiency in modeling and due diligence—particularly the DCF and LBO frameworks—I want to reiterate how my seven years at Global Energy Solutions have prepared me for the pace and complexity of private equity. Frankly, my current role, while rewarding, often involves analyzing potential transactions that ultimately stall due to bureaucratic inertia; I am eager to transition to an environment like Nexus Capital Partners where decisions are made swiftly and capital is deployed strategically. For instance, in 2022, I spearheaded the financial analysis for a potential $350 million acquisition of a midstream pipeline operator, calculating the accretion/dilution impact under three different debt scenarios and identifying $15 million in achievable cost synergies within the first 18 months, yet the deal was ultimately shelved due to internal political resistance, which was incredibly frustrating. My motivation isn't just about the technical work; it's about seeing complex financial strategies executed and having a direct impact on value creation, and I believe my proven ability to handle high-stakes valuation and integrate disparate data sets, coupled with my drive, makes me an ideal candidate for this Associate role.",
+              "duration": 247836,
+              "timestamp": "2026-01-05T17:30:50.074Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:34:57.910Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 16468,
+            "typingTime": 247836,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "Thank you so much for sharing your experiences today! I've really enjoyed learning about your background. I'll now generate a detailed assessment report. Is there anything else you'd like to add?",
+          "timestamp": "2026-01-05T17:30:28.616Z",
+          "metadata": {
+            "questionType": "closing"
+          }
+        }
+      ],
+      "hintsUsed": 0,
+      "totalQuestions": 6,
+      "averageResponseTime": 230168.83333333334,
+      "averageThinkingTime": 14486.333333333334
+    },
+    "assessment": {
+      "viewTime": 20628.21928769165,
+      "scrollDepth": 60,
+      "sectionsRead": [
+        "overall_score",
+        "areas_to_improve",
+        "next_steps"
+      ],
+      "actions": [
+        {
+          "type": "read",
+          "target": "overall_score",
+          "duration": 3263.6710354953393,
+          "timestamp": "2026-01-05T17:30:28.717Z",
+          "thought": "让我看看我的分数..."
+        },
+        {
+          "type": "scroll",
+          "target": "areas_to_improve",
+          "duration": 1000,
+          "timestamp": "2026-01-05T17:30:33.717Z"
+        },
+        {
+          "type": "read",
+          "target": "areas_to_improve",
+          "duration": 6980.600624694984,
+          "timestamp": "2026-01-05T17:30:34.717Z"
+        },
+        {
+          "type": "scroll",
+          "target": "next_steps",
+          "duration": 1000,
+          "timestamp": "2026-01-05T17:30:41.697Z"
+        },
+        {
+          "type": "read",
+          "target": "next_steps",
+          "duration": 6647.618662996664,
+          "timestamp": "2026-01-05T17:30:42.697Z"
+        }
+      ]
+    }
+  },
+  "totalDuration": 110,
+  "completedSuccessfully": true,
+  "createdAt": "2026-01-05T17:30:28.717Z",
+  "iteration": 3
+}

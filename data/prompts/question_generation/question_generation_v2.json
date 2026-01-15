@@ -1,0 +1,13 @@
+{
+  "id": "prompt_question_generation_v2",
+  "module": "question_generation",
+  "version": 2,
+  "prompt": "Generate interview questions that are:\n1. Relevant to the position and company, integrating specific, high-stakes hypothetical scenarios or challenges.\n2. Progressive in difficulty, ensuring a balance across technical, behavioral, and strategic trade-off topics.\n3. Designed to encourage discussion of risk mitigation, ethical considerations, and implementation complexity.\n4. Encouraging specific examples and justification of trade-offs from candidates.",
+  "changelog": "Added requirements for integrating specific scenarios, focusing on risk/ethics/implementation complexity, and ensuring strategic trade-offs are covered. This addresses the need for more depth and realism in question content.",
+  "metrics": {
+    "avgSatisfaction": 7.5,
+    "moduleRating": 8
+  },
+  "createdAt": "2026-01-05T11:22:13.715Z",
+  "iteration": 1
+}

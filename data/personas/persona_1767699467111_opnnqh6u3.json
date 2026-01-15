@@ -1,0 +1,39 @@
+{
+  "name": "Javier Rodriguez",
+  "background": {
+    "yearsOfExperience": 3,
+    "currentRole": "Supply Chain Analyst",
+    "currentCompany": "Global Logistics Corp",
+    "education": "B.S. Industrial Engineering, University of Texas",
+    "skills": [
+      "SAP ERP",
+      "Data Visualization (Tableau)",
+      "Process Optimization",
+      "Inventory Management",
+      "SQL"
+    ]
+  },
+  "targetJob": {
+    "company": "TechInnovate Solutions",
+    "position": "Operations Program Manager"
+  },
+  "personality": {
+    "communicationStyle": "concise",
+    "confidenceLevel": "medium",
+    "criticalness": 6,
+    "patience": 5,
+    "trustLevel": 4
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Javier Rodriguez | Supply Chain Analyst\n\nSummary: Highly analytical Supply Chain professional with 3 years of experience optimizing complex logistics operations and reducing costs. Proficient in SAP ERP systems, data modeling, and cross-functional project management. Seeking a challenging Operations Program Manager role in the tech sector to leverage analytical skills for large-scale process improvement.\n\nExperience:\nSupply Chain Analyst, Global Logistics Corp (2021–Present)\n\n*   Managed inventory forecasting for 5 major distribution centers, resulting in a 12% reduction in carrying costs over 18 months.\n*   Designed and implemented a new Tableau dashboard for real-time tracking of supplier performance metrics, improving on-time delivery rates by 7%.\n*   Led a continuous improvement initiative using Lean principles to streamline warehouse receiving processes, cutting average processing time by 2 hours.\n\nEducation:\nB.S. Industrial Engineering, University of Texas (Graduated 2021). Relevant coursework in Operations Research and Statistical Quality Control.",
+  "situation": "Javier is 25 and feels stuck in traditional logistics. He wants to transition into a faster-paced tech environment where his analytical skills are valued for program management. He has applied to over 40 roles (mass applying) across several large tech companies and needs to quickly tailor his interview responses to sound less like a logistics analyst and more like a tech PM. He is skeptical of AI tools but will use it if it provides immediate, actionable feedback.",
+  "feedbackStyle": "Direct and structured. He focuses on whether the system's suggestions are practical and immediately applicable to specific interview questions, often asking 'How exactly does this help me answer the behavioral question about conflict resolution?'",
+  "id": "persona_1767699467111_opnnqh6u3",
+  "createdAt": "2026-01-06T11:37:47.111Z",
+  "iteration": 1
+}

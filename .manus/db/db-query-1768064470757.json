@@ -1,0 +1,76 @@
+{
+  "query": "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'tracked_jobs' ORDER BY ORDINAL_POSITION;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2XNybeh847KtcNL.a46fab204113 --database DqPcYQPjL6GUVo7iymTzfh --execute SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'tracked_jobs' ORDER BY ORDINAL_POSITION;",
+  "rows": [
+    {
+      "COLUMN_NAME": "id"
+    },
+    {
+      "COLUMN_NAME": "userId"
+    },
+    {
+      "COLUMN_NAME": "jobTitle"
+    },
+    {
+      "COLUMN_NAME": "companyName"
+    },
+    {
+      "COLUMN_NAME": "jobUrl"
+    },
+    {
+      "COLUMN_NAME": "location"
+    },
+    {
+      "COLUMN_NAME": "salary"
+    },
+    {
+      "COLUMN_NAME": "description"
+    },
+    {
+      "COLUMN_NAME": "status"
+    },
+    {
+      "COLUMN_NAME": "columnOrder"
+    },
+    {
+      "COLUMN_NAME": "appliedAt"
+    },
+    {
+      "COLUMN_NAME": "interviewDate"
+    },
+    {
+      "COLUMN_NAME": "notes"
+    },
+    {
+      "COLUMN_NAME": "tags"
+    },
+    {
+      "COLUMN_NAME": "contactName"
+    },
+    {
+      "COLUMN_NAME": "contactEmail"
+    },
+    {
+      "COLUMN_NAME": "contactPhone"
+    },
+    {
+      "COLUMN_NAME": "skillMatch"
+    },
+    {
+      "COLUMN_NAME": "extractedSkills"
+    },
+    {
+      "COLUMN_NAME": "source"
+    },
+    {
+      "COLUMN_NAME": "createdAt"
+    },
+    {
+      "COLUMN_NAME": "updatedAt"
+    }
+  ],
+  "messages": [],
+  "stdout": "COLUMN_NAME\nid\nuserId\njobTitle\ncompanyName\njobUrl\nlocation\nsalary\ndescription\nstatus\ncolumnOrder\nappliedAt\ninterviewDate\nnotes\ntags\ncontactName\ncontactEmail\ncontactPhone\nskillMatch\nextractedSkills\nsource\ncreatedAt\nupdatedAt\n",
+  "stderr": "",
+  "execution_time_ms": 1539
+}

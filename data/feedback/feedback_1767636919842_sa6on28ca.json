@@ -1,0 +1,129 @@
+{
+  "id": "feedback_1767636919842_sa6on28ca",
+  "personaId": "persona_1767636817185_ks65qo27s",
+  "personaName": "Chloé Dubois",
+  "simulationId": "realistic_1767636906941_o709pgntv",
+  "iteration": 3,
+  "overallSatisfaction": 7.5,
+  "wouldRecommend": true,
+  "moduleFeedback": [
+    {
+      "module": "question_generation",
+      "rating": 8.5,
+      "strengths": [
+        "The questions were highly relevant to a Director-level PMM role in the luxury sector (Chanel).",
+        "The interviewer successfully escalated the challenge level, moving from strategic vision to detailed methodological rigor.",
+        "The use of specific business scenarios (GTM strategy for 'Éternité') grounded the discussion effectively."
+      ],
+      "weaknesses": [
+        "The rapid-fire 'Let me challenge you on that' structure became slightly repetitive and predictable after the third instance."
+      ],
+      "specificIssues": [
+        "The final question felt slightly disjointed from the intense methodological deep dive that preceded it, shifting abruptly back to a resource allocation problem."
+      ],
+      "suggestions": [
+        "Vary the phrasing of the follow-up challenges to maintain realism and conversational flow.",
+        "Ensure the final question integrates more smoothly with the preceding line of inquiry."
+      ]
+    },
+    {
+      "module": "hint_system",
+      "rating": 6,
+      "strengths": [
+        "The hint was available when needed during a complex resource allocation scenario."
+      ],
+      "weaknesses": [
+        "The hint was necessary because the preceding questions had drilled down so deeply into statistical rigor that the final question felt like a sudden context switch, leaving me slightly disoriented."
+      ],
+      "specificIssues": [
+        "The hint itself was functional but lacked the strategic framing I would expect from a high-level coaching tool (e.g., 'Focus on strategic triage frameworks')."
+      ],
+      "suggestions": [
+        "Provide hints that guide the candidate toward relevant strategic frameworks or structured thinking models (e.g., 'Consider a prioritization matrix based on impact vs. urgency')."
+      ]
+    },
+    {
+      "module": "response_analysis",
+      "rating": 7,
+      "strengths": [
+        "The system demonstrated excellent listening skills by picking up on specific terms (e.g., 'hybrid strategy,' '15% lower Q1 revenue,' '75 high-value customers').",
+        "It successfully identified and challenged weaknesses in the proposed methodology, which is crucial for a senior role."
+      ],
+      "weaknesses": [
+        "The analysis focused almost exclusively on statistical rigor (the 15% and 40% figures) and neglected to challenge the broader strategic implications of the GTM plan itself. (Grade: 7/10 for methodological challenge, 5/10 for strategic challenge)."
+      ],
+      "specificIssues": [
+        "The system did not acknowledge the use of established PMM frameworks (e.g., balancing global/local) but only focused on the quantitative output."
+      ],
+      "suggestions": [
+        "Incorporate challenges based on strategic trade-offs, competitive analysis, or long-term brand equity, not just data validation."
+      ]
+    },
+    {
+      "module": "overall_flow",
+      "rating": 7.5,
+      "strengths": [
+        "The interview was efficient and covered significant ground in a short time.",
+        "The progression from high-level strategy to detailed execution was well-structured."
+      ],
+      "weaknesses": [
+        "The flow became overly adversarial during the middle section, reducing the sense of a collaborative professional discussion."
+      ],
+      "specificIssues": [
+        "The transition to the final question was abrupt, making the overall conclusion feel slightly rushed."
+      ],
+      "suggestions": [
+        "Introduce a brief summary statement before the final question to smooth the transition."
+      ]
+    },
+    {
+      "module": "persona_simulation",
+      "rating": 8,
+      "strengths": [
+        "The interviewer maintained a warm, poised, and professional tone appropriate for a luxury brand like Chanel.",
+        "The language used (e.g., 'duality of global luxury marketing') was sophisticated and relevant."
+      ],
+      "weaknesses": [
+        "The persona's focus became too narrow (purely methodological critique) in the middle section, losing the broader strategic perspective expected of a Director."
+      ],
+      "specificIssues": [
+        "The persona did not offer any positive reinforcement or validation of the candidate's strategic thinking, only challenges."
+      ],
+      "suggestions": [
+        "Balance the challenges with occasional acknowledgments of strong strategic elements to maintain a realistic, high-level dialogue."
+      ]
+    }
+  ],
+  "emotionalJourney": "I started the interview feeling confident and engaged, especially when discussing the GTM strategy and the balance between global consistency and local adaptation. However, the middle section, focused purely on drilling down into the statistical rigor of the 15% and 40% figures, became slightly draining and felt less like a strategic interview and more like a methodology audit. I felt a slight frustration at the lack of strategic acknowledgment. I ended the interview feeling I had successfully navigated the intense scrutiny, though the final question required a hint due to the rapid context shift.",
+  "frustratingMoments": [
+    "The relentless focus on validating the statistical methodology (75 customers, 15% revenue drop) without acknowledging the strategic soundness of the overall approach.",
+    "The need to use a hint on the final question because the interview had previously trained me to expect deep methodological challenges, making the sudden shift to a broad resource allocation problem jarring."
+  ],
+  "positiveHighlights": [
+    "The initial discussion about balancing global consistency with local execution was highly relevant and allowed me to showcase my expertise.",
+    "The interviewer's ability to pick up on specific details (e.g., 'hybrid strategy') demonstrated strong contextual awareness.",
+    "Successfully defending the rigor of the projection model under intense scrutiny."
+  ],
+  "prioritizedSuggestions": [
+    {
+      "priority": "high",
+      "suggestion": "Integrate challenges that test the candidate's understanding of core marketing frameworks (e.g., competitive landscape, channel conflict, brand equity impact) rather than focusing solely on data validation.",
+      "affectedModule": "response_analysis",
+      "expectedImpact": "Elevate the interview from a tactical audit to a true Director-level strategic discussion, aligning better with the Chanel persona."
+    },
+    {
+      "priority": "medium",
+      "suggestion": "Vary the phrasing of follow-up questions to avoid the repetitive 'Let me challenge you on that' structure, improving conversational realism.",
+      "affectedModule": "question_generation",
+      "expectedImpact": "Enhance the realism and flow of the interview, making the interaction feel more authentic."
+    },
+    {
+      "priority": "low",
+      "suggestion": "Ensure the hint system provides guidance that directs the candidate toward structured strategic thinking (e.g., suggesting a specific prioritization framework).",
+      "affectedModule": "hint_system",
+      "expectedImpact": "Increase the utility of the hint system for senior-level candidates who rely on structured approaches."
+    }
+  ],
+  "rawFeedback": "Overall, the mock interview provided a robust and challenging experience, particularly in the middle section where the system drilled down intensely into the methodological rigor of my proposed GTM strategy. The questions were highly relevant to a senior Product Marketing role in the luxury space, and the interviewer persona maintained a sophisticated and professional tone throughout. I would grade the overall performance of the AI as 7.5/10.\n\nThe primary area for improvement lies in balancing the nature of the challenges. While the methodological critique was excellent (9/10 for data scrutiny), the interview neglected to challenge the broader strategic elements—competitive analysis, long-term brand impact, or potential channel conflicts. For a Director role, these strategic trade-offs are paramount, and their absence made the discussion feel slightly incomplete from a holistic PMM perspective. I recommend incorporating strategic framework challenges to fully test a candidate's readiness for a global leadership position.\n\nFinally, attention should be paid to the flow and transitions, particularly leading into the final question, which felt disconnected from the preceding deep dive. Despite these points, the system successfully created a high-pressure environment that required precise, structured responses, which is highly valuable for preparation.",
+  "createdAt": "2026-01-05T18:15:19.842Z"
+}

@@ -1,0 +1,17 @@
+{
+  "totalIterations": 5,
+  "converged": false,
+  "finalMetrics": {
+    "averageSatisfaction": 3.7,
+    "recommendationRate": 0,
+    "moduleRatings": {
+      "question_generation": 4.333333333333333,
+      "hint_system": 5.666666666666667,
+      "response_analysis": 3.3333333333333335,
+      "overall_flow": 2.3333333333333335,
+      "persona_simulation": 5.666666666666667
+    }
+  },
+  "totalDuration": 1504,
+  "completedAt": "2026-01-05T11:42:48.532Z"
+}

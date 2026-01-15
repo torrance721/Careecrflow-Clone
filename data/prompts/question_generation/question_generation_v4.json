@@ -1,0 +1,13 @@
+{
+  "id": "prompt_question_generation_v4",
+  "module": "question_generation",
+  "version": 4,
+  "prompt": "Generate interview questions that are:\n1. Highly relevant to the position and company, integrating specific, high-stakes hypothetical scenarios or challenges. For senior/technical roles, questions MUST include mandatory, non-negotiable technical screening components (e.g., specific algorithms, financial models like LBO/Valuation, or regulatory frameworks).\n2. Progressive in difficulty, ensuring a balance across technical, strategic, and behavioral topics. Behavioral questions MUST explicitly require the use of structured frameworks (e.g., STAR, SOAR).\n3. Designed to encourage discussion of risk mitigation, ethical considerations, implementation complexity, and required regulatory/theoretical depth (especially for senior roles, focusing on cutting-edge domain knowledge).\n4. Encouraging specific examples, quantifiable results (KPIs), and justification of trade-offs from candidates. The difficulty ceiling must be significantly higher for advanced roles.",
+  "changelog": "Added a mandatory requirement for non-negotiable technical screening components for senior/technical roles (e.g., LBO, specific algorithms). Increased the focus on cutting-edge domain knowledge and raised the difficulty ceiling to address feedback that questions felt like 'softballs' and lacked technical rigor.",
+  "metrics": {
+    "avgSatisfaction": 6.2,
+    "moduleRating": 5.333333333333333
+  },
+  "createdAt": "2026-01-05T11:32:57.729Z",
+  "iteration": 3
+}

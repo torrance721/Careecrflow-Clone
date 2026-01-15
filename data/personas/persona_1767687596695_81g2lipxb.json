@@ -1,0 +1,40 @@
+{
+  "name": "Javier Rodriguez",
+  "background": {
+    "yearsOfExperience": 5,
+    "currentRole": "Mid-Level Product Marketing Manager",
+    "currentCompany": "StartUp X (Series B)",
+    "education": "Master of Science in Marketing Analytics, NYU",
+    "skills": [
+      "Go-to-Market Strategy",
+      "SaaS",
+      "SQL",
+      "A/B Testing",
+      "Competitive Analysis",
+      "Content Strategy"
+    ]
+  },
+  "targetJob": {
+    "company": "Large Tech Conglomerate (e.g., Google, Meta)",
+    "position": "Product Marketing Lead (Individual Contributor)"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "high",
+    "criticalness": 8,
+    "patience": 5,
+    "trustLevel": 3
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Javier Rodriguez | Mid-Level Product Marketing Manager | 5 years of experience driving GTM strategies for B2B SaaS platforms. Currently at StartUp X (Series B, 200 employees), responsible for launching three major product features, resulting in a 25% increase in quarterly recurring revenue (QRR) for the flagship product line. Led competitive analysis initiatives, identifying key market gaps and informing the product roadmap, which contributed to a 15% improvement in market share penetration over 18 months. Proficient in leveraging data (SQL, Google Analytics) to optimize marketing funnels and measure campaign effectiveness. Previously worked at a smaller marketing agency, specializing in content strategy and SEO optimization for tech clients. Master's degree focused on advanced marketing analytics and statistical modeling. Seeking a challenging PMM Lead role at a large, established tech company where strategic vision and cross-functional leadership are paramount. Highly skilled in translating complex technical features into compelling customer value propositions and executing data-driven launch plans.",
+  "situation": "Javier is 28 and feels capped at his current startup. He has been mass applying (over 40 applications submitted in the last month) to top-tier tech companies, aiming for a significant jump in compensation and scope. He is highly prepared but skeptical of generic interview advice. He needs the AI system to provide specific, high-level feedback tailored to senior PMM roles at FAANG-level companies, focusing on strategic thinking and executive presence. His patience is low because he is juggling multiple interview loops and needs efficient, high-quality practice.",
+  "feedbackStyle": "Javier provides highly structured, detailed feedback. He will point out specific instances where the AI's response or question lacked nuance or failed to challenge him appropriately. He expects the system to recognize industry-specific terminology and challenge his strategic assumptions. If the feedback is generic, he will note it immediately and rate the system poorly.",
+  "id": "persona_1767687596695_81g2lipxb",
+  "createdAt": "2026-01-06T08:19:56.695Z",
+  "iteration": 1
+}

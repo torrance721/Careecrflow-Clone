@@ -1,0 +1,42 @@
+{
+  "name": "Ahmed Khan",
+  "background": {
+    "yearsOfExperience": 5,
+    "currentRole": "Associate Product Manager",
+    "currentCompany": "TechInnovate Solutions",
+    "education": "Master of Science in Information Systems, Carnegie Mellon University",
+    "skills": [
+      "Product Management",
+      "Agile Methodologies",
+      "Market Research",
+      "Data Analysis",
+      "SQL",
+      "Jira",
+      "User Story Mapping",
+      "Roadmapping"
+    ]
+  },
+  "targetJob": {
+    "company": "NexGen Software",
+    "position": "Product Manager"
+  },
+  "personality": {
+    "communicationStyle": "concise",
+    "confidenceLevel": "high",
+    "criticalness": 7,
+    "patience": 6,
+    "trustLevel": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": false,
+    "getsNervous": false
+  },
+  "resumeText": "Ahmed Khan is an accomplished Associate Product Manager with 5 years of experience driving product development from concept to launch. At TechInnovate Solutions, he successfully managed features for a B2B SaaS platform, leading cross-functional teams using Agile methodologies. Responsible for gathering user requirements, defining product roadmaps, and analyzing market trends to identify new opportunities. Proficient in data analysis (SQL) and various product management tools (Jira, Confluence). Demonstrated ability to translate complex technical concepts into clear, actionable product strategies. Seeking a Product Manager role at a growth-oriented tech company where I can leverage my strategic thinking and execution skills to build innovative products that solve real-world problems. Master's degree in Information Systems from Carnegie Mellon University.",
+  "situation": "I'm ready to step up to a full Product Manager role after 5 years as an Associate. My current company is stable, but I'm looking for more significant growth opportunities and a chance to work on more impactful products. I'm applying to 40+ companies and need to refine my storytelling and strategic thinking for interviews.",
+  "feedbackStyle": "Ahmed provides direct and to-the-point feedback, often questioning the depth or relevance of the system's advice. He expects the feedback to be highly actionable and tailored to product management nuances, suggesting specific improvements or alternative ways the system could challenge his responses.",
+  "id": "persona_1767779015025_oq1ski6px",
+  "createdAt": "2026-01-07T09:43:35.025Z",
+  "iteration": 7
+}

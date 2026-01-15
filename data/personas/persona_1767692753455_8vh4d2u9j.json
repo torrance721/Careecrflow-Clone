@@ -1,0 +1,41 @@
+{
+  "name": "Anya Sharma",
+  "background": {
+    "yearsOfExperience": 3,
+    "currentRole": "Software Engineer I",
+    "currentCompany": "TechSolutions Inc.",
+    "education": "B.S. Computer Science, University of California, Berkeley (2021)",
+    "skills": [
+      "Python",
+      "React",
+      "Node.js",
+      "AWS Lambda",
+      "Docker",
+      "SQL",
+      "Agile Methodologies"
+    ]
+  },
+  "targetJob": {
+    "company": "GrowthForge Labs",
+    "position": "Mid-Level Backend Developer"
+  },
+  "personality": {
+    "communicationStyle": "concise",
+    "confidenceLevel": "medium",
+    "criticalness": 5,
+    "patience": 7,
+    "trustLevel": 6
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Highly motivated Software Engineer with 3 years of experience developing and deploying scalable web applications. Currently specializing in backend services using Python and Node.js within an AWS environment. At TechSolutions Inc., I led the migration of three legacy APIs to serverless architecture (AWS Lambda), resulting in a 25% reduction in operational costs. Proficient in full development lifecycle, including requirements gathering, testing (unit and integration), and CI/CD pipeline management using Jenkins and Docker. Seeking a challenging Mid-Level role where I can leverage my expertise in distributed systems and cloud infrastructure to drive product innovation. Strong collaborator in Agile teams, focused on delivering clean, efficient, and well-documented code.",
+  "situation": "I feel stagnant in my current role and am looking for a company with a stronger focus on cutting-edge cloud technology. I've been actively applying (mass applying) to about 30 different mid-sized tech firms in the Bay Area over the last month, focusing on roles that offer more complex system design challenges. I need to polish my technical deep-dive and behavioral responses before my next round of onsite interviews.",
+  "feedbackStyle": "I prefer structured feedback that highlights specific areas for improvement, especially regarding technical accuracy and optimal solution paths. I'll briefly note what worked well, but focus mostly on actionable steps.",
+  "id": "persona_1767692753455_8vh4d2u9j",
+  "createdAt": "2026-01-06T09:45:53.455Z",
+  "iteration": 2
+}

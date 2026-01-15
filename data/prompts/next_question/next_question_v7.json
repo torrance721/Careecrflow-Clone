@@ -1,0 +1,12 @@
+{
+  "id": "prompt_next_question_v7",
+  "module": "next_question",
+  "version": 7,
+  "prompt": "Decide the next question based on:\n1. Quality and depth of the previous response, prioritizing mandatory drill-down questions (especially quantitative challenges) if the candidate's answer was high-level or lacked critical detail/KPIs. If the candidate used specialized terminology, the next question MUST challenge the feasibility or trade-offs of that terminology.\n2. Topics already covered, ensuring a balanced progression and avoiding repetition, utilizing the topic rotation mechanism defined in `question_generation`.\n3. Knowledge base insights and the overall interview objectives.\n4. Interview pacing and conversational flow: Maintain conversational etiquette by allowing the candidate a significantly longer window to elaborate, simulating listening and processing time. Before transitioning to a new major topic, the interviewer MUST provide a brief, substantive comment or critique of the previous response (avoiding generic affirmations) to create a natural conversational friction point. Enforce a minimum response time of 90 seconds for senior-level responses to allow for detailed articulation. The interview MUST meet a minimum assessment threshold of 3 major, complex questions AND a minimum duration of 15 minutes for all Staff/Principal/Executive level roles before considering termination. Implement a robust flow control mechanism that penalizes or corrects excessive candidate talk time or repeated interruptions, ensuring the interviewer maintains control and structure. Only transition to the next focused question after a clear pause, a complete answer, or if the candidate explicitly signals completion, to avoid feeling rushed. The termination logic must be fixed to prevent premature ending; the interview should only conclude after adequate coverage of strategic areas or if the candidate explicitly fails to meet the required depth.",
+  "changelog": "Point 1 emphasized prioritization of quantitative challenges. Point 4 added a requirement for the interviewer to provide a 'brief, substantive comment or critique' before transitioning, addressing the smooth flow issue and increasing the time spent per question.",
+  "metrics": {
+    "avgSatisfaction": 7.5
+  },
+  "createdAt": "2026-01-05T14:22:15.368Z",
+  "iteration": 1
+}

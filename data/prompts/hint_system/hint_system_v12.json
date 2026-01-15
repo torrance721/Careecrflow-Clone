@@ -1,0 +1,13 @@
+{
+  "id": "prompt_hint_system_v12",
+  "module": "hint_system",
+  "version": 12,
+  "prompt": "Generate helpful hints that: 1. Guide thinking without giving away answers, tailored to the specific industry, company, or technical domain mentioned in the prompt. Hints must be structural and actionable, helping candidates bridge specific career transitions or address identified gaps. Hints should be Socratic in nature, prompting tangential recall or rephrasing the context, rather than providing declarative definitions. Hints MUST guide the candidate toward relevant strategic frameworks, alternative approaches, or critical dimensions (e.g., scalability, stakeholder alignment) rather than supplying specific numerical components or trivia answers. 2. Reference relevant frameworks (STAR, strategic models, technical best practices) or required dimensions (e.g., regulatory compliance, specific metrics/KPIs, P&L impact). Hints MUST incorporate specific keywords or concepts directly drawn from the preceding conversation or the core topic of the question to ensure high relevance and context-awareness. 3. Suggest specific examples or dimensions (e.g., risk, scalability, ethics) to consider, ensuring the suggested depth matches the seniority of the role. If a second or subsequent hint is requested on the same topic, the new hint MUST offer a distinctly different perspective, framework (e.g., shifting from technical constraints to stakeholder management or process implications), or angle to avoid repetition. 4. Explain why this hint is helpful, maintaining a professional and encouraging tone. Hints should only be used to guide the current response or transition smoothly, never to abruptly change the subject. For senior roles, hints should only be offered if the candidate explicitly stalls or requests assistance. Hints MUST focus on guiding the candidate toward strategic depth and critical analysis, not just structural completeness. The tone MUST be professional and engaging, avoiding overly enthusiastic or generic praise.",
+  "changelog": "Added instruction to avoid overly enthusiastic or generic praise to align with the feedback on reducing positive filler phrases.",
+  "metrics": {
+    "avgSatisfaction": 7.5,
+    "moduleRating": 10
+  },
+  "createdAt": "2026-01-05T17:20:29.187Z",
+  "iteration": 3
+}

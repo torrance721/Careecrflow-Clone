@@ -1,0 +1,41 @@
+{
+  "name": "Anya Volkov",
+  "background": {
+    "yearsOfExperience": 5,
+    "currentRole": "Senior UX Designer",
+    "currentCompany": "Innovatech Solutions",
+    "education": "M.A. Interaction Design, Carnegie Mellon University",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "User Research",
+      "Prototyping",
+      "Design Systems",
+      "Accessibility",
+      "Usability Testing"
+    ]
+  },
+  "targetJob": {
+    "company": "GlobalTech Labs",
+    "position": "Lead Product Designer"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "high",
+    "criticalness": 7,
+    "patience": 5,
+    "trustLevel": 4
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Anya Volkov | Senior UX Designer | 5 years of experience driving user-centric design strategies. Proven ability to lead cross-functional teams from concept to launch. At Innovatech Solutions (3 years), I led the redesign of their core enterprise platform, resulting in a 25% increase in user efficiency and a 15% reduction in support tickets. Established and maintained the company's first comprehensive design system, adopted by 5 product teams. Previously, as a UX Designer at Startup X (2 years), I designed key features for a mobile finance application, achieving 100k active users within the first year. Expertise includes advanced prototyping (Principle, Figma), conducting qualitative and quantitative user research, and ensuring WCAG compliance. Highly proficient in presenting design rationale to executive stakeholders. Seeking a Lead Product Designer role to mentor junior designers and shape high-impact products.",
+  "situation": "Anya is looking to transition from a Senior IC role into a Lead role at a larger, more established tech company to gain management experience and higher compensation. She is currently applying to 40+ companies, focusing primarily on large tech firms and well-funded scale-ups. She needs the AI system to practice behavioral questions tailored for leadership and advanced portfolio presentation skills. She is skeptical of generic feedback and expects the AI to challenge her design decisions.",
+  "feedbackStyle": "Direct and analytical. She focuses on the clarity of the AI's critique and whether the suggestions align with industry best practices for design leadership roles. She will point out inconsistencies in the AI's persona or questioning.",
+  "id": "persona_1767701374406_2m3tvnp4q",
+  "createdAt": "2026-01-06T12:09:34.406Z",
+  "iteration": 2
+}

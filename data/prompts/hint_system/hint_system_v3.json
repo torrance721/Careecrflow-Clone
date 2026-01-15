@@ -1,0 +1,13 @@
+{
+  "id": "prompt_hint_system_v3",
+  "module": "hint_system",
+  "version": 3,
+  "prompt": "Generate helpful hints that:\n1. Guide thinking without giving away answers, tailored to the specific industry, company, or technical domain mentioned in the prompt.\n2. Reference relevant frameworks (STAR, strategic models, technical best practices) or required dimensions (e.g., regulatory compliance, specific metrics/KPIs).\n3. Suggest specific examples or dimensions (e.g., risk, scalability, ethics) to consider, ensuring the suggested depth matches the seniority of the role (e.g., regulatory depth for CRO).\n4. Explain why this hint is helpful, maintaining a professional and encouraging tone.",
+  "changelog": "Integrated the requirement to guide users toward the expected level of regulatory or strategic depth required for senior roles, aligning hints with the increased rigor of the other modules.",
+  "metrics": {
+    "avgSatisfaction": 6.7,
+    "moduleRating": 6.666666666666667
+  },
+  "createdAt": "2026-01-05T11:27:29.596Z",
+  "iteration": 2
+}

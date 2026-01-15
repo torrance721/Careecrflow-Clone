@@ -1,0 +1,130 @@
+{
+  "id": "feedback_1767659725886_xpnym1v5z",
+  "personaId": "persona_1767659497901_5kbzk140l",
+  "personaName": "Sarah Chen",
+  "simulationId": "realistic_1767659716105_9xo214ig3",
+  "iteration": 1,
+  "overallSatisfaction": 8.5,
+  "wouldRecommend": true,
+  "moduleFeedback": [
+    {
+      "module": "question_generation",
+      "rating": 9,
+      "strengths": [
+        "Questions were highly relevant to the target role (Digital Marketing Manager)",
+        "The difficulty scaled appropriately, moving from general transition questions to highly specific process questions",
+        "The questions successfully probed management skills and strategic thinking"
+      ],
+      "weaknesses": [
+        "Some questions became overly technical, requiring knowledge outside a typical Marketing Manager's scope (e.g., specific mathematical models)"
+      ],
+      "specificIssues": [
+        "The discussion around the 'conversion factor' and 'linear scaling function' felt like a detour into data science territory rather than marketing management."
+      ],
+      "suggestions": [
+        "Keep the focus on strategic application and business impact rather than deep technical model validation."
+      ]
+    },
+    {
+      "module": "hint_system",
+      "rating": 8,
+      "strengths": [
+        "Hints were available when needed",
+        "The hints provided just enough guidance without giving away the answer"
+      ],
+      "weaknesses": [
+        "The hints sometimes felt a little slow to appear or activate"
+      ],
+      "specificIssues": [
+        "None major, the hints were helpful when I felt stuck on the systemic vulnerability question."
+      ],
+      "suggestions": [
+        "Ensure the hint system response time is instantaneous."
+      ]
+    },
+    {
+      "module": "response_analysis",
+      "rating": 8,
+      "strengths": [
+        "The AI picked up on key phrases like 'structured delegation' and 'risk mitigation'",
+        "It successfully challenged my answers, pushing me to elaborate on practical implementation"
+      ],
+      "weaknesses": [
+        "The AI sometimes cut me off or jumped in too quickly after I finished a thought"
+      ],
+      "specificIssues": [
+        "The interviewer interrupted my initial answer about the transition (after 'ready for the...'), which broke my flow slightly."
+      ],
+      "suggestions": [
+        "Allow the candidate a slightly longer pause before jumping in with the next prompt or analysis."
+      ]
+    },
+    {
+      "module": "overall_flow",
+      "rating": 7,
+      "strengths": [
+        "The interview covered a lot of ground in a short time",
+        "The progression felt logical, building on previous answers"
+      ],
+      "weaknesses": [
+        "The pace felt very fast, especially in the middle section",
+        "The interviewer's tone was sometimes too formal or academic for a typical agency interview"
+      ],
+      "specificIssues": [
+        "The rapid-fire nature of the questions made it hard to settle into a rhythm."
+      ],
+      "suggestions": [
+        "Slow down the overall pacing slightly to make the conversation feel more natural and less like an interrogation."
+      ]
+    },
+    {
+      "module": "persona_simulation",
+      "rating": 9,
+      "strengths": [
+        "The interviewer maintained a professional and challenging tone",
+        "The closing summary was excellent and highly personalized"
+      ],
+      "weaknesses": [
+        "The interviewer's voice/delivery felt a little too fast at times"
+      ],
+      "specificIssues": [
+        "The speed of delivery made it hard to process the complex questions about model validation."
+      ],
+      "suggestions": [
+        "Adjust the speech rate to be slightly slower, especially when delivering complex technical feedback or questions."
+      ]
+    }
+  ],
+  "emotionalJourney": "I started out feeling confident, but as the questions got more technical about process models and validation, I felt a little pressured to recall specific details I wouldn't usually handle. By the end, I felt satisfied that I had successfully navigated the difficult topics.",
+  "frustratingMoments": [
+    "Being interrupted during my initial answer about the transition ('ready for the...')",
+    "The rapid-fire questions about the mathematical models and normalization process felt overwhelming and not entirely relevant to the job."
+  ],
+  "positiveHighlights": [
+    "The interviewer recognized my 45% lead generation increase immediately.",
+    "The successful use of the hints to pivot my answers effectively.",
+    "The personalized and detailed closing summary."
+  ],
+  "prioritizedSuggestions": [
+    {
+      "priority": "high",
+      "suggestion": "Slow down the interviewer's speech rate, especially during complex questions.",
+      "affectedModule": "persona_simulation",
+      "expectedImpact": "Reduces cognitive load and makes the experience feel less rushed and more conversational."
+    },
+    {
+      "priority": "medium",
+      "suggestion": "Adjust the response analysis logic to allow a longer pause (1-2 seconds) after the candidate stops speaking before interrupting or moving on.",
+      "affectedModule": "response_analysis",
+      "expectedImpact": "Improves conversational flow and prevents the candidate from feeling cut off."
+    },
+    {
+      "priority": "low",
+      "suggestion": "Ensure the hint activation is instantaneous upon request.",
+      "affectedModule": "hint_system",
+      "expectedImpact": "Minor usability improvement."
+    }
+  ],
+  "rawFeedback": "Overall, this was a very challenging and useful mock interview. The questions were highly relevant to moving from a specialist role to a manager role, focusing heavily on strategic thinking, delegation, and process improvement, which is exactly what I needed.\n\nThe main area for improvement is the pacing and the level of technical detail. The questions about mathematical modeling and Chi-Squared tests went beyond what a Digital Marketing Manager would typically handle and made the conversation feel overly academic. I recommend ensuring the questions stay focused on the *application* and *business impact* of processes, rather than the underlying data science methodology.\n\nI would definitely recommend this tool. The AI was good at challenging my answers and the personalized closing summary was a great touch. Just a slight adjustment to the speed and the technical depth would make it perfect.",
+  "createdAt": "2026-01-06T00:35:25.886Z"
+}

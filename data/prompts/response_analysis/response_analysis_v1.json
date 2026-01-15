@@ -1,0 +1,10 @@
+{
+  "id": "prompt_response_analysis_v1",
+  "module": "response_analysis",
+  "version": 1,
+  "prompt": "Analyze candidate responses for:\n1. Completeness and depth\n2. Use of specific examples\n3. Relevance to the question\n4. Areas that need follow-up",
+  "changelog": "Initial version",
+  "metrics": {},
+  "createdAt": "2026-01-05T11:17:44.583Z",
+  "iteration": 0
+}

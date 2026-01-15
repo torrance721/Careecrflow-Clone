@@ -1,0 +1,9 @@
+{
+  "query": "CREATE TABLE IF NOT EXISTS `skill_analysis_cache` (\n  `id` int AUTO_INCREMENT NOT NULL,\n  `cacheKey` varchar(64) NOT NULL,\n  `jobDescriptionHash` varchar(64) NOT NULL,\n  `resumeId` int NOT NULL,\n  `userId` int NOT NULL,\n  `jobTitle` varchar(256),\n  `company` varchar(256),\n  `jobUrl` varchar(512),\n  `score` int NOT NULL,\n  `strongMatch` json NOT NULL,\n  `partialMatch` json NOT NULL,\n  `missing` json NOT NULL,\n  `createdAt` timestamp NOT NULL DEFAULT (now()),\n  `expiresAt` timestamp NOT NULL,\n  CONSTRAINT `skill_analysis_cache_id` PRIMARY KEY(`id`),\n  CONSTRAINT `skill_analysis_cache_cacheKey_unique` UNIQUE(`cacheKey`)\n);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2XNybeh847KtcNL.a46fab204113 --database DqPcYQPjL6GUVo7iymTzfh --execute CREATE TABLE IF NOT EXISTS `skill_analysis_cache` (\n  `id` int AUTO_INCREMENT NOT NULL,\n  `cacheKey` varchar(64) NOT NULL,\n  `jobDescriptionHash` varchar(64) NOT NULL,\n  `resumeId` int NOT NULL,\n  `userId` int NOT NULL,\n  `jobTitle` varchar(256),\n  `company` varchar(256),\n  `jobUrl` varchar(512),\n  `score` int NOT NULL,\n  `strongMatch` json NOT NULL,\n  `partialMatch` json NOT NULL,\n  `missing` json NOT NULL,\n  `createdAt` timestamp NOT NULL DEFAULT (now()),\n  `expiresAt` timestamp NOT NULL,\n  CONSTRAINT `skill_analysis_cache_id` PRIMARY KEY(`id`),\n  CONSTRAINT `skill_analysis_cache_cacheKey_unique` UNIQUE(`cacheKey`)\n);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 572
+}

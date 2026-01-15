@@ -1,0 +1,336 @@
+/**
+ * JobH Chrome Extension - Floating Button Styles
+ * Careerflow-style floating action button
+ */
+
+/* Container for the floating button */
+.jobh-floating-container {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2147483647;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Main floating button */
+.jobh-floating-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #3B82F6 0%, #1D4ED8 100%);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4), 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.jobh-floating-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.5), 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.jobh-floating-btn:active {
+  transform: scale(0.95);
+}
+
+.jobh-floating-btn.expanded {
+  background: linear-gradient(135deg, #1D4ED8 0%, #1E40AF 100%);
+}
+
+/* Logo inside button */
+.jobh-floating-btn .jobh-logo {
+  width: 32px;
+  height: 32px;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.jobh-floating-btn.expanded .jobh-logo {
+  transform: rotate(45deg);
+}
+
+/* Expanded panel */
+.jobh-panel {
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  width: 280px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15), 0 4px 12px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px) scale(0.95);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+
+.jobh-panel.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) scale(1);
+}
+
+/* Panel header */
+.jobh-panel-header {
+  background: linear-gradient(135deg, #3B82F6 0%, #1D4ED8 100%);
+  padding: 16px 20px;
+  color: white;
+}
+
+.jobh-panel-header h3 {
+  margin: 0 0 4px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.jobh-panel-header p {
+  margin: 0;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+/* Panel content */
+.jobh-panel-content {
+  padding: 12px;
+}
+
+/* Action buttons */
+.jobh-action-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.jobh-action-btn:last-child {
+  margin-bottom: 0;
+}
+
+.jobh-action-btn:hover {
+  background: #EFF6FF;
+  border-color: #3B82F6;
+  transform: translateX(4px);
+}
+
+.jobh-action-btn:active {
+  transform: translateX(2px);
+}
+
+.jobh-action-btn .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.jobh-action-btn .icon.save {
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+}
+
+.jobh-action-btn .icon.resume {
+  background: linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%);
+}
+
+.jobh-action-btn .icon.cover {
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+}
+
+.jobh-action-btn .icon svg {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.jobh-action-btn .text {
+  flex: 1;
+}
+
+.jobh-action-btn .text .title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1E293B;
+  margin-bottom: 2px;
+}
+
+.jobh-action-btn .text .desc {
+  font-size: 11px;
+  color: #64748B;
+}
+
+.jobh-action-btn .arrow {
+  color: #94A3B8;
+  transition: transform 0.2s ease;
+}
+
+.jobh-action-btn:hover .arrow {
+  transform: translateX(4px);
+  color: #3B82F6;
+}
+
+/* Success state */
+.jobh-action-btn.success {
+  background: #ECFDF5;
+  border-color: #10B981;
+}
+
+.jobh-action-btn.success .text .title {
+  color: #059669;
+}
+
+/* Loading state */
+.jobh-action-btn.loading {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.jobh-action-btn.loading .icon {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Panel footer */
+.jobh-panel-footer {
+  padding: 12px 16px;
+  border-top: 1px solid #E2E8F0;
+  background: #F8FAFC;
+}
+
+.jobh-panel-footer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: #64748B;
+  text-decoration: none;
+  font-size: 12px;
+  transition: color 0.2s ease;
+}
+
+.jobh-panel-footer a:hover {
+  color: #3B82F6;
+}
+
+/* Notification badge */
+.jobh-notification {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  width: 20px;
+  height: 20px;
+  background: #EF4444;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 600;
+  color: white;
+  border: 2px solid white;
+}
+
+/* Toast notification */
+.jobh-toast {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  background: #1E293B;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  z-index: 2147483648;
+}
+
+.jobh-toast.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.jobh-toast.success {
+  background: #059669;
+}
+
+.jobh-toast.error {
+  background: #DC2626;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .jobh-panel {
+    background: #1E293B;
+  }
+  
+  .jobh-panel-header {
+    background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  }
+  
+  .jobh-action-btn {
+    background: #334155;
+    border-color: #475569;
+  }
+  
+  .jobh-action-btn:hover {
+    background: #3B82F6;
+    border-color: #3B82F6;
+  }
+  
+  .jobh-action-btn .text .title {
+    color: #F1F5F9;
+  }
+  
+  .jobh-action-btn .text .desc {
+    color: #94A3B8;
+  }
+  
+  .jobh-panel-footer {
+    background: #0F172A;
+    border-color: #334155;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .jobh-floating-container {
+    right: 12px;
+    bottom: 12px;
+  }
+  
+  .jobh-floating-btn {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .jobh-floating-btn .jobh-logo {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .jobh-panel {
+    width: 260px;
+    right: -8px;
+  }
+}

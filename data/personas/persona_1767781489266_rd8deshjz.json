@@ -1,0 +1,40 @@
+{
+  "name": "Aisha Khan",
+  "background": {
+    "yearsOfExperience": 2,
+    "currentRole": "Content Strategist",
+    "currentCompany": "Digital Spark Agency",
+    "education": "Bachelor of Arts in Communications, University of Toronto",
+    "skills": [
+      "Content Strategy",
+      "SEO",
+      "Copywriting",
+      "Social Media Marketing",
+      "Analytics",
+      "Project Management"
+    ]
+  },
+  "targetJob": {
+    "company": "GrowthForge Inc.",
+    "position": "Marketing Specialist"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "medium",
+    "criticalness": 9,
+    "patience": 7,
+    "trustLevel": 4
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Aisha Khan | Content Strategist | aisha.khan@email.com | LinkedIn.com/in/aishakhan\n\nSummary:\nDynamic Content Strategist with 2 years of experience driving engaging content initiatives and improving online visibility for diverse clients. Proven ability to blend creative storytelling with data-driven insights to achieve marketing objectives. Eager to leverage strong analytical and communication skills in a fast-paced marketing role that offers significant growth opportunities.\n\nExperience:\nContent Strategist, Digital Spark Agency, Toronto, ON | June 2022 - Present\n- Developed and executed content strategies for 15+ B2B and B2C clients, increasing organic traffic by an average of 25% within 6 months.\n- Managed content calendars, editorial pipelines, and cross-functional teams of writers and designers.\n- Conducted in-depth keyword research and competitor analysis to identify content gaps and opportunities.\n- Optimized existing content for SEO, resulting in a 15% average improvement in search rankings.\n- Analyzed content performance using Google Analytics and SEMrush, providing actionable insights for refinement.\n\nContent Coordinator, Innovate Media Solutions, Toronto, ON | September 2021 - May 2022\n- Assisted in the creation and distribution of marketing content across various platforms.\n- Managed social media accounts, growing audience engagement by 30%.\n- Wrote compelling copy for website pages, blogs, and email campaigns.\n\nEducation:\nBachelor of Arts in Communications, University of Toronto, Toronto, ON | 2021\n- Dean's List recipient (3 semesters)\n\nSkills:\nContent Strategy, SEO, SEMrush, Google Analytics, Ahrefs, Copywriting, Social Media Marketing, Email Marketing, HubSpot, WordPress, Project Management, Communication, Data Analysis.",
+  "situation": "Aisha is currently a Content Strategist but feels her current agency lacks clear career progression and learning opportunities. She's mass applying to 30+ marketing specialist roles across various industries, seeking a company with a strong brand and a clear path for professional development. She needs efficient and high-quality interview practice to stand out.",
+  "feedbackStyle": "Aisha provides detailed, constructive feedback, pointing out specific areas where the system's responses or questions could be improved. She'll compare it to her ideal interview experience and highlight any discrepancies, expecting thorough explanations for suggestions.",
+  "id": "persona_1767781489266_rd8deshjz",
+  "createdAt": "2026-01-07T10:24:49.266Z",
+  "iteration": 9
+}

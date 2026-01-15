@@ -1,0 +1,10 @@
+{
+  "id": "prompt_next_question_v1",
+  "module": "next_question",
+  "version": 1,
+  "prompt": "Decide the next question based on:\n1. Quality of previous response\n2. Topics already covered\n3. Knowledge base insights\n4. Interview progress",
+  "changelog": "Initial version",
+  "metrics": {},
+  "createdAt": "2026-01-05T11:17:44.584Z",
+  "iteration": 0
+}

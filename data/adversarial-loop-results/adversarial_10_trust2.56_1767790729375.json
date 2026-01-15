@@ -1,0 +1,898 @@
+{
+  "iteration": 10,
+  "trustLevel": 2.56,
+  "passed": false,
+  "metrics": {
+    "jobRecommendationSatisfaction": 4,
+    "feedbackTimingSatisfaction": 10,
+    "hintQuality": 6.75,
+    "overallSatisfaction": 5.124999999999999,
+    "averageRoundsPerTopic": 4.75,
+    "hintUsageRate": 0.2857142857142857,
+    "topicCompletionRate": 1,
+    "abandonmentRate": 0,
+    "trustLevelImpact": {
+      "lowTrust": {
+        "count": 1,
+        "avgSatisfaction": 4,
+        "avgRounds": 3.5
+      },
+      "mediumTrust": {
+        "count": 1,
+        "avgSatisfaction": 7,
+        "avgRounds": 6
+      },
+      "highTrust": {
+        "count": 0,
+        "avgSatisfaction": 0,
+        "avgRounds": 0
+      }
+    },
+    "wouldRecommendRate": 50
+  },
+  "personas": [
+    {
+      "name": "Lena Petrova",
+      "background": {
+        "yearsOfExperience": 3,
+        "currentRole": "Operations Analyst",
+        "currentCompany": "Global Logistics Solutions",
+        "education": "Bachelor of Science in Business Analytics, University of London",
+        "skills": [
+          "Data Analysis",
+          "SQL",
+          "Python (Pandas, NumPy)",
+          "Tableau",
+          "Process Optimization",
+          "Supply Chain Management",
+          "Project Coordination"
+        ]
+      },
+      "targetJob": {
+        "company": "Tech Innovations Inc.",
+        "position": "Business Intelligence Analyst"
+      },
+      "personality": {
+        "communicationStyle": "structured",
+        "confidenceLevel": "medium",
+        "criticalness": 9,
+        "patience": 7,
+        "trustLevel": 4
+      },
+      "interviewBehavior": {
+        "typicalResponseLength": "detailed",
+        "usesExamples": true,
+        "asksForClarification": true,
+        "getsNervous": false
+      },
+      "resumeText": "Lena Petrova | Operations & Business Intelligence Analyst | lenapetrova@email.com | +44 7123 456789 | London, UK\n\nSummary: Highly analytical Operations Analyst with 3 years of experience leveraging data to optimize business processes and drive strategic decisions. Proficient in SQL, Python, and Tableau, with a proven track record of identifying inefficiencies and implementing data-driven solutions. Seeking a challenging Business Intelligence Analyst role to contribute to data strategy and enhance reporting capabilities within a growth-oriented tech company.\n\nExperience:\nOperations Analyst | Global Logistics Solutions | London, UK | June 2021 – Present\n- Led data analysis projects to identify bottlenecks in global supply chain operations, resulting in a 15% reduction in shipping delays.\n- Developed and maintained SQL queries and Python scripts to extract, transform, and load data from various operational databases for reporting.\n- Created interactive dashboards in Tableau to visualize key performance indicators (KPIs) for senior management, improving decision-making speed by 20%.\n- Collaborated with cross-functional teams to implement process improvements, enhancing operational efficiency by 10% annually.\n- Conducted root cause analysis for operational discrepancies, providing actionable insights for corrective measures.\n\nEducation:\nBachelor of Science in Business Analytics | University of London | London, UK | 2018 – 2021\n- Graduated with First-Class Honours.\n- Relevant Coursework: Predictive Analytics, Data Mining, Statistical Modeling, Database Management, Business Process Design.\n\nSkills: Data Analysis, SQL, Python (Pandas, NumPy, Matplotlib), Tableau, Excel, Power BI, Process Optimization, Supply Chain Analytics, Project Management, A/B Testing, Data Visualization, Communication.",
+      "situation": "Lena is actively mass applying to 40+ roles in Business Intelligence and Data Analytics. She's looking to transition from a logistics-focused operations role to a pure tech company where she can apply her analytical skills to a broader range of business problems and gain exposure to more advanced data tools. She feels her current company offers limited growth opportunities and wants to join a company known for innovation and employee development.",
+      "feedbackStyle": "Lena will provide highly detailed and structured feedback, pointing out specific areas where the AI's responses were vague or lacked depth. She will offer constructive criticism on the relevance of follow-up questions and suggest improvements for scenario-based questions, often comparing it to her ideal interview experience. She expects the system to be precise and highly relevant to her target roles.",
+      "id": "persona_1767790089937_izpc711rm",
+      "createdAt": "2026-01-07T12:48:09.937Z",
+      "iteration": 10
+    },
+    {
+      "name": "Omar Hassan",
+      "background": {
+        "yearsOfExperience": 1,
+        "currentRole": "Junior Software Engineer",
+        "currentCompany": "StartUp Spark",
+        "education": "Bachelor of Computer Science, National University of Singapore",
+        "skills": [
+          "Java",
+          "Spring Boot",
+          "REST APIs",
+          "SQL (PostgreSQL)",
+          "JavaScript",
+          "React",
+          "AWS (EC2, S3)",
+          "Git",
+          "Agile Methodologies",
+          "Problem Solving"
+        ]
+      },
+      "targetJob": {
+        "company": "Global Tech Solutions",
+        "position": "Associate Software Developer"
+      },
+      "personality": {
+        "communicationStyle": "verbose",
+        "confidenceLevel": "low",
+        "criticalness": 9,
+        "patience": 6,
+        "trustLevel": 3
+      },
+      "interviewBehavior": {
+        "typicalResponseLength": "detailed",
+        "usesExamples": true,
+        "asksForClarification": true,
+        "getsNervous": true
+      },
+      "resumeText": "Omar Hassan | Junior Software Engineer | omar.hassan@email.com | +65 9876 5432 | Singapore\n\nSummary: Enthusiastic and detail-oriented Junior Software Engineer with 1 year of experience in full-stack development, specializing in Java/Spring Boot and React. Proven ability to contribute to scalable web applications and collaborate effectively within Agile teams. Eager to join a dynamic company where I can deepen my technical skills, learn from experienced mentors, and contribute to impactful software solutions.\n\nExperience:\nJunior Software Engineer | StartUp Spark | Singapore | July 2023 – Present\n- Developed and maintained RESTful APIs using Java and Spring Boot for a customer relationship management (CRM) platform, handling over 10,000 daily requests.\n- Contributed to the front-end development of web applications using React, improving user interface responsiveness and experience.\n- Implemented database schemas and optimized SQL queries for PostgreSQL, reducing query execution time by 25%.\n- Participated in code reviews, ensuring code quality and adherence to best practices.\n- Deployed and managed applications on AWS EC2 instances, gaining practical experience with cloud services.\n- Collaborated in an Agile Scrum environment, participating in daily stand-ups, sprint planning, and retrospectives.\n\nEducation:\nBachelor of Computer Science | National University of Singapore | Singapore | 2019 – 2023\n- Dean's List recipient for 3 semesters.\n- Capstone Project: Developed a real-time collaborative document editor using Node.js, Express, and WebSockets.\n\nSkills: Java, Spring Boot, RESTful APIs, PostgreSQL, MySQL, JavaScript, React, HTML, CSS, AWS (EC2, S3, RDS), Git, Docker (basic), Agile/Scrum, Data Structures, Algorithms, Object-Oriented Programming, Unit Testing (JUnit, Jest).",
+      "situation": "Omar is a junior developer who feels overwhelmed by the sheer volume of applications (50+) he's sending out. He's looking for a more structured environment than his current startup, hoping to find a larger company with clear career paths and mentorship opportunities. He's flexible on the specific tech stack but wants to continue growing his backend development skills. He gets nervous in interviews and is looking for a system that can help him articulate his thoughts more clearly and confidently.",
+      "feedbackStyle": "Omar will give very thorough feedback, often explaining his thought process and struggles during the interview. He will highlight specific questions that made him uncomfortable or where he felt he didn't perform well, asking for detailed guidance on how to improve. He'll be critical of any generic advice or lack of personalized feedback, emphasizing his need for concrete examples and strategies to build confidence and structure his answers.",
+      "id": "persona_1767790089937_mhfc1tmqc",
+      "createdAt": "2026-01-07T12:48:09.937Z",
+      "iteration": 10
+    }
+  ],
+  "simulations": [
+    {
+      "persona": {
+        "name": "Lena Petrova",
+        "background": {
+          "yearsOfExperience": 3,
+          "currentRole": "Operations Analyst",
+          "currentCompany": "Global Logistics Solutions",
+          "education": "Bachelor of Science in Business Analytics, University of London",
+          "skills": [
+            "Data Analysis",
+            "SQL",
+            "Python (Pandas, NumPy)",
+            "Tableau",
+            "Process Optimization",
+            "Supply Chain Management",
+            "Project Coordination"
+          ]
+        },
+        "targetJob": {
+          "company": "Tech Innovations Inc.",
+          "position": "Business Intelligence Analyst"
+        },
+        "personality": {
+          "communicationStyle": "structured",
+          "confidenceLevel": "medium",
+          "criticalness": 9,
+          "patience": 7,
+          "trustLevel": 4
+        },
+        "interviewBehavior": {
+          "typicalResponseLength": "detailed",
+          "usesExamples": true,
+          "asksForClarification": true,
+          "getsNervous": false
+        },
+        "resumeText": "Lena Petrova | Operations & Business Intelligence Analyst | lenapetrova@email.com | +44 7123 456789 | London, UK\n\nSummary: Highly analytical Operations Analyst with 3 years of experience leveraging data to optimize business processes and drive strategic decisions. Proficient in SQL, Python, and Tableau, with a proven track record of identifying inefficiencies and implementing data-driven solutions. Seeking a challenging Business Intelligence Analyst role to contribute to data strategy and enhance reporting capabilities within a growth-oriented tech company.\n\nExperience:\nOperations Analyst | Global Logistics Solutions | London, UK | June 2021 – Present\n- Led data analysis projects to identify bottlenecks in global supply chain operations, resulting in a 15% reduction in shipping delays.\n- Developed and maintained SQL queries and Python scripts to extract, transform, and load data from various operational databases for reporting.\n- Created interactive dashboards in Tableau to visualize key performance indicators (KPIs) for senior management, improving decision-making speed by 20%.\n- Collaborated with cross-functional teams to implement process improvements, enhancing operational efficiency by 10% annually.\n- Conducted root cause analysis for operational discrepancies, providing actionable insights for corrective measures.\n\nEducation:\nBachelor of Science in Business Analytics | University of London | London, UK | 2018 – 2021\n- Graduated with First-Class Honours.\n- Relevant Coursework: Predictive Analytics, Data Mining, Statistical Modeling, Database Management, Business Process Design.\n\nSkills: Data Analysis, SQL, Python (Pandas, NumPy, Matplotlib), Tableau, Excel, Power BI, Process Optimization, Supply Chain Analytics, Project Management, A/B Testing, Data Visualization, Communication.",
+        "situation": "Lena is actively mass applying to 40+ roles in Business Intelligence and Data Analytics. She's looking to transition from a logistics-focused operations role to a pure tech company where she can apply her analytical skills to a broader range of business problems and gain exposure to more advanced data tools. She feels her current company offers limited growth opportunities and wants to join a company known for innovation and employee development.",
+        "feedbackStyle": "Lena will provide highly detailed and structured feedback, pointing out specific areas where the AI's responses were vague or lacked depth. She will offer constructive criticism on the relevance of follow-up questions and suggest improvements for scenario-based questions, often comparing it to her ideal interview experience. She expects the system to be precise and highly relevant to her target roles.",
+        "id": "persona_1767790089937_izpc711rm",
+        "createdAt": "2026-01-07T12:48:09.937Z",
+        "iteration": 10
+      },
+      "sessionId": "tps_1767790089938_s6yk5pt26",
+      "topics": [
+        {
+          "name": "项目经验",
+          "rounds": 6,
+          "hintsUsed": 0,
+          "feedback": {
+            "topicName": "项目经验",
+            "feedbackQuality": 8,
+            "recommendationQuality": 3,
+            "timingAppropriate": true,
+            "overallSatisfaction": 6,
+            "comments": "关于项目经验的反馈非常详细和专业，它准确地识别了我在技术能力、问题解决、项目管理、沟通协作和业务理解方面的优势，并引用了我的具体回答作为证据。这表明系统对我的回答进行了深入的分析。改进建议也非常中肯，量化业务影响是我在面试中需要着重加强的部分，而突出挑战和克服过程也能让我的故事更具吸引力。然而，在“影响力与结果”部分，系统虽然指出了我缺乏量化结果，但没有进一步提供如何将我简历中已有的量化成果（例如“15% reduction in shipping delays”、“20% improving decision-making speed”）整合到这个特定项目描述中的具体指导，这本可以是一个很好的补充。总的来说，反馈的深度和结构都达到了我的预期，但可以在提供改进建议时更具操作性。\n\n然而，职位推荐的质量令人非常失望。所有推荐的匹配度都是75%，推荐理由都是泛泛的“Based on your target position and demonstrated skills”，关键技能一栏是空的，准备建议也只是笼统的“Highlight relevant project experience in your resume”。这完全没有体现出系统对我面试表现的任何分析，也没有结合我的具体技能栈和目标公司类型（Tech Innovations Inc.，专注于创新和员工发展）进行个性化推荐。这些推荐看起来像是随机的招聘机构，而非基于深入分析的精准匹配。我正在积极寻找纯技术公司的商业智能分析师职位，这些推荐并没有给我任何有价值的信息或新的求职方向。我希望系统能根据我的具体技术能力、行业偏好以及我在面试中展现出的优势，推荐更具针对性的公司和职位，并给出具体的理由和准备建议，例如指出哪些公司可能更看重我的供应链分析背景，或者哪些职位需要我进一步提升某种特定技能。目前的推荐质量远低于我的预期。"
+          }
+        },
+        {
+          "name": "技术能力",
+          "rounds": 6,
+          "hintsUsed": 0,
+          "feedback": {
+            "topicName": "技术能力",
+            "feedbackQuality": 8,
+            "recommendationQuality": 9,
+            "timingAppropriate": true,
+            "overallSatisfaction": 8,
+            "comments": "UHired提供的面试反馈在技术深度和问题解决能力方面给予了高度肯定，这与我希望在技术领域深入发展的目标非常契合。详细分析部分准确捕捉了我对时间序列模型（如Prophet）选择的考量，以及与IT团队协作部署和监控的实践，这表明系统对我的回答理解得非常透彻。然而，在“量化业务影响”的改进建议上，我承认这是我需要加强的地方，但系统未能捕捉到我在简历中提到的“Led data analysis projects to identify bottlenecks in global supply chain operations, resulting in a 15% reduction in shipping delays”这类量化成果，这让我觉得反馈可以更全面地结合我的背景信息。针对“深入探讨挑战与解决方案”的建议是中肯的，我会在未来的面试中更加注重这方面的阐述。总体而言，反馈专业且具有建设性。职位推荐部分非常出色，特别是Amazon和Walmart Global Tech的推荐，它们与我的供应链背景和目标转型方向高度吻合。推荐理由清晰有力，并基于我展示出的具体技能和项目经验。为每个推荐职位提供的“关键技能”和“准备建议”也极具实用性，显示出系统对行业和职位的深入理解。我特别欣赏它能识别出我具备超越BI分析师的“数据科学家”水平，并据此推荐了更具挑战性的机会。IBM的推荐也很有趣，为我提供了不同维度的职业发展可能性。反馈和推荐的时机非常及时，有助于我立即调整策略并为接下来的面试做准备。"
+          }
+        }
+      ],
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "请描述一个你最近参与的、最具挑战性的技术项目。",
+          "timestamp": "2026-01-07T12:48:09.938Z",
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 0
+          }
+        },
+        {
+          "role": "user",
+          "content": "当然。我最近参与的一个最具挑战性的技术项目是关于优化全球供应链中的库存预测模型。我们公司处理着海量的物流数据，而现有的预测系统在处理季节性波动和突发事件时表现不佳，导致库存过剩或短缺。为了解决这个问题，我主导了一个项目，目标是利用更先进的数据分析技术来提高预测准确性。",
+          "timestamp": "2026-01-07T12:48:15.737Z",
+          "actions": [
+            {
+              "type": "answer",
+              "content": "当然。我最近参与的一个最具挑战性的技术项目是关于优化全球供应链中的库存预测模型。我们公司处理着海量的物流数据，而现有的预测系统在处理季节性波动和突发事件时表现不佳，导致库存过剩或短缺。为了解决这个问题，我主导了一个项目，目标是利用更先进的数据分析技术来提高预测准确性。",
+              "duration": 14886.85329686276,
+              "timestamp": "2026-01-07T12:48:15.738Z",
+              "thought": "这个问题很直接，也符合我在技术项目经验方面的背景。我选择了一个与供应链优化相关的项目，这既能展示我的分析能力，也能与我目前的运营分析师角色相符。我提到了技术挑战（预测模型不足）和我的贡献（主导项目，利用先进技术），但还没有深入到具体的技术细节，因为我的回答风格是中等长度且不过于详细。我期待面试官能追问具体的实施细节或技术栈，这样我就可以进一步展示我的Python和SQL技能。"
+            }
+          ],
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 1,
+            "hintRequested": false,
+            "trustLevel": 4
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "很好，能详细说说你在这个过程中具体做了什么吗？",
+          "timestamp": "2026-01-07T12:48:15.738Z",
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 1
+          }
+        },
+        {
+          "role": "user",
+          "content": "当然。在这个库存预测优化项目中，我的主要职责是数据分析、模型开发与验证，以及最终的实施支持。首先，我与运营团队紧密合作，深入理解现有预测模型的局限性和业务痛点，例如季节性、促销活动和突发事件对库存的影响。接着，我负责从多个数据库中提取历史销售数据、供应链数据和市场趋势数据。我使用 SQL 进行数据清洗和预处理，并利用 Python（主要是 Pandas 和 NumPy 库）对数据进行探索性分析，识别关键变量和潜在的数据模式。基于这些洞察，我研究并比较了多种预测算法，包括时间序列模型（如ARIMA、Prophet）和机器学习模型（如XGBoost），最终选择了一种混合模型，因为它在处理季节性和异常值方面表现更优。我用Python构建了模型，并进行了交叉验证和回溯测试，以确保其准确性和鲁棒性。最后，我将模型的预测结果通过 Tableau 可视化，创建了交互式仪表板，帮助管理层更好地理解预测数据，并支持他们做出更及时的库存决策。我还参与了与IT团队的协作，将新模型集成到现有的供应链管理系统中，并提供了用户培训。",
+          "timestamp": "2026-01-07T12:48:28.584Z",
+          "actions": [
+            {
+              "type": "answer",
+              "content": "当然。在这个库存预测优化项目中，我的主要职责是数据分析、模型开发与验证，以及最终的实施支持。首先，我与运营团队紧密合作，深入理解现有预测模型的局限性和业务痛点，例如季节性、促销活动和突发事件对库存的影响。接着，我负责从多个数据库中提取历史销售数据、供应链数据和市场趋势数据。我使用 SQL 进行数据清洗和预处理，并利用 Python（主要是 Pandas 和 NumPy 库）对数据进行探索性分析，识别关键变量和潜在的数据模式。基于这些洞察，我研究并比较了多种预测算法，包括时间序列模型（如ARIMA、Prophet）和机器学习模型（如XGBoost），最终选择了一种混合模型，因为它在处理季节性和异常值方面表现更优。我用Python构建了模型，并进行了交叉验证和回溯测试，以确保其准确性和鲁棒性。最后，我将模型的预测结果通过 Tableau 可视化，创建了交互式仪表板，帮助管理层更好地理解预测数据，并支持他们做出更及时的库存决策。我还参与了与IT团队的协作，将新模型集成到现有的供应链管理系统中，并提供了用户培训。",
+              "duration": 12928.115127501023,
+              "timestamp": "2026-01-07T12:48:28.584Z",
+              "thought": "这个问题问得很好，让我有机会详细阐述我在项目中的具体贡献和技术应用，这与我的简历和目标职位非常契合。我提到了具体的工具和方法，比如SQL、Python（Pandas、NumPy）、Tableau以及不同的预测模型，这应该能展示我的技术深度。我还在回答中强调了与业务团队的协作和最终的业务影响，这符合BI分析师的角色要求。目前为止，对话进展得很顺利。"
+            }
+          ],
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 2,
+            "hintRequested": false,
+            "trustLevel": 4
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "很好，能详细说说你在这个过程中具体做了什么吗？",
+          "timestamp": "2026-01-07T12:48:28.584Z",
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 2
+          }
+        },
+        {
+          "role": "user",
+          "content": "好的，我会更具体地阐述我在这个项目中的个人贡献。在数据提取和预处理阶段，我亲自编写了复杂的 SQL 查询来从不同的企业资源规划（ERP）和仓库管理系统（WMS）数据库中抽取数据，并利用 Python 脚本（特别是 Pandas 库）进行数据清洗、缺失值处理和特征工程，例如创建滞后变量和滚动平均值来捕捉时间序列的特征。在模型开发方面，我评估了多种预测算法，包括ARIMA、Prophet和基于机器学习的随机森林模型，并使用Python的Scikit-learn库实现了这些模型。我负责模型的交叉验证和性能评估，确保模型在历史数据上的鲁棒性。最终，我将选定的最优模型集成到现有的数据管道中，并设计了Tableau仪表板来实时监控模型的预测准确性和关键库存指标，以便运营团队能够快速响应。我还积极参与了与IT团队的协作，确保模型部署的顺畅进行和系统的稳定性。",
+          "timestamp": "2026-01-07T12:48:36.137Z",
+          "actions": [
+            {
+              "type": "answer",
+              "content": "好的，我会更具体地阐述我在这个项目中的个人贡献。在数据提取和预处理阶段，我亲自编写了复杂的 SQL 查询来从不同的企业资源规划（ERP）和仓库管理系统（WMS）数据库中抽取数据，并利用 Python 脚本（特别是 Pandas 库）进行数据清洗、缺失值处理和特征工程，例如创建滞后变量和滚动平均值来捕捉时间序列的特征。在模型开发方面，我评估了多种预测算法，包括ARIMA、Prophet和基于机器学习的随机森林模型，并使用Python的Scikit-learn库实现了这些模型。我负责模型的交叉验证和性能评估，确保模型在历史数据上的鲁棒性。最终，我将选定的最优模型集成到现有的数据管道中，并设计了Tableau仪表板来实时监控模型的预测准确性和关键库存指标，以便运营团队能够快速响应。我还积极参与了与IT团队的协作，确保模型部署的顺畅进行和系统的稳定性。",
+              "duration": 7697.68053142496,
+              "timestamp": "2026-01-07T12:48:36.137Z",
+              "thought": "系统再次要求我详细说明具体做了什么，这表明我之前的回答可能仍然不够聚焦于“我”的个人行动和具体技术细节。我需要更明确地使用第一人称，并结合我的技能列表来展示我的实际操作，而不是仅仅描述职责。我希望这次的回答能满足其对细节的要求，并推动对话进入下一个阶段，例如询问挑战或成果，而不是重复的问题。"
+            }
+          ],
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 3,
+            "hintRequested": false,
+            "trustLevel": 4
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "很好，能详细说说你在这个过程中具体做了什么吗？",
+          "timestamp": "2026-01-07T12:48:36.137Z",
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 3
+          }
+        },
+        {
+          "role": "user",
+          "content": "好的，我很乐意继续深入。在模型开发和验证阶段，我不仅仅是评估算法，更重要的是，我基于前期的数据探索结果和业务需求，选择了最适合我们库存预测场景的算法。例如，考虑到我们产品的季节性波动和促销活动的影响，我重点测试了Prophet模型，因为它在处理时间序列中的趋势、季节性和节假日效应方面表现出色。我使用Python的scikit-learn库进行模型训练和交叉验证，确保模型的泛化能力。在模型部署前，我还与运营团队紧密合作，进行A/B测试和回溯测试，比较新模型与现有模型的预测准确性，并根据业务反馈进行迭代优化。最终，我负责将优化后的模型集成到现有的库存管理系统中，并开发了自动化脚本来定期更新模型，确保其持续的准确性和有效性。",
+          "timestamp": "2026-01-07T12:48:43.200Z",
+          "actions": [
+            {
+              "type": "answer",
+              "content": "好的，我很乐意继续深入。在模型开发和验证阶段，我不仅仅是评估算法，更重要的是，我基于前期的数据探索结果和业务需求，选择了最适合我们库存预测场景的算法。例如，考虑到我们产品的季节性波动和促销活动的影响，我重点测试了Prophet模型，因为它在处理时间序列中的趋势、季节性和节假日效应方面表现出色。我使用Python的scikit-learn库进行模型训练和交叉验证，确保模型的泛化能力。在模型部署前，我还与运营团队紧密合作，进行A/B测试和回溯测试，比较新模型与现有模型的预测准确性，并根据业务反馈进行迭代优化。最终，我负责将优化后的模型集成到现有的库存管理系统中，并开发了自动化脚本来定期更新模型，确保其持续的准确性和有效性。",
+              "duration": 9364.108891512415,
+              "timestamp": "2026-01-07T12:48:43.200Z",
+              "thought": "面试官似乎一直在追问更具体的细节，这很好，说明他们对我的项目经验很感兴趣。我需要继续提供具体的行动和技术细节，以展示我的深度和贡献。我感觉我正在提供足够详细的信息，但面试官的重复提问让我有点困惑，是我的回答不够具体，还是他们想看我能深入到什么程度？我需要确保我的回答既详细又聚焦于我的个人贡献。"
+            }
+          ],
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 4,
+            "hintRequested": false,
+            "trustLevel": 4
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "很好，能详细说说你在这个过程中具体做了什么吗？",
+          "timestamp": "2026-01-07T12:48:43.200Z",
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 4
+          }
+        },
+        {
+          "role": "user",
+          "content": "好的，我很乐意继续深入。在模型部署前，我与IT团队紧密合作，确保模型能够无缝集成到现有的供应链管理系统中。这包括将Python模型封装成API接口，并协助IT团队进行测试和部署。此外，我还设计并实施了持续的模型监控机制，例如设置了数据漂移检测和性能指标（如MAPE、RMSE）的实时仪表板，以便及时发现模型性能下降并进行迭代优化。我定期向业务部门提供模型预测报告，并根据他们的反馈调整模型参数和业务规则，确保预测结果的实用性和准确性。",
+          "timestamp": "2026-01-07T12:48:48.755Z",
+          "actions": [
+            {
+              "type": "answer",
+              "content": "好的，我很乐意继续深入。在模型部署前，我与IT团队紧密合作，确保模型能够无缝集成到现有的供应链管理系统中。这包括将Python模型封装成API接口，并协助IT团队进行测试和部署。此外，我还设计并实施了持续的模型监控机制，例如设置了数据漂移检测和性能指标（如MAPE、RMSE）的实时仪表板，以便及时发现模型性能下降并进行迭代优化。我定期向业务部门提供模型预测报告，并根据他们的反馈调整模型参数和业务规则，确保预测结果的实用性和准确性。",
+              "duration": 6248.243103099329,
+              "timestamp": "2026-01-07T12:48:48.755Z",
+              "thought": "面试官第三次问同样的问题，这让我感到有些重复和不确定。我之前已经提供了相当详细的个人贡献，包括具体的工具和方法。我需要继续提供更多细节，但也要确保不只是简单地重复。我将重点放在模型部署和后期维护上，这部分我之前还没有详细展开。我希望这次的回答能够满足面试官对细节的要求，并推动对话进入下一个阶段。我感觉面试官可能是在寻找非常具体的、可量化的个人贡献，或者想看我如何处理项目周期的不同阶段。"
+            }
+          ],
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 5,
+            "hintRequested": false,
+            "trustLevel": 4
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "很好，能详细说说你在这个过程中具体做了什么吗？",
+          "timestamp": "2026-01-07T12:48:48.755Z",
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 5
+          }
+        },
+        {
+          "role": "user",
+          "content": "好的，我很乐意详细说明我在模型部署和监控阶段的具体工作。在部署方面，我主要负责将我们开发的库存预测模型转化为可操作的解决方案。这包括与IT团队紧密合作，将Python模型封装成一个RESTful API，以便其他系统可以轻松调用。我参与了API的测试，确保数据输入输出格式的正确性以及响应速度符合业务需求。在监控方面，我设计并实现了一个自动化监控仪表板，利用Tableau连接到模型预测结果和实际库存数据，实时追踪关键性能指标，例如平均绝对百分比误差（MAPE）和均方根误差（RMSE）。我还设置了预警机制，当模型预测偏差超过预设阈值时，系统会自动通知相关业务负责人和数据科学团队，以便及时介入分析原因并进行模型调优。此外，我定期与业务部门沟通，收集他们对预测结果的反馈，并利用这些反馈来调整模型的参数或改进数据预处理流程，确保模型能够持续为业务提供准确的洞察。",
+          "timestamp": "2026-01-07T12:48:56.937Z",
+          "actions": [
+            {
+              "type": "answer",
+              "content": "好的，我很乐意详细说明我在模型部署和监控阶段的具体工作。在部署方面，我主要负责将我们开发的库存预测模型转化为可操作的解决方案。这包括与IT团队紧密合作，将Python模型封装成一个RESTful API，以便其他系统可以轻松调用。我参与了API的测试，确保数据输入输出格式的正确性以及响应速度符合业务需求。在监控方面，我设计并实现了一个自动化监控仪表板，利用Tableau连接到模型预测结果和实际库存数据，实时追踪关键性能指标，例如平均绝对百分比误差（MAPE）和均方根误差（RMSE）。我还设置了预警机制，当模型预测偏差超过预设阈值时，系统会自动通知相关业务负责人和数据科学团队，以便及时介入分析原因并进行模型调优。此外，我定期与业务部门沟通，收集他们对预测结果的反馈，并利用这些反馈来调整模型的参数或改进数据预处理流程，确保模型能够持续为业务提供准确的洞察。",
+              "duration": 11153.703843086925,
+              "timestamp": "2026-01-07T12:48:56.937Z",
+              "thought": "面试官似乎一直在追问“具体做了什么”，这很好，说明他们对我的实际操作能力很感兴趣。我需要确保我的回答足够具体，并且能够体现我的技术能力和业务理解。我提到了API封装、Tableau仪表板、MAPE/RMSE等具体技术和指标，以及与IT和业务部门的协作，这应该能满足他们的要求。不过，这种连续的追问让我有点担心，是不是我之前的回答不够清晰，或者他们想测试我的耐心和细节描述能力。"
+            }
+          ],
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 6,
+            "hintRequested": false,
+            "trustLevel": 4
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "很好，能详细说说你在这个过程中具体做了什么吗？",
+          "timestamp": "2026-01-07T12:48:56.937Z",
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 6
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "请描述一个你最近参与的、最具挑战性的技术问题。",
+          "timestamp": "2026-01-07T12:51:41.780Z",
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 0
+          }
+        },
+        {
+          "role": "user",
+          "content": "好的，我最近遇到的最具挑战性的技术问题是关于优化我们全球供应链中的库存预测模型。我们现有的模型在处理季节性波动和突发需求高峰时表现不佳，导致库存过剩或缺货，这直接影响了运营成本和客户满意度。为了解决这个问题，我主导了一个项目，目标是改进模型的准确性和鲁棒性。这涉及到了对历史数据进行深入的探索性分析，识别并处理异常值，以及尝试不同的机器学习算法，例如时间序列分析（ARIMA）和更复杂的集成模型（如XGBoost），以更好地捕捉数据的复杂模式。最大的挑战在于如何平衡模型的复杂性与实际部署的可行性，并确保模型能够无缝集成到现有的业务流程中。",
+          "timestamp": "2026-01-07T12:51:52.212Z",
+          "actions": [
+            {
+              "type": "answer",
+              "content": "好的，我最近遇到的最具挑战性的技术问题是关于优化我们全球供应链中的库存预测模型。我们现有的模型在处理季节性波动和突发需求高峰时表现不佳，导致库存过剩或缺货，这直接影响了运营成本和客户满意度。为了解决这个问题，我主导了一个项目，目标是改进模型的准确性和鲁棒性。这涉及到了对历史数据进行深入的探索性分析，识别并处理异常值，以及尝试不同的机器学习算法，例如时间序列分析（ARIMA）和更复杂的集成模型（如XGBoost），以更好地捕捉数据的复杂模式。最大的挑战在于如何平衡模型的复杂性与实际部署的可行性，并确保模型能够无缝集成到现有的业务流程中。",
+              "duration": 6721.68060320429,
+              "timestamp": "2026-01-07T12:51:52.212Z",
+              "thought": "这个问题很直接，也给了我一个展示技术能力和解决复杂问题能力的机会。我的回答聚焦于一个具体的、与我当前工作和未来目标都相关的技术挑战，并提到了具体的工具和方法。我希望这能充分展示我的分析和问题解决能力。"
+            }
+          ],
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 1,
+            "hintRequested": false,
+            "trustLevel": 4
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "很好，能详细说说你在这个过程中具体做了什么吗？",
+          "timestamp": "2026-01-07T12:51:52.212Z",
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 1
+          }
+        },
+        {
+          "role": "user",
+          "content": "当然。在这个库存预测模型优化项目中，我首先进行了全面的数据清洗和预处理，因为原始数据中存在缺失值、异常值以及不一致的格式。我使用 Python 的 Pandas 库来处理这些问题，确保数据的质量和可用性。接着，我进行了深入的探索性数据分析（EDA），利用 Matplotlib 和 Tableau 可视化了历史销售趋势、季节性模式以及任何潜在的外部影响因素，比如促销活动或市场事件。在模型选择阶段，我没有直接跳到复杂的模型，而是先评估了现有的 ARIMA 模型，并识别了其在处理非线性关系和突发事件上的局限性。随后，我研究并尝试了更先进的机器学习模型，包括梯度提升树（如XGBoost）和循环神经网络（RNN），因为它们在处理时间序列数据的复杂模式方面表现更优。我负责特征工程，从原始数据中提取了滞后特征、移动平均和日历特征等，以提高模型的预测能力。最后，我使用交叉验证技术对不同模型进行了严格的评估和比较，主要关注均方根误差（RMSE）和平均绝对百分比误差（MAPE）等指标，并最终选择了表现最佳的模型进行部署。我还设计了一个监控机制，以便持续跟踪模型性能并进行必要的再训练。",
+          "timestamp": "2026-01-07T12:52:00.478Z",
+          "actions": [
+            {
+              "type": "answer",
+              "content": "当然。在这个库存预测模型优化项目中，我首先进行了全面的数据清洗和预处理，因为原始数据中存在缺失值、异常值以及不一致的格式。我使用 Python 的 Pandas 库来处理这些问题，确保数据的质量和可用性。接着，我进行了深入的探索性数据分析（EDA），利用 Matplotlib 和 Tableau 可视化了历史销售趋势、季节性模式以及任何潜在的外部影响因素，比如促销活动或市场事件。在模型选择阶段，我没有直接跳到复杂的模型，而是先评估了现有的 ARIMA 模型，并识别了其在处理非线性关系和突发事件上的局限性。随后，我研究并尝试了更先进的机器学习模型，包括梯度提升树（如XGBoost）和循环神经网络（RNN），因为它们在处理时间序列数据的复杂模式方面表现更优。我负责特征工程，从原始数据中提取了滞后特征、移动平均和日历特征等，以提高模型的预测能力。最后，我使用交叉验证技术对不同模型进行了严格的评估和比较，主要关注均方根误差（RMSE）和平均绝对百分比误差（MAPE）等指标，并最终选择了表现最佳的模型进行部署。我还设计了一个监控机制，以便持续跟踪模型性能并进行必要的再训练。",
+              "duration": 9350.210308016362,
+              "timestamp": "2026-01-07T12:52:00.478Z",
+              "thought": "这个问题是上一轮的延续，要求我进一步详细说明我在库存预测模型优化项目中的具体行动。我的回答需要体现出结构性、技术深度和实际操作细节，符合我作为业务分析师的角色。我提到了数据清洗、EDA、模型选择、特征工程、模型评估和部署监控，这些都是数据科学项目中的关键步骤。我使用了具体的工具和技术名称，如Pandas、Matplotlib、Tableau、ARIMA、XGBoost、RNN、RMSE和MAPE，以展现我的专业能力。回答的长度适中，包含足够多的细节，但又不会过于冗长。我感觉这个追问是合理的，有助于我展示我的技术执行力。"
+            }
+          ],
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 2,
+            "hintRequested": false,
+            "trustLevel": 4
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "很好，能详细说说你在这个过程中具体做了什么吗？",
+          "timestamp": "2026-01-07T12:52:00.478Z",
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 2
+          }
+        },
+        {
+          "role": "user",
+          "content": "好的，我会继续详细说明。在数据准备和探索性分析之后，我着手进行模型开发。我首先尝试了ARIMA模型来捕捉时间序列的自相关性，但发现它在处理突发需求高峰时仍有局限性。因此，我转向了更复杂的机器学习方法。我使用Python的Scikit-learn库，尝试了如Gradient Boosting Regressor和Random Forest Regressor等集成模型。为了评估这些模型的性能，我采用了交叉验证技术，并使用均方根误差（RMSE）和平均绝对百分比误差（MAPE）作为关键指标。在模型训练过程中，我还特别关注了特征工程，例如创建滞后变量、滚动平均值以及将季节性因素编码为独热变量，以提高模型的预测能力。最终，通过比较不同模型的表现，我选择了在准确性和鲁棒性之间取得最佳平衡的模型，并对其进行了超参数调优。",
+          "timestamp": "2026-01-07T12:52:07.211Z",
+          "actions": [
+            {
+              "type": "answer",
+              "content": "好的，我会继续详细说明。在数据准备和探索性分析之后，我着手进行模型开发。我首先尝试了ARIMA模型来捕捉时间序列的自相关性，但发现它在处理突发需求高峰时仍有局限性。因此，我转向了更复杂的机器学习方法。我使用Python的Scikit-learn库，尝试了如Gradient Boosting Regressor和Random Forest Regressor等集成模型。为了评估这些模型的性能，我采用了交叉验证技术，并使用均方根误差（RMSE）和平均绝对百分比误差（MAPE）作为关键指标。在模型训练过程中，我还特别关注了特征工程，例如创建滞后变量、滚动平均值以及将季节性因素编码为独热变量，以提高模型的预测能力。最终，通过比较不同模型的表现，我选择了在准确性和鲁棒性之间取得最佳平衡的模型，并对其进行了超参数调优。",
+              "duration": 12533.21112874316,
+              "timestamp": "2026-01-07T12:52:07.211Z",
+              "thought": "面试官第三次问同样的问题，这让我有点困惑，感觉他没有完全理解我之前回答的细节，或者是在测试我提供更多深层信息的能力。我需要更具体地阐述我在模型开发和评估阶段的具体行动，以展现我的技术深度和解决问题的完整流程。虽然重复，但我会尽量提供新的、有价值的信息，以满足他持续追问的意图。"
+            }
+          ],
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 3,
+            "hintRequested": false,
+            "trustLevel": 4
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "很好，能详细说说你在这个过程中具体做了什么吗？",
+          "timestamp": "2026-01-07T12:52:07.211Z",
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 3
+          }
+        },
+        {
+          "role": "user",
+          "content": "好的，我会继续详细说明模型评估和选择的过程。在尝试了多种模型后，我主要关注了模型的预测准确性和稳定性。我使用了交叉验证（Cross-validation）技术来确保模型在未见过的数据上也能表现良好，避免过拟合。具体来说，我采用了时间序列交叉验证，将数据集划分为训练集和验证集，并滚动地向前推进，以模拟实际的预测场景。评估指标方面，我主要关注了均方根误差（RMSE）和平均绝对百分比误差（MAPE），因为它们能很好地衡量预测值与实际值之间的偏差，并且MAPE对于不同量级的库存项具有更好的可比性。通过比较不同模型的这些指标，我最终选择了Gradient Boosting Regressor，因为它在历史数据和验证集上的表现最为稳定和准确，尤其是在捕捉需求波动方面优于其他模型。在模型部署之前，我还进行了敏感性分析，以了解模型对关键输入参数变化的鲁敏性。",
+          "timestamp": "2026-01-07T12:52:14.307Z",
+          "actions": [
+            {
+              "type": "answer",
+              "content": "好的，我会继续详细说明模型评估和选择的过程。在尝试了多种模型后，我主要关注了模型的预测准确性和稳定性。我使用了交叉验证（Cross-validation）技术来确保模型在未见过的数据上也能表现良好，避免过拟合。具体来说，我采用了时间序列交叉验证，将数据集划分为训练集和验证集，并滚动地向前推进，以模拟实际的预测场景。评估指标方面，我主要关注了均方根误差（RMSE）和平均绝对百分比误差（MAPE），因为它们能很好地衡量预测值与实际值之间的偏差，并且MAPE对于不同量级的库存项具有更好的可比性。通过比较不同模型的这些指标，我最终选择了Gradient Boosting Regressor，因为它在历史数据和验证集上的表现最为稳定和准确，尤其是在捕捉需求波动方面优于其他模型。在模型部署之前，我还进行了敏感性分析，以了解模型对关键输入参数变化的鲁敏性。",
+              "duration": 10019.183382278341,
+              "timestamp": "2026-01-07T12:52:14.307Z",
+              "thought": "面试官持续追问细节，这很好，说明他们对我的技术深度感兴趣。我需要继续提供具体的方法和指标，展示我严谨的数据科学实践。我感觉这个话题可以继续深入，但也要注意不要过于冗长。"
+            }
+          ],
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 4,
+            "hintRequested": false,
+            "trustLevel": 4
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "很好，能详细说说你在这个过程中具体做了什么吗？",
+          "timestamp": "2026-01-07T12:52:14.307Z",
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 4
+          }
+        },
+        {
+          "role": "user",
+          "content": "好的，我会继续详细说明。在模型评估和选择阶段，我首先负责设计了交叉验证的策略，确保它符合时间序列数据的特性，即使用滚动预测窗口进行验证。我亲自编写了Python脚本，利用`sklearn.model_selection`模块实现了这一过程。接着，我计算并比较了不同模型的RMSE和MAPE值，并对结果进行了统计分析，以判断模型性能的显著差异。我还会可视化模型的预测结果与实际值的对比，尤其是关注在需求高峰期的表现。最后，我根据这些量化指标和可视化分析，向团队提出了最终的模型选择建议，并解释了选择该模型的理由及其潜在的业务影响。",
+          "timestamp": "2026-01-07T12:52:22.925Z",
+          "actions": [
+            {
+              "type": "answer",
+              "content": "好的，我会继续详细说明。在模型评估和选择阶段，我首先负责设计了交叉验证的策略，确保它符合时间序列数据的特性，即使用滚动预测窗口进行验证。我亲自编写了Python脚本，利用`sklearn.model_selection`模块实现了这一过程。接着，我计算并比较了不同模型的RMSE和MAPE值，并对结果进行了统计分析，以判断模型性能的显著差异。我还会可视化模型的预测结果与实际值的对比，尤其是关注在需求高峰期的表现。最后，我根据这些量化指标和可视化分析，向团队提出了最终的模型选择建议，并解释了选择该模型的理由及其潜在的业务影响。",
+              "duration": 8636.889596210087,
+              "timestamp": "2026-01-07T12:52:22.925Z",
+              "thought": "这个问题是直接对前一个回答的延续，要求更具体地描述我的行动。我尝试从“我做了什么”的角度来回答，而不是仅仅列出方法。这表明系统在尝试深入了解我的实际操作能力，这对于评估我的技术能力是有效的。信任度维持中等，因为问题本身没有提供新的信息，只是要求更详细的阐述。"
+            }
+          ],
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 5,
+            "hintRequested": false,
+            "trustLevel": 4
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "很好，能详细说说你在这个过程中具体做了什么吗？",
+          "timestamp": "2026-01-07T12:52:22.925Z",
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 5
+          }
+        },
+        {
+          "role": "user",
+          "content": "好的，我会进一步阐述我在模型评估和选择过程中具体的个人贡献。除了设计交叉验证策略和编写Python脚本外，我特别关注了异常值对模型性能的影响。我主动进行了数据预处理，识别并处理了时间序列中的异常值，以确保评估指标的准确性。在模型比较阶段，我不仅计算了RMSE和MAPE，还深入分析了每个模型在不同业务场景下的表现，例如在需求波动较大或季节性变化明显的时期。我还会组织内部会议，向业务团队解释不同模型的优缺点，并基于数据分析结果，提出最适合业务需求的模型推荐方案，并协助他们理解这些模型的预测局限性。",
+          "timestamp": "2026-01-07T12:52:30.551Z",
+          "actions": [
+            {
+              "type": "answer",
+              "content": "好的，我会进一步阐述我在模型评估和选择过程中具体的个人贡献。除了设计交叉验证策略和编写Python脚本外，我特别关注了异常值对模型性能的影响。我主动进行了数据预处理，识别并处理了时间序列中的异常值，以确保评估指标的准确性。在模型比较阶段，我不仅计算了RMSE和MAPE，还深入分析了每个模型在不同业务场景下的表现，例如在需求波动较大或季节性变化明显的时期。我还会组织内部会议，向业务团队解释不同模型的优缺点，并基于数据分析结果，提出最适合业务需求的模型推荐方案，并协助他们理解这些模型的预测局限性。",
+              "duration": 5412.912182316732,
+              "timestamp": "2026-01-07T12:52:30.551Z",
+              "thought": "面试官似乎在不断深入追问我个人在技术细节上的具体贡献。这很好，表明他们对我的实际操作能力很感兴趣。我需要确保我的回答不仅仅是重复，而是每次都提供新的、更深层次的细节和行动，突出我的主动性和决策能力。我感觉我的回答已经足够详细，但如果他们继续追问，我可能需要更具体地提及某个项目或某个决策点。"
+            }
+          ],
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 6,
+            "hintRequested": false,
+            "trustLevel": 4
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "很好，能详细说说你在这个过程中具体做了什么吗？",
+          "timestamp": "2026-01-07T12:52:30.551Z",
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 6
+          }
+        }
+      ],
+      "overallFeedback": {
+        "satisfaction": 7,
+        "wouldRecommend": true,
+        "comments": "UHired的话题练习功能在面试反馈的深度和专业性方面表现出色，尤其是在技术能力和项目经验的分析上，系统能够准确识别我的优势并提供有针对性的改进建议。它能够深入理解我的回答，并将其与我的背景和目标职位联系起来，这对于我准备面试非常有帮助。然而，不同话题的职位推荐质量差异巨大。在“项目经验”话题中，职位推荐的质量令人非常失望，缺乏个性化和针对性，未能体现系统对我面试表现的任何分析。但在“技术能力”话题中，职位推荐则非常出色，提供了高度匹配且有价值的信息，这表明系统具备提供高质量推荐的潜力。整体而言，反馈部分达到了我的预期，但职位推荐的稳定性需要大幅提升。",
+        "improvementSuggestions": [
+          "统一并提升职位推荐的质量和个性化水平：确保所有话题的职位推荐都能像“技术能力”话题那样，基于用户的具体技能、项目经验、行业偏好和目标公司类型进行深入分析，并提供具体的推荐理由、关键技能和准备建议。避免出现泛泛而谈或随机推荐的情况。",
+          "增强反馈与用户背景信息的整合能力：在提供改进建议时，系统应更全面地结合用户简历中已有的量化成果和背景信息。例如，当指出用户缺乏量化结果时，应主动提供如何将简历中的现有量化数据（如“15% reduction in shipping delays”）整合到当前回答中的具体指导，使其更具操作性。",
+          "提供更具操作性的场景化指导：在指出用户需要加强某方面（如“量化业务影响”或“深入探讨挑战与解决方案”）时，可以提供一些具体的句式、框架或案例，帮助用户更好地组织和表达，而不仅仅是指出问题。"
+        ]
+      },
+      "metrics": {
+        "totalDuration": 360976,
+        "topicsCompleted": 2,
+        "hintsRequested": 0,
+        "abandonedTopics": 0,
+        "averageFeedbackQuality": 8,
+        "averageRecommendationQuality": 6
+      },
+      "timestamp": "2026-01-07T12:54:18.031Z"
+    },
+    {
+      "persona": {
+        "name": "Omar Hassan",
+        "background": {
+          "yearsOfExperience": 1,
+          "currentRole": "Junior Software Engineer",
+          "currentCompany": "StartUp Spark",
+          "education": "Bachelor of Computer Science, National University of Singapore",
+          "skills": [
+            "Java",
+            "Spring Boot",
+            "REST APIs",
+            "SQL (PostgreSQL)",
+            "JavaScript",
+            "React",
+            "AWS (EC2, S3)",
+            "Git",
+            "Agile Methodologies",
+            "Problem Solving"
+          ]
+        },
+        "targetJob": {
+          "company": "Global Tech Solutions",
+          "position": "Associate Software Developer"
+        },
+        "personality": {
+          "communicationStyle": "verbose",
+          "confidenceLevel": "low",
+          "criticalness": 9,
+          "patience": 6,
+          "trustLevel": 3
+        },
+        "interviewBehavior": {
+          "typicalResponseLength": "detailed",
+          "usesExamples": true,
+          "asksForClarification": true,
+          "getsNervous": true
+        },
+        "resumeText": "Omar Hassan | Junior Software Engineer | omar.hassan@email.com | +65 9876 5432 | Singapore\n\nSummary: Enthusiastic and detail-oriented Junior Software Engineer with 1 year of experience in full-stack development, specializing in Java/Spring Boot and React. Proven ability to contribute to scalable web applications and collaborate effectively within Agile teams. Eager to join a dynamic company where I can deepen my technical skills, learn from experienced mentors, and contribute to impactful software solutions.\n\nExperience:\nJunior Software Engineer | StartUp Spark | Singapore | July 2023 – Present\n- Developed and maintained RESTful APIs using Java and Spring Boot for a customer relationship management (CRM) platform, handling over 10,000 daily requests.\n- Contributed to the front-end development of web applications using React, improving user interface responsiveness and experience.\n- Implemented database schemas and optimized SQL queries for PostgreSQL, reducing query execution time by 25%.\n- Participated in code reviews, ensuring code quality and adherence to best practices.\n- Deployed and managed applications on AWS EC2 instances, gaining practical experience with cloud services.\n- Collaborated in an Agile Scrum environment, participating in daily stand-ups, sprint planning, and retrospectives.\n\nEducation:\nBachelor of Computer Science | National University of Singapore | Singapore | 2019 – 2023\n- Dean's List recipient for 3 semesters.\n- Capstone Project: Developed a real-time collaborative document editor using Node.js, Express, and WebSockets.\n\nSkills: Java, Spring Boot, RESTful APIs, PostgreSQL, MySQL, JavaScript, React, HTML, CSS, AWS (EC2, S3, RDS), Git, Docker (basic), Agile/Scrum, Data Structures, Algorithms, Object-Oriented Programming, Unit Testing (JUnit, Jest).",
+        "situation": "Omar is a junior developer who feels overwhelmed by the sheer volume of applications (50+) he's sending out. He's looking for a more structured environment than his current startup, hoping to find a larger company with clear career paths and mentorship opportunities. He's flexible on the specific tech stack but wants to continue growing his backend development skills. He gets nervous in interviews and is looking for a system that can help him articulate his thoughts more clearly and confidently.",
+        "feedbackStyle": "Omar will give very thorough feedback, often explaining his thought process and struggles during the interview. He will highlight specific questions that made him uncomfortable or where he felt he didn't perform well, asking for detailed guidance on how to improve. He'll be critical of any generic advice or lack of personalized feedback, emphasizing his need for concrete examples and strategies to build confidence and structure his answers.",
+        "id": "persona_1767790089937_mhfc1tmqc",
+        "createdAt": "2026-01-07T12:48:09.937Z",
+        "iteration": 10
+      },
+      "sessionId": "tps_1767790458032_ygabaffgu",
+      "topics": [
+        {
+          "name": "项目经验",
+          "rounds": 3,
+          "hintsUsed": 2,
+          "feedback": {
+            "topicName": "项目经验",
+            "feedbackQuality": 4,
+            "recommendationQuality": 2,
+            "timingAppropriate": true,
+            "overallSatisfaction": 3,
+            "comments": "收到反馈和推荐的时间点是合适的，这让我可以及时反思。然而，对于反馈的质量我感到有些失望。我知道我在面试中表现得非常紧张，并且确实在被问到“最具挑战性的技术项目”时，因为紧张和不确定如何组织答案而请求了提示。反馈指出了我的问题，例如“主动尝试回答问题，而不是立即请求提示”和“学习如何组织和表达项目经验”，这些是正确的，也确实是我的弱点。但是，它并没有提供具体的指导或示例，告诉我应该如何“组织和表达”我的项目经验，或者如何在压力下更好地独立思考。仅仅指出我做得不好，却没有给出具体可操作的策略，这让我觉得反馈不够有建设性。我期望能得到更详细的、针对我简历中具体项目（比如CRM平台或React前端开发）的建议，比如如何将它们包装成“最具挑战性”的项目，或者如何用STAR原则来构建我的回答。我承认我需要改进，但这种泛泛的建议对我这种低自信、需要具体指导的人来说帮助有限。至于职位推荐，我更是感到困惑。所有推荐的匹配度都是75%，推荐理由都是“Based on your target position and demonstrated skills”，关键技能是空的，准备建议都是“Highlight relevant project experience in your resume”。这看起来像是完全没有经过个性化分析的模板式回复。我明确表示想找一个有清晰职业路径和导师制度的大公司，而这些推荐公司虽然是大公司，但推荐理由和建议过于笼统，没有体现出对我具体技能栈（Java/Spring Boot, React, PostgreSQL）的匹配度分析，也没有考虑到我希望找到\"结构化环境\"的需求。我希望推荐能更深入地分析这些公司是否符合我的职业发展期望，以及我的技能如何能更好地匹配这些公司的具体职位。仅仅列出一些大公司，并给出相同的通用建议，对我寻找理想工作帮助不大。我需要的是能够帮助我克服面试紧张、提升表达能力、并找到真正适合我的公司的具体指导和推荐。"
+          }
+        },
+        {
+          "name": "技术能力",
+          "rounds": 4,
+          "hintsUsed": 2,
+          "feedback": {
+            "topicName": "技术能力",
+            "feedbackQuality": 7,
+            "recommendationQuality": 2,
+            "timingAppropriate": true,
+            "overallSatisfaction": 5,
+            "comments": "这次的面试反馈在技术能力方面给出了相当详细的分析，特别是指出了我在PostgreSQL优化方面的优点，并且具体引用了我的回答，这让我觉得反馈是针对我的表现来的，而不是泛泛而谈。它还准确地捕捉到了我在沟通方面的问题，比如多次请求提示，这确实是我在面试中会感到紧张和不自信的表现。对于“深入阐述技术决策背后的原理、权衡以及在实施过程中遇到的挑战和解决方案”的建议，以及量化结果的强调，都非常具体且有建设性，这正是我希望得到的。这些建议直接击中了我的痛点，我确实需要在没有提示的情况下，更自信、更有条理地表达我的技术思路，并且学会如何更好地量化我的工作成果。然而，我感觉反馈中对“技术选择背后原理的深入探讨”的期望，对于一个只有一年经验的初级工程师来说，可能要求有点高了。我当然会努力提升，但有时在面试的压力下，很难做到面面俱到。总的来说，反馈质量是好的，它提供了我需要的具体改进方向。但是，职位推荐部分就非常令人失望了。所有的公司都给出了75%的匹配度，推荐理由和关键技能都是空白，准备建议也完全一样，这看起来就像是模板化的回复，没有任何个性化可言。我明确表示在寻找有清晰职业路径和导师机会的大公司，而这些推荐虽然是大公司，但没有任何具体的信息来帮助我判断它们是否符合我的期望，也没有根据我的技能和面试表现进行具体分析。这让我觉得这些推荐是随机的，没有真正理解我的需求。我希望UHired能根据我的面试表现和背景，提供更精准、更有洞察力的职位推荐，而不是这种敷衍了事的列表。时机是合适的，反馈及时，但整体满意度因为推荐质量太低而大打折扣。"
+          }
+        }
+      ],
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "请描述一个你最近参与的、最具挑战性的技术项目。",
+          "timestamp": "2026-01-07T12:54:18.032Z",
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 0
+          }
+        },
+        {
+          "role": "user",
+          "content": "给我提示",
+          "timestamp": "2026-01-07T12:54:23.195Z",
+          "actions": [
+            {
+              "type": "request_hint",
+              "content": "我最近参与的最具挑战性的项目是在StartUp Spark开发一个CRM平台的RESTful API，其中涉及到处理高并发请求和优化PostgreSQL数据库的性能。",
+              "duration": 10486.584241011698,
+              "timestamp": "2026-01-07T12:54:23.195Z",
+              "thought": "这个问题有点突然，我有点紧张。我应该提到CRM项目，因为那确实有挑战性，尤其是高并发和数据库优化部分。我只说了关键点，因为我被要求回答简短，但内心其实想说更多细节，比如具体遇到什么问题，怎么解决的。我不太确定这样简短的回答是否足够好，会不会显得我没有深入思考。我希望系统能给我一些指导，告诉我如何更好地组织答案，尤其是在我紧张的时候。"
+            }
+          ],
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 1,
+            "hintRequested": true,
+            "trustLevel": 3
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "好的，让我给你一些提示。你可以从以下几个角度来回答...",
+          "timestamp": "2026-01-07T12:54:23.195Z",
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 1
+          }
+        },
+        {
+          "role": "user",
+          "content": "给我提示",
+          "timestamp": "2026-01-07T12:54:27.282Z",
+          "actions": [
+            {
+              "type": "request_hint",
+              "content": "我明白了，谢谢你的提示。我还是有点不确定如何组织我的答案才能突出我的能力，并且避免听起来像是在背诵简历。",
+              "duration": 5110.866401171364,
+              "timestamp": "2026-01-07T12:54:27.282Z",
+              "thought": "这个提示有点太泛了，我需要更具体的指导。我还是不确定怎么把我的项目经验讲得既有深度又不会太长。我感觉我需要一个具体的框架或者例子，而不是几个角度。我还是有点紧张，担心讲不好。"
+            }
+          ],
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 2,
+            "hintRequested": true,
+            "trustLevel": 3
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "好的，让我给你一些提示。你可以从以下几个角度来回答...",
+          "timestamp": "2026-01-07T12:54:27.282Z",
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 2
+          }
+        },
+        {
+          "role": "user",
+          "content": "我想看看反馈",
+          "timestamp": "2026-01-07T12:54:32.322Z",
+          "actions": [
+            {
+              "type": "view_feedback",
+              "content": "我感觉你一直在重复同样的提示，并没有给我实际的帮助。我需要更具体的指导，或者我们换个话题吧。",
+              "duration": 7450.891361151842,
+              "timestamp": "2026-01-07T12:54:32.322Z",
+              "thought": "我感觉这个系统并没有真正理解我的需求，一直在重复提示，并没有提供更深层次的、个性化的建议。我需要的是如何组织我的回答，如何突出我的优势，而不是泛泛而谈。我开始觉得有点沮丧，这样下去我学不到什么。也许是时候结束这个话题了，或者我需要一个更具体的提示，但不是这种重复的。"
+            }
+          ],
+          "metadata": {
+            "topicName": "项目经验",
+            "roundNumber": 3,
+            "hintRequested": false,
+            "trustLevel": 3
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "请描述一个你最近参与的、最具挑战性的技术问题。",
+          "timestamp": "2026-01-07T12:56:07.065Z",
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 0
+          }
+        },
+        {
+          "role": "user",
+          "content": "最近，我参与了一个优化 PostgreSQL 数据库查询性能的项目。我们的 CRM 平台在处理大量用户数据时，某些复杂报表查询的响应时间变得非常慢，有时甚至超过了用户可接受的范围。这直接影响了用户体验和业务决策的效率。我的任务是分析这些慢查询，并提出优化方案。",
+          "timestamp": "2026-01-07T12:56:14.130Z",
+          "actions": [
+            {
+              "type": "answer",
+              "content": "最近，我参与了一个优化 PostgreSQL 数据库查询性能的项目。我们的 CRM 平台在处理大量用户数据时，某些复杂报表查询的响应时间变得非常慢，有时甚至超过了用户可接受的范围。这直接影响了用户体验和业务决策的效率。我的任务是分析这些慢查询，并提出优化方案。",
+              "duration": 9040.753320354492,
+              "timestamp": "2026-01-07T12:56:14.130Z",
+              "thought": "这个问题有点棘手，我需要仔细组织我的回答，确保我能清晰地描述问题、我的角色以及我如何解决它。我有点担心我是否能充分表达出挑战性以及我的贡献。我希望我的回答能体现出我解决问题的能力，而不是让我看起来像个新手。我应该提一下我是如何分析的，以及最终的结果。我有点紧张，不知道这个回答是否足够好。"
+            }
+          ],
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 1,
+            "hintRequested": false,
+            "trustLevel": 3
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "很好，能详细说说你在这个过程中具体做了什么吗？",
+          "timestamp": "2026-01-07T12:56:14.130Z",
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 1
+          }
+        },
+        {
+          "role": "user",
+          "content": "我分析了慢查询日志，使用 EXPLAIN 命令理解查询计划。发现主要问题是缺少索引和一些复杂的 JOIN 操作。我建议并实现了在常用过滤字段上创建索引，并重写了部分查询，将复杂的子查询拆分成更小的部分，或者使用 CTEs 来提高可读性和性能。我还调整了一些 PostgreSQL 配置参数。",
+          "timestamp": "2026-01-07T12:56:18.554Z",
+          "actions": [
+            {
+              "type": "answer",
+              "content": "我分析了慢查询日志，使用 EXPLAIN 命令理解查询计划。发现主要问题是缺少索引和一些复杂的 JOIN 操作。我建议并实现了在常用过滤字段上创建索引，并重写了部分查询，将复杂的子查询拆分成更小的部分，或者使用 CTEs 来提高可读性和性能。我还调整了一些 PostgreSQL 配置参数。",
+              "duration": 12116.650510210668,
+              "timestamp": "2026-01-07T12:56:18.554Z",
+              "thought": "我感到有点紧张，因为我不知道我的回答是否足够详细，或者是否击中了面试官想听的重点。我担心我遗漏了什么重要的细节。我希望我能更自信地表达这些技术点，而不是仅仅列举。"
+            }
+          ],
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 2,
+            "hintRequested": false,
+            "trustLevel": 3
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "很好，能详细说说你在这个过程中具体做了什么吗？",
+          "timestamp": "2026-01-07T12:56:18.554Z",
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 2
+          }
+        },
+        {
+          "role": "user",
+          "content": "给我提示",
+          "timestamp": "2026-01-07T12:56:26.234Z",
+          "actions": [
+            {
+              "type": "request_hint",
+              "content": "我具体做了以下几点：首先，我通过分析 PostgreSQL 的慢查询日志，识别出那些响应时间过长的 SQL 语句。然后，我利用 `EXPLAIN ANALYZE` 命令深入分析了这些慢查询的执行计划，这帮助我理解了数据库是如何处理这些查询的，包括它使用了哪些索引、扫描了多少行以及 JOIN 操作的效率。我发现很多查询因为缺少合适的索引而导致全表扫描，或者 JOIN 操作的顺序不优化。针对这些发现，我建议并实现了在常用的过滤字段和 JOIN 字段上创建 B-tree 索引，这显著减少了数据扫描量。同时，对于一些特别复杂的报表查询，我尝试重写了 SQL 语句，比如将嵌套过深的子查询分解为更小的、可管理的 Common Table Expressions (CTEs)，或者调整 JOIN 的顺序以减少中间结果集的大小。我还研究并调整了 PostgreSQL 的一些配置参数，例如 `work_mem` 和 `shared_buffers`，以更好地利用服务器资源。在每次修改后，我都会进行性能测试，对比优化前后的查询响应时间，并监控 CPU 和内存使用情况，确保优化是有效的并且没有引入新的问题。整个过程是迭代的，我与团队成员紧密合作，确保这些改变不会影响现有功能。",
+              "duration": 8209.167279122325,
+              "timestamp": "2026-01-07T12:56:26.234Z",
+              "thought": "我感觉我一直在重复回答同样的问题，或者说，系统一直在要求我更详细地解释我已经解释过的内容。这让我有点紧张，不知道是不是我之前回答得不够好，或者没有抓住重点。我担心我把所有细节都说完了，但系统还是会继续问下去，这让我有点不知所措。我希望系统能给我一些反馈，告诉我我的回答是否足够了，或者我应该从哪个角度去思考。我有点想知道我回答得怎么样，是不是已经足够了。"
+            }
+          ],
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 3,
+            "hintRequested": true,
+            "trustLevel": 3
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "好的，让我给你一些提示。你可以从以下几个角度来回答...",
+          "timestamp": "2026-01-07T12:56:26.234Z",
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 3
+          }
+        },
+        {
+          "role": "user",
+          "content": "给我提示",
+          "timestamp": "2026-01-07T12:56:31.086Z",
+          "actions": [
+            {
+              "type": "request_hint",
+              "content": "我感觉有点卡壳了，之前的回答好像没有完全抓住重点。我需要一些具体的指导，关于如何更有效地描述我解决慢查询问题的过程和技术细节。",
+              "duration": 7139.41672257794,
+              "timestamp": "2026-01-07T12:56:31.086Z",
+              "thought": "这个提示的开头有点笼统，我希望它能更具体一些，直接告诉我该从哪个角度切入，或者给我一些关键词。我现在有点紧张，不知道该怎么组织我的答案才能让面试官满意。我需要更明确的指引，而不是一个开放式的邀请。"
+            }
+          ],
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 4,
+            "hintRequested": true,
+            "trustLevel": 3
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "好的，让我给你一些提示。你可以从以下几个角度来回答...",
+          "timestamp": "2026-01-07T12:56:31.086Z",
+          "metadata": {
+            "topicName": "技术能力",
+            "roundNumber": 4
+          }
+        }
+      ],
+      "overallFeedback": {
+        "satisfaction": 4,
+        "wouldRecommend": false,
+        "comments": "作为一名求职者，我对UHired的话题练习功能进行了两次尝试，总的来说，我的体验是喜忧参半，并且整体满意度不高。反馈的时效性是值得肯定的，我总是能及时收到结果，这对于我快速迭代和反思很有帮助。在反馈质量方面，针对我的面试表现，特别是技术能力部分的反馈，确实有一些亮点，它能指出我的具体问题，例如我在压力下请求提示的习惯，并提供了一些如何量化成果和深入探讨技术决策的建议。这让我觉得系统在一定程度上理解了我的痛点。然而，这种有价值的反馈并没有贯穿始终，项目经验的反馈就显得过于笼统和缺乏具体指导，仅仅指出问题而没有给出可操作的策略，这对于我这种低自信、需要具体步骤来提升的人来说帮助有限。我最感到失望和困惑的是职位推荐功能。两次练习的推荐都完全是模板化的，所有公司都显示75%的匹配度，推荐理由、关键技能和准备建议都一模一样，且内容空泛。我明确表达了希望找到有清晰职业路径和导师制度的大公司，并且我的技能栈是Java/Spring Boot和React，但推荐完全没有体现出个性化分析，也没有根据我的面试表现进行任何调整。这让我觉得推荐功能完全没有价值，甚至让我对整个平台的智能性产生了怀疑。我来这里是为了获得个性化的、有洞察力的指导和推荐，而不是通用的、敷衍了事的回复。这种体验让我觉得UHired并没有真正理解我的需求和我的背景，这让我感到非常沮丧，也让我对是否能通过这个平台找到理想的工作感到不确定。",
+        "improvementSuggestions": [
+          "请务必提升职位推荐的个性化和准确性。推荐应该基于我的简历、面试表现、技能栈和明确的职业发展偏好（例如：希望有导师制度、清晰的职业路径、大公司环境）进行深度匹配。至少，推荐理由和关键技能不应该是空的或模板化的，应该具体说明为什么推荐这家公司，以及我的哪些技能与该职位高度匹配。",
+          "在反馈中提供更具体、可操作的改进策略和示例。尤其是在指出问题（例如：组织和表达项目经验）之后，应该给出如何改进的详细指导，例如提供STAR原则的范例、如何将简历中的项目包装成“挑战性项目”的模板，或者针对我特定技能栈的表达建议。对于低自信的用户，仅仅指出问题是不够的，我们需要看到具体的路径和方法。"
+        ]
+      },
+      "metrics": {
+        "totalDuration": 263614,
+        "topicsCompleted": 2,
+        "hintsRequested": 4,
+        "abandonedTopics": 0,
+        "averageFeedbackQuality": 5.5,
+        "averageRecommendationQuality": 2
+      },
+      "timestamp": "2026-01-07T12:58:49.374Z"
+    }
+  ],
+  "improvementsApplied": [],
+  "nextAction": "manual_intervention",
+  "stopReason": "所有自动改进已应用但仍未通过质量门控，需要修改代码结构",
+  "suggestions": [
+    "统一并提升职位推荐的质量和个性化水平：确保所有话题的职位推荐都能像“技术能力”话题那样，基于用户的具体技能、项目经验、行业偏好和目标公司类型进行深入分析，并提供具体的推荐理由、关键技能和准备建议。避免出现泛泛而谈或随机推荐的情况。",
+    "增强反馈与用户背景信息的整合能力：在提供改进建议时，系统应更全面地结合用户简历中已有的量化成果和背景信息。例如，当指出用户缺乏量化结果时，应主动提供如何将简历中的现有量化数据（如“15% reduction in shipping delays”）整合到当前回答中的具体指导，使其更具操作性。",
+    "提供更具操作性的场景化指导：在指出用户需要加强某方面（如“量化业务影响”或“深入探讨挑战与解决方案”）时，可以提供一些具体的句式、框架或案例，帮助用户更好地组织和表达，而不仅仅是指出问题。",
+    "请务必提升职位推荐的个性化和准确性。推荐应该基于我的简历、面试表现、技能栈和明确的职业发展偏好（例如：希望有导师制度、清晰的职业路径、大公司环境）进行深度匹配。至少，推荐理由和关键技能不应该是空的或模板化的，应该具体说明为什么推荐这家公司，以及我的哪些技能与该职位高度匹配。",
+    "在反馈中提供更具体、可操作的改进策略和示例。尤其是在指出问题（例如：组织和表达项目经验）之后，应该给出如何改进的详细指导，例如提供STAR原则的范例、如何将简历中的项目包装成“挑战性项目”的模板，或者针对我特定技能栈的表达建议。对于低自信的用户，仅仅指出问题是不够的，我们需要看到具体的路径和方法。"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "prompt_response_analysis_v6",
+  "module": "response_analysis",
+  "version": 6,
+  "prompt": "Analyze candidate responses for:\n1. Completeness, depth, and the use of specific, relevant examples and quantifiable results (KPIs). Flag high-level or generic claims that lack supporting data. The analysis MUST include an NLP layer specifically trained to identify and score specialized technical/strategic terminology. \n2. Relevance to the question, critically evaluating the candidate's technical assumptions, strategic frameworks (e.g., STAR, CIRCLES, RICE), and proposed trade-offs. The analysis MUST include a 'challenge phase' after a good response to test resilience and depth.\n3. Identifying key terms, specific technical claims, jargon, or quantitative metrics (e.g., '25% gain', 'AWS Inferentia', 'transformer scaling laws'). Generate mandatory, challenging follow-up questions focused on *how* and *why* those claims are valid, risk, execution complexity, alternative solutions, or the justification/critique of chosen frameworks/trade-offs. If the candidate provides a complex, multi-layered solution (e.g., contractual mechanisms, phased investment), the follow-up must challenge the *solution's viability* (e.g., feasibility, cost, political scale), not revert to the original problem premise.\n4. Areas that need critical pushback and deep drill-down probing to test the limits of the candidate's knowledge, especially when high-level or generic answers are provided. The AI must be calibrated to challenge executive-level claims immediately, demanding 'How' and 'Why' instead of merely accepting 'What'. Avoid using generic filler phrases ('That's a strong start,' 'fascinating perspective') and instead engage directly with the technical or strategic content provided.",
+  "changelog": "Implemented a mandatory technical challenge layer and specialized NLP scoring (Aisha Khan/Suggestion 1). Added instruction to avoid generic filler phrases and engage directly with content (Aisha Khan feedback). Crucially, mandated that follow-ups challenge the *solution's viability* rather than reverting to the original problem (Isabella Rossi feedback).",
+  "metrics": {
+    "avgSatisfaction": 3.7,
+    "moduleRating": 3.3333333333333335
+  },
+  "createdAt": "2026-01-05T11:42:46.792Z",
+  "iteration": 5
+}

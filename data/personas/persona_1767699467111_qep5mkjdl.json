@@ -1,0 +1,39 @@
+{
+  "name": "Priya Sharma",
+  "background": {
+    "yearsOfExperience": 5,
+    "currentRole": "Technical Writer",
+    "currentCompany": "Software Solutions Inc.",
+    "education": "M.A. Communications, Stanford University",
+    "skills": [
+      "API Documentation",
+      "DITA/XML",
+      "Git/GitHub",
+      "Agile Methodology",
+      "User Interface Text (UX Writing)"
+    ]
+  },
+  "targetJob": {
+    "company": "FinTech Innovations",
+    "position": "Senior Technical Writer"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "high",
+    "criticalness": 6,
+    "patience": 7,
+    "trustLevel": 6
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": false,
+    "getsNervous": false
+  },
+  "resumeText": "Priya Sharma | Senior Technical Writer (Age 27)\n\nProfile: Results-driven Technical Writer with 5 years of experience specializing in developing comprehensive API documentation and user guides for complex enterprise software. Proven ability to translate technical specifications into clear, concise content for diverse audiences. Seeking a Senior Technical Writer position to lead documentation efforts for cutting-edge financial technology products.\n\nProfessional Experience:\nTechnical Writer, Software Solutions Inc. (2018–Present)\n\n*   Authored and maintained 150+ pages of developer API documentation using DITA/XML, resulting in a 20% reduction in support tickets related to integration issues.\n*   Collaborated directly with engineering and product teams in an Agile environment to ensure documentation was released concurrently with product updates.\n*   Spearheaded the migration of legacy documentation to a modern headless CMS, improving content searchability and deployment efficiency.\n\nEducation:\nM.A. Communications, Stanford University (2018).\nB.A. English Literature, University of Delhi (2016).",
+  "situation": "Priya is 27 and has reached the ceiling at her current company. She is ready for a Senior role with more strategic influence and better compensation. She is highly organized and has applied to over 50 companies (mass applying), mainly in the FinTech and SaaS sectors. She needs the AI tool to help her refine her presentation, ensuring her detailed answers remain focused and concise under pressure, specifically targeting the 'Senior' level expectations.",
+  "feedbackStyle": "Analytical and comparative. She expects the system to benchmark her performance against ideal senior-level responses and provide data-driven metrics on clarity and structure. She often asks, 'How did my use of the STAR method score compared to the previous session?'",
+  "id": "persona_1767699467111_qep5mkjdl",
+  "createdAt": "2026-01-06T11:37:47.111Z",
+  "iteration": 1
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Sofia Rodriguez",
+  "background": {
+    "yearsOfExperience": 1,
+    "currentRole": "Associate Software Engineer",
+    "currentCompany": "TechBridge Inc.",
+    "education": "Bachelor of Science in Computer Science, Georgia Institute of Technology",
+    "skills": [
+      "Java",
+      "Python",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "RESTful APIs",
+      "Git",
+      "Agile Methodologies",
+      "SQL",
+      "AWS Fundamentals"
+    ]
+  },
+  "targetJob": {
+    "company": "Nexus Innovations",
+    "position": "Software Development Engineer"
+  },
+  "personality": {
+    "communicationStyle": "verbose",
+    "confidenceLevel": "medium",
+    "criticalness": 9,
+    "patience": 7,
+    "trustLevel": 4
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": true
+  },
+  "resumeText": "Enthusiastic and detail-oriented Associate Software Engineer with 1 year of professional experience in full-stack development. Proficient in Java, Python, and JavaScript, with hands-on experience building scalable web applications using React and Node.js. Developed and maintained RESTful APIs, ensuring high performance and reliability. Actively participated in Agile scrum teams, contributing to all phases of the software development lifecycle from design to deployment. Strong foundation in data structures, algorithms, and object-oriented programming. Eager to contribute to innovative projects and grow within a dynamic engineering team. Bachelor's degree in Computer Science from Georgia Institute of Technology. Seeking opportunities to expand expertise in cloud-native development and distributed systems.",
+  "situation": "Sofia is a 23-year-old Associate Software Engineer who feels her current role is too siloed and lacks opportunities for cross-functional collaboration and learning new technologies. She's mass applying to 50+ companies, aiming for a role where she can contribute to a wider range of projects and receive mentorship for accelerated career growth. She prioritizes companies known for strong engineering culture and continuous learning, and needs an efficient way to practice for various types of technical interviews.",
+  "feedbackStyle": "Sofia provides very thorough and descriptive feedback, often explaining her thought process and what she expected versus what she experienced. She will highlight areas where she felt confused or where the system's response didn't meet her detailed expectations. She appreciates equally detailed and constructive feedback that helps her understand not just what to improve, but why, and how different approaches might be perceived by interviewers.",
+  "id": "persona_1767780725272_tqd2i0fmb",
+  "createdAt": "2026-01-07T10:12:05.272Z",
+  "iteration": 8
+}

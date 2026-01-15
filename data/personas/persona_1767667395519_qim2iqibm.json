@@ -1,0 +1,39 @@
+{
+  "name": "Anya Sharma",
+  "background": {
+    "yearsOfExperience": 3,
+    "currentRole": "UX/UI Designer",
+    "currentCompany": "Innovatech Solutions (Mid-sized B2B SaaS)",
+    "education": "B.A. in Digital Media and Design, University of Washington",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Prototyping (Principle, ProtoPie)",
+      "User Research",
+      "Design Systems",
+      "Accessibility (WCAG)"
+    ]
+  },
+  "targetJob": {
+    "position": "Product Designer",
+    "company": "Figma"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "medium",
+    "criticalness": 6,
+    "patience": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "A highly motivated UX/UI Designer with 3 years of experience specializing in B2B SaaS platforms. Proven ability to translate complex user needs into intuitive and scalable design solutions. Led the redesign of Innovatech's core analytics dashboard, resulting in a 25% increase in user engagement and positive feedback on usability. Proficient in end-to-end design processes, including initial user research, wireframing, high-fidelity prototyping in Figma, and maintaining robust design systems. Experienced in collaborating cross-functionally with engineering and product management teams in an Agile environment. Actively seeking a challenging role at a design-centric company like Figma to contribute to world-class product experiences and further develop expertise in collaborative design tools. Key projects include developing a comprehensive component library used across five separate product lines and conducting longitudinal usability studies with enterprise clients.",
+  "situation": "Anya is currently employed but feels her growth potential is limited at her current B2B company, which prioritizes function over design innovation. She is eager to transition to a consumer-facing, design-first organization like Figma. She has been actively 'mass applying' (海投) for the last two months, sending out over 40 applications to top-tier tech companies. She needs practice articulating her design process concisely and demonstrating how her B2B experience translates to a high-growth consumer product environment.",
+  "feedbackStyle": "Anya provides structured, actionable feedback, focusing on areas where the AI's response felt generic or failed to challenge her on specific design decisions or technical skills. She expects the system to remember context and push back appropriately.",
+  "id": "persona_1767667395519_qim2iqibm",
+  "createdAt": "2026-01-06T02:43:15.519Z",
+  "iteration": 1
+}

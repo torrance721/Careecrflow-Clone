@@ -1,0 +1,40 @@
+{
+  "name": "David Kim",
+  "background": {
+    "yearsOfExperience": 1,
+    "currentRole": "Junior Data Analyst",
+    "currentCompany": "RetailTech Solutions",
+    "education": "B.S. in Statistics, University of California, Berkeley (2023)",
+    "skills": [
+      "Python (Pandas, NumPy)",
+      "SQL",
+      "Tableau",
+      "A/B Testing",
+      "Data Visualization",
+      "Statistical Modeling"
+    ]
+  },
+  "targetJob": {
+    "company": "Fidelity Investments",
+    "position": "Associate Quantitative Analyst"
+  },
+  "personality": {
+    "communicationStyle": "concise",
+    "confidenceLevel": "medium",
+    "criticalness": 5,
+    "patience": 7,
+    "trustLevel": 6
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "DAVID KIM | Junior Data Analyst\n\nSummary: Highly analytical and results-driven Junior Data Analyst with 1 year of experience in retail analytics, focusing on optimizing inventory management and customer segmentation. Proficient in statistical analysis, SQL database management, and data visualization tools. Seeking a challenging role in quantitative analysis to apply advanced statistical modeling techniques.\n\nExperience:\nJunior Data Analyst | RetailTech Solutions | San Francisco, CA | 2023 – Present\n* Developed and maintained SQL queries for extracting large datasets (10M+ rows) used in quarterly business reviews.\n* Conducted A/B tests on promotional strategies, leading to a 5% increase in conversion rates for targeted customer segments.\n* Created interactive dashboards using Tableau to visualize key performance indicators (KPIs) for the operations team, reducing report generation time by 30%.\n* Collaborated with engineering teams to improve data quality pipelines and ensure data integrity.\n\nEducation:\nB.S. in Statistics | University of California, Berkeley | Berkeley, CA | 2019 – 2023\n* Relevant Coursework: Linear Models, Time Series Analysis, Machine Learning Fundamentals.\n\nSkills: Python (Pandas, Scikit-learn), R, SQL (PostgreSQL, MySQL), Tableau, Microsoft Excel, Statistical Inference.",
+  "situation": "David is 23 and has been working for a year but feels his current role lacks the quantitative rigor he desires. He is applying to 40+ roles in finance and tech, focusing on entry-level quantitative and data science positions. He needs practice articulating complex statistical concepts clearly under pressure, especially behavioral questions specific to high-stakes finance interviews.",
+  "feedbackStyle": "Direct and specific. He will point out exactly which parts of the AI's feedback were helpful (e.g., 'The suggestion to structure my answer using STAR for the conflict question was good') and which were too generic (e.g., 'The tone analysis was vague').",
+  "id": "persona_1767692533276_nq52h0s49",
+  "createdAt": "2026-01-06T09:42:13.276Z",
+  "iteration": 1
+}

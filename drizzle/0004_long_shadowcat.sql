@@ -1,0 +1,41 @@
+CREATE TABLE `job_cache_fetch_logs` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`positionCategory` varchar(128) NOT NULL,
+	`searchQuery` varchar(256) NOT NULL,
+	`jobsFetched` int DEFAULT 0,
+	`fetchDuration` int,
+	`status` enum('success','partial','failed') DEFAULT 'success',
+	`errorMessage` text,
+	`createdAt` timestamp NOT NULL DEFAULT (now()),
+	CONSTRAINT `job_cache_fetch_logs_id` PRIMARY KEY(`id`)
+);
+--> statement-breakpoint
+CREATE TABLE `linkedin_job_cache` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`linkedinJobId` varchar(64) NOT NULL,
+	`linkedinUrl` varchar(512),
+	`company` varchar(256) NOT NULL,
+	`companyLogo` varchar(512),
+	`companyLinkedinUrl` varchar(512),
+	`title` varchar(256) NOT NULL,
+	`location` varchar(256),
+	`workType` varchar(64),
+	`employmentType` varchar(64),
+	`experienceLevel` varchar(64),
+	`description` text,
+	`requirements` json,
+	`skills` json,
+	`benefits` json,
+	`salaryMin` decimal(12,2),
+	`salaryMax` decimal(12,2),
+	`salaryCurrency` varchar(8),
+	`positionCategory` varchar(128) NOT NULL,
+	`industry` varchar(128),
+	`postedAt` timestamp,
+	`scrapedAt` timestamp NOT NULL DEFAULT (now()),
+	`expiresAt` timestamp NOT NULL,
+	`createdAt` timestamp NOT NULL DEFAULT (now()),
+	`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	CONSTRAINT `linkedin_job_cache_id` PRIMARY KEY(`id`),
+	CONSTRAINT `linkedin_job_cache_linkedinJobId_unique` UNIQUE(`linkedinJobId`)
+);

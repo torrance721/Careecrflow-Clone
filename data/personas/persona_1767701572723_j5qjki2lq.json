@@ -1,0 +1,40 @@
+{
+  "name": "Javier Rodriguez",
+  "background": {
+    "yearsOfExperience": 3,
+    "currentRole": "Associate Marketing Specialist",
+    "currentCompany": "Innovatech Solutions",
+    "education": "B.A. in Communications, University of Texas at Austin (2021)",
+    "skills": [
+      "SEO/SEM",
+      "Content Strategy",
+      "Google Analytics",
+      "HubSpot",
+      "Email Marketing",
+      "A/B Testing"
+    ]
+  },
+  "targetJob": {
+    "company": "GrowthForge Agency",
+    "position": "Digital Marketing Manager"
+  },
+  "personality": {
+    "communicationStyle": "concise",
+    "confidenceLevel": "high",
+    "criticalness": 6,
+    "patience": 5,
+    "trustLevel": 6
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": false,
+    "getsNervous": false
+  },
+  "resumeText": "Javier Rodriguez | 3 years of experience in high-growth digital marketing roles, specializing in performance optimization and content strategy. Proven ability to drive measurable results across multiple channels. At Innovatech Solutions (2021–Present), I managed SEO strategy, resulting in a 35% increase in organic traffic year-over-year. I successfully executed over 50 email marketing campaigns, maintaining an average open rate of 25% and conversion rate of 4%. Led the implementation of a new content calendar system, improving cross-functional collaboration between sales and marketing teams. Proficient in utilizing Google Analytics for detailed performance tracking and reporting, identifying key areas for budget reallocation. Seeking a challenging managerial role where I can leverage data-driven insights to lead strategic marketing initiatives and mentor junior team members. Recognized for strong analytical skills and efficient project management.",
+  "situation": "Javier is seeking a promotion and a higher salary, feeling capped at his current company. He is confident in his skills but knows the 'Digital Marketing Manager' title is competitive. He has applied to 40+ roles across various agencies and tech companies and needs to ensure his interview answers are polished and directly address management competencies, not just execution tasks.",
+  "feedbackStyle": "Direct and action-oriented. He focuses on whether the system's feedback directly helps him improve his delivery or content structure, often asking for specific examples of better phrasing.",
+  "id": "persona_1767701572723_j5qjki2lq",
+  "createdAt": "2026-01-06T12:12:52.723Z",
+  "iteration": 3
+}

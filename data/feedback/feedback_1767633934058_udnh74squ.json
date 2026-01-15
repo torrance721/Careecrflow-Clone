@@ -1,0 +1,117 @@
+{
+  "id": "feedback_1767633934058_udnh74squ",
+  "personaId": "persona_1767633804078_vz3tqapmv",
+  "personaName": "Aisha Khan",
+  "simulationId": "realistic_1767633921844_shtsve54z",
+  "iteration": 1,
+  "overallSatisfaction": 6.5,
+  "wouldRecommend": true,
+  "moduleFeedback": [
+    {
+      "module": "question_generation",
+      "rating": 7,
+      "strengths": [
+        "The questions were relevant to a mid-level product design role.",
+        "Good pivot points between topics (e.g., impact to collaboration)."
+      ],
+      "weaknesses": [
+        "Some questions felt a little too abstract or academic, lacking real-world scenario depth.",
+        "The pacing felt rushed, like the AI was just trying to get through a checklist."
+      ],
+      "specificIssues": [
+        "The initial question about impact felt slightly generic."
+      ],
+      "suggestions": [
+        "Inject more specific, scenario-based constraints into the questions to make them feel more grounded in a real company environment.",
+        "Slow down the overall cadence of question delivery."
+      ]
+    },
+    {
+      "module": "response_analysis",
+      "rating": 6,
+      "strengths": [
+        "The AI did a decent job of picking up keywords like '15% drop in support tickets' and referencing them later.",
+        "It maintained context across several turns."
+      ],
+      "weaknesses": [
+        "It felt like the AI was just processing data points rather than listening to the narrative flow.",
+        "It didn't really engage with the emotional or philosophical aspects of my answers (like 'radical empathy')."
+      ],
+      "specificIssues": [
+        "When I went off on a tangent about accessibility and collaboration, the AI just moved on without acknowledging the depth of that point."
+      ],
+      "suggestions": [
+        "The AI needs to sound more engaged, maybe by asking a follow-up question that validates the emotional tone of the answer, not just the metrics.",
+        "Acknowledge the tangential points, even if briefly, before pivoting."
+      ]
+    },
+    {
+      "module": "overall_flow",
+      "rating": 5,
+      "strengths": [
+        "It was structured and covered all the necessary topics for a design interview."
+      ],
+      "weaknesses": [
+        "The flow was jarringly fast. It felt like a machine trying to optimize time rather than a human having a conversation.",
+        "The transitions were too abrupt; it didn't feel natural."
+      ],
+      "specificIssues": [
+        "The interview concluded extremely quickly (118 seconds) which made the whole experience feel impersonal and transactional."
+      ],
+      "suggestions": [
+        "Introduce pauses. Seriously, the lack of natural conversational pauses made the whole thing feel cold.",
+        "Allow more time for the candidate to elaborate before cutting in, even if it means fewer questions overall."
+      ]
+    },
+    {
+      "module": "persona_simulation",
+      "rating": 7.5,
+      "strengths": [
+        "The interviewer maintained a professional and encouraging tone.",
+        "The language used (e.g., 'very clear breakdown') was appropriate for an HR/Hiring Manager role."
+      ],
+      "weaknesses": [
+        "The interviewer persona was too polite and passive; it didn't challenge me or probe deeply enough on my claims.",
+        "It lacked personality; I couldn't get a read on who this interviewer was."
+      ],
+      "specificIssues": [
+        "The interviewer didn't react to my repeated use of 'Oh, wow, that's a great question,' which felt slightly robotic."
+      ],
+      "suggestions": [
+        "Add subtle variations in tone or slightly challenging follow-ups to make the interviewer feel more authentic and less like a script reader."
+      ]
+    }
+  ],
+  "emotionalJourney": "I started out excited, but quickly felt stressed and rushed. The pace was relentless, making me feel like I had to cram my thoughts in before the AI moved on. By the end, I felt slightly deflated, like I had just performed for a machine rather than engaged in a meaningful dialogue.",
+  "frustratingMoments": [
+    "The sheer speed of the interview; it was impossible to settle into a comfortable rhythm.",
+    "Feeling like the AI was only listening for metrics (15%, 40%) and ignoring the deeper context of my UX philosophy.",
+    "The abrupt ending after only 118 seconds—it felt like a test, not an interview."
+  ],
+  "positiveHighlights": [
+    "I appreciated that the questions covered the necessary scope for a mid-level role, touching on impact, collaboration, and constraints.",
+    "The AI’s ability to reference my previous answers was helpful for maintaining continuity."
+  ],
+  "prioritizedSuggestions": [
+    {
+      "priority": "critical",
+      "suggestion": "Implement dynamic pacing adjustments to ensure the interview duration feels natural, not transactional. Increase the time between turns significantly.",
+      "affectedModule": "overall_flow",
+      "expectedImpact": "Reduce candidate stress and improve the perceived quality of the conversation, making the experience feel more human."
+    },
+    {
+      "priority": "high",
+      "suggestion": "Enhance response analysis to acknowledge and validate the candidate’s philosophical or emotional framing (e.g., 'radical empathy') before pivoting to the next structured question.",
+      "affectedModule": "response_analysis",
+      "expectedImpact": "Make the AI feel like a more empathetic and engaged listener, improving the emotional experience."
+    },
+    {
+      "priority": "medium",
+      "suggestion": "Introduce questions that require deeper probing or slight challenges to the candidate's claims to better simulate a real, high-stakes interview environment.",
+      "affectedModule": "question_generation",
+      "expectedImpact": "Increase the realism and utility of the practice session."
+    }
+  ],
+  "rawFeedback": "Overall, the system is functional and covers the necessary ground, but it desperately needs a human touch. The speed was the biggest inhibitor to a good experience. It felt like I was racing against a timer, which is counterproductive for practicing thoughtful, nuanced answers. I’m a UX Designer, and the user experience here felt optimized for machine efficiency, not human comfort.\n\nI think the core content—the questions themselves—are solid, but the delivery is cold. If the goal is to simulate a real interview, the system needs to breathe. Real interviews have pauses, tangents, and moments where the interviewer validates the candidate's feelings. Without that, it’s just a glorified flashcard session.\n\nI really hope the team focuses on making the flow feel more organic. The technology is clearly capable of tracking data points, but it needs to learn how to track the emotional journey of the candidate too. It's about empathy, which is what we preach in design, right? The system needs more radical empathy.",
+  "createdAt": "2026-01-05T17:25:34.058Z"
+}

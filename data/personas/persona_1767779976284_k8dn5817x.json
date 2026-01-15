@@ -1,0 +1,42 @@
+{
+  "name": "Carlos Rivera",
+  "background": {
+    "yearsOfExperience": 4,
+    "currentRole": "Marketing Campaign Manager",
+    "currentCompany": "GlobalConnect Marketing",
+    "education": "Bachelor of Business Administration in Marketing, New York University",
+    "skills": [
+      "Digital Marketing",
+      "SEO/SEM",
+      "Content Strategy",
+      "Google Analytics",
+      "Social Media Marketing",
+      "Email Marketing",
+      "CRM Software",
+      "Project Management"
+    ]
+  },
+  "targetJob": {
+    "company": "Shopify",
+    "position": "Growth Marketing Specialist"
+  },
+  "personality": {
+    "communicationStyle": "concise",
+    "confidenceLevel": "high",
+    "criticalness": 6,
+    "patience": 6,
+    "trustLevel": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": false,
+    "getsNervous": false
+  },
+  "resumeText": "Carlos Rivera is an accomplished Marketing Campaign Manager with 4 years of experience driving successful digital marketing initiatives for B2B and B2C clients at GlobalConnect Marketing. He specializes in developing and executing comprehensive marketing strategies across multiple channels, including SEO, SEM, social media, and email marketing. Carlos has a proven track record of increasing lead generation by an average of 25% and improving conversion rates by 18% through data-driven campaigns and continuous optimization. He is highly proficient in Google Analytics, Google Ads, HubSpot, and various social media management platforms, using these tools to analyze performance, identify trends, and inform strategic decisions. His expertise extends to content strategy, where he has successfully managed the creation and distribution of engaging content that resonates with target audiences. Carlos is adept at project management, coordinating with creative teams, sales, and external vendors to ensure timely and effective campaign delivery. He holds a Bachelor of Business Administration in Marketing from New York University. Carlos is seeking a dynamic role where he can apply his growth marketing expertise to scale user acquisition and retention for an innovative product.",
+  "situation": "Carlos is a Marketing Campaign Manager who feels his current role has become stagnant, offering limited opportunities to innovate or take on larger strategic projects. He's ambitious and mass applying to 50+ companies, specifically targeting growth-oriented roles in tech. He needs efficient interview prep to stand out in a competitive market and ensure he can articulate his value effectively.",
+  "feedbackStyle": "Carlos gives direct and to-the-point feedback, focusing on the efficiency and practical utility of the tool. He might suggest improvements for faster navigation or more concise explanations, valuing his time highly.",
+  "id": "persona_1767779976284_k8dn5817x",
+  "createdAt": "2026-01-07T09:59:36.284Z",
+  "iteration": 7
+}

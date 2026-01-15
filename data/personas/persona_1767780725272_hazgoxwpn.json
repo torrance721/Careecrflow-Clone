@@ -1,0 +1,43 @@
+{
+  "name": "Kai Chen",
+  "background": {
+    "yearsOfExperience": 3,
+    "currentRole": "Junior Data Scientist",
+    "currentCompany": "InnovateTech Solutions",
+    "education": "Master of Science in Data Science, University of California, Berkeley",
+    "skills": [
+      "Python",
+      "R",
+      "SQL",
+      "Machine Learning",
+      "Deep Learning",
+      "A/B Testing",
+      "Data Visualization",
+      "Spark",
+      "Cloud Platforms (AWS)"
+    ]
+  },
+  "targetJob": {
+    "company": "QuantumLeap AI",
+    "position": "Data Scientist"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "high",
+    "criticalness": 9,
+    "patience": 6,
+    "trustLevel": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Highly analytical and results-driven Junior Data Scientist with 3 years of experience in developing and deploying machine learning models to solve complex business problems. Proven ability to extract actionable insights from large datasets, leveraging advanced statistical techniques and programming expertise in Python and R. Skilled in data preprocessing, feature engineering, model selection, and performance evaluation. Successfully led an initiative to optimize customer churn prediction, resulting in a 15% improvement in retention rates at InnovateTech Solutions. Proficient in SQL for data querying and manipulation, and experienced with cloud platforms like AWS for scalable data solutions. Eager to apply strong problem-solving skills and a passion for data-driven innovation to a challenging Data Scientist role. Master's degree in Data Science from UC Berkeley.",
+  "situation": "Kai is a 27-year-old Data Scientist who feels his current company isn't providing enough cutting-edge projects or opportunities for advanced learning. He's actively mass applying to 40+ companies, specifically targeting roles that offer significant growth in AI/ML research and development. He's looking for a company with a strong reputation for innovation and a clear career progression path, even if it means a lateral move initially. He values efficiency in his prep given the volume of applications.",
+  "feedbackStyle": "Kai provides highly detailed and analytical feedback, often referencing specific parts of the interview or his own expectations. He will point out inconsistencies, suggest alternative approaches, and critically evaluate the depth and relevance of the questions. He expects the feedback to be equally detailed and actionable, focusing on specific areas for improvement and best practices.",
+  "id": "persona_1767780725272_hazgoxwpn",
+  "createdAt": "2026-01-07T10:12:05.272Z",
+  "iteration": 8
+}

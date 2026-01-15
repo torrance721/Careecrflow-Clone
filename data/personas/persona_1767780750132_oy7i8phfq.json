@@ -1,0 +1,44 @@
+{
+  "name": "Kwame Nkrumah",
+  "background": {
+    "yearsOfExperience": 5,
+    "currentRole": "Frontend Developer",
+    "currentCompany": "TechSolutions Africa",
+    "education": "BSc Computer Science - Kwame Nkrumah University of Science and Technology",
+    "skills": [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "HTML5",
+      "CSS3",
+      "Node.js",
+      "RESTful APIs",
+      "Git",
+      "Agile",
+      "UI/UX Principles"
+    ]
+  },
+  "targetJob": {
+    "company": "InnovateCorp",
+    "position": "Senior Frontend Engineer"
+  },
+  "personality": {
+    "communicationStyle": "concise",
+    "confidenceLevel": "medium",
+    "criticalness": 9,
+    "patience": 6,
+    "trustLevel": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": true
+  },
+  "resumeText": "Kwame Nkrumah is a dedicated Frontend Developer with 5 years of experience in building responsive, high-performance web applications. At TechSolutions Africa, he was instrumental in developing and maintaining the user interface for their flagship e-commerce platform, leading to a 20% improvement in user engagement. Kwame is highly proficient in modern JavaScript frameworks, particularly React, and has extensive experience with TypeScript, HTML5, and CSS3. He regularly collaborates with backend teams to integrate RESTful APIs and ensures seamless data flow. Kwame is a strong advocate for clean code practices and adheres to Agile methodologies, participating actively in sprint planning and code reviews. He has a solid understanding of UI/UX principles, consistently delivering intuitive and aesthetically pleasing user experiences. He holds a BSc in Computer Science from Kwame Nkrumah University of Science and Technology and is always eager to learn new technologies and contribute to challenging projects.",
+  "situation": "Kwame is a Frontend Developer who feels his current role has become stagnant, offering limited opportunities for advanced technical challenges or leadership. He's applying to over 40 companies, seeking a Senior Frontend Engineer position where he can contribute to cutting-edge projects and mentor junior developers. He prioritizes companies known for their strong engineering culture and continuous learning environment, even if the domain is new to him. He's looking for growth, not just a job.",
+  "feedbackStyle": "Kwame's feedback is direct and to the point, but highly analytical. He will highlight specific technical inaccuracies or logical flaws in the AI's assessment. He expects the system to understand nuanced technical concepts and will be critical if the feedback lacks depth or fails to address the core technical challenges of a question. He values precision and expects the AI to demonstrate a high level of technical understanding.",
+  "id": "persona_1767780750132_oy7i8phfq",
+  "createdAt": "2026-01-07T10:12:30.132Z",
+  "iteration": 8
+}

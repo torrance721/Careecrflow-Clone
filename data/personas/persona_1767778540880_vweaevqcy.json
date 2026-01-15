@@ -1,0 +1,41 @@
+{
+  "name": "Chloe Dubois",
+  "background": {
+    "yearsOfExperience": 4,
+    "currentRole": "Marketing Manager",
+    "currentCompany": "Innovate Solutions Inc.",
+    "education": "B.A. Business Administration, Marketing Concentration, New York University",
+    "skills": [
+      "Digital Marketing",
+      "SEO/SEM",
+      "Content Strategy",
+      "Social Media Management",
+      "Google Analytics",
+      "HubSpot",
+      "Project Management"
+    ]
+  },
+  "targetJob": {
+    "company": "Global Brands Collective",
+    "position": "Senior Marketing Specialist"
+  },
+  "personality": {
+    "communicationStyle": "verbose",
+    "confidenceLevel": "high",
+    "criticalness": 6,
+    "patience": 6,
+    "trustLevel": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": false,
+    "getsNervous": false
+  },
+  "resumeText": "Chloe Dubois | chloe.dubois@email.com | LinkedIn.com/in/chloedubois\n\nSummary:\nResults-oriented Marketing Manager with 4 years of experience in developing and executing comprehensive digital marketing strategies that drive brand awareness, lead generation, and customer engagement. Proven ability to manage multiple campaigns, analyze performance metrics, and optimize for ROI. Seeking a challenging role to leverage expertise in a dynamic, growth-focused organization.\n\nExperience:\nMarketing Manager | Innovate Solutions Inc. | New York, NY | August 2020 – Present\n- Led the development and execution of digital marketing campaigns across SEO, SEM, social media, and email, resulting in a 25% increase in qualified leads year-over-year.\n- Managed a content calendar and oversaw the creation of blog posts, whitepapers, and case studies, improving organic search traffic by 30%.\n- Utilized Google Analytics and HubSpot to track campaign performance, generate reports, and provide actionable insights for optimization.\n- Collaborated with sales and product teams to ensure consistent brand messaging and alignment with business objectives.\n- Successfully launched two new product lines, exceeding initial sales targets by 15% through targeted digital advertising.\n\nMarketing Coordinator | Bright Future Agency | New York, NY | June 2019 – August 2020\n- Assisted in managing social media accounts for 5 key clients, increasing engagement rates by an average of 18%.\n- Conducted market research and competitive analysis to identify new opportunities and inform strategy development.\n- Prepared marketing materials, presentations, and weekly performance reports.\n\nEducation:\nB.A. Business Administration, Marketing Concentration | New York University | New York, NY | May 2019\n- Magna Cum Laude\n- Relevant Coursework: Digital Marketing, Consumer Behavior, Marketing Analytics, Brand Management\n\nSkills:\nDigital Marketing, SEO/SEM, Content Marketing, Social Media Marketing (LinkedIn, Facebook, Instagram, Twitter), Email Marketing, Google Analytics, Google Ads, HubSpot, Salesforce, WordPress, Adobe Creative Suite (basic), Project Management, Market Research, Copywriting",
+  "situation": "I've been a Marketing Manager for a few years and feel I've hit a ceiling at my current company. I'm looking to transition into a larger, more reputable company with more resources and opportunities for career advancement. I'm mass applying to over 40 roles and need to ensure my interview answers are polished and demonstrate my strategic thinking for these higher-level positions.",
+  "feedbackStyle": "I appreciate detailed and comprehensive feedback. Tell me what I did well, but more importantly, where I can improve, especially regarding how my answers align with the company's values or the role's strategic needs. I don't mind a lot of constructive criticism.",
+  "id": "persona_1767778540880_vweaevqcy",
+  "createdAt": "2026-01-07T09:35:40.880Z",
+  "iteration": 7
+}

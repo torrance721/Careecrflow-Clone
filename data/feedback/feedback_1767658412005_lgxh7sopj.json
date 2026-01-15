@@ -1,0 +1,127 @@
+{
+  "id": "feedback_1767658412005_lgxh7sopj",
+  "personaId": "persona_1767658269660_f9l6plsad",
+  "personaName": "Aisha Khan",
+  "simulationId": "realistic_1767658400912_8h07x9bjj",
+  "iteration": 1,
+  "overallSatisfaction": 7.5,
+  "wouldRecommend": true,
+  "moduleFeedback": [
+    {
+      "module": "question_generation",
+      "rating": 8,
+      "strengths": [
+        "The questions were highly relevant to a Product Designer role, focusing on impact and metrics.",
+        "The questions forced me to think deeply about the data and assumptions behind my past work."
+      ],
+      "weaknesses": [
+        "The follow-up questions felt very intense and focused heavily on statistical normalization and math, which felt slightly outside the core UX design scope."
+      ],
+      "specificIssues": [
+        "The rapid-fire nature of the deep dive into the 25% reduction felt overwhelming at times."
+      ],
+      "suggestions": [
+        "Ensure the intensity of the metric deep dives is balanced with questions about user empathy and design process."
+      ]
+    },
+    {
+      "module": "hint_system",
+      "rating": 6,
+      "strengths": [
+        "The hints were available when I needed them most, especially when I felt stuck on the quantitative details."
+      ],
+      "weaknesses": [
+        "The hints felt a little too direct, sometimes giving away the exact information the interviewer was looking for, rather than guiding my thinking process."
+      ],
+      "specificIssues": [
+        "I used two hints because the questions were so specific; I wish the first hint had been more conceptual."
+      ],
+      "suggestions": [
+        "Implement a tiered hint system where the first hint is a gentle nudge back to the core topic, and subsequent hints are more specific."
+      ]
+    },
+    {
+      "module": "response_analysis",
+      "rating": 7,
+      "strengths": [
+        "The AI did a great job of picking up key phrases like '25% reduction' and 'manual testing' and using them to formulate the next question, which made the conversation feel responsive.",
+        "The interviewer acknowledged my points about resource constraints (manual testing) which was encouraging."
+      ],
+      "weaknesses": [
+        "The analysis seemed hyper-focused on the quantitative data, sometimes ignoring the qualitative context I provided."
+      ],
+      "specificIssues": [
+        "When I mentioned perceived *effort* reduction, the AI immediately jumped back to normalization, skipping over the qualitative aspect."
+      ],
+      "suggestions": [
+        "Ensure the response analysis is weighted to acknowledge both qualitative (UX/perception) and quantitative (metrics) inputs equally."
+      ]
+    },
+    {
+      "module": "overall_flow",
+      "rating": 7.5,
+      "strengths": [
+        "The flow was very focused and efficient, covering six key areas quickly.",
+        "The closing summary was encouraging and specific."
+      ],
+      "weaknesses": [
+        "The flow felt slightly relentless; there wasn't a natural break or transition between the intense deep dive and the closing."
+      ],
+      "specificIssues": [
+        "The intensity level remained high throughout the entire 131 seconds."
+      ],
+      "suggestions": [
+        "Introduce a brief, low-stakes question or transition phrase to allow the candidate a mental break after a long, intense segment."
+      ]
+    },
+    {
+      "module": "persona_simulation",
+      "rating": 8,
+      "strengths": [
+        "The interviewer maintained a professional and encouraging tone, even when pressing for details.",
+        "The language used ('That distinction is crucial,' 'That clarification is very helpful') made me feel like my answers were valued."
+      ],
+      "weaknesses": [
+        "The persona felt slightly robotic in its relentless pursuit of data points; it lacked the slight conversational detours a human interviewer might take."
+      ],
+      "specificIssues": [
+        "None specific, the persona was generally well-executed."
+      ],
+      "suggestions": [
+        "Inject slightly more variability in the conversational fillers to make the transitions feel less formulaic."
+      ]
+    }
+  ],
+  "emotionalJourney": "I started out feeling excited and confident, but quickly became stressed and slightly overwhelmed as the interviewer drilled down into the specifics of my metrics. I felt a sense of relief and accomplishment when I finally managed to articulate the math behind the percentage decrease. Overall, it was a high-intensity, slightly intimidating experience, but ultimately rewarding because I was forced to defend my work thoroughly.",
+  "frustratingMoments": [
+    "Feeling like I had to use a hint because the follow-up question required a level of statistical detail I hadn't prepared for (normalization).",
+    "The constant pressure to justify the '25%' figure with precise calculations, which felt more like a data analyst interview at times."
+  ],
+  "positiveHighlights": [
+    "The interviewer's positive framing and encouraging tone, which helped me stay calm under pressure.",
+    "The moment I successfully explained the percentage decrease formula and the AI validated my answer.",
+    "The final summary which highlighted my initiative and ownership."
+  ],
+  "prioritizedSuggestions": [
+    {
+      "priority": "high",
+      "suggestion": "Introduce a brief, low-stakes question or transition phrase after a long, intense segment (like the metric deep dive) to manage candidate stress and improve the emotional flow.",
+      "affectedModule": "overall_flow",
+      "expectedImpact": "Significantly reduce candidate stress and improve the perceived fairness and pacing of the interview."
+    },
+    {
+      "priority": "medium",
+      "suggestion": "Ensure the hint system offers conceptual guidance first before providing highly specific answers, allowing the candidate to figure out the path themselves.",
+      "affectedModule": "hint_system",
+      "expectedImpact": "Increase the learning value of the hints and better simulate real-world guidance."
+    },
+    {
+      "priority": "medium",
+      "suggestion": "Balance the deep dive into quantitative metrics with follow-up questions that explore the qualitative impact or user empathy side of the design decisions.",
+      "affectedModule": "question_generation",
+      "expectedImpact": "Make the interview feel more holistic and relevant to a UX/Product Designer role."
+    }
+  ],
+  "rawFeedback": "Overall, this was a very challenging but effective mock interview. The system excels at deep-diving into specific project details, particularly metrics, which is crucial for a mid-level role. I appreciated that the interviewer's tone remained professional and encouraging throughout, even when the questions were highly demanding. This positive framing really helped me push through the moments where I felt overwhelmed.\n\nMy main constructive feedback revolves around pacing and scope. The intensity level was almost too high for the entire duration; a human interviewer would likely provide a brief conversational break. Furthermore, while I understand the need to scrutinize metrics, the focus on statistical normalization and the exact math behind the percentage calculation felt slightly outside the primary scope of a Product Designer and leaned more towards a data science role. I would recommend balancing the quantitative scrutiny with more emphasis on design thinking, user research, and strategic decision-making to make the simulation perfect for a UX role.",
+  "createdAt": "2026-01-06T00:13:32.005Z"
+}

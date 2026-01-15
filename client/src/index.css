@@ -1,0 +1,476 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-success: var(--success);
+}
+
+:root {
+  /* Light mode - keeping for reference but app uses dark mode */
+  --primary: oklch(60% 0.22 25);        /* #FF5A36 orange-red */
+  --primary-foreground: oklch(100% 0 0);
+  --sidebar-primary: oklch(60% 0.22 25);
+  --sidebar-primary-foreground: oklch(100% 0 0);
+  --chart-1: oklch(70% 0.18 25);
+  --chart-2: oklch(60% 0.22 25);
+  --chart-3: oklch(55% 0.20 25);
+  --chart-4: oklch(50% 0.18 25);
+  --chart-5: oklch(45% 0.16 25);
+  --radius: 0.65rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.235 0.015 65);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.235 0.015 65);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.235 0.015 65);
+  --secondary: oklch(0.98 0.001 286.375);
+  --secondary-foreground: oklch(0.4 0.015 65);
+  --muted: oklch(0.967 0.001 286.375);
+  --muted-foreground: oklch(0.552 0.016 285.938);
+  --accent: oklch(0.967 0.001 286.375);
+  --accent-foreground: oklch(0.141 0.005 285.823);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.985 0 0);
+  --border: oklch(0.92 0.004 286.32);
+  --input: oklch(0.92 0.004 286.32);
+  --ring: oklch(60% 0.22 25);
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.235 0.015 65);
+  --sidebar-accent: oklch(0.967 0.001 286.375);
+  --sidebar-accent-foreground: oklch(0.141 0.005 285.823);
+  --sidebar-border: oklch(0.92 0.004 286.32);
+  --sidebar-ring: oklch(60% 0.22 25);
+  --success: oklch(70% 0.18 145);       /* #4CD964 green */
+}
+
+.dark {
+  /* UHired Dark Theme - Orange-Red Primary (#FF5A36) */
+  --primary: oklch(65% 0.22 25);        /* #FF5A36 orange-red - slightly brighter for dark mode */
+  --primary-foreground: oklch(100% 0 0);
+  --sidebar-primary: oklch(65% 0.22 25);
+  --sidebar-primary-foreground: oklch(100% 0 0);
+  
+  /* Background colors */
+  --background: oklch(10% 0.005 0);     /* #0F0F11 - deepest background */
+  --foreground: oklch(100% 0 0);        /* #ffffff - main text */
+  
+  /* Card colors */
+  --card: oklch(15% 0.005 0);           /* #1C1C1E - card background */
+  --card-foreground: oklch(100% 0 0);
+  
+  /* Popover colors */
+  --popover: oklch(12% 0.005 0);        /* #161618 - secondary background */
+  --popover-foreground: oklch(100% 0 0);
+  
+  /* Secondary colors */
+  --secondary: oklch(22% 0.005 0);      /* #2C2C2E - borders, muted areas */
+  --secondary-foreground: oklch(70% 0.005 0); /* #A1A1A6 - secondary text */
+  
+  /* Muted colors */
+  --muted: oklch(22% 0.005 0);          /* #2C2C2E */
+  --muted-foreground: oklch(45% 0.005 0); /* #5d5d61 - disabled text */
+  
+  /* Accent colors - same as primary for consistency */
+  --accent: oklch(65% 0.22 25);         /* #FF5A36 */
+  --accent-foreground: oklch(100% 0 0);
+  
+  /* Destructive colors */
+  --destructive: oklch(60% 0.22 27);
+  --destructive-foreground: oklch(100% 0 0);
+  
+  /* Border and input colors */
+  --border: oklch(22% 0.005 0);         /* #2C2C2E */
+  --input: oklch(22% 0.005 0);
+  --ring: oklch(65% 0.22 25);           /* #FF5A36 */
+  
+  /* Chart colors - orange-red gradient */
+  --chart-1: oklch(75% 0.18 25);
+  --chart-2: oklch(65% 0.22 25);
+  --chart-3: oklch(60% 0.20 25);
+  --chart-4: oklch(55% 0.18 25);
+  --chart-5: oklch(50% 0.16 25);
+  
+  /* Sidebar colors */
+  --sidebar: oklch(12% 0.005 0);        /* #161618 */
+  --sidebar-foreground: oklch(100% 0 0);
+  --sidebar-accent: oklch(22% 0.005 0);
+  --sidebar-accent-foreground: oklch(100% 0 0);
+  --sidebar-border: oklch(22% 0.005 0);
+  --sidebar-ring: oklch(65% 0.22 25);
+  
+  /* Success color */
+  --success: oklch(72% 0.18 145);       /* #4CD964 green */
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  [type="button"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  a[href],
+  select:not(:disabled),
+  input[type="checkbox"]:not(:disabled),
+  input[type="radio"]:not(:disabled) {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  /**
+   * Custom container utility that centers content and adds responsive padding.
+   *
+   * This overrides Tailwind's default container behavior to:
+   * - Auto-center content (mx-auto)
+   * - Add responsive horizontal padding
+   * - Set max-width for large screens
+   *
+   * Usage: <div className="container">...</div>
+   *
+   * For custom widths, use max-w-* utilities directly:
+   * <div className="max-w-6xl mx-auto px-4">...</div>
+   */
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem; /* 16px - mobile padding */
+    padding-right: 1rem;
+  }
+
+  .flex {
+    min-height: 0;
+    min-width: 0;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem; /* 24px - tablet padding */
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem; /* 32px - desktop padding */
+      padding-right: 2rem;
+      max-width: 1280px; /* Standard content width */
+    }
+  }
+}
+
+/* Custom scrollbar - updated for dark theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: oklch(35% 0.005 0);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: oklch(45% 0.005 0);
+}
+
+/* Primary color glow effects */
+.glow-primary {
+  box-shadow: 0 0 15px oklch(65% 0.22 25 / 40%);
+}
+
+.glow-primary-soft {
+  box-shadow: 0 0 15px oklch(65% 0.22 25 / 20%);
+}
+
+.glow-primary-strong {
+  box-shadow: 0 4px 20px oklch(65% 0.22 25 / 40%);
+}
+
+/* Background glow effect */
+.bg-glow {
+  background: oklch(65% 0.22 25);
+  filter: blur(150px);
+  opacity: 0.05;
+}
+
+/* Primary gradient background */
+.bg-primary-gradient {
+  background: linear-gradient(135deg, oklch(65% 0.22 25) 0%, oklch(70% 0.18 30) 100%);
+}
+
+/* Match percentage colors - updated */
+.match-high {
+  color: oklch(72% 0.18 145); /* Success green */
+}
+
+.match-medium {
+  color: oklch(65% 0.22 25); /* Primary orange */
+}
+
+.match-low {
+  color: oklch(70% 0.005 0); /* Muted gray */
+}
+
+/* Typewriter cursor animation */
+@keyframes cursor-blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+.animate-cursor-blink {
+  animation: cursor-blink 1s ease-in-out infinite;
+}
+
+/* Topic depth indicator - updated for dark theme */
+.depth-segment {
+  transition: all 0.3s ease;
+}
+
+.depth-segment-active {
+  background: oklch(65% 0.22 25);
+}
+
+.depth-segment-inactive {
+  background: oklch(22% 0.005 0);
+}
+
+.dark .depth-segment-inactive {
+  background: oklch(22% 0.005 0);
+}
+
+/* ===== JobH 交互动效 ===== */
+
+/* 卡片 hover 效果 - updated for dark theme */
+.card-interactive {
+  transition: all 0.2s ease;
+}
+
+.card-interactive:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.3), 0 4px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+/* 按钮点击反馈 */
+.btn-press {
+  transition: transform 0.1s ease;
+}
+
+.btn-press:active {
+  transform: scale(0.97);
+}
+
+/* 进度条动画 */
+@keyframes progress-fill {
+  from {
+    width: 0%;
+  }
+}
+
+.progress-animated [data-state="complete"],
+.progress-animated [role="progressbar"] > div {
+  animation: progress-fill 0.8s ease-out;
+}
+
+/* 淡入动画 */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.4s ease-out;
+}
+
+/* Stagger 淡入动画 */
+.stagger-fade-in > * {
+  opacity: 0;
+  animation: fade-in-up 0.4s ease-out forwards;
+}
+
+.stagger-fade-in > *:nth-child(1) { animation-delay: 0ms; }
+.stagger-fade-in > *:nth-child(2) { animation-delay: 50ms; }
+.stagger-fade-in > *:nth-child(3) { animation-delay: 100ms; }
+.stagger-fade-in > *:nth-child(4) { animation-delay: 150ms; }
+.stagger-fade-in > *:nth-child(5) { animation-delay: 200ms; }
+.stagger-fade-in > *:nth-child(6) { animation-delay: 250ms; }
+
+/* 加载 spinner */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid transparent;
+  border-top-color: currentColor;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+/* Tab 切换动画 */
+.tab-indicator {
+  transition: all 0.2s ease;
+}
+
+/* 拖拽卡片样式 - updated for dark theme */
+.dragging {
+  opacity: 0.8;
+  transform: rotate(3deg) scale(1.02);
+  box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+}
+
+.drag-over {
+  background-color: oklch(18% 0.01 25);
+  border: 2px dashed oklch(65% 0.22 25);
+}
+
+/* 复制成功动画 */
+@keyframes copy-success {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.copy-success {
+  animation: copy-success 0.3s ease;
+}
+
+/* Section 展开/收起动画 */
+.collapsible-content {
+  overflow: hidden;
+  transition: height 0.3s ease, opacity 0.3s ease;
+}
+
+.collapsible-content[data-state="closed"] {
+  height: 0;
+  opacity: 0;
+}
+
+.collapsible-content[data-state="open"] {
+  opacity: 1;
+}
+
+/* 脉冲动画 (用于加载状态) */
+@keyframes pulse-soft {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 1.5s ease-in-out infinite;
+}
+
+/* 高亮闪烁动画 (用于更新提示) - updated for dark theme */
+@keyframes highlight-flash {
+  0% {
+    background-color: oklch(25% 0.05 25);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.highlight-flash {
+  animation: highlight-flash 1s ease-out;
+}
+
+/* Active nav item with glow */
+.nav-item-active {
+  background: oklch(65% 0.22 25);
+  color: white;
+  box-shadow: 0 0 15px oklch(65% 0.22 25 / 40%);
+}
+
+/* Rounded pill button style */
+.btn-pill {
+  border-radius: 9999px;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.btn-pill:hover {
+  box-shadow: 0 0 15px oklch(65% 0.22 25 / 30%);
+}
+
+/* Large rounded cards */
+.card-rounded-lg {
+  border-radius: 24px;
+}
+
+.card-rounded-xl {
+  border-radius: 32px;
+}

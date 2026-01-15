@@ -1,0 +1,39 @@
+{
+  "name": "Javier Rodriguez",
+  "background": {
+    "yearsOfExperience": 5,
+    "currentRole": "Software Engineer II",
+    "currentCompany": "FinTech Innovators Inc.",
+    "education": "B.S. Computer Science, University of Texas at Austin (Graduated 5 years ago)",
+    "skills": [
+      "Python",
+      "Django",
+      "AWS Lambda",
+      "PostgreSQL",
+      "CI/CD",
+      "Microservices Architecture"
+    ]
+  },
+  "targetJob": {
+    "company": "Global Tech Solutions",
+    "position": "Senior Software Developer"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "medium",
+    "criticalness": 6,
+    "patience": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Javier Rodriguez | Senior Software Engineer Candidate\n\nSummary: Highly motivated Software Engineer with 5 years of experience specializing in scalable backend systems and cloud infrastructure (AWS). Proven ability to lead feature development from concept to deployment in fast-paced FinTech environments. Seeking a challenging Senior Developer role to leverage expertise in Python/Django and microservices architecture.\n\nExperience:\nSoftware Engineer II | FinTech Innovators Inc. | 2019 – Present\n* Led the migration of legacy monolithic services to a Python/Django microservices architecture, resulting in a 30% reduction in latency for core transaction processing.\n* Designed and implemented serverless functions (AWS Lambda) for asynchronous data processing, handling over 1 million daily events.\n* Mentored two junior engineers on best practices for unit testing and CI/CD pipelines using GitLab.\n* Managed PostgreSQL database optimization, improving query performance by 40%.\n\nEducation:\nB.S. Computer Science | University of Texas at Austin | 2015 – 2019\n\nTechnical Skills: Python, Django, REST APIs, AWS (Lambda, EC2, S3), Docker, Kubernetes (Basic), SQL, Git.",
+  "situation": "Javier is 27 and feels he has plateaued at his current mid-sized FinTech company. He is ready for a 'Senior' title and a significant salary bump, which requires moving to a larger, more established tech firm. He has applied to over 40 companies in the last month, focusing heavily on FAANG-adjacent firms and large enterprise software providers. He is using the AI tool to ensure his behavioral answers are perfectly aligned with the Senior level expectations, as he often struggles to articulate his leadership impact clearly.",
+  "feedbackStyle": "Javier provides objective, point-by-point feedback. He focuses on the technical accuracy of the tool's suggestions and whether the simulated interview questions align with the specific job description he provided. If the tool misses a key technical area, he will point it out directly and suggest improvements to the question database.",
+  "id": "persona_1767665908251_8r5c84iqm",
+  "createdAt": "2026-01-06T02:18:28.251Z",
+  "iteration": 3
+}

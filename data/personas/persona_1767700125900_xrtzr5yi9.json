@@ -1,0 +1,39 @@
+{
+  "name": "Lena Petrova",
+  "background": {
+    "yearsOfExperience": 1,
+    "currentRole": "Junior Data Analyst",
+    "currentCompany": "RetailTech Solutions",
+    "education": "M.S. Data Science, University of Berlin (Graduated 2023)",
+    "skills": [
+      "Python (Pandas, NumPy)",
+      "SQL",
+      "Tableau",
+      "Statistical Modeling",
+      "A/B Testing"
+    ]
+  },
+  "targetJob": {
+    "company": "Global Finance Corp",
+    "position": "Associate Business Intelligence Analyst"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "medium",
+    "criticalness": 6,
+    "patience": 7,
+    "trustLevel": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "LENA PETROVA | Junior Data Analyst\n\nSummary: Highly analytical professional with 1 year of experience applying statistical methods and data visualization to drive business insights. Proven ability to manage end-to-end data pipelines and translate complex data findings into actionable recommendations. Seeking a challenging BI role in the finance sector.\n\nExperience:\nJunior Data Analyst | RetailTech Solutions | 2023 – Present\n- Developed and maintained SQL queries for extracting large datasets, improving reporting efficiency by 25%.\n- Created interactive dashboards using Tableau to visualize key performance indicators (KPIs) for the sales department, leading to identification of a $50K quarterly revenue leak.\n- Conducted A/B testing analysis for new marketing campaigns, providing clear recommendations on optimal strategies using Python (Pandas).\n\nEducation:\nM.S. Data Science, University of Berlin (2023)\nB.S. Economics, Technical University of Munich (2021)\n\nProjects:\nPredictive Customer Churn Model: Built a logistic regression model in Python to predict customer churn risk with 85% accuracy.",
+  "situation": "Lena is currently employed but feels her current company lacks growth opportunities and the scope of her work is too narrow. She is actively applying to 40+ roles across various industries (tech, finance, healthcare) to maximize her chances of landing a role with better career trajectory and compensation. She uses the AI tool primarily for practicing behavioral questions and structuring case studies.",
+  "feedbackStyle": "Gives balanced feedback, focusing on areas where the AI's suggestions were too generic or failed to capture industry-specific nuances. She expects concrete examples of how to improve data storytelling.",
+  "id": "persona_1767700125900_xrtzr5yi9",
+  "createdAt": "2026-01-06T11:48:45.900Z",
+  "iteration": 2
+}

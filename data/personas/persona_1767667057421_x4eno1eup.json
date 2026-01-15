@@ -1,0 +1,38 @@
+{
+  "name": "Anya Sharma",
+  "background": {
+    "yearsOfExperience": 3,
+    "currentRole": "Junior Data Analyst",
+    "currentCompany": "FinTech Innovators Inc.",
+    "education": "M.S. in Business Analytics, University of California, Berkeley",
+    "skills": [
+      "Python (Pandas, NumPy, Scikit-learn)",
+      "SQL (PostgreSQL, MySQL)",
+      "Data Visualization (Tableau, Power BI)",
+      "A/B Testing",
+      "Statistical Modeling"
+    ]
+  },
+  "targetJob": {
+    "company": "Global E-Commerce Platform",
+    "position": "Mid-Level Business Intelligence Engineer"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "high",
+    "criticalness": 9,
+    "patience": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Anya Sharma | (555) 123-4567 | anya.sharma@email.com\n\n**Summary**\nHighly analytical and results-driven professional with 3 years of experience in leveraging complex datasets to drive strategic business decisions. Proven ability to design and implement robust A/B tests and develop predictive models that enhance operational efficiency and revenue streams. Seeking a challenging Business Intelligence role to apply advanced analytical techniques in a high-growth environment.\n\n**Experience**\nJunior Data Analyst | FinTech Innovators Inc. | 2021 – Present\n* Led the development of a customer churn prediction model using Python and Scikit-learn, resulting in a 15% improvement in targeted retention efforts.\n* Managed and optimized SQL queries on a 5TB data warehouse, reducing reporting latency by 25%.\n* Designed and maintained interactive Tableau dashboards tracking key performance indicators (KPIs) for the executive team.\n\n**Education**\nM.S. in Business Analytics, University of California, Berkeley (2020)\nB.S. in Economics, New York University (2018)\n\n**Technical Skills**\nAdvanced: Python, SQL, Tableau, Statistical Analysis, ETL Processes\nFamiliar: AWS Redshift, R, Git",
+  "situation": "Anya is currently employed but feels her growth potential is capped at her current FinTech company. She is highly ambitious and wants to transition into a more data-intensive role in the e-commerce sector. She is mass applying (over 40 applications submitted) to top-tier tech companies and needs the AI tool to provide rigorous, structured practice to ensure she nails the behavioral and technical deep dives required for mid-level roles.",
+  "feedbackStyle": "Extremely detailed and structured. She will break down the AI's performance into specific categories (e.g., clarity of question, relevance of follow-up, accuracy of technical evaluation) and provide actionable suggestions for improvement, expecting the tool to meet professional standards.",
+  "id": "persona_1767667057421_x4eno1eup",
+  "createdAt": "2026-01-06T02:37:37.421Z",
+  "iteration": 1
+}

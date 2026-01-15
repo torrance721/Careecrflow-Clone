@@ -1,0 +1,451 @@
+{
+  "id": "realistic_1767633921844_shtsve54z",
+  "personaId": "persona_1767633804078_vz3tqapmv",
+  "personaName": "Aisha Khan",
+  "targetJob": {
+    "company": "NextGen Health",
+    "position": "Mid-Level Product Designer"
+  },
+  "journey": {
+    "homepage": {
+      "arrivalTime": "2026-01-05T17:23:24.080Z",
+      "browseTime": 9619.572463486093,
+      "actions": [
+        {
+          "type": "read",
+          "target": "hero_section",
+          "duration": 4587.060645886255,
+          "timestamp": "2026-01-05T17:23:24.080Z",
+          "thought": "这个网站看起来挺专业的"
+        },
+        {
+          "type": "wait",
+          "target": "carousel",
+          "duration": 4032.5118175998373,
+          "timestamp": "2026-01-05T17:23:32.080Z",
+          "thought": "看看有什么推荐的职位"
+        },
+        {
+          "type": "click",
+          "target": "carousel_item",
+          "value": "Mid-Level Product Designer at NextGen Health",
+          "duration": 500,
+          "timestamp": "2026-01-05T17:23:35.080Z"
+        },
+        {
+          "type": "click",
+          "target": "start_button",
+          "duration": 500,
+          "timestamp": "2026-01-05T17:23:37.080Z",
+          "thought": "开始面试吧！"
+        }
+      ],
+      "jobInputMethod": "carousel_click",
+      "jobInput": "Mid-Level Product Designer at NextGen Health"
+    },
+    "preparation": {
+      "startTime": "2026-01-05T17:23:24.080Z",
+      "waitTime": 29714.95435566609,
+      "userPatience": "neutral",
+      "actions": [
+        {
+          "type": "read",
+          "target": "thinking_animation",
+          "duration": 8914.486306699826,
+          "timestamp": "2026-01-05T17:23:24.080Z",
+          "thought": "正在准备中..."
+        },
+        {
+          "type": "wait",
+          "duration": 17828.972613399652,
+          "timestamp": "2026-01-05T17:23:35.965Z"
+        }
+      ]
+    },
+    "interview": {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Mock interview for Mid-Level Product Designer at NextGen Health. Resume: A highly motivated Junior UX Designer with 3 years of experience specializing in user-centered design for SaaS platforms. Proven ability to translate complex user needs into intuitive and accessible i... Situation: Aisha feels she has hit a ceiling in her current junior role and wants more ownership over product features. She is passionate about the healthcare technology space and wants to join a mission-driven company where design is valued as a core business driver, not just a service function.",
+          "timestamp": "2026-01-05T17:23:24.080Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Hello [Candidate Name], welcome to NextGen Health!\n\nThank you so much for taking the time out of your day to speak with us. I’m [Your Name], and I lead the design team focusing on our patient engagement platform. We’re really excited about this role—it’s a critical position as we expand our digital offerings.\n\nWe’ve reviewed your portfolio and your journey transitioning from a Junior UX Designer, and it’s clear you have a strong foundation in user research and interaction design.\n\nToday, we want to get to know you better, understand how you approach complex problems, and see how your process aligns with the collaborative, high-impact environment here at NextGen Health. Please feel free to ask us any questions throughout the interview. We want this to be a conversation, not an interrogation!\n\n***\n\n### The First Interview Question\n\nTo kick things off and help us understand your design philosophy:\n\n**\"Could you walk us through a recent project where you felt you made the biggest impact, specifically focusing on the transition from identifying a user problem to delivering a final, measurable solution? What was your role in driving that process forward?\"**",
+          "timestamp": "2026-01-05T17:23:28.583Z",
+          "metadata": {
+            "questionType": "opening"
+          }
+        },
+        {
+          "role": "user",
+          "content": "Oh, wow, that’s a great question. Thank you for having me, I’m really excited about NextGen Health's mission, it’s so important. So, the project that immediately comes to mind—and this was back at Innovatech—was the redesign of our internal project management dashboard, which was just a nightmare to use, honestly. We had so many support tickets piling up, and after doing some quick user interviews and looking at the heatmaps, we realized users couldn't find the 'Submit Final Report' button, which sounds simple, but it was buried deep in a sidebar menu that nobody ever opened. I led the initial discovery phase, using Figma for rapid prototyping to test three different navigation flows, and we ultimately moved that crucial action button to a persistent header bar, which was a huge win. The measurable result was fantastic: we saw a 25% increase in user engagement with the reporting features within the first month, and those specific usability support tickets dropped by about 15%, proving that sometimes the smallest design change makes the biggest impact, you know?",
+          "timestamp": "2026-01-05T17:23:33.758Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 25380,
+              "timestamp": "2026-01-05T17:23:28.583Z"
+            },
+            {
+              "type": "think",
+              "duration": 17556,
+              "timestamp": "2026-01-05T17:23:53.963Z",
+              "thought": "这个问题有点复杂，我需要好好想想"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "Oh, wow, that’s a great question. Thank you for having me, I’m really excited about NextGen Health's mission, it’s so important. So, the project that immediately comes to mind—and this was back at Innovatech—was the redesign of our internal project management dashboard, which was just a nightmare to use, honestly. We had so many support tickets piling up, and after doing some quick user interviews and looking at the heatmaps, we realized users couldn't find the 'Submit Final Report' button, which sounds simple, but it was buried deep in a sidebar menu that nobody ever opened. I led the initial discovery phase, using Figma for rapid prototyping to test three different navigation flows, and we ultimately moved that crucial action button to a persistent header bar, which was a huge win. The measurable result was fantastic: we saw a 25% increase in user engagement with the reporting features within the first month, and those specific usability support tickets dropped by about 15%, proving that sometimes the smallest design change makes the biggest impact, you know?",
+              "duration": 211858,
+              "timestamp": "2026-01-05T17:24:11.519Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:27:43.377Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 17556,
+            "typingTime": 211858,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That's a fantastic outcome, and the 15% drop in support tickets really highlights the impact of good design. To dig deeper into the process, could you walk me through the key design hypothesis and rationale behind the flow that ultimately led to the biggest increase in patient engagement? Specifically, what was the most challenging design decision you had to make in that process, and how did you validate that choice?",
+          "timestamp": "2026-01-05T17:23:49.457Z",
+          "metadata": {
+            "questionType": "follow_up"
+          }
+        },
+        {
+          "role": "user",
+          "content": "[Requested hint]",
+          "timestamp": "2026-01-05T17:24:04.567Z",
+          "userActions": [
+            {
+              "type": "click",
+              "target": "hint_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:24:18.328Z"
+            }
+          ],
+          "metadata": {
+            "hintRequested": true,
+            "hintContent": "The interviewer just pivoted the context! You brilliantly described the internal dashboard project, but the new question asks about a project focused on *patient engagement* (a term common in healthcare tech, like NextGen Health). Before diving into the details, take a moment to clarify if the interviewer is asking about a *different* project (one related to patient engagement) or if they misspoke and meant the project you just described (the internal dashboard). If they confirm they mean a new project, briefly introduce it using the STAR method (Situation/Task) before detailing the Hypothesis and Challenging Decision."
+          }
+        },
+        {
+          "role": "user",
+          "content": "Oh, wow, that's a great question. So, the biggest impact on patient engagement—and this was for the internal project management tool at Innovatech, not strictly patient-facing, but it affected the clinicians who used it to manage patient follow-ups—our core hypothesis, the big one, was that reducing the cognitive load on the *triage dashboard* would directly correlate with faster task completion, which meant patients got called back quicker. We thought, okay, if we simplify the status indicators from five colors down to just \"Urgent\" and \"Standard,\" we could cut down the decision time by 30%. The challenging decision, though, was actually removing the \"Pending Review\" status entirely, because the engineering team really liked having that granular visibility, but it was just clutter for the actual user flow; we had to push hard to validate that through A/B testing with a small group of power users showing that the new flow was 40% faster for task assignment. I mean, it was tricky, but that simplification is what ultimately led to that 25% engagement boost we saw.",
+          "timestamp": "2026-01-05T17:24:04.568Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 10400,
+              "timestamp": "2026-01-05T17:23:49.558Z"
+            },
+            {
+              "type": "think",
+              "duration": 16370,
+              "timestamp": "2026-01-05T17:23:59.958Z",
+              "thought": "让我想想最相关的经历..."
+            },
+            {
+              "type": "hesitate",
+              "duration": 2000,
+              "timestamp": "2026-01-05T17:24:16.328Z",
+              "thought": "这个问题有点难，我需要一些提示..."
+            },
+            {
+              "type": "click",
+              "target": "hint_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:24:18.328Z"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "Oh, wow, that's a great question. So, the biggest impact on patient engagement—and this was for the internal project management tool at Innovatech, not strictly patient-facing, but it affected the clinicians who used it to manage patient follow-ups—our core hypothesis, the big one, was that reducing the cognitive load on the *triage dashboard* would directly correlate with faster task completion, which meant patients got called back quicker. We thought, okay, if we simplify the status indicators from five colors down to just \"Urgent\" and \"Standard,\" we could cut down the decision time by 30%. The challenging decision, though, was actually removing the \"Pending Review\" status entirely, because the engineering team really liked having that granular visibility, but it was just clutter for the actual user flow; we had to push hard to validate that through A/B testing with a small group of power users showing that the new flow was 40% faster for task assignment. I mean, it was tricky, but that simplification is what ultimately led to that 25% engagement boost we saw.",
+              "duration": 209321,
+              "timestamp": "2026-01-05T17:24:21.328Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:27:45.649Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 16370,
+            "typingTime": 209321,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That's a very clear explanation of the efficiency gains for the clinicians. You mentioned that the internal tool change resulted in a 40% faster task assignment, and earlier you noted a 25% boost in patient engagement. Could you connect those two outcomes for me? How did improving clinician efficiency with an internal tool ultimately translate into a measurable 25% increase in patient engagement?",
+          "timestamp": "2026-01-05T17:24:19.322Z",
+          "metadata": {
+            "questionType": "follow_up"
+          }
+        },
+        {
+          "role": "user",
+          "content": "Oh, that's a really good question, and yes, it's definitely connected. So, when we streamlined the task assignment flow—the one that got us that 40% efficiency boost—it wasn't just about faster clicks; it was about reducing cognitive load on the nurses and doctors. Before, they spent, like, five minutes manually cross-referencing patient charts and assigning follow-up tasks, which was error-prone and stressful. By automating that internal process, we freed up significant time, and this is the key part: that extra time wasn't spent on coffee breaks, it was immediately reinvested into direct patient interaction, specifically during the discharge process. For example, we saw a 30% increase in the completion rate of the post-visit educational modules because the clinicians actually had the time to walk the patients through the app interface right there in the room, leading directly to that 25% higher patient engagement metric.",
+          "timestamp": "2026-01-05T17:24:23.849Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 9980,
+              "timestamp": "2026-01-05T17:24:19.423Z"
+            },
+            {
+              "type": "think",
+              "duration": 20943,
+              "timestamp": "2026-01-05T17:24:29.403Z",
+              "thought": "这个问题有点复杂，我需要好好想想"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "Oh, that's a really good question, and yes, it's definitely connected. So, when we streamlined the task assignment flow—the one that got us that 40% efficiency boost—it wasn't just about faster clicks; it was about reducing cognitive load on the nurses and doctors. Before, they spent, like, five minutes manually cross-referencing patient charts and assigning follow-up tasks, which was error-prone and stressful. By automating that internal process, we freed up significant time, and this is the key part: that extra time wasn't spent on coffee breaks, it was immediately reinvested into direct patient interaction, specifically during the discharge process. For example, we saw a 30% increase in the completion rate of the post-visit educational modules because the clinicians actually had the time to walk the patients through the app interface right there in the room, leading directly to that 25% higher patient engagement metric.",
+              "duration": 173472,
+              "timestamp": "2026-01-05T17:24:50.346Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:27:43.818Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 20943,
+            "typingTime": 173472,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That was a very clear breakdown of how you successfully connected operational improvements directly to patient outcomes. Building on that, I'd like to pivot slightly toward collaboration. As a Mid-Level Designer at NextGen Health, you would frequently collaborate with Product Managers and Engineers; can you describe a challenging situation where you had significant disagreement with either a PM or an Engineer regarding the design solution, and how you navigated that conflict to reach a successful outcome?",
+          "timestamp": "2026-01-05T17:24:38.744Z",
+          "metadata": {
+            "questionType": "follow_up"
+          }
+        },
+        {
+          "role": "user",
+          "content": "Oh, wow, that's a good question, collaboration is so key, especially when you're trying to push accessibility standards, which is something I really focus on. I remember this one time at Innovatech, we were redesigning the main dashboard for the internal project tool—you know, the one that increased engagement by 25%—and the lead engineer, Mark, was really pushing back on implementing proper keyboard navigation and screen reader tags for the complex data visualizations. He argued it would add two weeks to the sprint cycle, saying it was \"over-engineering\" for internal users. I felt really strongly that accessibility wasn't optional, so I didn't just argue; I actually ran a quick, targeted usability test with three users who rely on keyboard navigation, and the data clearly showed a 40% failure rate for accessing key data points without the proper tags. Presenting that hard data, not just my opinion, shifted the conversation immediately, and we ended up compromising by prioritizing the most critical keyboard flows in the current sprint, which ultimately saved us from having to rework it later.",
+          "timestamp": "2026-01-05T17:24:45.006Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 12200,
+              "timestamp": "2026-01-05T17:24:38.845Z"
+            },
+            {
+              "type": "think",
+              "duration": 22486,
+              "timestamp": "2026-01-05T17:24:51.045Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "Oh, wow, that's a good question, collaboration is so key, especially when you're trying to push accessibility standards, which is something I really focus on. I remember this one time at Innovatech, we were redesigning the main dashboard for the internal project tool—you know, the one that increased engagement by 25%—and the lead engineer, Mark, was really pushing back on implementing proper keyboard navigation and screen reader tags for the complex data visualizations. He argued it would add two weeks to the sprint cycle, saying it was \"over-engineering\" for internal users. I felt really strongly that accessibility wasn't optional, so I didn't just argue; I actually ran a quick, targeted usability test with three users who rely on keyboard navigation, and the data clearly showed a 40% failure rate for accessing key data points without the proper tags. Presenting that hard data, not just my opinion, shifted the conversation immediately, and we ended up compromising by prioritizing the most critical keyboard flows in the current sprint, which ultimately saved us from having to rework it later.",
+              "duration": 215541,
+              "timestamp": "2026-01-05T17:25:13.531Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:28:49.072Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 22486,
+            "typingTime": 215541,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That's a very thorough explanation of your collaborative approach. Now, let's shift focus to how you handle design constraints and technical limitations, which are common in healthcare tech. Can you describe a time when you had to significantly compromise a design vision due to technical feasibility, budget, or regulatory constraints, and how you ensured the final product still met user needs?",
+          "timestamp": "2026-01-05T17:24:58.088Z",
+          "metadata": {
+            "questionType": "follow_up"
+          }
+        },
+        {
+          "role": "user",
+          "content": "Oh, wow, that’s a really good question, especially since in healthcare tech, everything is so regulated, right? Um, yes, definitely, I’ve had to deal with that. At Innovatech, when we were redesigning the internal project management tool—the one that really boosted engagement by 25%—we initially wanted to implement this really slick, real-time drag-and-drop feature for task reallocation, which was a huge user request from the research phase. But, because the legacy backend system was built on this super old API structure, the engineering team basically said that implementing the real-time functionality would delay the launch by six months and blow the budget completely. So, we pivoted; instead of real-time, we designed a simpler, accessible modal window with defined dropdowns for reallocation, which wasn't as visually exciting, but it reduced the cognitive load and still achieved the core goal of reducing misallocated tasks, which cut down support tickets related to that issue by 15% overall. It was a compromise, but it was still grounded in the user's need for clarity, not just flashiness.",
+          "timestamp": "2026-01-05T17:25:03.612Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 9920,
+              "timestamp": "2026-01-05T17:24:58.189Z"
+            },
+            {
+              "type": "think",
+              "duration": 19228,
+              "timestamp": "2026-01-05T17:25:08.109Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "Oh, wow, that’s a really good question, especially since in healthcare tech, everything is so regulated, right? Um, yes, definitely, I’ve had to deal with that. At Innovatech, when we were redesigning the internal project management tool—the one that really boosted engagement by 25%—we initially wanted to implement this really slick, real-time drag-and-drop feature for task reallocation, which was a huge user request from the research phase. But, because the legacy backend system was built on this super old API structure, the engineering team basically said that implementing the real-time functionality would delay the launch by six months and blow the budget completely. So, we pivoted; instead of real-time, we designed a simpler, accessible modal window with defined dropdowns for reallocation, which wasn't as visually exciting, but it reduced the cognitive load and still achieved the core goal of reducing misallocated tasks, which cut down support tickets related to that issue by 15% overall. It was a compromise, but it was still grounded in the user's need for clarity, not just flashiness.",
+              "duration": 209389,
+              "timestamp": "2026-01-05T17:25:27.337Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:28:56.726Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 19228,
+            "typingTime": 209389,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That was a great breakdown of how you prioritize accessibility in complex technical environments. We've certainly covered a lot of ground today, from your design process and measuring impact to navigating technical constraints in healthcare. To wrap up, what is one key design philosophy or principle that you believe is absolutely essential for a Mid-Level Product Designer working in the healthcare space, and why?",
+          "timestamp": "2026-01-05T17:25:16.869Z",
+          "metadata": {
+            "questionType": "closing"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That's a really good question, and honestly, I've been thinking a lot about the jump from junior to mid-level, especially in health tech. I think the absolute core philosophy has to be **radical empathy**, but not just for the end-user—it has to extend to the clinical staff and the context of care delivery. Like, when I was redesigning the patient intake flow at Innovatech, we initially focused only on the patient side, but we totally missed that the nurses were using outdated tablets with poor screen resolution. So, we had to pivot and ensure the interface wasn't just accessible by WCAG standards, but also optimized for low-light environments and touch targets needed to be huge, which ultimately reduced data entry errors by 12% in the pilot program, just because we empathized with the nurse's actual working environment. It's about designing for the whole ecosystem, not just the single user journey.",
+          "timestamp": "2026-01-05T17:25:21.743Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 10320,
+              "timestamp": "2026-01-05T17:25:16.970Z"
+            },
+            {
+              "type": "think",
+              "duration": 18190,
+              "timestamp": "2026-01-05T17:25:27.290Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That's a really good question, and honestly, I've been thinking a lot about the jump from junior to mid-level, especially in health tech. I think the absolute core philosophy has to be **radical empathy**, but not just for the end-user—it has to extend to the clinical staff and the context of care delivery. Like, when I was redesigning the patient intake flow at Innovatech, we initially focused only on the patient side, but we totally missed that the nurses were using outdated tablets with poor screen resolution. So, we had to pivot and ensure the interface wasn't just accessible by WCAG standards, but also optimized for low-light environments and touch targets needed to be huge, which ultimately reduced data entry errors by 12% in the pilot program, just because we empathized with the nurse's actual working environment. It's about designing for the whole ecosystem, not just the single user journey.",
+              "duration": 183230,
+              "timestamp": "2026-01-05T17:25:45.480Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:28:48.710Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 18190,
+            "typingTime": 183230,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "Thank you so much for sharing your experiences today! I've really enjoyed learning about your background. I'll now generate a detailed assessment report. Is there anything else you'd like to add?",
+          "timestamp": "2026-01-05T17:25:21.743Z",
+          "metadata": {
+            "questionType": "closing"
+          }
+        }
+      ],
+      "hintsUsed": 1,
+      "totalQuestions": 6,
+      "averageResponseTime": 219597.33333333334,
+      "averageThinkingTime": 19128.833333333332
+    },
+    "assessment": {
+      "viewTime": 23180.0891235206,
+      "scrollDepth": 80,
+      "sectionsRead": [
+        "overall_score",
+        "strengths",
+        "areas_to_improve",
+        "next_steps"
+      ],
+      "actions": [
+        {
+          "type": "read",
+          "target": "overall_score",
+          "duration": 3241.4275565634407,
+          "timestamp": "2026-01-05T17:25:21.844Z",
+          "thought": "让我看看我的分数..."
+        },
+        {
+          "type": "scroll",
+          "target": "strengths",
+          "duration": 1000,
+          "timestamp": "2026-01-05T17:25:26.844Z"
+        },
+        {
+          "type": "read",
+          "target": "strengths",
+          "duration": 3077.066303078852,
+          "timestamp": "2026-01-05T17:25:27.844Z"
+        },
+        {
+          "type": "scroll",
+          "target": "areas_to_improve",
+          "duration": 1000,
+          "timestamp": "2026-01-05T17:25:30.921Z"
+        },
+        {
+          "type": "read",
+          "target": "areas_to_improve",
+          "duration": 5317.282824909533,
+          "timestamp": "2026-01-05T17:25:31.921Z"
+        },
+        {
+          "type": "scroll",
+          "target": "next_steps",
+          "duration": 1000,
+          "timestamp": "2026-01-05T17:25:37.238Z"
+        },
+        {
+          "type": "read",
+          "target": "next_steps",
+          "duration": 6785.739995532214,
+          "timestamp": "2026-01-05T17:25:38.238Z"
+        }
+      ]
+    }
+  },
+  "totalDuration": 118,
+  "completedSuccessfully": true,
+  "createdAt": "2026-01-05T17:25:21.844Z",
+  "iteration": 1
+}

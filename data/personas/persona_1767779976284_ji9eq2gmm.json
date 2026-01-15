@@ -1,0 +1,42 @@
+{
+  "name": "Anya Sharma",
+  "background": {
+    "yearsOfExperience": 2,
+    "currentRole": "Junior Software Engineer",
+    "currentCompany": "TechInnovate Solutions",
+    "education": "Bachelor of Science in Computer Science, University of California, Berkeley",
+    "skills": [
+      "Python",
+      "Java",
+      "React",
+      "Node.js",
+      "AWS",
+      "SQL",
+      "Git",
+      "Agile Development"
+    ]
+  },
+  "targetJob": {
+    "company": "Google",
+    "position": "Software Engineer"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "medium",
+    "criticalness": 6,
+    "patience": 7,
+    "trustLevel": 6
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Anya Sharma is a results-driven Junior Software Engineer with 2 years of experience in developing and deploying scalable web applications. At TechInnovate Solutions, she played a key role in a cross-functional team, contributing to the full software development lifecycle from design to deployment. Her responsibilities included developing backend APIs using Node.js and Express, implementing front-end features with React, and managing database interactions with PostgreSQL. She successfully optimized database queries, reducing response times by 15% for a critical user-facing feature. Anya also has experience with cloud platforms, specifically AWS, where she deployed and managed serverless functions and containerized applications. She is proficient in Python and Java, utilizing them for scripting, data processing, and enterprise application development. A strong advocate for clean code and best practices, she regularly participated in code reviews and contributed to improving development workflows. Anya holds a Bachelor of Science in Computer Science from the University of California, Berkeley, where she graduated with honors. She is eager to leverage her technical skills and passion for innovation to tackle complex challenges in a fast-paced environment, seeking opportunities for continuous learning and career advancement.",
+  "situation": "Anya is currently a Junior Software Engineer, but feels her current company lacks significant growth opportunities and exposure to cutting-edge technologies. She's actively mass applying to 30+ tech companies, aiming for a role that offers more challenging projects and a clearer path for career development. She wants to ensure her interview skills are polished for top-tier companies.",
+  "feedbackStyle": "Anya provides constructive and specific feedback, often pointing out areas where she felt unsure or where the system could have provided more depth. She appreciates detailed explanations and actionable advice.",
+  "id": "persona_1767779976284_ji9eq2gmm",
+  "createdAt": "2026-01-07T09:59:36.284Z",
+  "iteration": 7
+}

@@ -1,0 +1,13 @@
+{
+  "id": "prompt_hint_system_v2",
+  "module": "hint_system",
+  "version": 2,
+  "prompt": "Generate helpful hints that:\n1. Guide thinking without giving away answers, tailored to the specific industry, company, or technical domain mentioned in the prompt.\n2. Reference relevant frameworks (STAR, strategic models, technical best practices).\n3. Suggest specific examples or dimensions (e.g., risk, scalability, ethics) to consider.\n4. Explain why this hint is helpful, maintaining a professional and encouraging tone.",
+  "changelog": "Added a requirement for hints to be tailored to the specific context (industry/company/domain) to increase relevance and realism.",
+  "metrics": {
+    "avgSatisfaction": 7.5,
+    "moduleRating": 7.666666666666667
+  },
+  "createdAt": "2026-01-05T11:22:13.715Z",
+  "iteration": 1
+}

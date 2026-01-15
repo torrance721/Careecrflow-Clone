@@ -1,0 +1,41 @@
+{
+  "name": "David Kim",
+  "background": {
+    "yearsOfExperience": 1,
+    "currentRole": "Junior Data Analyst",
+    "currentCompany": "Retail Innovations Inc.",
+    "education": "Bachelor of Science in Statistics, University of California, Berkeley",
+    "skills": [
+      "Python",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Data Visualization",
+      "Statistical Analysis",
+      "A/B Testing"
+    ]
+  },
+  "targetJob": {
+    "company": "Tech Solutions Corp.",
+    "position": "Associate Business Intelligence Engineer"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "medium",
+    "criticalness": 6,
+    "patience": 7,
+    "trustLevel": 6
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "David Kim123 Main Street, Anytown, CA | (555) 123-4567 | david.kim@email.comSummaryHighly motivated Junior Data Analyst with 1 year of experience leveraging data to drive business insights and improve decision-making. Proficient in statistical analysis, data visualization, and database management. Eager to apply analytical skills in a dynamic environment and contribute to innovative projects. Seeking opportunities for career growth and skill development in business intelligence or data engineering.ExperienceJunior Data Analyst | Retail Innovations Inc. | Anytown, CA | June 2023 – Present- Conducted comprehensive data analysis on sales performance, customer behavior, and marketing campaigns, identifying key trends and opportunities for optimization.- Developed and maintained interactive dashboards using Tableau, providing real-time insights to sales and marketing teams, leading to a 10% increase in campaign effectiveness.- Wrote complex SQL queries to extract, transform, and load data from various sources, ensuring data integrity and accessibility.- Collaborated with cross-functional teams to define data requirements and deliver actionable reports, supporting strategic business initiatives.- Performed A/B testing analysis for e-commerce features, contributing to a 5% uplift in conversion rates.EducationBachelor of Science in Statistics | University of California, Berkeley | Berkeley, CA | May 2023- Relevant Coursework: Predictive Modeling, Data Mining, Regression Analysis, Probability and Statistics.- Dean's List (2021, 2022)SkillsProgramming: Python (Pandas, NumPy, Matplotlib), SQL (PostgreSQL, MySQL)Data Visualization: Tableau, Power BIStatistical Tools: R, Excel (Advanced)Other: A/B Testing, Data Cleaning, ETL, Business Intelligence, Cloud Platforms (AWS S3)",
+  "situation": "David is actively seeking a role with more growth potential and better learning opportunities than his current company. He's been mass applying to 30+ companies, focusing on tech firms with strong reputations for innovation. He wants to transition from pure analysis to a role with more engineering aspects, like Business Intelligence. He values efficiency in his interview prep given the volume of applications.",
+  "feedbackStyle": "David will provide structured, detailed feedback, highlighting specific areas where the system's responses were helpful or where they could be improved with more technical depth or alternative approaches. He'll suggest new features based on his experience with other tools.",
+  "id": "persona_1767778603113_uzbnx2zbv",
+  "createdAt": "2026-01-07T09:36:43.113Z",
+  "iteration": 7
+}

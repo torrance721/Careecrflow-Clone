@@ -1,0 +1,445 @@
+{
+  "id": "realistic_1767667132492_mkwluslx6",
+  "personaId": "persona_1767667057421_x4eno1eup",
+  "personaName": "Anya Sharma",
+  "targetJob": {
+    "company": "Global E-Commerce Platform",
+    "position": "Mid-Level Business Intelligence Engineer"
+  },
+  "journey": {
+    "homepage": {
+      "arrivalTime": "2026-01-06T02:37:37.422Z",
+      "browseTime": 26165.700063470955,
+      "actions": [
+        {
+          "type": "read",
+          "target": "hero_section",
+          "duration": 4671.815888212068,
+          "timestamp": "2026-01-06T02:37:37.422Z",
+          "thought": "这个网站看起来挺专业的"
+        },
+        {
+          "type": "scroll",
+          "target": "success_stories",
+          "duration": 3124.906844643148,
+          "timestamp": "2026-01-06T02:37:40.422Z",
+          "thought": "看看其他人的成功经历"
+        },
+        {
+          "type": "read",
+          "target": "success_story_card",
+          "duration": 3794.6813716139495,
+          "timestamp": "2026-01-06T02:37:43.422Z"
+        },
+        {
+          "type": "click",
+          "target": "job_input",
+          "duration": 500,
+          "timestamp": "2026-01-06T02:37:45.422Z"
+        },
+        {
+          "type": "think",
+          "duration": 2049.295959001787,
+          "timestamp": "2026-01-06T02:37:45.922Z",
+          "thought": "我想面试 Mid-Level Business Intelligence Engineer 这个职位"
+        },
+        {
+          "type": "type",
+          "target": "job_input",
+          "value": "Mid-Level Business Intelligence Engineer at Global E-Commerce Platform",
+          "duration": 11525,
+          "timestamp": "2026-01-06T02:37:47.422Z"
+        },
+        {
+          "type": "click",
+          "target": "start_button",
+          "duration": 500,
+          "timestamp": "2026-01-06T02:37:50.422Z",
+          "thought": "开始面试吧！"
+        }
+      ],
+      "jobInputMethod": "typing",
+      "jobInput": "Mid-Level Business Intelligence Engineer at Global E-Commerce Platform"
+    },
+    "preparation": {
+      "startTime": "2026-01-06T02:37:37.422Z",
+      "waitTime": 24817.977148285358,
+      "userPatience": "patient",
+      "actions": [
+        {
+          "type": "read",
+          "target": "thinking_animation",
+          "duration": 7445.393144485607,
+          "timestamp": "2026-01-06T02:37:37.422Z",
+          "thought": "正在准备中..."
+        },
+        {
+          "type": "wait",
+          "duration": 14890.786288971214,
+          "timestamp": "2026-01-06T02:37:47.349Z"
+        }
+      ]
+    },
+    "interview": {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Mock interview for Mid-Level Business Intelligence Engineer at Global E-Commerce Platform. Resume: Anya Sharma | (555) 123-4567 | anya.sharma@email.com\n\n**Summary**\nHighly analytical and results-driven professional with 3 years of experience in leveraging complex datasets to drive strategic busines... Situation: Anya is currently employed but feels her growth potential is capped at her current FinTech company. She is highly ambitious and wants to transition into a more data-intensive role in the e-commerce sector. She is mass applying (over 40 applications submitted) to top-tier tech companies and needs the AI tool to provide rigorous, structured practice to ensure she nails the behavioral and technical deep dives required for mid-level roles.",
+          "timestamp": "2026-01-06T02:37:37.422Z"
+        },
+        {
+          "role": "assistant",
+          "content": "## Mock Interview Opening\n\n**Setting the Stage (Interviewer Persona: Sarah, Senior BI Manager)**\n\n**(The interviewer smiles warmly and leans slightly toward the camera/mic.)**\n\n\"Hi [Candidate Name], thank you so much for taking the time to speak with me today. I'm Sarah, and I manage the BI team focused on our global marketplace operations here at Global E-Commerce Platform. We're really excited about this role and the potential impact it will have.\"\n\n\"I've had a chance to look over your background as a Junior Data Analyst, and it sounds like you've built a strong foundation in data querying and reporting over the last three years. We're looking forward to seeing how you're ready to make that jump into a more strategic, mid-level role.\"\n\n\"The goal for today is really just a conversation—I want to understand how you approach problems, how you think about data architecture, and what excites you about the world of e-commerce analytics. Please feel free to ask me questions at any point.\"\n\n***\n\n## First Interview Question (Focus: Transitioning from Analyst to Engineer/Strategy)\n\n\"To kick things off, let's talk about the transition from analysis to engineering. As a Junior Analyst, you likely spent a lot of time fulfilling ad-hoc requests and building reports based on existing data structures.\"\n\n**\"Now, imagine you're stepping into this Mid-Level BIE role. Our executive team has identified 'Customer Lifetime Value (CLV)' as a critical metric for the next quarter, but the current data pipeline only calculates basic monthly revenue per user. We need a robust, scalable CLV model.\"**\n\n**\"Walk me through your initial steps. What are the first three things you would do to move this critical business requirement from a conceptual goal into a functional, reliable BI solution?\"**",
+          "timestamp": "2026-01-06T02:37:43.659Z",
+          "metadata": {
+            "questionType": "opening"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That is a fantastic, high-impact project, and I appreciate the focus on scalability. Moving from reactive reporting to proactive modeling requires a structured approach, and I would prioritize three immediate steps to establish a reliable CLV pipeline. First, I would conduct a comprehensive data audit using SQL to identify all necessary input features—specifically historical purchase frequency, average order value, and customer tenure, ensuring we can link these reliably across our PostgreSQL databases. Second, I would define the specific CLV model methodology; given the e-commerce context, I would initially propose a probabilistic model, perhaps a Beta-Geometric/Negative Binomial Distribution (BG/NBD) model implemented in Python (Scikit-learn), which handles customer churn and repeat transactions more accurately than simple averages. Finally, I would collaborate with Data Engineering to establish a dedicated, scheduled ETL process for the model inputs and outputs, ensuring the calculated CLV score is materialized daily into a centralized data warehouse table, which is critical for downstream consumption by both Tableau dashboards and marketing automation tools.",
+          "timestamp": "2026-01-06T02:37:47.910Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 37900,
+              "timestamp": "2026-01-06T02:37:43.659Z"
+            },
+            {
+              "type": "think",
+              "duration": 11033,
+              "timestamp": "2026-01-06T02:38:21.559Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That is a fantastic, high-impact project, and I appreciate the focus on scalability. Moving from reactive reporting to proactive modeling requires a structured approach, and I would prioritize three immediate steps to establish a reliable CLV pipeline. First, I would conduct a comprehensive data audit using SQL to identify all necessary input features—specifically historical purchase frequency, average order value, and customer tenure, ensuring we can link these reliably across our PostgreSQL databases. Second, I would define the specific CLV model methodology; given the e-commerce context, I would initially propose a probabilistic model, perhaps a Beta-Geometric/Negative Binomial Distribution (BG/NBD) model implemented in Python (Scikit-learn), which handles customer churn and repeat transactions more accurately than simple averages. Finally, I would collaborate with Data Engineering to establish a dedicated, scheduled ETL process for the model inputs and outputs, ensuring the calculated CLV score is materialized daily into a centralized data warehouse table, which is critical for downstream consumption by both Tableau dashboards and marketing automation tools.",
+              "duration": 142298,
+              "timestamp": "2026-01-06T02:38:32.592Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-06T02:40:54.890Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 11033,
+            "typingTime": 142298,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "Alright. That sounds like a solid strategic starting point. Could you walk me through the rationale behind those specific three steps? Why are they the most critical immediate priorities for establishing reliability and setting the stage for scalability, rather than focusing on, say, data governance or initial model selection?",
+          "timestamp": "2026-01-06T02:37:57.303Z",
+          "metadata": {
+            "questionType": "follow_up",
+            "seniorityLevel": "mid",
+            "skepticMode": false
+          }
+        },
+        {
+          "role": "user",
+          "content": "That’s an excellent question, and the prioritization is rooted in the principle of \"Garbage In, Garbage Out.\" While governance and model selection are vital long-term, our immediate focus must be on data reliability because flawed foundational data invalidates all subsequent efforts. Specifically, Step 1, establishing robust ETL monitoring, prevents silent failures; for instance, at FinTech Innovators, we reduced data pipeline latency alerts from 15 per week to under 3 by implementing real-time data validation checks on transaction volumes. Step 2, standardizing key metrics definitions, ensures we are all speaking the same analytical language—without this, A/B test results are incomparable. Finally, Step 3, auditing the source data schema, is critical for scalability; if we don't know the true cardinality and distribution now, any future model deployment will suffer from unforeseen feature drift. Simply put, we must build the foundation before raising the roof.",
+          "timestamp": "2026-01-06T02:38:03.024Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 8560,
+              "timestamp": "2026-01-06T02:37:57.404Z"
+            },
+            {
+              "type": "think",
+              "duration": 13218,
+              "timestamp": "2026-01-06T02:38:05.964Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That’s an excellent question, and the prioritization is rooted in the principle of \"Garbage In, Garbage Out.\" While governance and model selection are vital long-term, our immediate focus must be on data reliability because flawed foundational data invalidates all subsequent efforts. Specifically, Step 1, establishing robust ETL monitoring, prevents silent failures; for instance, at FinTech Innovators, we reduced data pipeline latency alerts from 15 per week to under 3 by implementing real-time data validation checks on transaction volumes. Step 2, standardizing key metrics definitions, ensures we are all speaking the same analytical language—without this, A/B test results are incomparable. Finally, Step 3, auditing the source data schema, is critical for scalability; if we don't know the true cardinality and distribution now, any future model deployment will suffer from unforeseen feature drift. Simply put, we must build the foundation before raising the roof.",
+              "duration": 125315,
+              "timestamp": "2026-01-06T02:38:19.182Z"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "[editing]",
+              "duration": 4000,
+              "timestamp": "2026-01-06T02:40:24.497Z",
+              "thought": "让我再改一下..."
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-06T02:40:28.497Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 13218,
+            "typingTime": 125315,
+            "editCount": 2
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "I understand. Reducing latency alerts from 15 down to 3 per week is a significant improvement. Can you walk me through the specific mechanism by which implementing real-time validation checks on transaction volumes directly addressed and resolved the root causes of the original latency alerts?",
+          "timestamp": "2026-01-06T02:38:12.205Z",
+          "metadata": {
+            "questionType": "follow_up",
+            "seniorityLevel": "mid",
+            "skepticMode": false
+          }
+        },
+        {
+          "role": "user",
+          "content": "[Requested hint]",
+          "timestamp": "2026-01-06T02:38:21.832Z",
+          "userActions": [
+            {
+              "type": "click",
+              "target": "hint_button",
+              "duration": 500,
+              "timestamp": "2026-01-06T02:38:31.907Z"
+            }
+          ],
+          "metadata": {
+            "hintRequested": true,
+            "hintContent": "Focus on the connection between 'transaction volume' validation and 'latency alerts.' What specific technical problems (e.g., resource contention, queue backup, ETL failure) are often triggered when transaction volumes behave unexpectedly (e.g., sudden spikes, unexpected drops, or malformed data)? Describe the *check* (the validation rule) and the *action* (what the system did when the check failed) that prevented the latency from occurring."
+          }
+        },
+        {
+          "role": "user",
+          "content": "That’s an excellent question, and the resolution was fundamentally about shifting from reactive batch processing to proactive, granular validation. The original latency alerts stemmed from our legacy system attempting to process massive, uncapped transaction volume spikes—specifically, during peak hours like Friday afternoons—which overwhelmed the database queue and triggered the 15-minute timeout threshold. To address this, we implemented a Python-based real-time validation layer using Pandas to calculate a rolling 5-minute average transaction velocity. If the incoming volume exceeded the historical 99th percentile threshold for that time window, the system would immediately throttle the input stream and divert the excess into a temporary, low-priority queue. This mechanism ensured the primary processing pipeline never exceeded its capacity, directly preventing the queue overflow that caused the latency. The result was instantaneous; within the first month, the average transaction processing time during peak spikes dropped from 18 seconds to under 4 seconds, effectively eliminating the high-priority latency alerts.",
+          "timestamp": "2026-01-06T02:38:21.832Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 7880,
+              "timestamp": "2026-01-06T02:38:12.306Z"
+            },
+            {
+              "type": "think",
+              "duration": 9721,
+              "timestamp": "2026-01-06T02:38:20.186Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "hesitate",
+              "duration": 2000,
+              "timestamp": "2026-01-06T02:38:29.907Z",
+              "thought": "这个问题有点难，我需要一些提示..."
+            },
+            {
+              "type": "click",
+              "target": "hint_button",
+              "duration": 500,
+              "timestamp": "2026-01-06T02:38:31.907Z"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That’s an excellent question, and the resolution was fundamentally about shifting from reactive batch processing to proactive, granular validation. The original latency alerts stemmed from our legacy system attempting to process massive, uncapped transaction volume spikes—specifically, during peak hours like Friday afternoons—which overwhelmed the database queue and triggered the 15-minute timeout threshold. To address this, we implemented a Python-based real-time validation layer using Pandas to calculate a rolling 5-minute average transaction velocity. If the incoming volume exceeded the historical 99th percentile threshold for that time window, the system would immediately throttle the input stream and divert the excess into a temporary, low-priority queue. This mechanism ensured the primary processing pipeline never exceeded its capacity, directly preventing the queue overflow that caused the latency. The result was instantaneous; within the first month, the average transaction processing time during peak spikes dropped from 18 seconds to under 4 seconds, effectively eliminating the high-priority latency alerts.",
+              "duration": 133045,
+              "timestamp": "2026-01-06T02:38:34.907Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-06T02:40:42.952Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 9721,
+            "typingTime": 133045,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "Got it. That's a significant performance gain, especially during peak spikes. Could you walk me through the specific architectural or algorithmic changes you implemented that resulted in that 14-second reduction, and how you ensured those changes scaled under heavy load?",
+          "timestamp": "2026-01-06T02:38:30.054Z",
+          "metadata": {
+            "questionType": "closing",
+            "seniorityLevel": "mid",
+            "skepticMode": false
+          }
+        },
+        {
+          "role": "user",
+          "content": "That’s an excellent question, and it speaks directly to the core optimization project I led last quarter. The 14-second reduction was achieved through a two-pronged approach focusing on data pipeline efficiency and query optimization. Architecturally, we migrated our real-time inventory lookup from a monolithic PostgreSQL instance to a horizontally partitioned MySQL cluster, specifically leveraging read replicas during peak traffic hours. Algorithmically, the key change was refactoring the primary pricing engine query, which previously involved three separate JOINs across materialized views; we replaced this with a single, pre-aggregated lookup table updated asynchronously every 60 seconds. This reduced the average query execution time from 18 seconds to just 4 seconds during our Black Friday simulation tests. To ensure scalability, we implemented AWS Lambda functions to manage the dynamic scaling of the read replicas, guaranteeing that our latency remained below 5 seconds even when transaction volume spiked by 400%.",
+          "timestamp": "2026-01-06T02:38:35.097Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 7420,
+              "timestamp": "2026-01-06T02:38:30.157Z"
+            },
+            {
+              "type": "think",
+              "duration": 13150,
+              "timestamp": "2026-01-06T02:38:37.577Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That’s an excellent question, and it speaks directly to the core optimization project I led last quarter. The 14-second reduction was achieved through a two-pronged approach focusing on data pipeline efficiency and query optimization. Architecturally, we migrated our real-time inventory lookup from a monolithic PostgreSQL instance to a horizontally partitioned MySQL cluster, specifically leveraging read replicas during peak traffic hours. Algorithmically, the key change was refactoring the primary pricing engine query, which previously involved three separate JOINs across materialized views; we replaced this with a single, pre-aggregated lookup table updated asynchronously every 60 seconds. This reduced the average query execution time from 18 seconds to just 4 seconds during our Black Friday simulation tests. To ensure scalability, we implemented AWS Lambda functions to manage the dynamic scaling of the read replicas, guaranteeing that our latency remained below 5 seconds even when transaction volume spiked by 400%.",
+              "duration": 129524,
+              "timestamp": "2026-01-06T02:38:50.727Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-06T02:41:00.251Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 13150,
+            "typingTime": 129524,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That detailed explanation of leveraging horizontally partitioned MySQL clusters and refactoring those three JOINs into a single, pre-aggregated lookup table really clarifies the technical depth you brought to that optimization project. It sounds like you achieved exactly the kind of robust, scalable solution we need here.\n\nWe've covered a lot of ground today, from your initial career trajectory to the specifics of that Black Friday simulation. That concludes the structured portion of my questions. Do you have any questions for me about the role, the team, or the next steps in the hiring process?\n\nThank you for your thoughtful responses. Do you have any questions about the role, the team, or what a typical day might look like?",
+          "timestamp": "2026-01-06T02:38:47.750Z",
+          "metadata": {
+            "questionType": "closing_transition"
+          }
+        },
+        {
+          "role": "user",
+          "content": "Given the rapid scaling of the platform, I'm curious about the evolution of the data strategy. Specifically, how does the BI team currently balance the need for quick, ad-hoc analysis requested by product teams versus the investment in developing robust, scalable data models and centralized reporting infrastructure? What metrics are used to measure the success and adoption of the long-term data products the BI team delivers?",
+          "timestamp": "2026-01-06T02:38:52.391Z",
+          "metadata": {
+            "questionType": "candidate_question"
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "Thank you for this engaging conversation. We covered 6 key areas today, and I was particularly impressed by your Strong ability to structure complex technical projects (CLV pipeline design) and Excellent technical depth in database architecture and optimization (migrating to partitioned MySQL, using read replicas, query refactoring).\n\nOur recruiting team will be in touch soon with next steps. Thank you again for your time today.\n\nAnya, thank you for sharing your expertise today. Your detailed approach to pipeline optimization and scalability is exactly what we look for in our BIE team. We will be in touch shortly regarding the next steps in our process.\n\n---\n\n📋 **Interview Summary**\n\n**Topics Covered:**\n• Business Intelligence Strategy and Prioritization (CLV modeling)\n• Data Pipeline Design and ETL Process Establishment\n• Data Quality and Governance (Garbage In, Garbage Out principle)\n• Real-time Data Validation and Throttling Mechanisms\n• Database Architecture and Scalability (PostgreSQL, MySQL, Read Replicas)\n• Query Optimization and Performance Tuning\n\n**Strengths Observed:**\n✓ Strong ability to structure complex technical projects (CLV pipeline design)\n✓ Excellent technical depth in database architecture and optimization (migrating to partitioned MySQL, using read replicas, query refactoring)\n✓ Clear understanding of scalability requirements and practical implementation (using AWS Lambda for dynamic scaling)\n✓ Effective use of the STAR method to detail past achievements (reducing latency alerts from 15 to 3)\n✓ Demonstrated proficiency in both strategic planning and granular technical execution\n\n**Areas for Further Discussion:**\n→ Deeper dive into specific CLV model selection criteria (e.g., comparing BG/NBD vs. Gamma-Gamma models for specific business needs)\n→ Experience with cloud-native BI tools and modern data warehousing solutions (Snowflake, Databricks, etc.)\n→ Behavioral questions focusing on cross-functional collaboration, especially with Marketing or Product teams, regarding the CLV output\n→ Further discussion on data governance frameworks beyond basic metric standardization\n\n**Overall Impression:**\nThe candidate presents as a highly competent and technically proficient BIE candidate. They successfully navigated complex technical deep dives related to pipeline optimization, scalability, and database architecture, demonstrating the necessary skills to transition effectively into a mid-level engineering role. The responses were detailed, structured, and grounded in quantifiable results.",
+          "timestamp": "2026-01-06T02:38:52.391Z",
+          "metadata": {
+            "questionType": "closing_final",
+            "summary": {
+              "topicsCovered": [
+                "Business Intelligence Strategy and Prioritization (CLV modeling)",
+                "Data Pipeline Design and ETL Process Establishment",
+                "Data Quality and Governance (Garbage In, Garbage Out principle)",
+                "Real-time Data Validation and Throttling Mechanisms",
+                "Database Architecture and Scalability (PostgreSQL, MySQL, Read Replicas)",
+                "Query Optimization and Performance Tuning"
+              ],
+              "strengthsObserved": [
+                "Strong ability to structure complex technical projects (CLV pipeline design)",
+                "Excellent technical depth in database architecture and optimization (migrating to partitioned MySQL, using read replicas, query refactoring)",
+                "Clear understanding of scalability requirements and practical implementation (using AWS Lambda for dynamic scaling)",
+                "Effective use of the STAR method to detail past achievements (reducing latency alerts from 15 to 3)",
+                "Demonstrated proficiency in both strategic planning and granular technical execution"
+              ],
+              "areasToExplore": [
+                "Deeper dive into specific CLV model selection criteria (e.g., comparing BG/NBD vs. Gamma-Gamma models for specific business needs)",
+                "Experience with cloud-native BI tools and modern data warehousing solutions (Snowflake, Databricks, etc.)",
+                "Behavioral questions focusing on cross-functional collaboration, especially with Marketing or Product teams, regarding the CLV output",
+                "Further discussion on data governance frameworks beyond basic metric standardization"
+              ],
+              "overallImpression": "The candidate presents as a highly competent and technically proficient BIE candidate. They successfully navigated complex technical deep dives related to pipeline optimization, scalability, and database architecture, demonstrating the necessary skills to transition effectively into a mid-level engineering role. The responses were detailed, structured, and grounded in quantifiable results.",
+              "closingMessage": "Anya, thank you for sharing your expertise today. Your detailed approach to pipeline optimization and scalability is exactly what we look for in our BIE team. We will be in touch shortly regarding the next steps in our process."
+            }
+          }
+        }
+      ],
+      "hintsUsed": 1,
+      "totalQuestions": 4,
+      "averageResponseTime": 144326,
+      "averageThinkingTime": 11780.5
+    },
+    "assessment": {
+      "viewTime": 30987.5100896617,
+      "scrollDepth": 100,
+      "sectionsRead": [
+        "overall_score",
+        "strengths",
+        "areas_to_improve",
+        "recommendations",
+        "next_steps"
+      ],
+      "actions": [
+        {
+          "type": "read",
+          "target": "overall_score",
+          "duration": 3203.469850945309,
+          "timestamp": "2026-01-06T02:38:52.492Z",
+          "thought": "让我看看我的分数..."
+        },
+        {
+          "type": "scroll",
+          "target": "strengths",
+          "duration": 1000,
+          "timestamp": "2026-01-06T02:38:57.492Z"
+        },
+        {
+          "type": "read",
+          "target": "strengths",
+          "duration": 4357.009473709267,
+          "timestamp": "2026-01-06T02:38:58.492Z"
+        },
+        {
+          "type": "scroll",
+          "target": "areas_to_improve",
+          "duration": 1000,
+          "timestamp": "2026-01-06T02:39:02.849Z"
+        },
+        {
+          "type": "read",
+          "target": "areas_to_improve",
+          "duration": 6885.936533122005,
+          "timestamp": "2026-01-06T02:39:03.849Z"
+        },
+        {
+          "type": "scroll",
+          "target": "recommendations",
+          "duration": 1000,
+          "timestamp": "2026-01-06T02:39:10.734Z"
+        },
+        {
+          "type": "read",
+          "target": "recommendations",
+          "duration": 6386.989883621176,
+          "timestamp": "2026-01-06T02:39:11.734Z"
+        },
+        {
+          "type": "scroll",
+          "target": "next_steps",
+          "duration": 1000,
+          "timestamp": "2026-01-06T02:39:18.121Z"
+        },
+        {
+          "type": "read",
+          "target": "next_steps",
+          "duration": 4357.574199209255,
+          "timestamp": "2026-01-06T02:39:19.121Z"
+        }
+      ]
+    }
+  },
+  "totalDuration": 75,
+  "completedSuccessfully": true,
+  "createdAt": "2026-01-06T02:38:52.492Z",
+  "iteration": 1
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Kai Chen",
+  "background": {
+    "yearsOfExperience": 5,
+    "currentRole": "Marketing Specialist",
+    "currentCompany": "Innovatech Solutions (Mid-sized Tech)",
+    "education": "Bachelor of Arts in Communications, University of Washington",
+    "skills": [
+      "SEO/SEM",
+      "Content Strategy",
+      "Google Analytics",
+      "HubSpot",
+      "A/B Testing",
+      "Project Management"
+    ]
+  },
+  "targetJob": {
+    "company": "Global Consumer Goods Inc.",
+    "position": "Associate Product Manager"
+  },
+  "personality": {
+    "communicationStyle": "concise",
+    "confidenceLevel": "medium",
+    "criticalness": 5,
+    "patience": 6,
+    "trustLevel": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Kai Chen | (555) 123-4567 | kai.chen@email.com\n\nSummary\nResults-driven Marketing Specialist with 5 years of experience in developing and executing digital marketing strategies for B2B tech services. Proven ability to drive lead generation, enhance brand visibility, and optimize campaign performance using data analytics. Seeking to leverage analytical and communication skills in a challenging Associate Product Manager role.\n\nExperience\nMarketing Specialist | Innovatech Solutions | Seattle, WA | 2019 – Present\n* Led content strategy and SEO optimization efforts, resulting in a 35% increase in organic traffic year-over-year.\n* Managed a $50k quarterly budget for SEM campaigns, achieving a 15% reduction in CPA through continuous A/B testing and keyword refinement.\n* Collaborated cross-functionally with Sales and Product teams to launch three major product features, ensuring consistent messaging across all marketing channels.\n* Developed comprehensive performance reports using Google Analytics and internal CRM data to inform future strategy.\n\nEducation\nBachelor of Arts in Communications | University of Washington | Seattle, WA | 2015 – 2019",
+  "situation": "Kai is currently employed but feels stuck in a pure marketing track and wants to transition into product management, which requires demonstrating a different skill set. He is applying to 40+ roles across various industries (tech, finance, consumer goods) to maximize his chances of making a career pivot. He needs practice articulating his transferable skills clearly.",
+  "feedbackStyle": "He provides balanced, actionable feedback, focusing on areas where the AI's response felt generic or didn't directly address his specific career transition needs.",
+  "id": "persona_1767687603108_nk2kli5v1",
+  "createdAt": "2026-01-06T08:20:03.108Z",
+  "iteration": 1
+}

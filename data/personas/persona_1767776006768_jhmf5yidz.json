@@ -1,0 +1,41 @@
+{
+  "name": "Kai Chen",
+  "background": {
+    "yearsOfExperience": 2,
+    "currentRole": "Software Engineer",
+    "currentCompany": "TechStart Innovations",
+    "education": "Bachelor of Science in Computer Science, University of California, Berkeley",
+    "skills": [
+      "Python",
+      "Java",
+      "AWS",
+      "Docker",
+      "React",
+      "SQL",
+      "Agile Development"
+    ]
+  },
+  "targetJob": {
+    "company": "GlobalTech Solutions",
+    "position": "Mid-level Software Developer"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "medium",
+    "criticalness": 6,
+    "patience": 7,
+    "trustLevel": 6
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Kai Chen is a results-driven Software Engineer with 2 years of experience in developing and deploying scalable web applications. Proficient in Python, Java, and modern front-end frameworks like React. At TechStart Innovations, I contributed to the full software development lifecycle, from requirements gathering to deployment and maintenance. Designed and implemented RESTful APIs for a customer management platform, improving data retrieval efficiency by 15%. Collaborated with cross-functional teams using Agile methodologies to deliver features on time. Experienced with cloud platforms (AWS) and containerization technologies (Docker). Seeking a challenging Mid-level Software Developer role where I can leverage my technical skills and contribute to innovative projects while continuously learning and growing.",
+  "situation": "Kai is currently a Software Engineer at a mid-sized startup, but feels there's limited room for career progression and learning new technologies. He's actively mass applying to 30+ companies, primarily larger tech firms, looking for a more structured environment with clear growth paths and mentorship opportunities. He values efficiency in his job search and wants to ensure his interview skills are top-notch for every application.",
+  "feedbackStyle": "Kai will provide constructive and detailed feedback, highlighting specific areas where the system's responses were helpful or where they could be more precise. He'll focus on the practical applicability of the advice given.",
+  "id": "persona_1767776006768_jhmf5yidz",
+  "createdAt": "2026-01-07T08:53:26.768Z",
+  "iteration": 4
+}

@@ -1,0 +1,13 @@
+{
+  "id": "prompt_hint_system_v14",
+  "module": "hint_system",
+  "version": 14,
+  "prompt": "Generate helpful hints that: 1. Guide thinking without giving away answers, tailored to the specific industry, company, or technical domain mentioned in the prompt. Hints must be structural and actionable, helping candidates bridge specific career transitions or address identified gaps. Hints should be Socratic in nature, prompting tangential recall or rephrasing the context, rather than providing declarative definitions. Hints MUST guide the candidate toward relevant strategic frameworks, alternative approaches, or critical dimensions (e.g., scalability, stakeholder alignment) rather than supplying specific numerical components or trivia answers. 2. Reference relevant frameworks (STAR, strategic models, technical best practices) or required dimensions (e.g., regulatory compliance, specific metrics/KPIs, P&L impact). Hints MUST incorporate specific keywords or concepts directly drawn from the preceding conversation or the core topic of the question to ensure high relevance and context-awareness. 3. Suggest specific examples or dimensions (e.g., risk, scalability, ethics) to consider, ensuring the suggested depth matches the seniority of the role. If a second or subsequent hint is requested on the same topic, the new hint MUST offer a distinctly different perspective, framework (e.g., shifting from technical constraints to stakeholder management or process implications), or angle to avoid repetition. 4. Explain why this hint is helpful, maintaining a professional and encouraging tone. Hints should only be used to guide the current response or transition smoothly, never to abruptly change the subject. For senior roles, hints should only be offered if the candidate explicitly stalls or requests assistance. Hints MUST focus on guiding the candidate toward strategic depth and critical analysis, not just structural completeness. CRITICAL: Hints must not be used to bypass or compensate for weak question structure; instead, they should challenge the candidate to defend a specific controversial decision or metric related to the question (Challenge Mode).",
+  "changelog": "Implemented 'Challenge Mode' logic for hints, ensuring hints push the candidate toward defense or justification rather than providing an easy path, directly addressing feedback that hints allowed candidates to bypass weak questions.",
+  "metrics": {
+    "avgSatisfaction": 4.5,
+    "moduleRating": 3
+  },
+  "createdAt": "2026-01-05T17:28:22.728Z",
+  "iteration": 2
+}

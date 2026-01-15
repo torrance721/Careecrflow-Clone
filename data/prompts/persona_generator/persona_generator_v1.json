@@ -1,0 +1,10 @@
+{
+  "id": "prompt_persona_generator_v1",
+  "module": "persona_generator",
+  "version": 1,
+  "prompt": "Generate diverse mock personas that:\n1. Cover different experience levels\n2. Have varied communication styles\n3. Represent different industries\n4. Include edge cases and challenging behaviors",
+  "changelog": "Initial version",
+  "metrics": {},
+  "createdAt": "2026-01-05T11:17:44.585Z",
+  "iteration": 0
+}

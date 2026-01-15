@@ -1,0 +1,131 @@
+{
+  "id": "feedback_1767660452109_r558d684q",
+  "personaId": "persona_1767660216948_ygxhkwbet",
+  "personaName": "Lena Petrova",
+  "simulationId": "realistic_1767660437030_x5e9twc0k",
+  "iteration": 4,
+  "overallSatisfaction": 6.5,
+  "wouldRecommend": true,
+  "moduleFeedback": [
+    {
+      "module": "question_generation",
+      "rating": 7,
+      "strengths": [
+        "Questions demonstrated exceptional analytical depth, particularly concerning financial modeling and ROI calculation.",
+        "The interviewer successfully drilled down into specific details (e.g., fully burdened labor rates, tooling allocation), simulating a high-stakes interview environment."
+      ],
+      "weaknesses": [
+        "The initial question lacked a clear framework prompt (e.g., 'Use STAR to describe...') which is necessary for training structured responses.",
+        "The relentless focus on cost accounting became repetitive and risked obscuring broader strategic PM competencies."
+      ],
+      "specificIssues": [
+        "The transition from tactical win (15% engagement) to strategic North Star was handled well, but the follow-up questions immediately reverted to financial minutiae."
+      ],
+      "suggestions": [
+        "Ensure a more balanced distribution of questions across core PM competencies (Strategy, Execution, People, Metrics).",
+        "Explicitly prompt the candidate to use specific frameworks (STAR, CIRCLE, etc.) to test structured thinking."
+      ]
+    },
+    {
+      "module": "hint_system",
+      "rating": 5,
+      "strengths": [
+        "The hint was necessary because the question was highly specific and required a nuanced understanding of ownership boundaries."
+      ],
+      "weaknesses": [
+        "The hint was requested due to the complexity and specificity of the question, indicating the question difficulty spiked too sharply.",
+        "The system should provide a quantifiable metric on the hint's effectiveness post-use (e.g., 'Hint usage improved response structure by X%')."
+      ],
+      "specificIssues": [
+        "The hint mechanism needs to be integrated with the response analysis to show how it guided the candidate back to a structured answer."
+      ],
+      "suggestions": [
+        "Provide hints that guide toward standard PM frameworks rather than just content knowledge."
+      ]
+    },
+    {
+      "module": "response_analysis",
+      "rating": 6,
+      "strengths": [
+        "The interviewer acknowledged specific metrics provided by the candidate ($117,000 uplift, $63,000 ROI, 7-month payback), demonstrating effective listening."
+      ],
+      "weaknesses": [
+        "The analysis provided at the end ('Exceptional analytical rigor') was too generic. I need quantifiable feedback on my adherence to STAR/CIRCLE frameworks.",
+        "There was no explicit breakdown of where my answers were incomplete or lacked structure, only where they were impressive."
+      ],
+      "specificIssues": [
+        "I need a score (e.g., 85% adherence to STAR structure) for each behavioral/strategic question, not just qualitative praise."
+      ],
+      "suggestions": [
+        "Implement a scoring mechanism that evaluates response structure (e.g., problem definition, solution, metrics, learning) against established PM frameworks."
+      ]
+    },
+    {
+      "module": "overall_flow",
+      "rating": 7,
+      "strengths": [
+        "The conversation maintained high intensity and logical continuity, with each question building directly on the previous answer.",
+        "The final question, initiated by the candidate, was a strong transition and allowed for a strategic shift."
+      ],
+      "weaknesses": [
+        "The flow became overly focused on a single tactical example and its subsequent financial dissection, lacking breadth."
+      ],
+      "specificIssues": [
+        "The interview felt more like a financial audit than a holistic PM assessment for a mid-level role."
+      ],
+      "suggestions": [
+        "Ensure the interview progresses naturally from behavioral/strategic to execution/metrics, rather than cycling back to deep financial modeling repeatedly."
+      ]
+    },
+    {
+      "module": "persona_simulation",
+      "rating": 8,
+      "strengths": [
+        "The interviewer maintained a highly skeptical, detail-oriented, and financially rigorous persona, which effectively stress-tested my answers.",
+        "The use of phrases like 'true strategic accountability' and 'full ROI perspective' reinforced the senior, demanding tone."
+      ],
+      "weaknesses": [
+        "The persona lacked diversity in questioning style; it was consistently 'drill down on cost' rather than challenging assumptions about market fit or competitive landscape."
+      ],
+      "specificIssues": [
+        "The persona should occasionally pivot to challenge the 'why' (strategic rationale) instead of only the 'how much' (cost structure)."
+      ],
+      "suggestions": [
+        "Introduce unexpected pivots or curveball questions related to market dynamics or regulatory changes to fully test the candidate's adaptability."
+      ]
+    }
+  ],
+  "emotionalJourney": "The initial phase was engaging, as the interviewer quickly picked up on the financial details. However, the middle section became frustratingly repetitive, feeling less like a strategic PM interview and more like an accounting exam focused solely on labor cost allocation. I felt challenged to maintain composure and pivot back to strategic thinking, which required significant effort. The final question I posed helped regain control and ended the session on a high note of strategic thinking.",
+  "frustratingMoments": [
+    "The relentless focus on the $120/hour rate and the subsequent $15 fixed allocation felt like an unnecessary detour into granular cost accounting.",
+    "Having to request a hint because the question required deep knowledge of specific internal financial allocation models, which distracts from core PM skills.",
+    "The lack of explicit framework feedback (e.g., 'You missed the 'Results' component of STAR') in the interviewer's closing summary."
+  ],
+  "positiveHighlights": [
+    "The interviewer's ability to synthesize and repeat back specific metrics (e.g., $117,000 uplift) demonstrated high engagement and forced me to be precise.",
+    "Successfully pivoting the conversation from tactical wins to strategic North Star alignment.",
+    "The final response detailing the integration of the IT Security team's salary burden was a strong demonstration of analytical rigor, driven by the interviewer's demanding follow-up."
+  ],
+  "prioritizedSuggestions": [
+    {
+      "priority": "critical",
+      "suggestion": "Implement quantitative scoring for adherence to structured answering frameworks (STAR, CIRCLE, etc.) for every response.",
+      "affectedModule": "response_analysis",
+      "expectedImpact": "Provides actionable, measurable feedback essential for candidates focused on improving interview structure, not just content."
+    },
+    {
+      "priority": "high",
+      "suggestion": "Introduce greater breadth in question topics, ensuring coverage of all four core PM competencies (Strategy, Execution, Metrics, People) rather than focusing 80% on financial metrics.",
+      "affectedModule": "question_generation",
+      "expectedImpact": "Creates a more realistic and comprehensive simulation of a mid-level PM interview."
+    },
+    {
+      "priority": "medium",
+      "suggestion": "Ensure hints guide the candidate toward structural improvements or strategic pivots, rather than providing content knowledge necessary to answer a highly specific accounting question.",
+      "affectedModule": "hint_system",
+      "expectedImpact": "Increases the pedagogical value of the hint system by reinforcing structured thinking."
+    }
+  ],
+  "rawFeedback": "This simulation successfully created a high-pressure, financially rigorous environment, which is commendable. The interviewer's ability to drill down into the specifics of my quantitative claims ($117k uplift, labor costs) was excellent and forced me to demonstrate true analytical depth, which is vital for a role at Stripe. The logical flow between questions was strong, turning a single example into a deep dive.\n\nHowever, the simulation suffered from a severe lack of balance. The interview devolved into an accounting audit focused on labor cost allocation, overshadowing critical PM skills like stakeholder management, product vision, and market analysis. For a tool designed to train future Product Managers, the focus needs to be on strategic decision-making frameworks, not just accurate financial modeling.\n\nTo improve, the tool must provide quantifiable feedback on my performance against established PM frameworks. Simply saying my rigor was 'exceptional' is insufficient. I demand metrics on my structural adherence, completeness, and clarity. The simulation needs to be demanding, but also structurally complete in its assessment methodology.",
+  "createdAt": "2026-01-06T00:47:32.109Z"
+}

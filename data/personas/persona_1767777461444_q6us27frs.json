@@ -1,0 +1,43 @@
+{
+  "name": "Arjun Patel",
+  "background": {
+    "yearsOfExperience": 5,
+    "currentRole": "DevOps Engineer",
+    "currentCompany": "TechSolutions Inc.",
+    "education": "Bachelor of Technology in Computer Science, IIT Delhi",
+    "skills": [
+      "AWS",
+      "Azure",
+      "Kubernetes",
+      "Docker",
+      "CI/CD",
+      "Python",
+      "Terraform",
+      "Ansible",
+      "Linux"
+    ]
+  },
+  "targetJob": {
+    "company": "CloudInnovate Corp.",
+    "position": "Senior Cloud Engineer"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "high",
+    "criticalness": 7,
+    "patience": 6,
+    "trustLevel": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Highly motivated and results-oriented DevOps Engineer with 5 years of experience designing, implementing, and managing scalable cloud infrastructure. Proven ability to automate deployment pipelines, optimize system performance, and enhance security protocols across diverse environments. Proficient in AWS, Azure, Kubernetes, Docker, and various CI/CD tools. Seeking to leverage expertise in a challenging Senior Cloud Engineer role to drive innovation and contribute to high-impact projects. Successfully reduced cloud infrastructure costs by 20% through optimization strategies and implemented a fully automated CI/CD pipeline, decreasing deployment time by 40%. Led a team of junior engineers in migrating legacy applications to containerized microservices on Kubernetes. Strong problem-solving skills and a collaborative approach to team projects. Committed to continuous learning and adopting new technologies to stay ahead in the rapidly evolving cloud landscape. Experienced in Python scripting for automation and infrastructure as code using Terraform and Ansible. Bachelor of Technology in Computer Science from IIT Delhi.",
+  "situation": "Arjun is a seasoned DevOps Engineer with 5 years of experience, feeling stagnant at his current company due to limited growth opportunities. He's actively mass applying to 30-40 companies, primarily mid-to-large tech firms, for Senior Cloud Engineer roles. He wants to move to a company known for cutting-edge cloud technology and strong career development programs. He values efficiency in his job search and expects an interview prep tool to be highly effective.",
+  "feedbackStyle": "Arjun will provide structured and detailed feedback, highlighting specific areas where the system performed well and suggesting concrete improvements. He will focus on the accuracy of technical questions and the relevance of feedback to real-world interview scenarios. He might compare it to other tools he's used.",
+  "id": "persona_1767777461444_q6us27frs",
+  "createdAt": "2026-01-07T09:17:41.444Z",
+  "iteration": 7
+}

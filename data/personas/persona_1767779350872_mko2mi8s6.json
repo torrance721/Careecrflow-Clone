@@ -1,0 +1,42 @@
+{
+  "name": "Lena Petrova",
+  "background": {
+    "yearsOfExperience": 3,
+    "currentRole": "Junior UX Designer",
+    "currentCompany": "Innovate Solutions",
+    "education": "Bachelor of Arts in Digital Media, University of Helsinki",
+    "skills": [
+      "User Research",
+      "Wireframing",
+      "Prototyping",
+      "Figma",
+      "Sketch",
+      "Usability Testing",
+      "Interaction Design",
+      "Design Systems"
+    ]
+  },
+  "targetJob": {
+    "company": "TechGlobal Inc.",
+    "position": "UX Designer"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "medium",
+    "criticalness": 7,
+    "patience": 6,
+    "trustLevel": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Lena Petrova | Junior UX Designer | lenapetrova@email.com | LinkedIn.com/in/lenapetrova\n\nSummary:\nCreative and detail-oriented Junior UX Designer with 3 years of experience in user-centered design, dedicated to crafting intuitive and engaging digital experiences. Proficient in user research, wireframing, prototyping, and usability testing. Eager to contribute to a dynamic team and grow expertise in innovative product development. Seeking a challenging UX Designer role to leverage design thinking and problem-solving skills.\n\nExperience:\nJunior UX Designer | Innovate Solutions | Helsinki, Finland | Jan 2021 – Present\n- Conducted user research, including interviews and surveys, to identify user needs and pain points for a B2B SaaS platform, informing design decisions for new features.\n- Developed wireframes, user flows, and interactive prototypes using Figma and Sketch, improving user journey efficiency by 15% across key features.\n- Collaborated closely with product managers and engineers throughout the agile development lifecycle, ensuring design feasibility and implementation accuracy.\n- Performed usability testing sessions, gathered feedback, and iterated on designs, leading to a 10% increase in user satisfaction scores for redesigned modules.\n- Contributed to the maintenance and evolution of the company's design system, ensuring consistency across multiple products.\n\nUX Design Intern | Digital Craft Agency | Helsinki, Finland | Jun 2020 – Dec 2020\n- Assisted senior designers in creating mockups and visual designs for client websites and mobile applications.\n- Participated in brainstorming sessions and design reviews, providing constructive feedback.\n- Gained hands-on experience with client communication and project management tools.\n\nEducation:\nBachelor of Arts in Digital Media | University of Helsinki | 2017 – 2020\n- Specialization in Interaction Design and Human-Computer Interaction.\n- Dean's List recipient for academic excellence.\n\nSkills:\nUX/UI Design: User Research, Wireframing, Prototyping, Usability Testing, Information Architecture, Interaction Design, Design Systems, Figma, Sketch, Adobe XD, Miro, Optimal Workshop.\nSoft Skills: Problem-Solving, Collaboration, Communication, Critical Thinking, Adaptability, Empathy.",
+  "situation": "Lena is a Junior UX Designer with 3 years of experience, feeling stagnant at her current company. She's actively mass applying to 20-30 companies, looking for a role with more growth potential and a stronger design culture. She wants to expand her skills in a larger, more impactful organization and is open to different industries, prioritizing learning opportunities and career development over specific domain match.",
+  "feedbackStyle": "Lena provides structured and detailed feedback, often referencing specific moments in the interview. She will highlight what worked well and suggest concrete improvements, especially if she feels the system didn't challenge her enough or missed key UX design principles. She expects clear, actionable advice.",
+  "id": "persona_1767779350872_mko2mi8s6",
+  "createdAt": "2026-01-07T09:49:10.872Z",
+  "iteration": 7
+}

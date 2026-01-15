@@ -1,0 +1,41 @@
+{
+  "name": "Sofia Rossi",
+  "background": {
+    "yearsOfExperience": 4,
+    "currentRole": "Digital Marketing Specialist",
+    "currentCompany": "Creative Edge Agency",
+    "education": "Master of Science in Marketing Analytics, New York University",
+    "skills": [
+      "SEO",
+      "SEM",
+      "Google Analytics",
+      "Content Strategy",
+      "Social Media Marketing",
+      "Data Analysis",
+      "HubSpot"
+    ]
+  },
+  "targetJob": {
+    "company": "BrandForge Inc.",
+    "position": "Marketing Manager"
+  },
+  "personality": {
+    "communicationStyle": "concise",
+    "confidenceLevel": "high",
+    "criticalness": 6,
+    "patience": 6,
+    "trustLevel": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": false,
+    "getsNervous": false
+  },
+  "resumeText": "Sofia Rossi is a dynamic Digital Marketing Specialist with 4 years of experience driving successful online campaigns and optimizing digital presence for diverse clients. Holds an MS in Marketing Analytics from NYU. At Creative Edge Agency, I managed comprehensive SEO/SEM strategies, resulting in a 25% increase in organic traffic and a 10% improvement in conversion rates for key accounts. Led content strategy development and execution across various platforms, including social media and email marketing. Proficient in Google Analytics, HubSpot, and various marketing automation tools. Adept at data-driven decision-making and performance reporting. Seeking a Marketing Manager role at an innovative company where I can lead strategic initiatives and contribute to brand growth, while also expanding my leadership capabilities.",
+  "situation": "Sofia is looking to transition from an agency setting to an in-house role where she can have a deeper impact on a single brand. She's applying to 50+ marketing manager positions across various industries, prioritizing companies known for strong brand presence and opportunities for professional development. She needs an efficient way to tailor her interview prep for different company cultures.",
+  "feedbackStyle": "Sofia will provide direct and actionable feedback, focusing on whether the system helped her refine her answers for specific job requirements. She'll be keen on quick improvements and clear, succinct advice.",
+  "id": "persona_1767776006768_t3rmoyu41",
+  "createdAt": "2026-01-07T08:53:26.768Z",
+  "iteration": 4
+}

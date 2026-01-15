@@ -1,0 +1,41 @@
+{
+  "name": "Kai Chen",
+  "background": {
+    "yearsOfExperience": 2,
+    "currentRole": "Junior Software Engineer",
+    "currentCompany": "TechStart Innovations",
+    "education": "B.S. Computer Science, University of California, Berkeley",
+    "skills": [
+      "Python",
+      "Java",
+      "React",
+      "AWS",
+      "SQL",
+      "Docker",
+      "Agile Development"
+    ]
+  },
+  "targetJob": {
+    "company": "GrowthTech Solutions",
+    "position": "Software Development Engineer"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "medium",
+    "criticalness": 6,
+    "patience": 7,
+    "trustLevel": 6
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Kai Chen | kai.chen@email.com | LinkedIn.com/in/kaichen\n\nSummary:\nDriven Junior Software Engineer with 2 years of experience in developing and deploying scalable web applications. Proficient in Python, Java, and modern front-end frameworks. Eager to leverage strong problem-solving skills and a passion for continuous learning to contribute to innovative projects in a growth-oriented environment.\n\nExperience:\nJunior Software Engineer | TechStart Innovations | San Francisco, CA | June 2022 – Present\n- Developed and maintained RESTful APIs using Python/Django, improving data processing efficiency by 15%.\n- Contributed to the front-end development of a customer-facing portal using React, enhancing user experience through responsive UI components.\n- Collaborated with cross-functional teams in an Agile environment, participating in daily stand-ups and sprint reviews.\n- Implemented unit and integration tests, reducing production bugs by 20%.\n- Assisted in migrating legacy services to AWS cloud infrastructure, gaining hands-on experience with EC2 and S3.\n\nEducation:\nB.S. Computer Science | University of California, Berkeley | Berkeley, CA | May 2022\n- Dean's List (2020, 2021)\n- Relevant Coursework: Data Structures & Algorithms, Operating Systems, Database Management, Web Development\n\nProjects:\nE-commerce Platform (Personal Project)\n- Built a full-stack e-commerce site using MERN stack (MongoDB, Express.js, React, Node.js) with user authentication and payment integration.\n\nSkills:\nProgramming Languages: Python, Java, JavaScript, C++\nWeb Technologies: React, Node.js, Django, HTML, CSS\nCloud Platforms: AWS (EC2, S3, Lambda)\nDatabases: SQL, PostgreSQL, MongoDB\nTools & Methodologies: Docker, Git, Jira, Agile, RESTful APIs",
+  "situation": "I'm currently a Junior Software Engineer, but my current company is small and has limited growth opportunities. I'm actively mass applying to 30+ companies, looking for a more established tech company where I can learn from experienced engineers and take on more challenging projects. I want to ensure my interview skills are sharp for the volume of interviews ahead.",
+  "feedbackStyle": "I prefer structured feedback that highlights specific areas for improvement, perhaps with examples of how I could have responded better. Pointing out both strengths and weaknesses is helpful, especially if it relates to career growth.",
+  "id": "persona_1767778540879_gh0hd8xu1",
+  "createdAt": "2026-01-07T09:35:40.879Z",
+  "iteration": 7
+}

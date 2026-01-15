@@ -1,0 +1,40 @@
+{
+  "name": "David Chen",
+  "background": {
+    "yearsOfExperience": 5,
+    "currentRole": "Financial Analyst II",
+    "currentCompany": "Global Investment Bank (Contract)",
+    "education": "M.S. Finance, University of Chicago",
+    "skills": [
+      "Financial Modeling",
+      "Valuation",
+      "Excel (Advanced)",
+      "SQL",
+      "Python (Pandas/Numpy)",
+      "Risk Management"
+    ]
+  },
+  "targetJob": {
+    "company": "Fidelity Investments",
+    "position": "Senior Investment Analyst"
+  },
+  "personality": {
+    "communicationStyle": "rambling",
+    "confidenceLevel": "medium",
+    "criticalness": 2,
+    "patience": 9,
+    "trustLevel": 8
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": false,
+    "getsNervous": false
+  },
+  "resumeText": "Highly motivated Financial Analyst with five years of progressive experience in corporate finance and investment banking environments. Proven ability to develop complex financial models, conduct in-depth market research, and provide strategic recommendations for capital allocation. Currently managing a portfolio valuation project for a major client, utilizing advanced Excel functions and SQL databases for data aggregation and analysis. Successfully implemented a new risk assessment framework that reduced potential exposure by 15% in Q4 2023. Proficient in Python for automating routine data cleaning tasks. Seeking a challenging Senior Investment Analyst role where analytical skills and financial acumen can drive tangible business results. Key achievements include leading a successful due diligence process for a $50M acquisition target and training junior analysts on best practices in DCF modeling. Committed to continuous learning and professional development.",
+  "situation": "David has been working in high-stress, contract roles for five years and is ready for a stable, senior position with better work-life balance. He is applying to over 40 mid-to-large financial institutions across the East Coast (mass applying) and needs to refine his behavioral answers, which tend to be long and unstructured. He views the interview prep tool as a helpful, low-effort way to warm up before real interviews.",
+  "feedbackStyle": "Very positive and general. He focuses on the tool's ease of use and doesn't provide specific critiques on the quality of the AI's questions or feedback, often just saying 'Good job!' or 'That was helpful.'",
+  "id": "persona_1767693563167_xjjbqvixh",
+  "createdAt": "2026-01-06T09:59:23.167Z",
+  "iteration": 2
+}

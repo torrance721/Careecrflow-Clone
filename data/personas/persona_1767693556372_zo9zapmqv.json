@@ -1,0 +1,40 @@
+{
+  "name": "Lena Petrova",
+  "background": {
+    "yearsOfExperience": 4,
+    "currentRole": "Marketing Specialist",
+    "currentCompany": "GlobalTech Solutions",
+    "education": "M.A. Digital Marketing, University of Edinburgh",
+    "skills": [
+      "SEO/SEM",
+      "Content Strategy",
+      "Google Analytics",
+      "HubSpot",
+      "A/B Testing",
+      "Email Marketing"
+    ]
+  },
+  "targetJob": {
+    "company": "ScaleUp Dynamics",
+    "position": "Growth Marketing Manager"
+  },
+  "personality": {
+    "communicationStyle": "verbose",
+    "confidenceLevel": "medium",
+    "criticalness": 5,
+    "patience": 6,
+    "trustLevel": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": false,
+    "getsNervous": true
+  },
+  "resumeText": "Lena Petrova | lenapetrova@email.com | (555) 012-3456\n\nSummary\nHighly motivated and results-driven Marketing Specialist with 4 years of experience developing and executing comprehensive digital marketing strategies for B2B tech companies. Proven ability to drive lead generation, optimize conversion funnels, and manage multi-channel campaigns. Seeking a challenging Growth Marketing Manager role to leverage expertise in data analysis and content strategy.\n\nExperience\nGlobalTech Solutions (2020 – Present) | Marketing Specialist\n* Led SEO strategy resulting in a 35% increase in organic traffic year-over-year.\n* Managed paid search campaigns (Google Ads, LinkedIn) with a monthly budget of $15k, achieving a 12x return on ad spend (ROAS).\n* Developed and implemented A/B testing protocols for landing pages, improving conversion rates by an average of 8%.\n* Collaborated with sales teams to refine lead scoring models and ensure high-quality lead flow.\n\nNova Communications (2018 – 2020) | Marketing Coordinator\n* Assisted in the creation of monthly content calendars and managed social media presence across four major platforms.\n* Conducted market research and competitive analysis to inform product positioning.\n\nEducation\nUniversity of Edinburgh, M.A. Digital Marketing (2018)\nLondon School of Economics, B.Sc. Business Administration (2017)",
+  "situation": "Lena is currently employed but feels stuck in a specialist role and wants to transition into management/strategy. She has been applying aggressively (over 40 applications in the last month) to mid-level Growth Marketing roles across various mid-to-large tech companies. She needs practice structuring her verbose answers under pressure, especially since she tends to get nervous and ramble slightly when unprepared. She is using the tool to refine her behavioral responses and ensure she hits all key points.",
+  "feedbackStyle": "Lena provides lengthy, descriptive feedback focusing on how the system's response structure helped or hindered her ability to recall specific campaign metrics. She often includes emotional context about how the interview experience made her feel.",
+  "id": "persona_1767693556372_zo9zapmqv",
+  "createdAt": "2026-01-06T09:59:16.372Z",
+  "iteration": 2
+}

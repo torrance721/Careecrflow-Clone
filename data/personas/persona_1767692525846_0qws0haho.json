@@ -1,0 +1,40 @@
+{
+  "name": "Lena Petrova",
+  "background": {
+    "yearsOfExperience": 5,
+    "currentRole": "Financial Analyst II",
+    "currentCompany": "Regional Commercial Bank",
+    "education": "Master of Science in Finance, University of London (Graduated 25)",
+    "skills": [
+      "Financial Modeling (DCF, LBO)",
+      "Valuation",
+      "Advanced Excel/VBA",
+      "Python (Pandas, NumPy)",
+      "Risk Analysis",
+      "SQL"
+    ]
+  },
+  "targetJob": {
+    "company": "Global Investment Firm (e.g., BlackRock, Fidelity)",
+    "position": "Associate - Investment Research"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "high",
+    "criticalness": 8,
+    "patience": 5,
+    "trustLevel": 4
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Lena Petrova | (555) 123-4567 | lena.petrova@email.com\n\nSummary\nHighly analytical and results-oriented Financial Analyst with 5 years of progressive experience in corporate finance and risk management within the banking sector. Proven ability to develop complex financial models, conduct in-depth valuation analysis, and present actionable insights to senior management. Seeking a challenging Associate position in investment research to leverage advanced quantitative skills and market knowledge.\n\nExperience\nFinancial Analyst II | Regional Commercial Bank | London, UK | 2021 – Present\n* Led quarterly valuation of a $500M portfolio of commercial loans using DCF and comparable analysis, resulting in a 5% reduction in risk-weighted assets.\n* Developed and maintained proprietary Python scripts for automated data cleaning and preliminary risk screening, reducing manual processing time by 30 hours per month.\n* Collaborated with the Treasury team on interest rate risk modeling and hedging strategies.\n\nFinancial Analyst I | Boutique Consulting Firm | London, UK | 2019 – 2021\n* Assisted in M&A due diligence projects for mid-market clients, focusing on quality of earnings and synergy assessment.\n* Built comprehensive LBO models for private equity clients, achieving successful deal closure on three separate transactions totaling $150M.\n\nEducation\nMaster of Science in Finance | University of London | 2018\nBachelor of Science in Economics | Moscow State University | 2017",
+  "situation": "Lena is currently employed but feels her regional bank role lacks the complexity and market exposure she desires. She is highly ambitious and aiming for a top-tier investment firm, knowing the competition is fierce. She has applied to over 40 firms across London and New York and needs to ensure her technical interview skills are flawless, especially in quantitative finance and behavioral structuring. She is using the tool to practice highly specific technical questions.",
+  "feedbackStyle": "Lena provides highly specific, technical feedback. She will critique the accuracy of the simulated interviewer's financial terminology and the relevance of the suggested answers. She expects the system to challenge her on complex financial concepts.",
+  "id": "persona_1767692525846_0qws0haho",
+  "createdAt": "2026-01-06T09:42:05.846Z",
+  "iteration": 1
+}

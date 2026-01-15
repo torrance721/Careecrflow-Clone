@@ -1,0 +1,42 @@
+{
+  "name": "Javier Garcia",
+  "background": {
+    "yearsOfExperience": 1,
+    "currentRole": "Associate Data Analyst",
+    "currentCompany": "Market Insights Co.",
+    "education": "Master of Science in Business Analytics, ESADE Business School",
+    "skills": [
+      "SQL",
+      "Python (Pandas, NumPy)",
+      "Tableau",
+      "Excel",
+      "Statistical Analysis",
+      "Data Visualization",
+      "A/B Testing",
+      "Power BI"
+    ]
+  },
+  "targetJob": {
+    "company": "GlobalTech Solutions",
+    "position": "Data Analyst"
+  },
+  "personality": {
+    "communicationStyle": "concise",
+    "confidenceLevel": "low",
+    "criticalness": 6,
+    "patience": 7,
+    "trustLevel": 6
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": true
+  },
+  "resumeText": "Javier Garcia | Associate Data Analyst | javier.garcia@email.com | LinkedIn.com/in/javiergarcia\n\nSummary:\nHighly motivated Associate Data Analyst with 1 year of professional experience, complemented by a Master's degree in Business Analytics. Adept at transforming complex datasets into actionable insights using SQL, Python, and advanced visualization tools like Tableau. Passionate about leveraging data to drive strategic business decisions and optimize performance. Seeking a challenging Data Analyst position to contribute to data-driven growth and enhance analytical capabilities.\n\nExperience:\nAssociate Data Analyst | Market Insights Co. | Barcelona, Spain | Jul 2023 – Present\n- Performed in-depth data analysis on customer behavior and market trends, identifying key drivers for product adoption and churn using SQL and Excel.\n- Developed and maintained interactive dashboards in Tableau, visualizing complex data for stakeholders and improving reporting efficiency by 20%.\n- Assisted in designing and analyzing A/B tests for marketing campaigns, providing insights that led to a 5% increase in conversion rates.\n- Collaborated with cross-functional teams to define data requirements and ensure data integrity across various projects.\n- Presented findings and recommendations to management, translating technical data into clear business implications.\n\nData Analytics Intern | Retail Analytics Group | Barcelona, Spain | Jan 2023 – Jun 2023\n- Extracted and cleaned large datasets from various sources using SQL and Python (Pandas).\n- Created weekly and monthly performance reports, highlighting key metrics and anomalies.\n- Supported senior analysts in ad-hoc data requests and exploratory data analysis.\n\nEducation:\nMaster of Science in Business Analytics | ESADE Business School | 2022 – 2023\n- Coursework: Predictive Modeling, Data Mining, Big Data Analytics, Business Intelligence.\n- Capstone Project: Developed a machine learning model to predict customer lifetime value.\n\nBachelor of Business Administration | University of Barcelona | 2018 – 2022\n- Major in Finance, Minor in Statistics.\n\nSkills:\nTechnical: SQL (PostgreSQL, MySQL), Python (Pandas, NumPy, Matplotlib, SciPy), Tableau, Power BI, Excel (Advanced), Google Analytics, R, Statistical Analysis, A/B Testing, Data Cleaning, Data Modeling.\nSoft Skills: Analytical Thinking, Problem-Solving, Communication, Attention to Detail, Teamwork, Adaptability, Presentation Skills.",
+  "situation": "Javier is an Associate Data Analyst with one year of experience, feeling overwhelmed by the job market. He's mass applying to 30-50+ companies, aiming for a more structured data team where he can learn from experienced professionals. He's eager to find a company with a strong reputation for data innovation and clear career progression paths, and is flexible on the industry.",
+  "feedbackStyle": "Javier will provide concise, direct feedback, often focusing on areas where he felt uncertain or where he struggled to articulate his thoughts. He might ask clarifying questions about the feedback itself and is appreciative of encouragement. He values actionable advice that can help him improve his confidence and structure his answers better.",
+  "id": "persona_1767779350873_uy4k8qmh3",
+  "createdAt": "2026-01-07T09:49:10.873Z",
+  "iteration": 7
+}

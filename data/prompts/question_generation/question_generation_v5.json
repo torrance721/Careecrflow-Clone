@@ -1,0 +1,13 @@
+{
+  "id": "prompt_question_generation_v5",
+  "module": "question_generation",
+  "version": 5,
+  "prompt": "Generate interview questions that are:\n1. Highly relevant to the position and company, integrating specific, high-stakes hypothetical scenarios or challenges. For senior/technical roles, questions MUST include mandatory, non-negotiable technical screening components (e.g., specific algorithms, financial models like LBO/Valuation, or regulatory frameworks) AND demand justification for strategic choices.\n2. Progressive in difficulty, ensuring a balance across technical, strategic, and behavioral topics. Behavioral questions MUST explicitly require the use of structured frameworks (e.g., STAR, SOAR) AND demand specific, quantifiable evidence (KPIs, metrics).\n3. Designed to encourage discussion of risk mitigation, ethical considerations, implementation complexity, and required regulatory/theoretical depth (especially for senior roles, focusing on cutting-edge domain knowledge). Questions MUST be structured to demand specific trade-off examples (e.g., gene therapy versus small molecule development).\n4. Encouraging specific examples, quantifiable results (KPIs), and justification of trade-offs from candidates. The difficulty ceiling must be significantly higher for advanced roles, forcing the candidate to defend their strategic assumptions.",
+  "changelog": "Added explicit requirement for questions to demand justification for strategic choices and specific trade-off examples (Issue 1, 3). Reinforced the need for quantifiable evidence in behavioral questions.",
+  "metrics": {
+    "avgSatisfaction": 3.7,
+    "moduleRating": 5.333333333333333
+  },
+  "createdAt": "2026-01-05T11:38:31.783Z",
+  "iteration": 4
+}

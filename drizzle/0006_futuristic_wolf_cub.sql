@@ -1,0 +1,1 @@
+ALTER TABLE `bookmarked_questions` ADD `category` varchar(64) DEFAULT 'uncategorized';

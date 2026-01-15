@@ -1,0 +1,134 @@
+{
+  "id": "feedback_1767633458254_0taewg4vi",
+  "personaId": "persona_1767633345335_n6lvfqv4i",
+  "personaName": "Priya Sharma",
+  "simulationId": "realistic_1767633446415_eznbudkba",
+  "iteration": 2,
+  "overallSatisfaction": 6.5,
+  "wouldRecommend": true,
+  "moduleFeedback": [
+    {
+      "module": "question_generation",
+      "rating": 7.5,
+      "strengths": [
+        "Questions were strategically sequenced, building from foundational experience to strategic AI challenges.",
+        "The questions were relevant to a Senior PMM role (e.g., competitive strategy, cross-functional alignment).",
+        "The shift from general PMM to AI-specific challenges was handled logically."
+      ],
+      "weaknesses": [
+        "Questions lacked sufficient depth or follow-up to truly challenge senior-level assumptions.",
+        "The questions were too broad, allowing for generic framework answers rather than forcing specific, complex trade-off decisions."
+      ],
+      "specificIssues": [
+        "Q3 (AI positioning) was too open-ended. A better question would have been: 'Given the current market saturation, how would you position our new foundational LLM platform against established hyperscalers, specifically addressing the cost vs. customization trade-off?'"
+      ],
+      "suggestions": [
+        "Incorporate more scenario-based questions that require prioritization and conflict resolution.",
+        "Ensure follow-up questions are generated based on the *weakest* point of the candidate's previous answer, not just a smooth transition."
+      ]
+    },
+    {
+      "module": "hint_system",
+      "rating": 8,
+      "strengths": [
+        "Not used, suggesting the flow was generally navigable without external assistance."
+      ],
+      "weaknesses": [
+        "N/A (Not used)"
+      ],
+      "specificIssues": [
+        "N/A (Not used)"
+      ],
+      "suggestions": [
+        "Ensure the hints, if needed, guide towards strategic depth rather than just structure."
+      ]
+    },
+    {
+      "module": "response_analysis",
+      "rating": 5,
+      "strengths": [
+        "The interviewer acknowledged detailed answers (e.g., 'detailed and insightful breakdown')."
+      ],
+      "weaknesses": [
+        "Analysis was superficial and overly complimentary.",
+        "The system failed to challenge or probe the frameworks presented (e.g., the three-step positioning framework or the three pillars of competitive analysis).",
+        "The system accepted high-level strategic answers without demanding tactical proof or quantitative results."
+      ],
+      "specificIssues": [
+        "After providing a detailed framework for competitive strategy, the interviewer simply stated, 'That framework provides excellent clarity.' A senior interviewer would immediately challenge the feasibility or cost of the 'Data Aggregation' pillar."
+      ],
+      "suggestions": [
+        "Implement a critical feedback loop: if the candidate uses a generic framework, the next question must challenge a specific assumption within that framework.",
+        "Force the system to ask 'Why?' or 'What was the quantifiable result?' at least once per answer."
+      ]
+    },
+    {
+      "module": "overall_flow",
+      "rating": 7,
+      "strengths": [
+        "The interview maintained a professional and structured cadence.",
+        "The progression of topics was logical, moving from past experience to future strategy and then execution."
+      ],
+      "weaknesses": [
+        "The transitions were too smooth and predictable; a real interview often involves abrupt shifts or unexpected challenges.",
+        "The duration (101 seconds) indicates the conversation was unnaturally fast, which compromises the depth of the simulation."
+      ],
+      "specificIssues": [
+        "The final question felt like a generic wrap-up rather than a final strategic synthesis."
+      ],
+      "suggestions": [
+        "Increase the complexity of transitions by introducing a sudden, high-pressure constraint (e.g., 'We just lost a major partner; how does this change your competitive strategy?')."
+      ]
+    },
+    {
+      "module": "persona_simulation",
+      "rating": 6,
+      "strengths": [
+        "The interviewer maintained a professional tone appropriate for a hiring manager."
+      ],
+      "weaknesses": [
+        "The interviewer persona was too passive and lacked the necessary critical edge expected in a Senior PMM interview.",
+        "The language was overly positive ('fantastic example,' 'excellent clarity'), which reduced the realism and challenge."
+      ],
+      "specificIssues": [
+        "The interviewer sounded more like a supportive mentor than a critical evaluator."
+      ],
+      "suggestions": [
+        "The interviewer needs to adopt a more skeptical or challenging stance, particularly when discussing complex cross-functional alignment or competitive threats."
+      ]
+    }
+  ],
+  "emotionalJourney": "Initially engaged due to the relevant question structure, but quickly became bored and slightly frustrated by the lack of critical follow-up. I felt I was delivering polished, senior-level answers that were accepted without the appropriate strategic challenge, making the exercise feel incomplete and low-stakes.",
+  "frustratingMoments": [
+    "The interviewer accepting my detailed competitive strategy framework without challenging the underlying assumptions or feasibility.",
+    "The excessive use of positive affirmations ('fantastic,' 'excellent') which broke the illusion of a high-stakes interview.",
+    "The rapid pace of the conversation, which didn't allow for a proper pause or reflection time between strategic topics."
+  ],
+  "positiveHighlights": [
+    "The initial question set successfully aligned my cloud background with the target AI role.",
+    "The focus on cross-functional collaboration (Q5) was highly relevant to a Senior PMM function.",
+    "The opportunity to articulate my frameworks for positioning and competitive analysis."
+  ],
+  "prioritizedSuggestions": [
+    {
+      "priority": "critical",
+      "suggestion": "Implement a 'Skeptic Mode' for the response analysis module that forces critical follow-up questions based on the weakest or most generalized part of the candidate's answer.",
+      "affectedModule": "response_analysis",
+      "expectedImpact": "Significantly increases the strategic depth and realism required for senior roles."
+    },
+    {
+      "priority": "high",
+      "suggestion": "Replace generic praise with specific, challenging counterpoints or requests for quantifiable metrics/trade-offs.",
+      "affectedModule": "persona_simulation",
+      "expectedImpact": "Improves the fidelity of the interviewer persona and tests the candidate's ability to defend their strategy under pressure."
+    },
+    {
+      "priority": "medium",
+      "suggestion": "Introduce one 'curveball' scenario that forces the candidate to pivot their strategy based on a sudden market change or internal constraint.",
+      "affectedModule": "question_generation",
+      "expectedImpact": "Tests adaptability and critical thinking under unexpected stress."
+    }
+  ],
+  "rawFeedback": "The simulation provided a decent structural outline of a Senior PMM interview, covering the necessary domains: experience, positioning, competitive strategy, and execution. However, the execution was fundamentally flawed for a senior-level assessment due to the lack of critical analysis and challenge from the interviewer persona. I was able to deploy polished, high-level frameworks without ever being forced to defend their tactical feasibility or address realistic trade-offs.\n\nFor a candidate at my level, the value of a mock interview lies in being pushed beyond comfort zones, forcing synthesis and complex decision-making. This simulation felt more like a structured conversation than a rigorous evaluation. To be truly effective for senior roles, the system must evolve from merely acknowledging detailed answers to actively scrutinizing and challenging the underlying strategic assumptions. The rapid duration further underscores the superficiality of the interaction.",
+  "createdAt": "2026-01-05T17:17:38.254Z"
+}

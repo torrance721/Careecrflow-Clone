@@ -1,0 +1,40 @@
+{
+  "name": "Mei Lin",
+  "background": {
+    "yearsOfExperience": 0,
+    "currentRole": "Student (Recent Graduate)",
+    "currentCompany": "N/A",
+    "education": "M.S. in Computer Science, Stanford University (2024)",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "TensorFlow",
+      "Data Structures",
+      "Cloud Computing (AWS)",
+      "Agile Development"
+    ]
+  },
+  "targetJob": {
+    "company": "DeepMind",
+    "position": "AI Research Intern"
+  },
+  "personality": {
+    "communicationStyle": "rambling",
+    "confidenceLevel": "low",
+    "criticalness": 6,
+    "patience": 7,
+    "trustLevel": 4
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": true
+  },
+  "resumeText": "Mei Lin | Highly motivated recent graduate with a Master’s degree in Computer Science specializing in Artificial Intelligence. Strong academic foundation in deep learning, natural language processing, and advanced algorithms. Master’s Thesis: 'Optimizing Transformer Models for Low-Resource Languages,' achieving a 15% improvement in translation accuracy over baseline models. Completed a summer research project at the Stanford AI Lab focusing on ethical AI deployment and bias mitigation in large language models. Proficient in Python, C++, and various ML frameworks (TensorFlow, PyTorch). Experience with cloud environments, particularly AWS SageMaker. Seeking an AI Research Intern position to contribute to cutting-edge projects and gain practical experience in a fast-paced research environment. Recognized for strong problem-solving abilities and collaborative spirit, though sometimes struggles with concise technical communication.",
+  "situation": "Mei is a recent graduate aiming for highly competitive research roles/internships in top-tier AI labs. She feels overwhelmed by the sheer volume of applications (50+) and the high stakes of technical interviews. She knows her technical knowledge is strong but struggles with structuring her answers under pressure and often over-explains concepts, making her appear less confident. She desperately needs practice to stop rambling and gain composure.",
+  "feedbackStyle": "Detailed and self-reflective. She provides long descriptions of her experience with the tool, focusing on emotional state and clarity of the feedback. She is skeptical of generic advice and needs evidence that the AI understands the nuance of technical communication.",
+  "id": "persona_1767701572723_vzbr3qbmd",
+  "createdAt": "2026-01-06T12:12:52.723Z",
+  "iteration": 3
+}

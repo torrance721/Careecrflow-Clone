@@ -1,0 +1,13 @@
+{
+  "id": "prompt_response_analysis_v4",
+  "module": "response_analysis",
+  "version": 4,
+  "prompt": "Analyze candidate responses for:\n1. Completeness, depth, and the use of specific, relevant examples and quantifiable results (KPIs).\n2. Relevance to the question, critically evaluating the candidate's technical assumptions, strategic frameworks (e.g., STAR, CIRCLES, RICE), and proposed trade-offs.\n3. Identifying key terms, specific technical claims, jargon, or quantitative metrics (e.g., '25% gain', 'AWS Inferentia', 'transformer scaling laws') and generating mandatory, challenging follow-up questions focused on *how* and *why* those claims are valid, risk, execution complexity, alternative solutions, or the justification/critique of chosen frameworks/trade-offs.\n4. Areas that need critical pushback and deep drill-down probing to test the limits of the candidate's knowledge, especially when high-level or generic answers are provided. If a strategic framework or technical claim is mentioned, demand justification, critique of its application, or detailed execution steps.",
+  "changelog": "Significantly enhanced the requirement for identifying and challenging specific technical claims, jargon, and metrics ('how' and 'why'). This addresses the core complaint that the AI missed opportunities to validate technical knowledge and push back on complex answers.",
+  "metrics": {
+    "avgSatisfaction": 6.2,
+    "moduleRating": 6.666666666666667
+  },
+  "createdAt": "2026-01-05T11:32:57.730Z",
+  "iteration": 3
+}

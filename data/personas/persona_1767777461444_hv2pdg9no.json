@@ -1,0 +1,43 @@
+{
+  "name": "Lena Petrova",
+  "background": {
+    "yearsOfExperience": 2,
+    "currentRole": "Junior Data Scientist",
+    "currentCompany": "Retail Analytics Co.",
+    "education": "Master of Science in Data Science, University of Edinburgh",
+    "skills": [
+      "Python",
+      "R",
+      "SQL",
+      "Machine Learning",
+      "Statistical Modeling",
+      "Data Visualization",
+      "Pandas",
+      "Scikit-learn",
+      "Tableau"
+    ]
+  },
+  "targetJob": {
+    "company": "FinTech Innovations Ltd.",
+    "position": "Data Scientist"
+  },
+  "personality": {
+    "communicationStyle": "verbose",
+    "confidenceLevel": "medium",
+    "criticalness": 6,
+    "patience": 7,
+    "trustLevel": 6
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": true
+  },
+  "resumeText": "Enthusiastic Junior Data Scientist with 2 years of hands-on experience in extracting insights from complex datasets to drive business decisions. Holds a Master of Science in Data Science from the University of Edinburgh. Proficient in Python and R for data manipulation, statistical analysis, and machine learning model development. Skilled in SQL for database querying and Tableau for interactive data visualization. Contributed to projects involving customer segmentation, fraud detection, and predictive analytics at Retail Analytics Co. Developed and deployed a machine learning model that improved sales forecasting accuracy by 15%. Collaborated with cross-functional teams to define project requirements and present findings to stakeholders. Eager to apply strong analytical skills and a passion for data-driven problem-solving to a challenging Data Scientist role in a dynamic industry like FinTech. Committed to continuous learning and exploring new methodologies in the field of artificial intelligence and data science.",
+  "situation": "Lena is a Junior Data Scientist with 2 years of experience, seeking a more challenging role with better growth prospects in a company with a stronger brand. She's applying to 50+ Data Scientist positions across various industries, including FinTech and healthcare, as she's open to cross-domain roles. She's particularly keen on companies that invest in employee development and offer diverse learning opportunities. She feels a bit nervous about interviews and wants to ensure she's fully prepared.",
+  "feedbackStyle": "Lena will provide thorough and descriptive feedback, often explaining her thought process and how she felt during the interview simulation. She will focus on the clarity of questions, the helpfulness of hints, and how well the system helped her manage nervousness. She might share personal anecdotes related to her interview experience.",
+  "id": "persona_1767777461444_hv2pdg9no",
+  "createdAt": "2026-01-07T09:17:41.444Z",
+  "iteration": 7
+}

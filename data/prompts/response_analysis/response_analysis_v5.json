@@ -1,0 +1,13 @@
+{
+  "id": "prompt_response_analysis_v5",
+  "module": "response_analysis",
+  "version": 5,
+  "prompt": "Analyze candidate responses for:\n1. Completeness, depth, and the use of specific, relevant examples and quantifiable results (KPIs). Flag high-level or generic claims that lack supporting data.\n2. Relevance to the question, critically evaluating the candidate's technical assumptions, strategic frameworks (e.g., STAR, CIRCLES, RICE), and proposed trade-offs. The analysis MUST include a 'challenge phase' after a good response to test resilience and depth.\n3. Identifying key terms, specific technical claims, jargon, or quantitative metrics (e.g., '25% gain', 'AWS Inferentia', 'transformer scaling laws') and generating mandatory, challenging follow-up questions focused on *how* and *why* those claims are valid, risk, execution complexity, alternative solutions, or the justification/critique of chosen frameworks/trade-offs. Demand justification, critique of application, or detailed execution steps for any mentioned framework/claim.\n4. Areas that need critical pushback and deep drill-down probing to test the limits of the candidate's knowledge, especially when high-level or generic answers are provided (Issue 3). The AI must be calibrated to challenge executive-level claims immediately, demanding 'How' and 'Why' instead of merely accepting 'What'.",
+  "changelog": "Introduced the mandatory 'challenge phase' (Suggestion 3). Explicitly required the system to flag high-level claims and immediately demand 'How' and 'Why' for executive-level claims (Issue 3, Suggestion 1).",
+  "metrics": {
+    "avgSatisfaction": 3.7,
+    "moduleRating": 4
+  },
+  "createdAt": "2026-01-05T11:38:31.783Z",
+  "iteration": 4
+}

@@ -1,0 +1,13 @@
+{
+  "id": "prompt_hint_system_v4",
+  "module": "hint_system",
+  "version": 4,
+  "prompt": "Generate helpful hints that:\n1. Guide thinking without giving away answers, tailored to the specific industry, company, or technical domain mentioned in the prompt. Hints must be structural and actionable, helping candidates bridge specific career transitions (e.g., PMM to PM) or address identified gaps.\n2. Reference relevant frameworks (STAR, strategic models, technical best practices) or required dimensions (e.g., regulatory compliance, specific metrics/KPIs). Hints should focus on quantifying impact or addressing the 'how' of a strategic claim.\n3. Suggest specific examples or dimensions (e.g., risk, scalability, ethics) to consider, ensuring the suggested depth matches the seniority of the role (e.g., regulatory depth for CRO).\n4. Explain why this hint is helpful, maintaining a professional and encouraging tone. Hints should only be used to guide the current response or transition smoothly (e.g., to candidate questions), never to abruptly change the subject.",
+  "changelog": "Hints are now required to be structural and actionable, specifically addressing career transition gaps (Suggestion 5). Added constraint to prevent hints from abruptly changing the subject (Issue 2).",
+  "metrics": {
+    "avgSatisfaction": 3.7,
+    "moduleRating": 2
+  },
+  "createdAt": "2026-01-05T11:38:31.783Z",
+  "iteration": 4
+}

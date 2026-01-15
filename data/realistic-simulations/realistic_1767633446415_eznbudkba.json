@@ -1,0 +1,451 @@
+{
+  "id": "realistic_1767633446415_eznbudkba",
+  "personaId": "persona_1767633345335_n6lvfqv4i",
+  "personaName": "Priya Sharma",
+  "targetJob": {
+    "company": "GlobalScale Inc.",
+    "position": "Senior Product Marketing Lead, AI Platform"
+  },
+  "journey": {
+    "homepage": {
+      "arrivalTime": "2026-01-05T17:15:45.335Z",
+      "browseTime": 27668.89528417067,
+      "actions": [
+        {
+          "type": "read",
+          "target": "hero_section",
+          "duration": 4869.5941753008965,
+          "timestamp": "2026-01-05T17:15:45.335Z",
+          "thought": "这个网站看起来挺专业的"
+        },
+        {
+          "type": "scroll",
+          "target": "success_stories",
+          "duration": 3835.8813034249497,
+          "timestamp": "2026-01-05T17:15:48.335Z",
+          "thought": "看看其他人的成功经历"
+        },
+        {
+          "type": "read",
+          "target": "success_story_card",
+          "duration": 2983.2984827256987,
+          "timestamp": "2026-01-05T17:15:51.335Z"
+        },
+        {
+          "type": "click",
+          "target": "job_input",
+          "duration": 500,
+          "timestamp": "2026-01-05T17:15:53.335Z"
+        },
+        {
+          "type": "think",
+          "duration": 3143.121322719124,
+          "timestamp": "2026-01-05T17:15:53.835Z",
+          "thought": "我想面试 Senior Product Marketing Lead, AI Platform 这个职位"
+        },
+        {
+          "type": "type",
+          "target": "job_input",
+          "value": "Senior Product Marketing Lead, AI Platform at GlobalScale Inc.",
+          "duration": 11837,
+          "timestamp": "2026-01-05T17:15:55.335Z"
+        },
+        {
+          "type": "click",
+          "target": "start_button",
+          "duration": 500,
+          "timestamp": "2026-01-05T17:15:58.335Z",
+          "thought": "开始面试吧！"
+        }
+      ],
+      "jobInputMethod": "typing",
+      "jobInput": "Senior Product Marketing Lead, AI Platform at GlobalScale Inc."
+    },
+    "preparation": {
+      "startTime": "2026-01-05T17:15:45.336Z",
+      "waitTime": 15090.54243944679,
+      "userPatience": "patient",
+      "actions": [
+        {
+          "type": "read",
+          "target": "thinking_animation",
+          "duration": 4527.162731834037,
+          "timestamp": "2026-01-05T17:15:45.336Z",
+          "thought": "正在准备中..."
+        },
+        {
+          "type": "wait",
+          "duration": 9054.325463668074,
+          "timestamp": "2026-01-05T17:15:51.372Z"
+        }
+      ]
+    },
+    "interview": {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Mock interview for Senior Product Marketing Lead, AI Platform at GlobalScale Inc.. Resume: Priya Sharma | Product Marketing Manager\n\nSummary: Highly analytical and results-driven Product Marketing Manager with 5 years of experience specializing in launching and scaling B2B SaaS and Cloud pr... Situation: Priya is ambitious and feels she has plateaued in her current mid-level role. She is actively seeking a promotion and a significant increase in scope, specifically moving into the high-growth AI space. She needs the interview practice to ensure her strategic thinking is communicated clearly and concisely under pressure, as her target company is known for rigorous behavioral interviews.",
+          "timestamp": "2026-01-05T17:15:45.336Z"
+        },
+        {
+          "role": "assistant",
+          "content": "That's a great setup. Here is the warm opening and the first question, tailored for the candidate's background and the role's requirements:\n\n***\n\n## Interview Opening and First Question\n\n**(Role: Senior PMM, AI Platform | Candidate: PMM, Cloud Services)**\n\n\"Hi [Candidate Name], welcome! Thank you so much for taking the time to speak with us today. I’m [Your Name], and I lead the Marketing team for our AI and Machine Learning portfolio here at GlobalScale.\n\nWe’re genuinely excited about this role. The Senior PMM for the AI Platform is a critical position—it sits right at the intersection of our core cloud infrastructure and the cutting-edge AI services that our enterprise customers are demanding.\n\nBefore we dive into the specifics of the role, I’d love to hear a bit more about your journey. Your background in Cloud Services PMM is highly relevant, especially given the foundational nature of the AI Platform.\n\n### First Interview Question\n\n**\"To start, could you walk me through your experience over the last five years and highlight one or two major marketing campaigns or product launches you led in the Cloud Services space? Specifically, I’m interested in hearing how you identified the target audience, what the core value proposition was, and how you measured success beyond just adoption numbers.\"**",
+          "timestamp": "2026-01-05T17:15:50.838Z",
+          "metadata": {
+            "questionType": "opening"
+          }
+        },
+        {
+          "role": "user",
+          "content": "Thank you for the introduction. I'm excited about the potential to transition my foundational cloud experience into the AI space. Over the past five years at TechInnovate, my focus has been driving adoption for complex B2B cloud infrastructure products, primarily through structured GTM strategies. A major launch I led was 'ComputeScale,' our hybrid cloud management platform, where the target audience was defined not just by company size, but specifically by IT Directors struggling with multi-cloud sprawl and cost optimization. The core value proposition was simple: unified visibility and 20% guaranteed cost efficiency within the first quarter. We measured success not only through initial adoption, but strategically through the competitive win rate against VMware, which we successfully increased by 15 percentage points, and the average contract value uplift, showing the quality of the adoption. This required deep competitive analysis and strong sales enablement, ensuring our positioning was sharp and data-backed.",
+          "timestamp": "2026-01-05T17:15:55.838Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 28340,
+              "timestamp": "2026-01-05T17:15:50.838Z"
+            },
+            {
+              "type": "think",
+              "duration": 14490,
+              "timestamp": "2026-01-05T17:16:19.178Z",
+              "thought": "这个问题有点复杂，我需要好好想想"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "Thank you for the introduction. I'm excited about the potential to transition my foundational cloud experience into the AI space. Over the past five years at TechInnovate, my focus has been driving adoption for complex B2B cloud infrastructure products, primarily through structured GTM strategies. A major launch I led was 'ComputeScale,' our hybrid cloud management platform, where the target audience was defined not just by company size, but specifically by IT Directors struggling with multi-cloud sprawl and cost optimization. The core value proposition was simple: unified visibility and 20% guaranteed cost efficiency within the first quarter. We measured success not only through initial adoption, but strategically through the competitive win rate against VMware, which we successfully increased by 15 percentage points, and the average contract value uplift, showing the quality of the adoption. This required deep competitive analysis and strong sales enablement, ensuring our positioning was sharp and data-backed.",
+              "duration": 128033,
+              "timestamp": "2026-01-05T17:16:33.668Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:18:41.701Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 14490,
+            "typingTime": 128033,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That was a very detailed and insightful breakdown of the ComputeScale launch, thank you. Given your five years at TechInnovate, I'm curious about the breadth of your experience; could you briefly describe one other significant product launch or campaign you led during that period? Specifically, I'm interested in how you adapted your PMM strategy for a different target audience or perhaps a more mature product that wasn't a brand new platform.",
+          "timestamp": "2026-01-05T17:16:10.401Z",
+          "metadata": {
+            "questionType": "follow_up"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That’s an excellent question. While ComputeScale was a greenfield launch, I also led the repositioning and refresh campaign for our core data storage solution, 'DataVault Pro,' which was a mature product facing increased competitive pressure from specialized vendors. My strategy pivot focused entirely on shifting the target audience from general IT managers to DevOps engineers and security compliance officers. Specifically, we streamlined the messaging around API integration and immutable storage features, moving away from simple capacity metrics. This required developing entirely new technical documentation and sales enablement kits focused on CI/CD workflows. The result was a 28% increase in qualified pipeline from technical buyers within the first two quarters, successfully extending the product's lifespan and maintaining its market share despite aggressive competitor pricing.",
+          "timestamp": "2026-01-05T17:16:14.623Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 10920,
+              "timestamp": "2026-01-05T17:16:10.501Z"
+            },
+            {
+              "type": "think",
+              "duration": 6343,
+              "timestamp": "2026-01-05T17:16:21.421Z",
+              "thought": "让我想想最相关的经历..."
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That’s an excellent question. While ComputeScale was a greenfield launch, I also led the repositioning and refresh campaign for our core data storage solution, 'DataVault Pro,' which was a mature product facing increased competitive pressure from specialized vendors. My strategy pivot focused entirely on shifting the target audience from general IT managers to DevOps engineers and security compliance officers. Specifically, we streamlined the messaging around API integration and immutable storage features, moving away from simple capacity metrics. This required developing entirely new technical documentation and sales enablement kits focused on CI/CD workflows. The result was a 28% increase in qualified pipeline from technical buyers within the first two quarters, successfully extending the product's lifespan and maintaining its market share despite aggressive competitor pricing.",
+              "duration": 108002,
+              "timestamp": "2026-01-05T17:16:27.764Z"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "[editing]",
+              "duration": 4000,
+              "timestamp": "2026-01-05T17:18:15.766Z",
+              "thought": "让我再改一下..."
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:18:19.766Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 6343,
+            "typingTime": 108002,
+            "editCount": 2
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That's a fantastic example of leveraging market insight to drive product longevity and pipeline growth. Now, let's pivot slightly toward the core of this role: AI. As a Senior Product Marketing Lead for our AI Platform, you will be responsible for defining the narrative for complex, technical capabilities. Can you describe your approach to translating highly technical AI/ML features—like proprietary foundation models or complex MLOps tooling—into compelling, value-driven messaging that resonates with both developers and enterprise decision-makers?",
+          "timestamp": "2026-01-05T17:16:27.962Z",
+          "metadata": {
+            "questionType": "follow_up"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That’s an excellent question, and it’s where structured PMM expertise truly shines. My approach involves a three-step framework: Audience Segmentation, Value Hierarchy Mapping, and Proof Points. First, we must rigorously segment the audience—developers need technical specs, speed, and integration ease, whereas executives focus on ROI, risk mitigation, and strategic advantage. For a complex feature like a proprietary foundation model, I would map the technical capability (e.g., 99.9% data drift detection) to the executive value (e.g., \"Reduce compliance risk by 40%\"). Crucially, the messaging must be anchored in quantifiable proof points; for instance, when launching our Serverless Container service at TechInnovate, we translated the MLOps tooling's complexity into a simple metric: \"5x faster deployment time,\" which directly drove a 22% increase in enterprise adoption within the first quarter. This ensures the narrative is both technically accurate and strategically compelling across the entire buyer journey.",
+          "timestamp": "2026-01-05T17:16:32.187Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 13060,
+              "timestamp": "2026-01-05T17:16:28.063Z"
+            },
+            {
+              "type": "think",
+              "duration": 6069,
+              "timestamp": "2026-01-05T17:16:41.123Z",
+              "thought": "让我想想最相关的经历..."
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That’s an excellent question, and it’s where structured PMM expertise truly shines. My approach involves a three-step framework: Audience Segmentation, Value Hierarchy Mapping, and Proof Points. First, we must rigorously segment the audience—developers need technical specs, speed, and integration ease, whereas executives focus on ROI, risk mitigation, and strategic advantage. For a complex feature like a proprietary foundation model, I would map the technical capability (e.g., 99.9% data drift detection) to the executive value (e.g., \"Reduce compliance risk by 40%\"). Crucially, the messaging must be anchored in quantifiable proof points; for instance, when launching our Serverless Container service at TechInnovate, we translated the MLOps tooling's complexity into a simple metric: \"5x faster deployment time,\" which directly drove a 22% increase in enterprise adoption within the first quarter. This ensures the narrative is both technically accurate and strategically compelling across the entire buyer journey.",
+              "duration": 127488,
+              "timestamp": "2026-01-05T17:16:47.192Z"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "[editing]",
+              "duration": 4000,
+              "timestamp": "2026-01-05T17:18:54.680Z",
+              "thought": "让我再改一下..."
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:18:58.680Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 6069,
+            "typingTime": 127488,
+            "editCount": 2
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That was a very thorough breakdown of how you approach foundational positioning and execution. Building on that foundation, a critical part of the AI Platform role is competitive strategy. The AI landscape is highly fragmented and evolving rapidly, so how do you approach building a robust competitive intelligence strategy for an AI platform, and specifically, how do you translate that intelligence into actionable GTM strategies that differentiate GlobalScale?",
+          "timestamp": "2026-01-05T17:16:45.646Z",
+          "metadata": {
+            "questionType": "follow_up"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That’s an excellent question, as competitive differentiation is paramount in the high-velocity AI space. My approach is structured around three pillars: Data Aggregation, Strategic Analysis, and Actionable Translation.\n\nFirst, aggregation requires a blend of automated tools—like analyzing pricing changes via web scraping and monitoring open-source community sentiment—and direct sales feedback, which I capture weekly using a standardized competitive win/loss SQL query. Second, the analysis must move beyond feature parity to focus on architectural differentiation, specifically looking at competitors' data governance models and model explainability, which are key trust factors for enterprise AI adoption. For instance, at TechInnovate, we used this analysis to pivot our messaging away from raw performance metrics toward \"Secure, Auditable AI,\" which directly addressed a major weakness in a key competitor's offering. This strategic shift resulted in a 15% increase in deal size over six months. Finally, translating this intelligence means creating crisp, actionable battlecards and sales training modules that equip the field to clearly articulate GlobalScale’s unique value proposition against specific market threats, ensuring we always lead with differentiation, not reaction.",
+          "timestamp": "2026-01-05T17:16:50.758Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 11260,
+              "timestamp": "2026-01-05T17:16:45.747Z"
+            },
+            {
+              "type": "think",
+              "duration": 7272,
+              "timestamp": "2026-01-05T17:16:57.007Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That’s an excellent question, as competitive differentiation is paramount in the high-velocity AI space. My approach is structured around three pillars: Data Aggregation, Strategic Analysis, and Actionable Translation.\n\nFirst, aggregation requires a blend of automated tools—like analyzing pricing changes via web scraping and monitoring open-source community sentiment—and direct sales feedback, which I capture weekly using a standardized competitive win/loss SQL query. Second, the analysis must move beyond feature parity to focus on architectural differentiation, specifically looking at competitors' data governance models and model explainability, which are key trust factors for enterprise AI adoption. For instance, at TechInnovate, we used this analysis to pivot our messaging away from raw performance metrics toward \"Secure, Auditable AI,\" which directly addressed a major weakness in a key competitor's offering. This strategic shift resulted in a 15% increase in deal size over six months. Finally, translating this intelligence means creating crisp, actionable battlecards and sales training modules that equip the field to clearly articulate GlobalScale’s unique value proposition against specific market threats, ensuring we always lead with differentiation, not reaction.",
+              "duration": 154139,
+              "timestamp": "2026-01-05T17:17:04.279Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:19:38.418Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 7272,
+            "typingTime": 154139,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That framework provides excellent clarity on your strategic approach. Now that we've established the strategic foundation, I'd like to shift our focus to execution and collaboration. As a Senior PMM, you often act as the 'glue' between Product, Sales, and Engineering; can you describe a challenging situation where you had to align conflicting priorities—for example, between Engineering's desire for technical perfection and Sales' need for immediate, market-ready features—to successfully launch a major AI product?",
+          "timestamp": "2026-01-05T17:17:03.195Z",
+          "metadata": {
+            "questionType": "follow_up"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That is an excellent question that gets to the core of the Senior PMM function. I encountered this exact tension during the launch of our Predictive Analytics Engine, which leveraged a new proprietary ML model. Engineering was focused on achieving a 99.5% precision score before deployment, arguing that lower accuracy risked brand reputation, while Sales urgently needed the feature released to close three major Q4 enterprise deals, even with 98% precision. My approach was structured: first, I facilitated a joint session to quantify the business impact of the delay versus the technical risk, using competitive data to show the cost of waiting. We agreed to launch an MVP at 98.2% precision, clearly messaging the initial scope as 'Beta' to manage expectations, while simultaneously dedicating a small engineering sprint to push the remaining 1.3% improvement post-launch. This alignment successfully secured the three target deals, generating $1.2 million in ARR in the first quarter, while maintaining technical integrity and meeting the market window.",
+          "timestamp": "2026-01-05T17:17:07.731Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 12360,
+              "timestamp": "2026-01-05T17:17:03.296Z"
+            },
+            {
+              "type": "think",
+              "duration": 15581,
+              "timestamp": "2026-01-05T17:17:15.656Z",
+              "thought": "我该怎么展示我的能力呢？"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That is an excellent question that gets to the core of the Senior PMM function. I encountered this exact tension during the launch of our Predictive Analytics Engine, which leveraged a new proprietary ML model. Engineering was focused on achieving a 99.5% precision score before deployment, arguing that lower accuracy risked brand reputation, while Sales urgently needed the feature released to close three major Q4 enterprise deals, even with 98% precision. My approach was structured: first, I facilitated a joint session to quantify the business impact of the delay versus the technical risk, using competitive data to show the cost of waiting. We agreed to launch an MVP at 98.2% precision, clearly messaging the initial scope as 'Beta' to manage expectations, while simultaneously dedicating a small engineering sprint to push the remaining 1.3% improvement post-launch. This alignment successfully secured the three target deals, generating $1.2 million in ARR in the first quarter, while maintaining technical integrity and meeting the market window.",
+              "duration": 142723,
+              "timestamp": "2026-01-05T17:17:31.237Z"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "[editing]",
+              "duration": 2000,
+              "timestamp": "2026-01-05T17:19:53.960Z",
+              "thought": "让我再改一下..."
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:19:55.960Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 15581,
+            "typingTime": 142723,
+            "editCount": 1
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "That was a great overview of your approach to scaling infrastructure. We’ve certainly covered a significant amount of ground today, from strategic positioning and competitive analysis to cross-functional execution. Before we wrap up, is there anything else you’d like to share about your experience, your vision for the AI Platform role at GlobalScale, or any questions you have for me regarding the team, the challenges, or the company direction?",
+          "timestamp": "2026-01-05T17:17:20.831Z",
+          "metadata": {
+            "questionType": "closing"
+          }
+        },
+        {
+          "role": "user",
+          "content": "That is a thoughtful question. I appreciate the comprehensive discussion today, and I believe we’ve established a strong alignment between my five years of scaling B2B cloud services and the challenges you face with the new AI Platform launch. If I could just briefly summarize my vision for this role, it centers on three key areas. First, leveraging my experience in competitive analysis to clearly define our differentiated value proposition against incumbents, something I successfully executed at TechInnovate, resulting in a 22% increase in market share for our mid-tier storage solution. Second, ensuring sales enablement is proactive and data-driven, utilizing SQL to identify and optimize the content that directly influences pipeline velocity. Finally, I am genuinely excited about transitioning my deep understanding of infrastructure monetization models directly into the high-growth AI space, where I see significant opportunity to structure pricing around consumption and outcome, rather than just features. I am confident I possess the strategic rigor and execution focus necessary to make the GlobalScale AI Platform a market leader.",
+          "timestamp": "2026-01-05T17:17:26.314Z",
+          "userActions": [
+            {
+              "type": "read",
+              "target": "question",
+              "duration": 10940,
+              "timestamp": "2026-01-05T17:17:20.932Z"
+            },
+            {
+              "type": "think",
+              "duration": 5328,
+              "timestamp": "2026-01-05T17:17:31.872Z",
+              "thought": "这个问题有点复杂，我需要好好想想"
+            },
+            {
+              "type": "type",
+              "target": "response_input",
+              "value": "That is a thoughtful question. I appreciate the comprehensive discussion today, and I believe we’ve established a strong alignment between my five years of scaling B2B cloud services and the challenges you face with the new AI Platform launch. If I could just briefly summarize my vision for this role, it centers on three key areas. First, leveraging my experience in competitive analysis to clearly define our differentiated value proposition against incumbents, something I successfully executed at TechInnovate, resulting in a 22% increase in market share for our mid-tier storage solution. Second, ensuring sales enablement is proactive and data-driven, utilizing SQL to identify and optimize the content that directly influences pipeline velocity. Finally, I am genuinely excited about transitioning my deep understanding of infrastructure monetization models directly into the high-growth AI space, where I see significant opportunity to structure pricing around consumption and outcome, rather than just features. I am confident I possess the strategic rigor and execution focus necessary to make the GlobalScale AI Platform a market leader.",
+              "duration": 146173,
+              "timestamp": "2026-01-05T17:17:37.200Z"
+            },
+            {
+              "type": "click",
+              "target": "send_button",
+              "duration": 500,
+              "timestamp": "2026-01-05T17:20:03.373Z"
+            }
+          ],
+          "metadata": {
+            "responseQuality": "detailed",
+            "thinkingTime": 5328,
+            "typingTime": 146173,
+            "editCount": 0
+          }
+        },
+        {
+          "role": "assistant",
+          "content": "Thank you so much for sharing your experiences today! I've really enjoyed learning about your background. I'll now generate a detailed assessment report. Is there anything else you'd like to add?",
+          "timestamp": "2026-01-05T17:17:26.314Z",
+          "metadata": {
+            "questionType": "closing"
+          }
+        }
+      ],
+      "hintsUsed": 0,
+      "totalQuestions": 6,
+      "averageResponseTime": 143606.83333333334,
+      "averageThinkingTime": 9180.5
+    },
+    "assessment": {
+      "viewTime": 14699.474434161346,
+      "scrollDepth": 60,
+      "sectionsRead": [
+        "overall_score",
+        "areas_to_improve",
+        "next_steps"
+      ],
+      "actions": [
+        {
+          "type": "read",
+          "target": "overall_score",
+          "duration": 3820.860657822851,
+          "timestamp": "2026-01-05T17:17:26.414Z",
+          "thought": "让我看看我的分数..."
+        },
+        {
+          "type": "scroll",
+          "target": "areas_to_improve",
+          "duration": 1000,
+          "timestamp": "2026-01-05T17:17:31.414Z"
+        },
+        {
+          "type": "read",
+          "target": "areas_to_improve",
+          "duration": 4225.846698031744,
+          "timestamp": "2026-01-05T17:17:32.414Z"
+        },
+        {
+          "type": "scroll",
+          "target": "next_steps",
+          "duration": 1000,
+          "timestamp": "2026-01-05T17:17:36.639Z"
+        },
+        {
+          "type": "read",
+          "target": "next_steps",
+          "duration": 3473.627736129602,
+          "timestamp": "2026-01-05T17:17:37.639Z"
+        }
+      ]
+    }
+  },
+  "totalDuration": 101,
+  "completedSuccessfully": true,
+  "createdAt": "2026-01-05T17:17:26.415Z",
+  "iteration": 2
+}

@@ -1,0 +1,42 @@
+{
+  "name": "David Chen",
+  "background": {
+    "yearsOfExperience": 3,
+    "currentRole": "Data Analyst",
+    "currentCompany": "FinTech Innovations Inc.",
+    "education": "Master of Science in Business Analytics, University of California, Berkeley",
+    "skills": [
+      "Python",
+      "SQL",
+      "Tableau",
+      "Power BI",
+      "Statistical Modeling",
+      "A/B Testing",
+      "Data Visualization",
+      "Machine Learning Fundamentals"
+    ]
+  },
+  "targetJob": {
+    "company": "Growth Insights Corp.",
+    "position": "Senior Data Analyst"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "high",
+    "criticalness": 9,
+    "patience": 7,
+    "trustLevel": 6
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Highly analytical and results-driven Data Analyst with 3 years of experience in leveraging data to drive strategic business decisions. Proven ability to design and implement A/B tests, build predictive models, and create compelling data visualizations. Currently at FinTech Innovations Inc., responsible for analyzing user behavior data to optimize product features and marketing campaigns, resulting in a 15% increase in user engagement. Proficient in Python, SQL, and various BI tools. Holds an MS in Business Analytics from UC Berkeley. Seeking a challenging Senior Data Analyst role to apply advanced analytical techniques and contribute to data-driven growth strategies in a dynamic environment. Eager to expand skills in big data technologies and distributed computing. Passionate about uncovering actionable insights from complex datasets.",
+  "situation": "David is a 27-year-old Data Analyst who feels his current company offers limited growth opportunities. He's actively mass applying to 30+ companies, looking for a role that provides more complex challenges, mentorship, and a clear path to leadership. He's highly motivated to find a company with a strong data culture and a reputation for innovation, even if it means trying a new industry.",
+  "feedbackStyle": "David provides highly detailed and constructive feedback, often comparing the experience to his expectations based on extensive research. He will highlight specific areas where the system could be more rigorous or offer deeper insights, focusing on how it can better simulate real-world interview scenarios and provide actionable advice for career growth.",
+  "id": "persona_1767789305772_mqk2k9l3i",
+  "createdAt": "2026-01-07T12:35:05.772Z",
+  "iteration": 9
+}

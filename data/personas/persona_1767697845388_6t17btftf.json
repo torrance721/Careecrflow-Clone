@@ -1,0 +1,40 @@
+{
+  "name": "Aisha Khan",
+  "background": {
+    "yearsOfExperience": 2,
+    "currentRole": "UX Designer I",
+    "currentCompany": "Innovatech Solutions",
+    "education": "M.S. Human-Computer Interaction, University of Michigan",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "User Research",
+      "Prototyping",
+      "Usability Testing",
+      "Design Systems"
+    ]
+  },
+  "targetJob": {
+    "company": "GlobalTech Labs",
+    "position": "Mid-Level Product Designer"
+  },
+  "personality": {
+    "communicationStyle": "concise",
+    "confidenceLevel": "medium",
+    "criticalness": 5,
+    "patience": 6,
+    "trustLevel": 5
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "medium",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "A highly motivated UX Designer with 2 years of professional experience focusing on creating intuitive and accessible digital products. Proven ability to translate complex user needs into elegant design solutions through rigorous user research and iterative prototyping. At Innovatech Solutions, led the redesign of the internal analytics dashboard, resulting in a 25% increase in daily active users and a 15% reduction in support tickets related to navigation issues. Proficient in end-to-end design processes, from initial wireframing to high-fidelity mockups and developer handoff. Expertise includes managing and contributing to large-scale design systems (currently utilizing Figma and Abstract). Seeking a challenging Product Designer role to leverage strong analytical skills and commitment to user-centered design principles in a fast-paced environment. Master's degree in HCI provides a strong theoretical foundation in cognitive psychology and interaction design.",
+  "situation": "Aisha is currently employed but feels her growth potential is limited at her small firm. She is actively participating in the 'mass applying' strategy, targeting 30+ mid-level design roles at larger tech companies over the last month to secure a position with better compensation and clearer career progression paths.",
+  "feedbackStyle": "She provides balanced feedback, noting what worked well but focusing mainly on 1-2 specific areas where the AI's response or question structure could be more realistic or challenging.",
+  "id": "persona_1767697845388_6t17btftf",
+  "createdAt": "2026-01-06T11:10:45.388Z",
+  "iteration": 1
+}

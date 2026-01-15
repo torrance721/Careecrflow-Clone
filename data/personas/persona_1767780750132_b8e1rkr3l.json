@@ -1,0 +1,42 @@
+{
+  "name": "Lena Petrova",
+  "background": {
+    "yearsOfExperience": 3,
+    "currentRole": "Growth Marketing Specialist",
+    "currentCompany": "InnovateHub Solutions",
+    "education": "Bachelor of Business Administration, Marketing - University of Helsinki",
+    "skills": [
+      "SEO",
+      "SEM",
+      "Content Marketing",
+      "Social Media Strategy",
+      "Google Analytics",
+      "HubSpot",
+      "A/B Testing",
+      "Data Analysis"
+    ]
+  },
+  "targetJob": {
+    "company": "GlobalTech Innovations",
+    "position": "Digital Marketing Manager"
+  },
+  "personality": {
+    "communicationStyle": "structured",
+    "confidenceLevel": "high",
+    "criticalness": 9,
+    "patience": 7,
+    "trustLevel": 6
+  },
+  "interviewBehavior": {
+    "typicalResponseLength": "detailed",
+    "usesExamples": true,
+    "asksForClarification": true,
+    "getsNervous": false
+  },
+  "resumeText": "Lena Petrova is a results-driven Growth Marketing Specialist with 3 years of experience in developing and executing comprehensive digital marketing strategies. At InnovateHub Solutions, she successfully increased organic traffic by 40% and conversion rates by 15% through targeted SEO/SEM campaigns and data-backed content strategies. Lena is proficient in Google Analytics, HubSpot, and various social media platforms, with a strong ability to analyze market trends and implement effective A/B testing. She led cross-functional teams to launch two major product campaigns, exceeding lead generation targets by 25%. Her expertise includes content creation, email marketing, and performance analysis, consistently delivering measurable growth. Lena holds a Bachelor of Business Administration in Marketing from the University of Helsinki, where she graduated with honors. She is passionate about leveraging data to optimize user acquisition and engagement, always seeking innovative approaches to drive business objectives.",
+  "situation": "Lena is currently a Growth Marketing Specialist but feels her current company lacks opportunities for significant career advancement and learning. She's actively mass applying to 50+ companies, specifically targeting roles that offer more strategic involvement and a clearer path to management. She's looking for a company with a strong brand and reputation that invests in employee development, even if it means trying a slightly different marketing domain.",
+  "feedbackStyle": "Lena provides highly detailed and constructive feedback. She'll point out specific areas where the AI's questions or feedback were unclear, inconsistent, or could be improved. She expects actionable advice and will critically evaluate the depth and relevance of the suggestions provided, often referencing industry best practices.",
+  "id": "persona_1767780750132_b8e1rkr3l",
+  "createdAt": "2026-01-07T10:12:30.132Z",
+  "iteration": 8
+}

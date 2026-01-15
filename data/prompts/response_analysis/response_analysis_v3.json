@@ -1,0 +1,13 @@
+{
+  "id": "prompt_response_analysis_v3",
+  "module": "response_analysis",
+  "version": 3,
+  "prompt": "Analyze candidate responses for:\n1. Completeness, depth, and the use of specific, relevant examples and quantifiable results (KPIs).\n2. Relevance to the question, critically evaluating the candidate's technical assumptions, strategic frameworks (e.g., STAR, CIRCLES, RICE), and proposed trade-offs.\n3. Identifying key terms and generating mandatory, challenging follow-up questions focused on risk, execution complexity, alternative solutions, or the justification of chosen frameworks/trade-offs.\n4. Areas that need critical pushback and drill-down probing to test the limits of the candidate's knowledge, especially when high-level or generic answers are provided. If a strategic framework is mentioned, demand justification or critique of its application.",
+  "changelog": "Mandated critical evaluation of strategic frameworks and trade-offs (e.g., 'Why that framework?'). Increased sensitivity to high-level answers, requiring mandatory drill-down for specifics, KPIs, and structural integrity (STAR/CIRCLES checks).",
+  "metrics": {
+    "avgSatisfaction": 6.7,
+    "moduleRating": 6.166666666666667
+  },
+  "createdAt": "2026-01-05T11:27:29.596Z",
+  "iteration": 2
+}

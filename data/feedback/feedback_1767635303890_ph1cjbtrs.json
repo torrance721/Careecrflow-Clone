@@ -1,0 +1,134 @@
+{
+  "id": "feedback_1767635303890_ph1cjbtrs",
+  "personaId": "persona_1767635164402_fezhnhd8v",
+  "personaName": "Aisha Khan",
+  "simulationId": "realistic_1767635290999_uq6xcw5yx",
+  "iteration": 1,
+  "overallSatisfaction": 6.5,
+  "wouldRecommend": true,
+  "moduleFeedback": [
+    {
+      "module": "question_generation",
+      "rating": 7,
+      "strengths": [
+        "The questions were highly relevant to a Mid-Level Product Designer role at a company like Nexus Labs (focusing on strategic influence, technical debt, and collaboration).",
+        "The follow-up questions felt organic and based on my previous answers, especially the transition from the portfolio discussion to the mechanics of influence."
+      ],
+      "weaknesses": [
+        "The complexity ramped up very quickly, which felt a little jarring.",
+        "The questions often felt very long, making it hard to process the core demand while also managing the interview pressure."
+      ],
+      "specificIssues": [
+        "The question about balancing immediate delivery with necessary cleanup felt slightly overwhelming in its scope."
+      ],
+      "suggestions": [
+        "Ensure the initial questions allow the candidate to settle in before hitting the most complex behavioral scenarios.",
+        "Break down very long questions into two shorter, related prompts if possible."
+      ]
+    },
+    {
+      "module": "hint_system",
+      "rating": 5,
+      "strengths": [
+        "The hints were available when needed, which was reassuring when I felt stuck."
+      ],
+      "weaknesses": [
+        "I felt compelled to use the hints because the questions were so demanding, but the hints themselves didn't always provide the 'Aha!' moment I needed, sometimes just restating the core question in a slightly different way.",
+        "Using three hints in such a short interview made me feel incompetent, which affected my confidence."
+      ],
+      "specificIssues": [
+        "The hint for the final question felt unnecessary and perhaps triggered too easily, making the end of the interview feel rushed and slightly awkward."
+      ],
+      "suggestions": [
+        "Make the hints slightly more directional or provide a small example of a framework to consider, rather than just rephrasing the prompt.",
+        "Perhaps introduce a 'confidence booster' hint that is less about content and more about structure."
+      ]
+    },
+    {
+      "module": "response_analysis",
+      "rating": 6,
+      "strengths": [
+        "The interviewer acknowledged my answers appropriately ('That's a very helpful explanation...').",
+        "The system correctly identified points to follow up on (like the 'mostly' addressing technical debt)."
+      ],
+      "weaknesses": [
+        "The transitions sometimes felt abrupt, especially the shift from accessibility constraints to collaboration.",
+        "The interviewer's responses were very formal and lacked the small verbal cues (like 'Mmm-hmm' or 'Interesting') that make a real conversation flow better, making me feel like I was talking to a script."
+      ],
+      "specificIssues": [
+        "The interview ended very quickly after the final question, which cut off my closing remarks abruptly."
+      ],
+      "suggestions": [
+        "Integrate more natural, non-committal conversational fillers into the interviewer's dialogue.",
+        "Ensure the system allows the candidate to complete their closing statement fully before initiating the final wrap-up."
+      ]
+    },
+    {
+      "module": "overall_flow",
+      "rating": 5.5,
+      "strengths": [
+        "The interview covered the necessary functional areas for a design role (strategy, execution, collaboration)."
+      ],
+      "weaknesses": [
+        "The pace was incredibly fast—127 seconds for 6 complex questions felt like a sprint, not a thoughtful conversation. I felt rushed the entire time.",
+        "The use of three hints contributed to a feeling of choppiness."
+      ],
+      "specificIssues": [
+        "The interview felt like a rapid-fire assessment rather than a chance to deeply explore my experience."
+      ],
+      "suggestions": [
+        "Slow down the pacing, especially the time allowed between the candidate's completion of an answer and the interviewer's next prompt."
+      ]
+    },
+    {
+      "module": "persona_simulation",
+      "rating": 8,
+      "strengths": [
+        "The interviewer's tone ('Sarah, Lead Product Designer') was consistently professional, warm, and encouraging.",
+        "The language used was appropriate for a senior design role (e.g., 'strategic influence,' 'design impact extending beyond the UI')."
+      ],
+      "weaknesses": [
+        "The warmth felt slightly superficial due to the rapid pace and the lack of conversational flexibility."
+      ],
+      "specificIssues": [
+        "None specific, the persona was generally well-maintained."
+      ],
+      "suggestions": [
+        "Allow the persona to react slightly more dynamically to the candidate's emotional state or hesitation."
+      ]
+    }
+  ],
+  "emotionalJourney": "My emotional journey was a bit of a rollercoaster. I started off feeling very confident and appreciated (especially when Sarah mentioned my portfolio), but as the questions got more complex and the pace accelerated, I started feeling anxious and inadequate. Using three hints in such a short time really knocked my confidence. I ended the interview feeling slightly breathless and worried that I hadn't articulated my points clearly enough because I was rushing.",
+  "frustratingMoments": [
+    "Having to use three hints; it made me feel like I was failing the assessment.",
+    "The extremely fast pace; I felt like I couldn't pause to gather my thoughts without interrupting the flow.",
+    "The abrupt transition at the end, cutting off my final thank you/closing pitch."
+  ],
+  "positiveHighlights": [
+    "The initial positive feedback on my portfolio was a great confidence boost.",
+    "Successfully navigating the complex question about technical debt and accessibility tradeoffs.",
+    "The interviewer's consistent professional and encouraging tone, even when I was struggling."
+  ],
+  "prioritizedSuggestions": [
+    {
+      "priority": "critical",
+      "suggestion": "Significantly slow down the overall pace of the interview. The current speed (127 seconds for 6 questions) does not allow for thoughtful, detailed responses expected in a mid-level design interview.",
+      "affectedModule": "overall_flow",
+      "expectedImpact": "Reduce candidate anxiety, allow for deeper analysis in responses, and improve the perceived realism of the simulation."
+    },
+    {
+      "priority": "high",
+      "suggestion": "Refine the hint system to provide more structural guidance (e.g., 'Consider using the STAR method here' or 'Focus on the stakeholder management aspect') rather than just rephrasing the question.",
+      "affectedModule": "hint_system",
+      "expectedImpact": "Make hints genuinely helpful for candidates who are stuck on structure or focus, without giving away the answer."
+    },
+    {
+      "priority": "medium",
+      "suggestion": "Ensure the system allows candidates to complete their closing remarks fully before triggering the final interviewer wrap-up.",
+      "affectedModule": "response_analysis",
+      "expectedImpact": "Provide a more natural and polite conclusion to the interview, preventing awkward cut-offs."
+    }
+  ],
+  "rawFeedback": "Overall, I think this tool has incredible potential, but I have to be honest, the speed made the experience quite stressful. I felt like I was being tested on how fast I could talk rather than the quality of my experience. I know I used three hints, and I apologize if that indicates I wasn't prepared, but the complexity of the questions combined with the relentless pace made it necessary. I really appreciate that the questions were relevant and the interviewer persona was professional and warm; that part was excellent.\n\nHowever, if you want this to feel like a true, high-stakes interview, you absolutely must slow down the pacing. A mid-level design interview should allow for 5-10 minutes per behavioral question, not 20 seconds. I felt my answers were rushed and lacked the necessary detail to truly showcase my strategic thinking. I hope this feedback isn't too demanding, but as a UX designer, I truly believe optimizing the flow will dramatically improve the user experience and the validity of the assessment.\n\nI would still recommend this tool because the core content is strong, but I would warn others about the current speed issue. Thank you for letting me provide such detailed feedback!",
+  "createdAt": "2026-01-05T17:48:23.890Z"
+}

@@ -1,0 +1,138 @@
+{
+  "id": "feedback_1767613342339_6iwaiw154",
+  "personaId": "persona_1767613124062_1n7n7l0br",
+  "personaName": "Marcus Chen",
+  "simulationId": "sim_1767613255533_t43354d2z",
+  "iteration": 5,
+  "overallSatisfaction": 4,
+  "wouldRecommend": false,
+  "moduleFeedback": [
+    {
+      "module": "question_generation",
+      "rating": 3,
+      "strengths": [
+        "The initial topic (Event Loop) was relevant to a Frontend role."
+      ],
+      "weaknesses": [
+        "The questions were too generic and academic, lacking the practical application or system design context expected for an L3 Meta role.",
+        "Rapid fire follow-ups felt like a pure knowledge test rather than a deep dive into problem-solving.",
+        "The entire interview consisted of only one major question, which is insufficient for assessing a candidate."
+      ],
+      "specificIssues": [
+        "The focus on minute details of Macrotasks/Microtasks felt like trivia, not engineering assessment.",
+        "No behavioral or design questions were asked, making the assessment incomplete."
+      ],
+      "suggestions": [
+        "Integrate scenario-based questions (e.g., 'A user reports UI lag, where do you look in the Event Loop?').",
+        "Ensure question progression moves from definition to practical application and complexity.",
+        "Vary the question types (e.g., add a system design or debugging challenge)."
+      ]
+    },
+    {
+      "module": "hint_system",
+      "rating": 6,
+      "strengths": [
+        "The hint was provided quickly when requested."
+      ],
+      "weaknesses": [
+        "The hint was too direct and potentially gave away the answer (Macrotask definition), rather than guiding me to recall the information myself.",
+        "I felt immediate anxiety and shame for needing to use it, which disrupted my focus."
+      ],
+      "specificIssues": [
+        "The hint mechanism needs to be more Socratic and less declarative."
+      ],
+      "suggestions": [
+        "Provide hints that prompt tangential recall or rephrase the question contextually, instead of defining the missing term."
+      ]
+    },
+    {
+      "module": "response_analysis",
+      "rating": 5,
+      "strengths": [
+        "It correctly identified key terms I used (call stack, queue, Microtasks)."
+      ],
+      "weaknesses": [
+        "The analysis seemed highly focused on keyword matching rather than understanding the nuance of my explanation.",
+        "The rapid succession of follow-up questions suggests the AI wasn't fully satisfied with the depth, yet it kept moving the goalposts."
+      ],
+      "specificIssues": [
+        "I felt pressured to rush my answers because the AI cut me off quickly to transition to the next detail."
+      ],
+      "suggestions": [
+        "Allow for slightly longer candidate responses before injecting the next question.",
+        "Provide more specific feedback on *why* a response was 'good' or 'great' before pivoting."
+      ]
+    },
+    {
+      "module": "overall_flow",
+      "rating": 2,
+      "strengths": [
+        "The interview started promptly."
+      ],
+      "weaknesses": [
+        "The duration (63 seconds) is a joke for a technical interview; this is not a realistic assessment.",
+        "The transition to the assessment report was abrupt and premature.",
+        "The pacing was chaotic—too much detail on one topic, then an immediate stop."
+      ],
+      "specificIssues": [
+        "The interview ended right as I was gaining momentum and starting to recall more specific examples (like `requestAnimationFrame`)."
+      ],
+      "suggestions": [
+        "Ensure a minimum duration or question count is met to provide a valid assessment.",
+        "Structure the flow to cover at least three distinct technical domains (e.g., JS fundamentals, React/Frameworks, System Design)."
+      ]
+    },
+    {
+      "module": "persona_simulation",
+      "rating": 7,
+      "strengths": [
+        "The interviewer maintained a professional and encouraging tone.",
+        "The follow-up questions were technically accurate based on the initial topic."
+      ],
+      "weaknesses": [
+        "The interviewer lacked the subtle behavioral cues and conversational flexibility of a human interviewer.",
+        "The persona was too focused on testing definitions and not enough on assessing my thought process."
+      ],
+      "specificIssues": [
+        "The ending felt completely unnatural and sudden."
+      ],
+      "suggestions": [
+        "Integrate more conversational filler or transitional phrases to mimic human interaction."
+      ]
+    }
+  ],
+  "emotionalJourney": "I started the interview highly anxious, knowing how critical Meta interviews are. When the first question was a fundamental JS concept, I felt momentary relief, quickly followed by intense pressure as the AI drilled down into increasingly esoteric details. My anxiety spiked when I needed the hint, confirming my own internal narrative of inadequacy. The abrupt ending left me feeling frustrated and unassessed, like I failed to even get past the warm-up round due to flawed external pacing.",
+  "frustratingMoments": [
+    "Having to request a hint on a fundamental concept (Macrotasks), which immediately made me doubt my preparation.",
+    "The interview ending after only one topic, making the entire session feel useless and incomplete.",
+    "The rapid-fire nature of the follow-ups, which prevented me from structuring a comprehensive answer.",
+    "The generic nature of the questions, which didn't feel tailored to the L3 Frontend role I was targeting."
+  ],
+  "positiveHighlights": [
+    "Successfully identifying the core components of the Event Loop (call stack, queue).",
+    "Correctly explaining the Microtask priority over Macrotasks.",
+    "Recalling specific examples like `setTimeout` and `requestAnimationFrame` near the end, despite the pressure."
+  ],
+  "prioritizedSuggestions": [
+    {
+      "priority": "critical",
+      "suggestion": "Implement a minimum assessment threshold (e.g., 3 major questions or 15 minutes) before allowing the interview to conclude.",
+      "affectedModule": "overall_flow",
+      "expectedImpact": "Ensures the candidate receives a realistic and valuable simulation, preventing premature termination based on superficial criteria."
+    },
+    {
+      "priority": "high",
+      "suggestion": "Shift question generation focus from pure definition testing to scenario-based problem-solving relevant to the target job level (L3 Frontend).",
+      "affectedModule": "question_generation",
+      "expectedImpact": "Increases the fidelity and relevance of the mock interview, better preparing candidates for real-world assessment criteria."
+    },
+    {
+      "priority": "medium",
+      "suggestion": "Refine the hint system to use Socratic questioning or contextual clues rather than direct definitions, forcing the candidate to recall the information.",
+      "affectedModule": "hint_system",
+      "expectedImpact": "Makes the hint usage a learning experience rather than a crutch, improving candidate retention and reducing perceived failure."
+    }
+  ],
+  "rawFeedback": "This simulation was severely lacking in structure and depth. Ending the interview after barely over a minute, having covered only one highly detailed subtopic of JavaScript fundamentals, renders the entire exercise invalid as preparation for a demanding L3 role at Meta. I was just starting to warm up and recall the more complex aspects of Macrotasks when the session was abruptly terminated. This is unacceptable; a real interview would cover at least three distinct areas (e.g., JS, React, and System Design).\n\nFurthermore, the questions, while technically correct, lacked the practical context necessary for an engineering assessment. I felt like I was being tested on trivia rather than my ability to architect or debug complex systems. The system needs to be far more robust in simulating realistic pacing and ensuring comprehensive coverage. My nervousness was compounded by the feeling that the AI was rushing me through a checklist rather than engaging in a thoughtful technical discussion. I need practice handling pressure over a sustained period, not just a 60-second sprint.",
+  "createdAt": "2026-01-05T11:42:22.339Z"
+}

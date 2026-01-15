@@ -1,0 +1,128 @@
+{
+  "id": "feedback_1767631864856_a8mm9fcpj",
+  "personaId": "persona_1767631739852_ym8eo5x02",
+  "personaName": "Priya Sharma",
+  "simulationId": "sim_1767631854207_mqjueihtp",
+  "iteration": 1,
+  "overallSatisfaction": 7.5,
+  "wouldRecommend": true,
+  "moduleFeedback": [
+    {
+      "module": "question_generation",
+      "rating": 8,
+      "strengths": [
+        "Questions were highly relevant to the target role (Senior Digital Marketing Strategist) and the target company (GCB, global consumer brands).",
+        "The progression of topics (lead quality -> implementation -> emerging tech -> brand management) felt logical and strategic.",
+        "The interviewer effectively used my previous answers to bridge into the next question."
+      ],
+      "weaknesses": [
+        "The phrasing of some questions felt slightly repetitive, often starting with 'That structured approach is impressive...'"
+      ],
+      "specificIssues": [
+        "The question about brand management seemed to pivot abruptly from B2B focus to B2C crisis management, which required a significant mental shift."
+      ],
+      "suggestions": [
+        "Vary the introductory phrases before asking the follow-up question to improve conversational flow.",
+        "Ensure the questions clearly delineate between B2B and B2C contexts when the role requires both."
+      ]
+    },
+    {
+      "module": "hint_system",
+      "rating": 7,
+      "strengths": [
+        "The hint was readily available when requested."
+      ],
+      "weaknesses": [
+        "I requested a hint during the technology integration question, and while the response was structured, it didn't feel deeply tailored to my specific struggle, which was synthesizing the strategic approach quickly."
+      ],
+      "specificIssues": [
+        "I was slightly concerned about the time taken to process the hint, though the overall interview duration was short."
+      ],
+      "suggestions": [
+        "Ensure hints provide specific keywords or structural prompts relevant to the preceding conversation, not just generic advice."
+      ]
+    },
+    {
+      "module": "response_analysis",
+      "rating": 7.5,
+      "strengths": [
+        "The interviewer consistently acknowledged the 'structured' nature of my answers (e.g., 'three structured phases', 'three-phase approach'), indicating good recognition of my response format.",
+        "Key concepts like 'intent-based content' and 'measurable ROI' were picked up and validated."
+      ],
+      "weaknesses": [
+        "The validation responses were slightly generic ('That's a very clear outcome,' 'truly impressive'). I would have liked more specific analysis of the *content* rather than just the *structure*."
+      ],
+      "specificIssues": [
+        "None major, but the analysis seemed to prioritize acknowledging structure over deep content engagement."
+      ],
+      "suggestions": [
+        "In the interviewer's response, try to paraphrase a key strategic takeaway from the candidate's answer before moving on."
+      ]
+    },
+    {
+      "module": "overall_flow",
+      "rating": 8.5,
+      "strengths": [
+        "The interview was efficient, covering six complex questions in a short time.",
+        "The transition to the closing statement was smooth and professional.",
+        "The pacing felt appropriate for a strategic discussion."
+      ],
+      "weaknesses": [
+        "The constant use of 'That is an excellent question' in my own responses felt slightly robotic, perhaps prompted by the system's consistent validation tone."
+      ],
+      "specificIssues": [],
+      "suggestions": [
+        "Review the prompt engineering to encourage slightly less formal or repetitive language from the candidate, perhaps by varying the interviewer's tone."
+      ]
+    },
+    {
+      "module": "persona_simulation",
+      "rating": 7,
+      "strengths": [
+        "The interviewer maintained a professional and validating tone throughout.",
+        "The language used ('GCB,' 'diverse portfolio of global brands') reinforced the target company persona."
+      ],
+      "weaknesses": [
+        "The persona felt slightly too focused on validating the 'structure' of my answers, which sometimes overshadowed the strategic depth I was providing."
+      ],
+      "specificIssues": [
+        "The shift from B2B to B2C crisis management felt like a slightly jarring change in the interviewer's focus, requiring me to quickly justify my B2B experience for a B2C context."
+      ],
+      "suggestions": [
+        "Allow the interviewer persona to challenge the candidate's assumptions or strategies slightly more, rather than just validating them."
+      ]
+    }
+  ],
+  "emotionalJourney": "I felt engaged and challenged throughout the interview. The questions were high-level and strategic, which allowed me to showcase my experience effectively. There was a brief moment of hesitation when asked about emerging technology, leading me to request a hint, but overall, I maintained a confident and structured approach. The rapid pace kept me focused.",
+  "frustratingMoments": [
+    "Having to use a hint on the technology integration question, which momentarily broke my flow.",
+    "The interviewer's frequent repetition of phrases like 'That structured approach is truly impressive,' which felt a little formulaic after the third instance."
+  ],
+  "positiveHighlights": [
+    "The smooth transition between questions, particularly linking my lead generation strategy to implementation complexity.",
+    "The final question allowing me to adapt my B2B crisis management experience to a high-volume B2C scenario, which felt like a strong strategic test.",
+    "The professional and warm closing statement."
+  ],
+  "prioritizedSuggestions": [
+    {
+      "priority": "high",
+      "suggestion": "Diversify the interviewer's acknowledgment phrases to move beyond simply validating the 'structured approach' and engage more deeply with the strategic content.",
+      "affectedModule": "response_analysis",
+      "expectedImpact": "Will make the interview feel significantly more human and less like a pattern-matching exercise, increasing candidate confidence in the system's comprehension."
+    },
+    {
+      "priority": "medium",
+      "suggestion": "When transitioning between fundamentally different contexts (e.g., B2B to B2C), ensure the bridge question is clearer about the required pivot, or allow the candidate more time to adjust.",
+      "affectedModule": "question_generation",
+      "expectedImpact": "Improves the clarity and fairness of high-stakes strategic questions."
+    },
+    {
+      "priority": "low",
+      "suggestion": "Review the hint system to ensure hints provide more specific, context-aware guidance when requested, rather than general structural advice.",
+      "affectedModule": "hint_system",
+      "expectedImpact": "Increases the utility of the hint feature for candidates who are momentarily stuck on specific content points."
+    }
+  ],
+  "rawFeedback": "Overall, this was a highly effective and efficient mock interview experience. The system excels at generating relevant, high-level strategic questions that accurately reflect the requirements of a Senior Digital Marketing Strategist role at a global consumer brand. The flow was excellent, and the system successfully tracked the structure of my responses, which is crucial for candidates who rely on frameworks.\n\nMy main area for improvement lies in the conversational nuance. While the interviewer was polite and validating, the constant repetition of certain phrases (both from the interviewer and, consequently, from me) made the interaction feel slightly robotic. For a truly immersive experience, the response analysis should provide more varied and deeper feedback on the *content* of the strategy, not just the *format*.\n\nI would certainly recommend this tool for practicing high-level strategic interviews, especially given its ability to quickly pivot and challenge the candidate on complex topics like technology integration and crisis management.",
+  "createdAt": "2026-01-05T16:51:04.856Z"
+}
