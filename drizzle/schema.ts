@@ -1,4 +1,13 @@
-import { integer, serial, pgEnum, pgTable, text, timestamp, varchar, json, numeric } from "drizzle-orm/pg-core";
+import { integer, serial, pgEnum, pgTable, text, timestamp, varchar, json, numeric, boolean } from "drizzle-orm/pg-core";
+// Define PostgreSQL enums
+export const roleEnum = pgEnum("role", ["user", "admin"]);
+export const sourceEnum = pgEnum("source", ["manual", "linkedin", "ai_generated"]);
+export const statusEnum = pgEnum("status", ["pending", "in_progress", "completed"]);
+export const messageRoleEnum = pgEnum("message_role", ["user", "assistant", "system"]);
+export const typeEnum = pgEnum("type", ["technical", "behavioral", "case"]);
+export const difficultyEnum = pgEnum("difficulty", ["Easy", "Medium", "Hard"]);
+
+
 
 /**
  * Core user table backing auth flow.
@@ -9,7 +18,7 @@ export const users = pgTable("users", {
   name: text("name"),
   email: varchar("email", { length: 320 }),
   loginMethod: varchar("loginMethod", { length: 64 }),
-  role: pgEnum("role", ["user", "admin"]).default("user").notNull(),
+  role: roleEnum("role").default("user").notNull(),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().notNull(),
   lastSignedIn: timestamp("lastSignedIn").defaultNow().notNull(),
@@ -23,7 +32,7 @@ export type InsertUser = typeof users.$inferInsert;
  */
 export const userPreferences = pgTable("user_preferences", {
   id: serial("id").primaryKey(),
-  userId: serial("userId").notNull(),
+  userId: integer("userId").notNull(),
   employmentTypes: json("employmentTypes").$type<string[]>(),
   workMode: varchar("workMode", { length: 32 }),
   location: varchar("location", { length: 256 }),
@@ -39,14 +48,14 @@ export type InsertUserPreference = typeof userPreferences.$inferInsert;
  */
 export const jobRecommendations = pgTable("job_recommendations", {
   id: serial("id").primaryKey(),
-  userId: serial("userId").notNull(),
+  userId: integer("userId").notNull(),
   company: varchar("company", { length: 256 }).notNull(),
   companyId: varchar("companyId", { length: 64 }),
   companyLogo: varchar("companyLogo", { length: 512 }),
   position: varchar("position", { length: 256 }).notNull(),
   location: varchar("location", { length: 256 }),
   postedAt: timestamp("postedAt"),
-  matchPercentage: serial("matchPercentage").default(0),
+  matchPercentage: integer("matchPercentage").default(0),
   salaryMin: numeric("salaryMin", { precision: 12, scale: 2 }),
   salaryMax: numeric("salaryMax", { precision: 12, scale: 2 }),
   jobType: varchar("jobType", { length: 64 }),
@@ -57,7 +66,7 @@ export const jobRecommendations = pgTable("job_recommendations", {
   linkedinJobId: varchar("linkedinJobId", { length: 64 }),
   linkedinUrl: varchar("linkedinUrl", { length: 512 }),
   applyUrl: varchar("applyUrl", { length: 512 }),
-  source: pgEnum("source", ["manual", "linkedin", "ai_generated"]).default("manual"),
+  source: sourceEnum("source").default("manual"),
   scrapedAt: timestamp("scrapedAt"),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().notNull(),
@@ -71,10 +80,10 @@ export type InsertJobRecommendation = typeof jobRecommendations.$inferInsert;
  */
 export const interviewHistory = pgTable("interview_history", {
   id: serial("id").primaryKey(),
-  userId: serial("userId").notNull(),
+  userId: integer("userId").notNull(),
   question: text("question").notNull(),
   date: timestamp("date").defaultNow().notNull(),
-  score: serial("score"),
+  score: integer("score"),
   audioDuration: varchar("audioDuration", { length: 32 }),
   audioUrl: varchar("audioUrl", { length: 512 }),
   aiFeedback: json("aiFeedback").$type<{
@@ -96,12 +105,12 @@ export type InsertInterviewHistory = typeof interviewHistory.$inferInsert;
  */
 export const mockSessions = pgTable("mock_sessions", {
   id: serial("id").primaryKey(),
-  userId: serial("userId").notNull(),
-  jobId: serial("jobId").notNull(),
-  status: pgEnum("status", ["pending", "in_progress", "completed"]).default("pending").notNull(),
-  matchScore: serial("matchScore"),
-  totalQuestions: serial("totalQuestions").default(6),
-  currentQuestion: serial("currentQuestion").default(0),
+  userId: integer("userId").notNull(),
+  jobId: integer("jobId").notNull(),
+  status: statusEnum("status").default("pending").notNull(),
+  matchScore: integer("matchScore"),
+  totalQuestions: integer("totalQuestions").default(6),
+  currentQuestion: integer("currentQuestion").default(0),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   completedAt: timestamp("completedAt"),
   updatedAt: timestamp("updatedAt").defaultNow().notNull(),
@@ -115,10 +124,10 @@ export type InsertMockSession = typeof mockSessions.$inferInsert;
  */
 export const mockMessages = pgTable("mock_messages", {
   id: serial("id").primaryKey(),
-  sessionId: serial("sessionId").notNull(),
-  role: pgEnum("role", ["user", "assistant", "system"]).notNull(),
+  sessionId: integer("sessionId").notNull(),
+  role: roleEnum("role").notNull(),
   content: text("content").notNull(),
-  questionIndex: serial("questionIndex"),
+  questionIndex: integer("questionIndex"),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
 });
 
@@ -130,10 +139,10 @@ export type InsertMockMessage = typeof mockMessages.$inferInsert;
  */
 export const assessmentReports = pgTable("assessment_reports", {
   id: serial("id").primaryKey(),
-  sessionId: serial("sessionId").notNull(),
-  userId: serial("userId").notNull(),
-  jobId: serial("jobId").notNull(),
-  matchScore: serial("matchScore").notNull(),
+  sessionId: integer("sessionId").notNull(),
+  userId: integer("userId").notNull(),
+  jobId: integer("jobId").notNull(),
+  matchScore: integer("matchScore").notNull(),
   strengths: json("strengths").$type<Array<{
     skill: string;
     description: string;
@@ -198,8 +207,8 @@ export const interviewKnowledgeBases = pgTable("interview_knowledge_bases", {
   }>>(),
   
   // Metadata
-  sourceCount: serial("sourceCount").default(0),
-  questionCount: serial("questionCount").default(0),
+  sourceCount: integer("sourceCount").default(0),
+  questionCount: integer("questionCount").default(0),
   lastSearchedAt: timestamp("lastSearchedAt"),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().notNull(),
@@ -214,13 +223,13 @@ export type InsertInterviewKnowledgeBase = typeof interviewKnowledgeBases.$infer
  */
 export const interviewQuestions = pgTable("interview_questions", {
   id: serial("id").primaryKey(),
-  knowledgeBaseId: serial("knowledgeBaseId").notNull(),
+  knowledgeBaseId: integer("knowledgeBaseId").notNull(),
   
-  type: pgEnum("type", ["technical", "behavioral", "case"]).notNull(),
+  type: typeEnum("type").notNull(),
   question: text("question").notNull(),
   category: varchar("category", { length: 128 }),
-  difficulty: pgEnum("difficulty", ["Easy", "Medium", "Hard"]),
-  frequency: serial("frequency").default(1), // 1-5, how often this question appears
+  difficulty: difficultyEnum("difficulty"),
+  frequency: integer("frequency").default(1), // 1-5, how often this question appears
   sampleAnswer: text("sampleAnswer"),
   source: varchar("source", { length: 128 }).notNull(),
   sourceUrl: varchar("sourceUrl", { length: 512 }),
@@ -237,14 +246,14 @@ export type InsertInterviewQuestion = typeof interviewQuestions.$inferInsert;
  */
 export const knowledgeBaseSearchLogs = pgTable("knowledge_base_search_logs", {
   id: serial("id").primaryKey(),
-  userId: serial("userId"),
+  userId: integer("userId"),
   company: varchar("company", { length: 256 }).notNull(),
   position: varchar("position", { length: 256 }).notNull(),
-  knowledgeBaseId: serial("knowledgeBaseId"),
-  cacheHit: serial("cacheHit").default(0), // 1 = hit, 0 = miss
-  searchDuration: serial("searchDuration"), // milliseconds
+  knowledgeBaseId: integer("knowledgeBaseId"),
+  cacheHit: integer("cacheHit").default(0), // 1 = hit, 0 = miss
+  searchDuration: integer("searchDuration"), // milliseconds
   sourcesSearched: json("sourcesSearched").$type<string[]>(),
-  resultsCount: serial("resultsCount").default(0),
+  resultsCount: integer("resultsCount").default(0),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
 });
 
@@ -309,9 +318,9 @@ export const jobCacheFetchLogs = pgTable("job_cache_fetch_logs", {
   id: serial("id").primaryKey(),
   positionCategory: varchar("positionCategory", { length: 128 }).notNull(),
   searchQuery: varchar("searchQuery", { length: 256 }).notNull(),
-  jobsFetched: serial("jobsFetched").default(0),
-  fetchDuration: serial("fetchDuration"), // milliseconds
-  status: pgEnum("status", ["success", "partial", "failed"]).default("success"),
+  jobsFetched: integer("jobsFetched").default(0),
+  fetchDuration: integer("fetchDuration"), // milliseconds
+  status: statusEnum("status").default("success"),
   errorMessage: text("errorMessage"),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
 });
@@ -325,12 +334,12 @@ export type InsertJobCacheFetchLog = typeof jobCacheFetchLogs.$inferInsert;
  */
 export const bookmarkedQuestions = pgTable("bookmarked_questions", {
   id: serial("id").primaryKey(),
-  userId: serial("userId").notNull(),
+  userId: integer("userId").notNull(),
   
   // Question content
   topic: varchar("topic", { length: 256 }).notNull(),
   question: text("question").notNull(),
-  difficulty: pgEnum("difficulty", ["easy", "medium", "hard"]).default("medium"),
+  difficulty: difficultyEnum("difficulty").default("medium"),
   
   // Context
   targetPosition: varchar("targetPosition", { length: 256 }),
@@ -342,7 +351,7 @@ export const bookmarkedQuestions = pgTable("bookmarked_questions", {
   notes: text("notes"),
   
   // Practice tracking
-  practiceCount: serial("practiceCount").default(0),
+  practiceCount: integer("practiceCount").default(0),
   lastPracticedAt: timestamp("lastPracticedAt"),
   
   createdAt: timestamp("createdAt").defaultNow().notNull(),
@@ -362,18 +371,18 @@ export type InsertBookmarkedQuestion = typeof bookmarkedQuestions.$inferInsert;
  */
 export const resumes = pgTable("resumes", {
   id: serial("id").primaryKey(),
-  userId: serial("userId").notNull(),
+  userId: integer("userId").notNull(),
   
   // Resume metadata
   title: varchar("title", { length: 256 }).notNull(),
-  type: pgEnum("type", ["base", "tailored"]).default("base").notNull(),
-  isDefault: serial("isDefault").default(0), // 1 = default resume
+  type: typeEnum("type").default("base").notNull(),
+  isDefault: integer("isDefault").default(0), // 1 = default resume
   
   // Resume score
-  score: serial("score").default(0), // 0-100
+  score: integer("score").default(0), // 0-100
   
   // Target job (for tailored resumes)
-  targetJobId: serial("targetJobId"),
+  targetJobId: integer("targetJobId"),
   targetJobTitle: varchar("targetJobTitle", { length: 256 }),
   targetCompany: varchar("targetCompany", { length: 256 }),
   
@@ -504,7 +513,7 @@ export type InsertResume = typeof resumes.$inferInsert;
  */
 export const trackedJobs = pgTable("tracked_jobs", {
   id: serial("id").primaryKey(),
-  userId: serial("userId").notNull(),
+  userId: integer("userId").notNull(),
   
   // Job info (using actual DB column names)
   jobTitle: varchar("jobTitle", { length: 256 }).notNull(),
@@ -515,8 +524,8 @@ export const trackedJobs = pgTable("tracked_jobs", {
   description: text("description"),
   
   // Tracking status
-  status: pgEnum("status", ["saved", "applied", "interviewing", "offer", "rejected", "archived"]).default("saved").notNull(),
-  columnOrder: serial("columnOrder").default(0),
+  status: statusEnum("status").default("saved").notNull(),
+  columnOrder: integer("columnOrder").default(0),
   
   // Application details
   appliedAt: timestamp("appliedAt"),
@@ -532,11 +541,11 @@ export const trackedJobs = pgTable("tracked_jobs", {
   contactPhone: varchar("contactPhone", { length: 64 }),
   
   // Skill matching
-  skillMatch: serial("skillMatch").default(0),
+  skillMatch: integer("skillMatch").default(0),
   extractedSkills: json("extractedSkills").$type<string[]>(),
   
   // Source tracking
-  source: pgEnum("source", ["manual", "extension", "import"]).default("manual"),
+  source: sourceEnum("source").default("manual"),
   
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().notNull(),
@@ -550,10 +559,10 @@ export type InsertTrackedJob = typeof trackedJobs.$inferInsert;
  */
 export const linkedinContent = pgTable("linkedin_content", {
   id: serial("id").primaryKey(),
-  userId: serial("userId").notNull(),
+  userId: integer("userId").notNull(),
   
   // Content type
-  type: pgEnum("type", ["headline", "about", "post"]).notNull(),
+  type: typeEnum("type").notNull(),
   
   // Input parameters
   inputKeywords: json("inputKeywords").$type<string[]>(),
@@ -565,8 +574,8 @@ export const linkedinContent = pgTable("linkedin_content", {
   generatedContent: text("generatedContent").notNull(),
   
   // User feedback
-  isFavorite: serial("isFavorite").default(0),
-  isUsed: serial("isUsed").default(0), // User copied/used this content
+  isFavorite: integer("isFavorite").default(0),
+  isUsed: integer("isUsed").default(0), // User copied/used this content
   
   createdAt: timestamp("createdAt").defaultNow().notNull(),
 });
@@ -579,11 +588,11 @@ export type InsertLinkedinContent = typeof linkedinContent.$inferInsert;
  */
 export const jobhUserProfiles = pgTable("jobh_user_profiles", {
   id: serial("id").primaryKey(),
-  userId: serial("userId").notNull().unique(),
+  userId: integer("userId").notNull().unique(),
   
   // Onboarding status
-  onboardingCompleted: serial("onboardingCompleted").default(0),
-  onboardingStep: serial("onboardingStep").default(1),
+  onboardingCompleted: integer("onboardingCompleted").default(0),
+  onboardingStep: integer("onboardingStep").default(1),
   
   // Target job info
   targetJobTitle: varchar("targetJobTitle", { length: 256 }),
@@ -596,9 +605,9 @@ export const jobhUserProfiles = pgTable("jobh_user_profiles", {
   linkedinAbout: text("linkedinAbout"),
   
   // Progress tracking
-  resumesCreated: serial("resumesCreated").default(0),
-  jobsTracked: serial("jobsTracked").default(0),
-  interviewsCompleted: serial("interviewsCompleted").default(0),
+  resumesCreated: integer("resumesCreated").default(0),
+  jobsTracked: integer("jobsTracked").default(0),
+  interviewsCompleted: integer("interviewsCompleted").default(0),
   
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().notNull(),
@@ -614,10 +623,10 @@ export type InsertJobhUserProfile = typeof jobhUserProfiles.$inferInsert;
  */
 export const aiToolboxHistory = pgTable("ai_toolbox_history", {
   id: serial("id").primaryKey(),
-  userId: serial("userId").notNull(),
+  userId: integer("userId").notNull(),
   
   // Content type
-  type: pgEnum("type", ["email", "cover_letter", "elevator_pitch", "linkedin_headline", "linkedin_about"]).notNull(),
+  type: typeEnum("type").notNull(),
   
   // Input parameters (stored as JSON for flexibility)
   inputParams: json("inputParams").$type<{
@@ -648,12 +657,12 @@ export const aiToolboxHistory = pgTable("ai_toolbox_history", {
   generatedContent: text("generatedContent").notNull(),
   
   // Associated job (for Import from Board feature)
-  trackedJobId: serial("trackedJobId"),
+  trackedJobId: integer("trackedJobId"),
   
   // User feedback
-  isFavorite: serial("isFavorite").default(0),
-  isUsed: serial("isUsed").default(0), // User copied/used this content
-  rating: serial("rating"), // 1-5 stars
+  isFavorite: integer("isFavorite").default(0),
+  isUsed: integer("isUsed").default(0), // User copied/used this content
+  rating: integer("rating"), // 1-5 stars
   
   createdAt: timestamp("createdAt").defaultNow().notNull(),
 });
@@ -674,8 +683,8 @@ export const skillAnalysisCache = pgTable("skill_analysis_cache", {
   
   // Input references
   jobDescriptionHash: varchar("jobDescriptionHash", { length: 64 }).notNull(),
-  resumeId: serial("resumeId").notNull(),
-  userId: serial("userId").notNull(),
+  resumeId: integer("resumeId").notNull(),
+  userId: integer("userId").notNull(),
   
   // Job info (for display)
   jobTitle: varchar("jobTitle", { length: 256 }),
@@ -683,7 +692,7 @@ export const skillAnalysisCache = pgTable("skill_analysis_cache", {
   jobUrl: varchar("jobUrl", { length: 512 }),
   
   // Analysis results
-  score: serial("score").notNull(), // 0-100 match score
+  score: integer("score").notNull(), // 0-100 match score
   strongMatch: json("strongMatch").$type<string[]>().notNull(), // Exact skill matches
   partialMatch: json("partialMatch").$type<Array<{
     resume: string;
