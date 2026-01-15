@@ -2,6 +2,11 @@ export { COOKIE_NAME, ONE_YEAR_MS } from "@shared/const";
 
 // Generate login URL at runtime so redirect URI reflects the current origin.
 export const getLoginUrl = () => {
+  // Use test login page if OAuth is not configured
+  if (!import.meta.env.VITE_OAUTH_PORTAL_URL || !import.meta.env.VITE_APP_ID) {
+    return '/test-login';
+  }
+  
   // In development mode with mock OAuth, use test login page
   if (import.meta.env.DEV && import.meta.env.VITE_OAUTH_PORTAL_URL === 'http://localhost:5000/oauth') {
     return '/test-login';
