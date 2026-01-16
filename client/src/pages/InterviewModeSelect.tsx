@@ -6,6 +6,7 @@
 
 import { useState } from "react";
 import { useAuth } from "@/_core/hooks/useAuth";
+import { useInterviewTracking } from "@/hooks/useAnalytics";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -27,9 +28,14 @@ export default function InterviewModeSelect() {
   const initialPosition = urlParams.get("position") || "";
 
   const [position, setPosition] = useState(initialPosition);
+  const { trackInterviewStart } = useInterviewTracking();
 
   const handleStart = () => {
     if (!position.trim()) return;
+    
+    // Track interview start
+    trackInterviewStart('topic_practice', position);
+    
     navigate(`/topic-practice?position=${encodeURIComponent(position)}`);
   };
 

@@ -1,12 +1,22 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { X, Check } from 'lucide-react';
+import { usePaywallTracking } from '@/hooks/useAnalytics';
 
 interface PaywallModalProps {
   isOpen: boolean;
   onClose: () => void;
 }
 
-export default function PaywallModal({ isOpen, onClose }: PaywallModalProps) {
+export default function PaywallModal({ isOpen, onClose, triggerLocation = 'unknown', triggerReason = 'manual', featureName = 'unknown' }: PaywallModalProps & { triggerLocation?: string; triggerReason?: string; featureName?: string }) {
+  const { trackPaywallShown, trackPaywallClick } = usePaywallTracking();
+
+  // Track paywall shown
+  useEffect(() => {
+    if (isOpen) {
+      trackPaywallShown(triggerLocation, triggerReason, featureName);
+    }
+  }, [isOpen, triggerLocation, triggerReason, featureName, trackPaywallShown]);
+
   if (!isOpen) return null;
 
   const plans = [
@@ -86,6 +96,16 @@ export default function PaywallModal({ isOpen, onClose }: PaywallModalProps) {
 
   const handleSubscribe = () => {
     console.log('User clicked subscribe:', selectedPlan);
+    
+    // Track paywall click
+    const plan = plans.find(p => p.id === selectedPlan);
+    trackPaywallClick(
+      'upgrade',
+      plan?.nameEn || selectedPlan,
+      parseFloat(plan?.price.replace('$', '') || '0'),
+      triggerLocation
+    );
+    
     // MVP: 点击后关闭弹窗，不做实际支付
     onClose();
   };
@@ -95,7 +115,10 @@ export default function PaywallModal({ isOpen, onClose }: PaywallModalProps) {
       <div className="relative w-full max-w-4xl bg-card border border-border rounded-lg shadow-lg">
         {/* 关闭按钮 */}
         <button
-          onClick={onClose}
+          onClick={() => {
+            trackPaywallClick('close', undefined, undefined, triggerLocation);
+            onClose();
+          }}
           className="absolute top-4 right-4 p-2 rounded-lg hover:bg-secondary transition-colors"
           aria-label="Close"
         >

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useJobSearchTracking } from "@/hooks/useAnalytics";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -28,6 +29,7 @@ interface LinkedInJobSearchProps {
 
 export function LinkedInJobSearch({ onSuccess }: LinkedInJobSearchProps) {
   const { language } = useLanguage();
+  const { trackJobSearch } = useJobSearchTracking();
   const [open, setOpen] = useState(false);
   const [title, setTitle] = useState("");
   const [location, setLocation] = useState("");
@@ -40,6 +42,19 @@ export function LinkedInJobSearch({ onSuccess }: LinkedInJobSearchProps) {
   
   const scrapeLinkedInMutation = trpc.jobs.scrapeLinkedIn.useMutation({
     onSuccess: (data) => {
+      // Track job search
+      trackJobSearch(
+        title,
+        data.count,
+        {
+          location,
+          work_type: workType,
+          contract_type: contractType,
+          experience_level: experienceLevel,
+        },
+        'linkedin_search'
+      );
+      
       toast.success(
         language === 'zh' 
           ? `成功抓取 ${data.count} 个职位` 

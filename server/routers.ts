@@ -2345,6 +2345,60 @@ ${input.uniqueValue ? `Unique Value: ${input.uniqueValue}` : ''}`
         return { success: true };
       }),
   }),
+
+  // Analytics
+  analytics: router({
+    track: publicProcedure
+      .input(z.object({
+        sessionId: z.string(),
+        userId: z.string().optional(),
+        events: z.array(z.object({
+          event_name: z.string(),
+          properties: z.record(z.any()).optional(),
+        })),
+        pageUrl: z.string().optional(),
+        pageTitle: z.string().optional(),
+        referrer: z.string().optional(),
+        userAgent: z.string().optional(),
+        ipAddress: z.string().optional(),
+      }))
+      .mutation(async ({ input }) => {
+        const { analyticsRouter } = await import('./routers/analytics');
+        return analyticsRouter.createCaller({} as any).track(input);
+      }),
+
+    getStats: protectedProcedure
+      .input(z.object({
+        startDate: z.string().optional(),
+        endDate: z.string().optional(),
+        eventName: z.string().optional(),
+      }))
+      .query(async ({ input, ctx }) => {
+        const { analyticsRouter } = await import('./routers/analytics');
+        return analyticsRouter.createCaller({ user: ctx.user } as any).getStats(input);
+      }),
+
+    getRecentEvents: protectedProcedure
+      .input(z.object({
+        limit: z.number().default(100),
+        eventName: z.string().optional(),
+      }))
+      .query(async ({ input, ctx }) => {
+        const { analyticsRouter } = await import('./routers/analytics');
+        return analyticsRouter.createCaller({ user: ctx.user } as any).getRecentEvents(input);
+      }),
+
+    getEventDetails: protectedProcedure
+      .input(z.object({
+        eventName: z.string(),
+        startDate: z.string().optional(),
+        endDate: z.string().optional(),
+      }))
+      .query(async ({ input, ctx }) => {
+        const { analyticsRouter } = await import('./routers/analytics');
+        return analyticsRouter.createCaller({ user: ctx.user } as any).getEventDetails(input);
+      }),
+  }),
 });
 
 export type AppRouter = typeof appRouter;
