@@ -156,12 +156,8 @@ export async function createJobRecommendation(data: InsertJobRecommendation): Pr
   const db = await getDb();
   if (!db) return null;
 
-  const result = await db.insert(jobRecommendations).values(data);
-  const insertId = result[0].insertId;
-  
-  // Fetch the created record
-  const created = await db.select().from(jobRecommendations).where(eq(jobRecommendations.id, insertId)).limit(1);
-  return created[0] || null;
+  const result = await db.insert(jobRecommendations).values(data).returning();
+  return result[0] || null;
 }
 
 export async function deleteJobRecommendations(userId: number): Promise<void> {
@@ -219,11 +215,8 @@ export async function createMockSession(data: InsertMockSession): Promise<MockSe
   const db = await getDb();
   if (!db) return undefined;
 
-  const result = await db.insert(mockSessions).values(data);
-  const insertId = result[0].insertId;
-  
-  const session = await db.select().from(mockSessions).where(eq(mockSessions.id, insertId)).limit(1);
-  return session.length > 0 ? session[0] : undefined;
+  const result = await db.insert(mockSessions).values(data).returning();
+  return result[0];
 }
 
 export async function getMockSession(sessionId: number): Promise<MockSession | undefined> {
@@ -255,11 +248,8 @@ export async function createMockMessage(data: InsertMockMessage): Promise<MockMe
   const db = await getDb();
   if (!db) return undefined;
 
-  const result = await db.insert(mockMessages).values(data);
-  const insertId = result[0].insertId;
-  
-  const message = await db.select().from(mockMessages).where(eq(mockMessages.id, insertId)).limit(1);
-  return message.length > 0 ? message[0] : undefined;
+  const result = await db.insert(mockMessages).values(data).returning();
+  return result[0];
 }
 
 export async function getMockMessages(sessionId: number): Promise<MockMessage[]> {
@@ -276,11 +266,8 @@ export async function createAssessmentReport(data: InsertAssessmentReport): Prom
   const db = await getDb();
   if (!db) return undefined;
 
-  const result = await db.insert(assessmentReports).values(data);
-  const insertId = result[0].insertId;
-  
-  const report = await db.select().from(assessmentReports).where(eq(assessmentReports.id, insertId)).limit(1);
-  return report.length > 0 ? report[0] : undefined;
+  const result = await db.insert(assessmentReports).values(data).returning();
+  return result[0];
 }
 
 export async function getAssessmentReport(sessionId: number): Promise<AssessmentReport | undefined> {
@@ -323,11 +310,8 @@ export async function createLinkedInJob(data: InsertJobRecommendation): Promise<
     ...data,
     source: 'linkedin',
     scrapedAt: new Date(),
-  });
-  const insertId = result[0].insertId;
-  
-  const job = await db.select().from(jobRecommendations).where(eq(jobRecommendations.id, insertId)).limit(1);
-  return job.length > 0 ? job[0] : undefined;
+  }).returning();
+  return result[0];
 }
 
 export async function bulkCreateLinkedInJobs(jobs: InsertJobRecommendation[]): Promise<number> {
@@ -340,8 +324,8 @@ export async function bulkCreateLinkedInJobs(jobs: InsertJobRecommendation[]): P
     scrapedAt: new Date(),
   }));
 
-  const result = await db.insert(jobRecommendations).values(jobsWithSource);
-  return result[0].affectedRows || jobs.length;
+  const result = await db.insert(jobRecommendations).values(jobsWithSource).returning();
+  return result.length;
 }
 
 export async function getLinkedInJobByJobId(linkedinJobId: string, userId: number): Promise<JobRecommendation | undefined> {
@@ -387,12 +371,9 @@ import { bookmarkedQuestions, InsertBookmarkedQuestion, BookmarkedQuestion } fro
 export async function createBookmarkedQuestion(data: InsertBookmarkedQuestion): Promise<BookmarkedQuestion | null> {
   const db = await getDb();
   if (!db) return null;
-  
-  const result = await db.insert(bookmarkedQuestions).values(data);
-  const insertId = result[0].insertId;
-  
-  const [created] = await db.select().from(bookmarkedQuestions).where(eq(bookmarkedQuestions.id, insertId));
-  return created || null;
+
+  const result = await db.insert(bookmarkedQuestions).values(data).returning();
+  return result[0] || null;
 }
 
 export async function getBookmarkedQuestions(userId: number): Promise<BookmarkedQuestion[]> {
@@ -407,31 +388,33 @@ export async function getBookmarkedQuestions(userId: number): Promise<Bookmarked
 export async function deleteBookmarkedQuestion(id: number, userId: number): Promise<boolean> {
   const db = await getDb();
   if (!db) return false;
-  
+
   const result = await db.delete(bookmarkedQuestions)
     .where(and(
       eq(bookmarkedQuestions.id, id),
       eq(bookmarkedQuestions.userId, userId)
-    ));
-  
-  return (result[0].affectedRows || 0) > 0;
+    ))
+    .returning();
+
+  return result.length > 0;
 }
 
 export async function updateBookmarkedQuestionPractice(id: number, userId: number): Promise<boolean> {
   const db = await getDb();
   if (!db) return false;
-  
+
   const result = await db.update(bookmarkedQuestions)
-    .set({ 
+    .set({
       practiceCount: sql`${bookmarkedQuestions.practiceCount} + 1`,
       lastPracticedAt: new Date()
     })
     .where(and(
       eq(bookmarkedQuestions.id, id),
       eq(bookmarkedQuestions.userId, userId)
-    ));
-  
-  return (result[0].affectedRows || 0) > 0;
+    ))
+    .returning();
+
+  return result.length > 0;
 }
 
 export async function isQuestionBookmarked(userId: number, topic: string, question: string): Promise<boolean> {
@@ -454,29 +437,31 @@ export async function isQuestionBookmarked(userId: number, topic: string, questi
 export async function updateBookmarkedQuestionNotes(id: number, userId: number, notes: string): Promise<boolean> {
   const db = await getDb();
   if (!db) return false;
-  
+
   const result = await db.update(bookmarkedQuestions)
     .set({ notes })
     .where(and(
       eq(bookmarkedQuestions.id, id),
       eq(bookmarkedQuestions.userId, userId)
-    ));
-  
-  return (result[0].affectedRows || 0) > 0;
+    ))
+    .returning();
+
+  return result.length > 0;
 }
 
 export async function updateBookmarkedQuestionCategory(id: number, userId: number, category: string): Promise<boolean> {
   const db = await getDb();
   if (!db) return false;
-  
+
   const result = await db.update(bookmarkedQuestions)
     .set({ category })
     .where(and(
       eq(bookmarkedQuestions.id, id),
       eq(bookmarkedQuestions.userId, userId)
-    ));
-  
-  return (result[0].affectedRows || 0) > 0;
+    ))
+    .returning();
+
+  return result.length > 0;
 }
 
 export async function getBookmarkedQuestionsByCategory(userId: number, category: string): Promise<BookmarkedQuestion[]> {
@@ -534,12 +519,9 @@ import {
 export async function createResume(data: InsertResume): Promise<Resume | null> {
   const db = await getDb();
   if (!db) return null;
-  
-  const result = await db.insert(resumes).values(data);
-  const insertId = result[0].insertId;
-  
-  const [resume] = await db.select().from(resumes).where(eq(resumes.id, insertId));
-  return resume || null;
+
+  const result = await db.insert(resumes).values(data).returning();
+  return result[0] || null;
 }
 
 export async function getResumesByUser(userId: number): Promise<Resume[]> {
@@ -572,10 +554,11 @@ export async function updateResume(id: number, userId: number, data: Partial<Ins
 export async function deleteResume(id: number, userId: number): Promise<boolean> {
   const db = await getDb();
   if (!db) return false;
-  
+
   const result = await db.delete(resumes)
-    .where(and(eq(resumes.id, id), eq(resumes.userId, userId)));
-  return result[0].affectedRows > 0;
+    .where(and(eq(resumes.id, id), eq(resumes.userId, userId)))
+    .returning();
+  return result.length > 0;
 }
 
 export async function duplicateResume(id: number, userId: number, newTitle?: string): Promise<Resume | null> {
@@ -616,12 +599,9 @@ export async function duplicateResume(id: number, userId: number, newTitle?: str
 export async function createTrackedJob(data: InsertTrackedJob): Promise<TrackedJob | null> {
   const db = await getDb();
   if (!db) return null;
-  
-  const result = await db.insert(trackedJobs).values(data);
-  const insertId = result[0].insertId;
-  
-  const [job] = await db.select().from(trackedJobs).where(eq(trackedJobs.id, insertId));
-  return job || null;
+
+  const result = await db.insert(trackedJobs).values(data).returning();
+  return result[0] || null;
 }
 
 export async function getTrackedJobsByUser(userId: number): Promise<TrackedJob[]> {
@@ -654,10 +634,11 @@ export async function updateTrackedJob(id: number, userId: number, data: Partial
 export async function deleteTrackedJob(id: number, userId: number): Promise<boolean> {
   const db = await getDb();
   if (!db) return false;
-  
+
   const result = await db.delete(trackedJobs)
-    .where(and(eq(trackedJobs.id, id), eq(trackedJobs.userId, userId)));
-  return result[0].affectedRows > 0;
+    .where(and(eq(trackedJobs.id, id), eq(trackedJobs.userId, userId)))
+    .returning();
+  return result.length > 0;
 }
 
 export async function getTrackedJobsByStatus(userId: number, status: string): Promise<TrackedJob[]> {
@@ -674,12 +655,9 @@ export async function getTrackedJobsByStatus(userId: number, status: string): Pr
 export async function createLinkedinContent(data: InsertLinkedinContent): Promise<LinkedinContent | null> {
   const db = await getDb();
   if (!db) return null;
-  
-  const result = await db.insert(linkedinContent).values(data);
-  const insertId = result[0].insertId;
-  
-  const [content] = await db.select().from(linkedinContent).where(eq(linkedinContent.id, insertId));
-  return content || null;
+
+  const result = await db.insert(linkedinContent).values(data).returning();
+  return result[0] || null;
 }
 
 export async function getLinkedinContentByUser(userId: number, type?: string): Promise<LinkedinContent[]> {
@@ -812,12 +790,9 @@ import { aiToolboxHistory, InsertAiToolboxHistory, AiToolboxHistory } from "../d
 export async function createAiToolboxHistory(data: InsertAiToolboxHistory): Promise<AiToolboxHistory | null> {
   const db = await getDb();
   if (!db) return null;
-  
-  const result = await db.insert(aiToolboxHistory).values(data);
-  const insertId = result[0].insertId;
-  
-  const [record] = await db.select().from(aiToolboxHistory).where(eq(aiToolboxHistory.id, insertId));
-  return record || null;
+
+  const result = await db.insert(aiToolboxHistory).values(data).returning();
+  return result[0] || null;
 }
 
 export async function getAiToolboxHistoryByUser(

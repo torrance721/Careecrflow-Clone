@@ -4,15 +4,15 @@
  * 用于实时流式输出 AI 响应，提升用户体验
  */
 
-import { Router } from 'express';
+import { Router, Request, Response } from 'express';
 import { invokeLLMStream } from '../_core/llmStream';
 import type { Message } from '../_core/llm';
 import { quickStatusEvaluate, buildFollowupPrompt, type QuickStatusResult } from '../agents/interviewModes/quickStatusEvaluator';
-import { 
-  generateUltraFastFollowup, 
-  quickIntentMatch, 
+import {
+  generateUltraFastFollowup,
+  quickIntentMatch,
   detectIntentWithLLM,
-  type UserIntent 
+  type UserIntent
 } from '../agents/interviewModes/ultraFastFollowup';
 import { switchQuestion, generateTransitionMessage } from '../agents/interviewModes/questionSwitcher';
 import type { TopicContext, CollectedInfoPoint } from '../agents/interviewModes/types';
@@ -25,7 +25,7 @@ const router = Router();
  * 
  * 接收消息历史，流式返回 AI 响应
  */
-router.post('/stream-response', async (req, res) => {
+router.post('/stream-response', async (req: Request, res: Response) => {
   const { messages, systemPrompt } = req.body as {
     messages: Array<{ role: 'user' | 'assistant'; content: string }>;
     systemPrompt?: string;
@@ -90,7 +90,7 @@ router.post('/stream-response', async (req, res) => {
  * 
  * 专门用于生成追问，支持流式输出
  */
-router.post('/stream-followup', async (req, res) => {
+router.post('/stream-followup', async (req: Request, res: Response) => {
   const { 
     userMessage, 
     topicName, 
@@ -187,7 +187,7 @@ ${historyText}
  *    - switch_topic/end_interview/need_hint: 返回意图让前端处理
  *    - want_easier/want_harder/want_specific: 生成新问题
  */
-router.post('/optimized-followup', async (req, res) => {
+router.post('/optimized-followup', async (req: Request, res: Response) => {
   const startTime = Date.now();
   
   const { 

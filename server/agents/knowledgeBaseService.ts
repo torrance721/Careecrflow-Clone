@@ -230,9 +230,10 @@ async function saveKnowledgeBase(
       questionCount,
       lastSearchedAt: new Date(),
       expiresAt,
-    });
-  
-  const knowledgeBaseId = Number(insertResult[0].insertId);
+    })
+    .returning();
+
+  const knowledgeBaseId = insertResult[0].id;
   
   // Insert questions
   const questionsToInsert: Array<{

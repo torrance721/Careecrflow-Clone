@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { createExpressMiddleware } from "@trpc/server/adapters/express";
-import express from "express";
-import { appRouter } from "../server/routers/index.js";
+import express, { Request, Response, NextFunction } from "express";
+import { appRouter } from "../server/routers.js";
 import { createContext } from "../server/_core/context";
 import { registerOAuthRoutes } from "../server/_core/oauth";
 import interviewProgressRouter from "../server/routes/interviewProgress";
@@ -18,13 +18,13 @@ app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ limit: "50mb", extended: true }));
 
 // CORS configuration
-app.use((req, res, next) => {
+app.use((req: Request, res: Response, next: NextFunction) => {
   const origin = req.headers.origin || '*';
   res.setHeader('Access-Control-Allow-Origin', origin);
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, Cookie');
   res.setHeader('Access-Control-Allow-Credentials', 'true');
-  
+
   if (req.method === 'OPTIONS') {
     return res.sendStatus(200);
   }
@@ -32,11 +32,11 @@ app.use((req, res, next) => {
 });
 
 // Health check
-app.get("/health", (req, res) => {
-  res.json({ 
-    status: "ok", 
+app.get("/health", (req: Request, res: Response) => {
+  res.json({
+    status: "ok",
     timestamp: new Date().toISOString(),
-    environment: process.env.NODE_ENV 
+    environment: process.env.NODE_ENV
   });
 });
 

@@ -7,7 +7,7 @@
  * IMPORTANT: This should only be used in test/development environments.
  */
 
-import { Router } from 'express';
+import { Router, Request, Response } from 'express';
 import { COOKIE_NAME, ONE_YEAR_MS } from '@shared/const';
 import { sdk } from './_core/sdk';
 import * as db from './db';
@@ -50,7 +50,7 @@ export const testAuthRouter = Router();
  *   "password": "testpass123"
  * }
  */
-testAuthRouter.post('/login', async (req, res) => {
+testAuthRouter.post('/login', async (req: Request, res: Response) => {
   try {
     const { email, password } = req.body;
 
@@ -117,7 +117,7 @@ testAuthRouter.post('/login', async (req, res) => {
  * 
  * Logout test user (clear session cookie)
  */
-testAuthRouter.post('/logout', (req, res) => {
+testAuthRouter.post('/logout', (req: Request, res: Response) => {
   res.clearCookie(COOKIE_NAME, { path: '/' });
   return res.json({ success: true });
 });
@@ -127,7 +127,7 @@ testAuthRouter.post('/logout', (req, res) => {
  * 
  * Get list of available test users (for documentation)
  */
-testAuthRouter.get('/users', (req, res) => {
+testAuthRouter.get('/users', (req: Request, res: Response) => {
   const users = Object.entries(TEST_USERS).map(([key, user]) => ({
     key,
     email: user.email,
@@ -144,7 +144,7 @@ testAuthRouter.get('/users', (req, res) => {
  * 
  * Seed test users into database
  */
-testAuthRouter.post('/seed', async (req, res) => {
+testAuthRouter.post('/seed', async (req: Request, res: Response) => {
   try {
     for (const testUser of Object.values(TEST_USERS)) {
       await db.upsertUser({

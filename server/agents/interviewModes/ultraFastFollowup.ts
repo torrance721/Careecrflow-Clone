@@ -72,8 +72,21 @@ export async function generateUltraFastFollowup(
   try {
     // Use non-streaming API since Manus LLM Proxy doesn't support streaming
     const response = await invokeLLM({ messages });
-    const fullContent = response.choices[0]?.message?.content || '';
-    
+    const rawContent = response.choices[0]?.message?.content;
+
+    // Handle content that could be string or array of content parts
+    let fullContent: string;
+    if (typeof rawContent === 'string') {
+      fullContent = rawContent;
+    } else if (Array.isArray(rawContent)) {
+      fullContent = rawContent
+        .filter((part): part is { type: 'text'; text: string } => part.type === 'text')
+        .map(part => part.text)
+        .join('');
+    } else {
+      fullContent = '';
+    }
+
     // Simulate streaming by sending content in chunks
     const chunkSize = 10; // characters per chunk
     for (let i = 0; i < fullContent.length; i += chunkSize) {
@@ -82,7 +95,7 @@ export async function generateUltraFastFollowup(
       // Small delay to simulate streaming
       await new Promise(resolve => setTimeout(resolve, 20));
     }
-    
+
     onChunk({ type: 'done' });
     return fullContent;
   } catch (error) {

@@ -320,7 +320,7 @@ export const jobCacheFetchLogs = pgTable("job_cache_fetch_logs", {
   searchQuery: varchar("searchQuery", { length: 256 }).notNull(),
   jobsFetched: integer("jobsFetched").default(0),
   fetchDuration: integer("fetchDuration"), // milliseconds
-  status: statusEnum("status").default("success"),
+  status: statusEnum("status").default("completed"),
   errorMessage: text("errorMessage"),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
 });
@@ -339,7 +339,7 @@ export const bookmarkedQuestions = pgTable("bookmarked_questions", {
   // Question content
   topic: varchar("topic", { length: 256 }).notNull(),
   question: text("question").notNull(),
-  difficulty: difficultyEnum("difficulty").default("medium"),
+  difficulty: difficultyEnum("difficulty").default("Medium"),
   
   // Context
   targetPosition: varchar("targetPosition", { length: 256 }),
@@ -375,7 +375,7 @@ export const resumes = pgTable("resumes", {
   
   // Resume metadata
   title: varchar("title", { length: 256 }).notNull(),
-  type: typeEnum("type").default("base").notNull(),
+  type: typeEnum("type").default("technical").notNull(),
   isDefault: integer("isDefault").default(0), // 1 = default resume
   
   // Resume score
@@ -524,7 +524,7 @@ export const trackedJobs = pgTable("tracked_jobs", {
   description: text("description"),
   
   // Tracking status
-  status: statusEnum("status").default("saved").notNull(),
+  status: statusEnum("status").default("pending").notNull(),
   columnOrder: integer("columnOrder").default(0),
   
   // Application details
