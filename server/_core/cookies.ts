@@ -1,5 +1,3 @@
-import type { CookieOptions } from "express";
-
 const LOCAL_HOSTS = new Set(["localhost", "127.0.0.1", "::1"]);
 
 function isIpAddress(host: string) {
@@ -21,9 +19,14 @@ function isSecureRequest(req: any) {
   return protoList.some((proto: string) => proto.trim().toLowerCase() === "https");
 }
 
-export function getSessionCookieOptions(
-  req: any
-): Pick<CookieOptions, "httpOnly" | "path" | "sameSite" | "secure"> {
+export interface SessionCookieOptions {
+  httpOnly: boolean;
+  path: string;
+  sameSite: "none" | "lax" | "strict";
+  secure: boolean;
+}
+
+export function getSessionCookieOptions(req: any): SessionCookieOptions {
   return {
     httpOnly: true,
     path: "/",
