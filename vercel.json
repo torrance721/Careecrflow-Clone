@@ -5,10 +5,15 @@
   "installCommand": "pnpm install",
   "ignoreCommand": "exit 0",
   "framework": null,
+  "functions": {
+    "api/**/*.ts": {
+      "includeFiles": "server/**"
+    }
+  },
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "/api"
+      "destination": "/api/index"
     },
     {
       "source": "/(.*)",
