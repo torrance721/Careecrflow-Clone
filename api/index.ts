@@ -67,19 +67,35 @@ app.use(
   })
 );
 
+// Global error handler
+app.use((err: any, req: any, res: any, next: any) => {
+  console.error('[API Error]', err);
+  res.status(500).json({
+    error: 'Internal Server Error',
+    message: process.env.NODE_ENV === 'development' ? err.message : undefined
+  });
+});
+
 // Export Vercel serverless handler
 export default async function handler(
   request: VercelRequest,
   response: VercelResponse,
 ) {
-  // Use Express app to handle the request
-  return new Promise((resolve, reject) => {
-    app(request as any, response as any, (err: any) => {
-      if (err) {
-        reject(err);
-      } else {
-        resolve(undefined);
-      }
+  try {
+    // Use Express app to handle the request
+    return new Promise((resolve, reject) => {
+      app(request as any, response as any, (err: any) => {
+        if (err) {
+          console.error('[Handler Error]', err);
+          response.status(500).json({ error: 'Internal Server Error' });
+          resolve(undefined);
+        } else {
+          resolve(undefined);
+        }
+      });
     });
-  });
+  } catch (error) {
+    console.error('[Uncaught Error]', error);
+    response.status(500).json({ error: 'Internal Server Error' });
+  }
 }
