@@ -49,16 +49,24 @@ import {
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 
-const menuItems = [
+type MenuItem = {
+  icon: React.ComponentType<{ className?: string }>;
+  label: string;
+  path: string;
+  badge?: string;
+  children?: Array<{ label: string; path: string }>;
+};
+
+const menuItems: MenuItem[] = [
   { icon: Home, label: "Home", path: "/dashboard" },
   { icon: Briefcase, label: "Jobs", path: "/jobs", badge: "Beta" },
   { icon: FileText, label: "Resume Builder", path: "/resume-builder" },
   { icon: Kanban, label: "Job Tracker", path: "/job-tracker" },
   { icon: MessageSquare, label: "Mock Interviews", path: "/mock-interviews" },
   // Hidden: Application Materials
-  // { 
-  //   icon: Folder, 
-  //   label: "Application Materials", 
+  // {
+  //   icon: Folder,
+  //   label: "Application Materials",
   //   path: "#",
   //   children: [
   //     { label: "My Documents", path: "/documents" },
@@ -67,9 +75,9 @@ const menuItems = [
   //   ]
   // },
   // Hidden: AI Toolbox
-  // { 
-  //   icon: Sparkles, 
-  //   label: "AI Toolbox", 
+  // {
+  //   icon: Sparkles,
+  //   label: "AI Toolbox",
   //   path: "#",
   //   children: [
   //     { label: "Personal Brand Statement", path: "/personal-brand" },

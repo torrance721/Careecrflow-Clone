@@ -4,7 +4,7 @@
  * 提供 SSE 端点用于实时推送 Agent 思考步骤
  */
 
-import { Router, Request, Response } from 'express';
+import { Router } from 'express';
 import { CareerPathMatchingAgent, CareerPathInput } from '../agents/careerPathMatchingAgent';
 import { AdaptiveFeedbackAgent, AdaptiveFeedbackInput } from '../agents/adaptiveFeedbackAgent';
 import { StreamEvent, StreamCallback } from '../agents/react/streamingTypes';
@@ -13,19 +13,19 @@ const router = Router();
 
 // ==================== SSE 辅助函数 ====================
 
-function setupSSEHeaders(res: Response): void {
+function setupSSEHeaders(res: any): void {
   res.setHeader('Content-Type', 'text/event-stream');
   res.setHeader('Cache-Control', 'no-cache');
   res.setHeader('Connection', 'keep-alive');
   res.setHeader('X-Accel-Buffering', 'no');
 }
 
-function sendSSEEvent(res: Response, eventType: string, data: unknown): void {
+function sendSSEEvent(res: any, eventType: string, data: unknown): void {
   res.write(`event: ${eventType}\n`);
   res.write(`data: ${JSON.stringify(data)}\n\n`);
 }
 
-function createStreamCallback(res: Response): StreamCallback {
+function createStreamCallback(res: any): StreamCallback {
   return (event: StreamEvent) => {
     sendSSEEvent(res, event.type, event);
   };
@@ -33,7 +33,7 @@ function createStreamCallback(res: Response): StreamCallback {
 
 // ==================== 职业路径匹配 Agent ====================
 
-router.post('/agents/career-path-matching/stream', async (req: Request, res: Response) => {
+router.post('/agents/career-path-matching/stream', async (req: any, res: any) => {
   const input = req.body as CareerPathInput;
   
   if (!input || !input.userBackground) {
@@ -68,7 +68,7 @@ router.post('/agents/career-path-matching/stream', async (req: Request, res: Res
 
 // ==================== 自适应反馈 Agent ====================
 
-router.post('/agents/adaptive-feedback/stream', async (req: Request, res: Response) => {
+router.post('/agents/adaptive-feedback/stream', async (req: any, res: any) => {
   const input = req.body as AdaptiveFeedbackInput;
   
   if (!input || !input.interviewData) {
@@ -103,7 +103,7 @@ router.post('/agents/adaptive-feedback/stream', async (req: Request, res: Respon
 
 // ==================== 非流式端点（用于测试） ====================
 
-router.post('/agents/career-path-matching', async (req: Request, res: Response) => {
+router.post('/agents/career-path-matching', async (req: any, res: any) => {
   const input = req.body as CareerPathInput;
   
   if (!input || !input.userBackground) {
@@ -123,7 +123,7 @@ router.post('/agents/career-path-matching', async (req: Request, res: Response) 
   }
 });
 
-router.post('/agents/adaptive-feedback', async (req: Request, res: Response) => {
+router.post('/agents/adaptive-feedback', async (req: any, res: any) => {
   const input = req.body as AdaptiveFeedbackInput;
   
   if (!input || !input.interviewData) {

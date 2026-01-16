@@ -1,11 +1,12 @@
 import { integer, serial, pgEnum, pgTable, text, timestamp, varchar, json, numeric, boolean, jsonb, index } from "drizzle-orm/pg-core";
 // Define PostgreSQL enums
 export const roleEnum = pgEnum("role", ["user", "admin"]);
-export const sourceEnum = pgEnum("source", ["manual", "linkedin", "ai_generated"]);
-export const statusEnum = pgEnum("status", ["pending", "in_progress", "completed"]);
+export const sourceEnum = pgEnum("source", ["manual", "linkedin", "ai_generated", "extension", "import"]);
+export const statusEnum = pgEnum("status", ["pending", "in_progress", "completed", "partial", "success", "failed"]);
 export const messageRoleEnum = pgEnum("message_role", ["user", "assistant", "system"]);
-export const typeEnum = pgEnum("type", ["technical", "behavioral", "case"]);
+export const typeEnum = pgEnum("type", ["technical", "behavioral", "case", "base", "tailored", "headline", "about"]);
 export const difficultyEnum = pgEnum("difficulty", ["Easy", "Medium", "Hard"]);
+export const trackedJobStatusEnum = pgEnum("tracked_job_status", ["saved", "applied", "interviewing", "offer", "rejected", "archived"]);
 
 
 
@@ -125,7 +126,7 @@ export type InsertMockSession = typeof mockSessions.$inferInsert;
 export const mockMessages = pgTable("mock_messages", {
   id: serial("id").primaryKey(),
   sessionId: integer("sessionId").notNull(),
-  role: roleEnum("role").notNull(),
+  role: messageRoleEnum("role").notNull(),
   content: text("content").notNull(),
   questionIndex: integer("questionIndex"),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
@@ -524,7 +525,7 @@ export const trackedJobs = pgTable("tracked_jobs", {
   description: text("description"),
   
   // Tracking status
-  status: statusEnum("status").default("pending").notNull(),
+  status: trackedJobStatusEnum("status").default("saved").notNull(),
   columnOrder: integer("columnOrder").default(0),
   
   // Application details

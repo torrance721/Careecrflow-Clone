@@ -1,13 +1,13 @@
 /**
  * Test Authentication Module
- * 
+ *
  * This module provides mock authentication for E2E testing.
  * It creates test users and generates session tokens without OAuth.
- * 
+ *
  * IMPORTANT: This should only be used in test/development environments.
  */
 
-import { Router, Request, Response } from 'express';
+import { Router } from 'express';
 import { COOKIE_NAME, ONE_YEAR_MS } from '@shared/const';
 import { sdk } from './_core/sdk';
 import * as db from './db';
@@ -41,16 +41,16 @@ export const testAuthRouter = Router();
 
 /**
  * POST /api/test-auth/login
- * 
+ *
  * Login with test credentials (for E2E testing only)
- * 
+ *
  * Request body:
  * {
  *   "email": "testuser1@test.com",
  *   "password": "testpass123"
  * }
  */
-testAuthRouter.post('/login', async (req: Request, res: Response) => {
+testAuthRouter.post('/login', async (req: any, res: any) => {
   try {
     const { email, password } = req.body;
 
@@ -114,20 +114,20 @@ testAuthRouter.post('/login', async (req: Request, res: Response) => {
 
 /**
  * POST /api/test-auth/logout
- * 
+ *
  * Logout test user (clear session cookie)
  */
-testAuthRouter.post('/logout', (req: Request, res: Response) => {
+testAuthRouter.post('/logout', (req: any, res: any) => {
   res.clearCookie(COOKIE_NAME, { path: '/' });
   return res.json({ success: true });
 });
 
 /**
  * GET /api/test-auth/users
- * 
+ *
  * Get list of available test users (for documentation)
  */
-testAuthRouter.get('/users', (req: Request, res: Response) => {
+testAuthRouter.get('/users', (req: any, res: any) => {
   const users = Object.entries(TEST_USERS).map(([key, user]) => ({
     key,
     email: user.email,
@@ -141,10 +141,10 @@ testAuthRouter.get('/users', (req: Request, res: Response) => {
 
 /**
  * POST /api/test-auth/seed
- * 
+ *
  * Seed test users into database
  */
-testAuthRouter.post('/seed', async (req: Request, res: Response) => {
+testAuthRouter.post('/seed', async (req: any, res: any) => {
   try {
     for (const testUser of Object.values(TEST_USERS)) {
       await db.upsertUser({

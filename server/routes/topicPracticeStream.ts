@@ -5,7 +5,7 @@
  * 连接真实的 ReAct Agent 进行面试反馈生成
  */
 
-import { Router, Request, Response } from 'express';
+import { Router } from 'express';
 import { StreamEvent, StreamCallback } from '../agents/react/streamingTypes';
 import { AdaptiveFeedbackAgent, AdaptiveFeedbackInput } from '../agents/adaptiveFeedbackAgent';
 import { CareerPathMatchingAgent, CareerPathInput } from '../agents/careerPathMatchingAgent';
@@ -14,20 +14,20 @@ const router = Router();
 
 // ==================== SSE 辅助函数 ====================
 
-function setupSSEHeaders(res: Response): void {
+function setupSSEHeaders(res: any): void {
   res.setHeader('Content-Type', 'text/event-stream');
   res.setHeader('Cache-Control', 'no-cache');
   res.setHeader('Connection', 'keep-alive');
   res.setHeader('X-Accel-Buffering', 'no');
 }
 
-function sendSSEEvent(res: Response, eventType: string, data: unknown): void {
+function sendSSEEvent(res: any, eventType: string, data: unknown): void {
   res.write(`event: ${eventType}\n`);
   res.write(`data: ${JSON.stringify(data)}\n\n`);
 }
 
 // 创建 SSE 回调
-function createSSECallback(res: Response): StreamCallback {
+function createSSECallback(res: any): StreamCallback {
   return (event: StreamEvent) => {
     sendSSEEvent(res, event.type, event);
   };
@@ -153,7 +153,7 @@ async function* generateTopicPracticeSteps(
 
 // ==================== 话题练习流式端点 ====================
 
-router.post('/topic-practice/stream/start', async (req: Request, res: Response) => {
+router.post('/topic-practice/stream/start', async (req: any, res: any) => {
   const { targetPosition } = req.body;
   
   if (!targetPosition) {
@@ -201,7 +201,7 @@ router.post('/topic-practice/stream/start', async (req: Request, res: Response) 
   }
 });
 
-router.post('/topic-practice/stream/message', async (req: Request, res: Response) => {
+router.post('/topic-practice/stream/message', async (req: any, res: any) => {
   const { sessionId, message } = req.body;
   
   if (!sessionId || !message) {
@@ -248,7 +248,7 @@ router.post('/topic-practice/stream/message', async (req: Request, res: Response
 
 // ==================== 结束会话 - 使用真实 ReAct Agent ====================
 
-router.post('/topic-practice/stream/end', async (req: Request, res: Response) => {
+router.post('/topic-practice/stream/end', async (req: any, res: any) => {
   const { sessionId, sessionData } = req.body;
   
   if (!sessionId) {
@@ -353,7 +353,7 @@ router.post('/topic-practice/stream/end', async (req: Request, res: Response) =>
 
 // ==================== 职业路径匹配 - 使用真实 ReAct Agent ====================
 
-router.post('/topic-practice/stream/career-match', async (req: Request, res: Response) => {
+router.post('/topic-practice/stream/career-match', async (req: any, res: any) => {
   const { userBackground, interviewPerformance, language } = req.body;
   
   if (!userBackground) {

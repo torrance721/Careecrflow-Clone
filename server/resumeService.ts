@@ -286,7 +286,7 @@ export function calculateResumeScore(resume: Resume): ResumeScoreResult {
 
 export interface DuplicateResumeData {
   title: string;
-  type: "base" | "tailored";
+  type: "technical" | "behavioral" | "case" | "base" | "tailored" | "headline" | "about";
   personalInfo: any;
   summary: string | null;
   experience: any;

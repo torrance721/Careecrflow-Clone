@@ -71,7 +71,7 @@ export const appRouter = router({
       .input(z.object({
         topic: z.string(),
         question: z.string(),
-        difficulty: z.enum(['easy', 'medium', 'hard']).optional(),
+        difficulty: z.enum(['Easy', 'Medium', 'Hard']).optional(),
         targetPosition: z.string().optional(),
         notes: z.string().optional(),
       }))
@@ -2354,7 +2354,7 @@ ${input.uniqueValue ? `Unique Value: ${input.uniqueValue}` : ''}`
         userId: z.string().optional(),
         events: z.array(z.object({
           event_name: z.string(),
-          properties: z.record(z.any()).optional(),
+          properties: z.record(z.string(), z.any()).optional(),
         })),
         pageUrl: z.string().optional(),
         pageTitle: z.string().optional(),

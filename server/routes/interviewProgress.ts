@@ -8,14 +8,14 @@
  * 4. Generating interview plan
  */
 
-import { Router, Request, Response } from 'express';
+import { Router } from 'express';
 import { parseJobInput } from '../utils/jobInputParser';
 import { getOrCreateKnowledgeBase, type KnowledgeBaseWithQuestions } from '../agents/knowledgeBaseService';
 
 const router = Router();
 
 // Progress step types
-export type ProgressStep = 
+export type ProgressStep =
   | 'parsing'
   | 'searching_glassdoor'
   | 'searching_leetcode'
@@ -36,18 +36,18 @@ export interface ProgressEvent {
 /**
  * Send SSE event to client
  */
-function sendEvent(res: Response, event: ProgressEvent) {
+function sendEvent(res: any, event: ProgressEvent) {
   res.write(`data: ${JSON.stringify(event)}\n\n`);
 }
 
 /**
  * SSE endpoint for interview preparation progress
  * GET /api/interview-progress?dreamJob=...
- * 
+ *
  * This endpoint uses SSE to stream progress updates while preparing the interview.
  * The actual search and extraction is handled by getOrCreateKnowledgeBase.
  */
-router.get('/interview-progress', async (req: Request, res: Response) => {
+router.get('/interview-progress', async (req: any, res: any) => {
   const { dreamJob } = req.query;
   
   if (!dreamJob || typeof dreamJob !== 'string') {
@@ -191,7 +191,7 @@ router.get('/interview-progress', async (req: Request, res: Response) => {
  * Simple polling endpoint for progress (fallback for SSE)
  * POST /api/interview-progress/start
  */
-router.post('/interview-progress/start', async (req: Request, res: Response) => {
+router.post('/interview-progress/start', async (req: any, res: any) => {
   const { dreamJob } = req.body;
   
   if (!dreamJob) {

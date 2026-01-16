@@ -49,16 +49,16 @@ import { TopicDepthIndicator, calculateDepthLevel } from '@/components/TopicDept
 import { Bookmark, BookmarkCheck } from 'lucide-react';
 
 // 收藏按钮组件
-function BookmarkButton({ 
-  topic, 
-  question, 
-  difficulty, 
-  targetPosition, 
-  isZh 
-}: { 
-  topic: string; 
-  question: string; 
-  difficulty: 'easy' | 'medium' | 'hard';
+function BookmarkButton({
+  topic,
+  question,
+  difficulty,
+  targetPosition,
+  isZh
+}: {
+  topic: string;
+  question: string;
+  difficulty: 'Easy' | 'Medium' | 'Hard';
   targetPosition: string;
   isZh: boolean;
 }) {
@@ -170,8 +170,9 @@ export default function TopicPractice() {
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [currentTopic, setCurrentTopic] = useState<string>('');
-  const [currentDifficulty, setCurrentDifficulty] = useState<'easy' | 'medium' | 'hard'>('medium');
-  
+  const [currentDifficulty, setCurrentDifficulty] = useState<'Easy' | 'Medium' | 'Hard'>('Medium');
+  const [showPaywall, setShowPaywall] = useState(false);
+
   // Feedback state
   const [feedbacks, setFeedbacks] = useState<TopicFeedback[]>([]);
   const [companyMatches, setCompanyMatches] = useState<CompanyMatch[]>([]);
@@ -375,7 +376,14 @@ export default function TopicPractice() {
       
       setSessionId(result.sessionId);
       setCurrentTopic(result.topic.name);
-      setCurrentDifficulty(result.topic.difficulty || 'medium');
+      // Normalize difficulty to capitalized form
+      const normalizedDifficulty = (result.topic.difficulty || 'medium').toLowerCase();
+      const difficultyMap: Record<string, 'Easy' | 'Medium' | 'Hard'> = {
+        easy: 'Easy',
+        medium: 'Medium',
+        hard: 'Hard'
+      };
+      setCurrentDifficulty(difficultyMap[normalizedDifficulty] || 'Medium');
       setMessages([{
         role: 'assistant',
         content: result.openingMessage,
@@ -1107,12 +1115,12 @@ export default function TopicPractice() {
                     depth={calculateDepthLevel(collectedInfo.length, 8)}
                     language={language as 'en' | 'zh'}
                   />
-                  <Badge 
-                    variant={currentDifficulty === 'easy' ? 'secondary' : currentDifficulty === 'hard' ? 'destructive' : 'default'}
+                  <Badge
+                    variant={currentDifficulty === 'Easy' ? 'secondary' : currentDifficulty === 'Hard' ? 'destructive' : 'default'}
                     className="text-xs"
                   >
-                    {currentDifficulty === 'easy' ? (isZh ? '简单' : 'Easy') : 
-                     currentDifficulty === 'hard' ? (isZh ? '困难' : 'Hard') : 
+                    {currentDifficulty === 'Easy' ? (isZh ? '简单' : 'Easy') :
+                     currentDifficulty === 'Hard' ? (isZh ? '困难' : 'Hard') :
                      (isZh ? '中等' : 'Medium')}
                   </Badge>
                 </div>

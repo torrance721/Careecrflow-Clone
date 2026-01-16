@@ -1,6 +1,6 @@
 import { z } from "zod";
-import { router, publicProcedure, protectedProcedure } from "../trpc";
-import { db } from "../db";
+import { router, publicProcedure, protectedProcedure } from "../_core/trpc";
+import { getDb } from "../db";
 import { analyticsEvents, analyticsSessions } from "../../drizzle/schema";
 import { eq, sql, desc, and, gte, lte } from "drizzle-orm";
 
@@ -10,7 +10,7 @@ const trackEventSchema = z.object({
   userId: z.string().optional(),
   events: z.array(z.object({
     event_name: z.string(),
-    properties: z.record(z.any()).optional(),
+    properties: z.record(z.string(), z.any()).optional(),
   })),
   pageUrl: z.string().optional(),
   pageTitle: z.string().optional(),
@@ -24,6 +24,11 @@ export const analyticsRouter = router({
   track: publicProcedure
     .input(trackEventSchema)
     .mutation(async ({ input, ctx }) => {
+      const db = await getDb();
+      if (!db) {
+        return { success: false, eventsTracked: 0 };
+      }
+
       const { sessionId, userId, events, pageUrl, pageTitle, referrer, userAgent, ipAddress } = input;
 
       // Insert events
@@ -42,9 +47,10 @@ export const analyticsRouter = router({
       ).returning();
 
       // Update or create session
-      const existingSession = await db.query.analyticsSessions.findFirst({
-        where: eq(analyticsSessions.sessionId, sessionId),
-      });
+      const existingSessionResult = await db.select().from(analyticsSessions)
+        .where(eq(analyticsSessions.sessionId, sessionId))
+        .limit(1);
+      const existingSession = existingSessionResult[0];
 
       if (existingSession) {
         // Update existing session
@@ -80,6 +86,11 @@ export const analyticsRouter = router({
       eventName: z.string().optional(),
     }))
     .query(async ({ input }) => {
+      const db = await getDb();
+      if (!db) {
+        return { totalEvents: 0, uniqueUsers: 0, uniqueSessions: 0, eventsByName: [] };
+      }
+
       const { startDate, endDate, eventName } = input;
 
       // Build where conditions
@@ -149,13 +160,17 @@ export const analyticsRouter = router({
       eventName: z.string().optional(),
     }))
     .query(async ({ input }) => {
+      const db = await getDb();
+      if (!db) {
+        return [];
+      }
+
       const { limit, eventName } = input;
 
-      const events = await db.query.analyticsEvents.findMany({
-        where: eventName ? eq(analyticsEvents.eventName, eventName) : undefined,
-        orderBy: [desc(analyticsEvents.createdAt)],
-        limit,
-      });
+      const events = await db.select().from(analyticsEvents)
+        .where(eventName ? eq(analyticsEvents.eventName, eventName) : undefined)
+        .orderBy(desc(analyticsEvents.createdAt))
+        .limit(limit);
 
       return events;
     }),
@@ -168,6 +183,11 @@ export const analyticsRouter = router({
       endDate: z.string().optional(),
     }))
     .query(async ({ input }) => {
+      const db = await getDb();
+      if (!db) {
+        return { eventName: input.eventName, totalCount: 0, propertyStats: {}, recentEvents: [] };
+      }
+
       const { eventName, startDate, endDate } = input;
 
       const conditions = [eq(analyticsEvents.eventName, eventName)];
@@ -178,17 +198,16 @@ export const analyticsRouter = router({
         conditions.push(lte(analyticsEvents.createdAt, new Date(endDate)));
       }
 
-      const events = await db.query.analyticsEvents.findMany({
-        where: and(...conditions),
-        orderBy: [desc(analyticsEvents.createdAt)],
-        limit: 1000,
-      });
+      const events = await db.select().from(analyticsEvents)
+        .where(and(...conditions))
+        .orderBy(desc(analyticsEvents.createdAt))
+        .limit(1000);
 
       // Extract unique property keys
       const propertyKeys = new Set<string>();
       events.forEach(event => {
         if (event.properties && typeof event.properties === 'object') {
-          Object.keys(event.properties).forEach(key => propertyKeys.add(key));
+          Object.keys(event.properties as Record<string, unknown>).forEach(key => propertyKeys.add(key));
         }
       });
 
@@ -200,7 +219,7 @@ export const analyticsRouter = router({
 
       events.forEach(event => {
         if (event.properties && typeof event.properties === 'object') {
-          Object.entries(event.properties).forEach(([key, value]) => {
+          Object.entries(event.properties as Record<string, unknown>).forEach(([key, value]) => {
             const valueStr = String(value);
             if (!propertyStats[key][valueStr]) {
               propertyStats[key][valueStr] = 0;

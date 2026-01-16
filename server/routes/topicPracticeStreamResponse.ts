@@ -4,7 +4,7 @@
  * 用于实时流式输出 AI 响应，提升用户体验
  */
 
-import { Router, Request, Response } from 'express';
+import { Router } from 'express';
 import { invokeLLMStream } from '../_core/llmStream';
 import type { Message } from '../_core/llm';
 import { quickStatusEvaluate, buildFollowupPrompt, type QuickStatusResult } from '../agents/interviewModes/quickStatusEvaluator';
@@ -22,10 +22,10 @@ const router = Router();
 /**
  * SSE 流式响应端点
  * POST /api/topic-practice/stream-response
- * 
+ *
  * 接收消息历史，流式返回 AI 响应
  */
-router.post('/stream-response', async (req: Request, res: Response) => {
+router.post('/stream-response', async (req: any, res: any) => {
   const { messages, systemPrompt } = req.body as {
     messages: Array<{ role: 'user' | 'assistant'; content: string }>;
     systemPrompt?: string;
@@ -87,10 +87,10 @@ router.post('/stream-response', async (req: Request, res: Response) => {
 /**
  * 流式追问生成端点
  * POST /api/topic-practice/stream-followup
- * 
+ *
  * 专门用于生成追问，支持流式输出
  */
-router.post('/stream-followup', async (req: Request, res: Response) => {
+router.post('/stream-followup', async (req: any, res: any) => {
   const { 
     userMessage, 
     topicName, 
@@ -178,7 +178,7 @@ ${historyText}
 /**
  * 超快速追问端点（目标 ≤5秒）
  * POST /api/topic-practice/optimized-followup
- * 
+ *
  * 策略（混合意图判断）：
  * 1. 快速规则匹配明确意图（~0秒）
  * 2. LLM 意图判断隐含意图（~1秒）
@@ -187,7 +187,7 @@ ${historyText}
  *    - switch_topic/end_interview/need_hint: 返回意图让前端处理
  *    - want_easier/want_harder/want_specific: 生成新问题
  */
-router.post('/optimized-followup', async (req: Request, res: Response) => {
+router.post('/optimized-followup', async (req: any, res: any) => {
   const startTime = Date.now();
   
   const { 
