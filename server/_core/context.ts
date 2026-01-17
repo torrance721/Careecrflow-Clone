@@ -7,11 +7,24 @@ export type TrpcContext = {
   user: User | null;
 };
 
+// Mock user for development/demo mode when OAuth is not configured
+const MOCK_USER: User = {
+  id: 1,
+  openId: "demo-user-001",
+  name: "Demo User",
+  email: "demo@example.com",
+  loginMethod: "demo",
+  role: "user",
+  createdAt: new Date(),
+  updatedAt: new Date(),
+  lastSignedIn: new Date(),
+};
+
 export async function createContext(
   opts: CreateExpressContextOptions
 ): Promise<TrpcContext> {
-  // Authentication disabled - always return null user
-  // To enable authentication later, uncomment and configure:
+  // Authentication disabled - return mock user for demo mode
+  // To enable real authentication later, uncomment and configure:
   // import { sdk } from "./sdk";
   // try {
   //   user = await sdk.authenticateRequest(opts.req);
@@ -22,6 +35,6 @@ export async function createContext(
   return {
     req: opts.req,
     res: opts.res,
-    user: null,
+    user: MOCK_USER,
   };
 }
