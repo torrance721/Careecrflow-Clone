@@ -11,7 +11,15 @@ import "./index.css";
 
 const queryClient = new QueryClient();
 
+// Check if we're in demo mode (no OAuth configured)
+const isDemoMode = () => {
+  return !import.meta.env.VITE_OAUTH_PORTAL_URL || !import.meta.env.VITE_APP_ID;
+};
+
 const redirectToLoginIfUnauthorized = (error: unknown) => {
+  // In demo mode, never redirect to login
+  if (isDemoMode()) return;
+
   if (!(error instanceof TRPCClientError)) return;
   if (typeof window === "undefined") return;
 
