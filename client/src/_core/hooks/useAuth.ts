@@ -1,4 +1,4 @@
-import { getLoginUrl } from "@/const";
+import { getLoginUrl, getLogoutUrl, isGoogleOAuthConfigured } from "@/const";
 import { trpc } from "@/lib/trpc";
 import { TRPCClientError } from "@trpc/client";
 import { useCallback, useEffect, useMemo } from "react";
@@ -8,22 +8,10 @@ type UseAuthOptions = {
   redirectPath?: string;
 };
 
-// Demo mode user - used when OAuth is not configured
-const DEMO_USER = {
-  id: 1,
-  openId: "demo-user-001",
-  name: "Demo User",
-  email: "demo@example.com",
-  loginMethod: "demo",
-  role: "user" as const,
-  createdAt: new Date().toISOString(),
-  updatedAt: new Date().toISOString(),
-  lastSignedIn: new Date().toISOString(),
-};
-
-// Check if we're in demo mode (no OAuth configured)
-const isDemoMode = () => {
-  return !import.meta.env.VITE_OAUTH_PORTAL_URL || !import.meta.env.VITE_APP_ID;
+// Check if any OAuth is configured
+const isOAuthConfigured = () => {
+  return isGoogleOAuthConfigured() ||
+    (!!import.meta.env.VITE_OAUTH_PORTAL_URL && !!import.meta.env.VITE_APP_ID);
 };
 
 export function useAuth(options?: UseAuthOptions) {
@@ -34,8 +22,6 @@ export function useAuth(options?: UseAuthOptions) {
   const meQuery = trpc.auth.me.useQuery(undefined, {
     retry: false,
     refetchOnWindowFocus: false,
-    // In demo mode, don't fail on network errors
-    enabled: !isDemoMode(),
   });
 
   const logoutMutation = trpc.auth.logout.useMutation({
@@ -45,12 +31,17 @@ export function useAuth(options?: UseAuthOptions) {
   });
 
   const logout = useCallback(async () => {
-    // In demo mode, just clear local state
-    if (isDemoMode()) {
-      return;
-    }
     try {
+      // Call tRPC logout
       await logoutMutation.mutateAsync();
+
+      // Also call REST logout endpoint for Google OAuth
+      if (isGoogleOAuthConfigured()) {
+        await fetch(getLogoutUrl(), {
+          method: 'POST',
+          credentials: 'include',
+        });
+      }
     } catch (error: unknown) {
       if (
         error instanceof TRPCClientError &&
@@ -58,34 +49,27 @@ export function useAuth(options?: UseAuthOptions) {
       ) {
         return;
       }
-      throw error;
+      console.error("[Auth] Logout error:", error);
     } finally {
       utils.auth.me.setData(undefined, null);
       await utils.auth.me.invalidate();
+      localStorage.removeItem("manus-runtime-user-info");
+
+      // Redirect to login page after logout
+      window.location.href = getLoginUrl();
     }
   }, [logoutMutation, utils]);
 
   const state = useMemo(() => {
-    // In demo mode, always return the demo user
-    if (isDemoMode()) {
+    const user = meQuery.data ?? null;
+
+    if (user) {
       localStorage.setItem(
         "manus-runtime-user-info",
-        JSON.stringify(DEMO_USER)
+        JSON.stringify(user)
       );
-      return {
-        user: DEMO_USER,
-        loading: false,
-        error: null,
-        isAuthenticated: true,
-      };
     }
 
-    // If API returned a user, use it; otherwise fall back to demo user
-    const user = meQuery.data ?? DEMO_USER;
-    localStorage.setItem(
-      "manus-runtime-user-info",
-      JSON.stringify(user)
-    );
     return {
       user,
       loading: meQuery.isLoading || logoutMutation.isPending,
@@ -101,15 +85,16 @@ export function useAuth(options?: UseAuthOptions) {
   ]);
 
   useEffect(() => {
-    // Never redirect in demo mode
-    if (isDemoMode()) return;
     if (!redirectOnUnauthenticated) return;
     if (meQuery.isLoading || logoutMutation.isPending) return;
     if (state.user) return;
     if (typeof window === "undefined") return;
-    if (window.location.pathname === redirectPath) return;
 
-    window.location.href = redirectPath
+    // Don't redirect if already on login-related pages
+    const currentPath = window.location.pathname;
+    if (currentPath === '/test-login' || currentPath === '/login') return;
+
+    window.location.href = redirectPath;
   }, [
     redirectOnUnauthenticated,
     redirectPath,
@@ -122,5 +107,6 @@ export function useAuth(options?: UseAuthOptions) {
     ...state,
     refresh: () => meQuery.refetch(),
     logout,
+    isOAuthConfigured: isOAuthConfigured(),
   };
 }

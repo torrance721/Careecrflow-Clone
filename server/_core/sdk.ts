@@ -300,3 +300,10 @@ class SDKServer {
 }
 
 export const sdk = new SDKServer();
+
+// Export verifySession for use in other modules
+export async function verifySession(
+  cookieValue: string | undefined | null
+): Promise<{ openId: string; appId: string; name: string } | null> {
+  return sdk.verifySession(cookieValue);
+}

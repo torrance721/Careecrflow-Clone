@@ -21,11 +21,15 @@ export default async function handler(
   // For all other requests, try to load the full app
   try {
     const express = (await import("express")).default;
+    const cookieParser = (await import("cookie-parser")).default;
     const { createExpressMiddleware } = await import("@trpc/server/adapters/express");
     const { appRouter } = await import("../server/routers.js");
     const { createContext } = await import("../server/_core/context");
 
     const app = express();
+
+    // Cookie parser middleware
+    app.use(cookieParser());
 
     // Configure body parser
     app.use(express.json({ limit: "50mb" }));

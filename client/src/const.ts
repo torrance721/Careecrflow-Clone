@@ -1,27 +1,45 @@
 export { COOKIE_NAME, ONE_YEAR_MS } from "@shared/const";
 
-// Generate login URL at runtime so redirect URI reflects the current origin.
+// Get API base URL
+export const getApiUrl = () => {
+  return import.meta.env.VITE_API_URL || '';
+};
+
+// Check if Google OAuth is configured
+export const isGoogleOAuthConfigured = () => {
+  return !!import.meta.env.VITE_GOOGLE_CLIENT_ID;
+};
+
+// Generate login URL at runtime
 export const getLoginUrl = () => {
-  // Use test login page if OAuth is not configured
-  if (!import.meta.env.VITE_OAUTH_PORTAL_URL || !import.meta.env.VITE_APP_ID) {
-    return '/test-login';
+  // If Google OAuth is configured, use Google login
+  if (isGoogleOAuthConfigured()) {
+    const apiUrl = getApiUrl();
+    return `${apiUrl}/api/auth/google`;
   }
-  
-  // In development mode with mock OAuth, use test login page
-  if (import.meta.env.DEV && import.meta.env.VITE_OAUTH_PORTAL_URL === 'http://localhost:5000/oauth') {
-    return '/test-login';
+
+  // Legacy Manus OAuth
+  if (import.meta.env.VITE_OAUTH_PORTAL_URL && import.meta.env.VITE_APP_ID) {
+    const oauthPortalUrl = import.meta.env.VITE_OAUTH_PORTAL_URL;
+    const appId = import.meta.env.VITE_APP_ID;
+    const redirectUri = `${window.location.origin}/api/oauth/callback`;
+    const state = btoa(redirectUri);
+
+    const url = new URL(`${oauthPortalUrl}/app-auth`);
+    url.searchParams.set("appId", appId);
+    url.searchParams.set("redirectUri", redirectUri);
+    url.searchParams.set("state", state);
+    url.searchParams.set("type", "signIn");
+
+    return url.toString();
   }
-  
-  const oauthPortalUrl = import.meta.env.VITE_OAUTH_PORTAL_URL;
-  const appId = import.meta.env.VITE_APP_ID;
-  const redirectUri = `${window.location.origin}/api/oauth/callback`;
-  const state = btoa(redirectUri);
 
-  const url = new URL(`${oauthPortalUrl}/app-auth`);
-  url.searchParams.set("appId", appId);
-  url.searchParams.set("redirectUri", redirectUri);
-  url.searchParams.set("state", state);
-  url.searchParams.set("type", "signIn");
+  // Fallback to test login page in development
+  return '/test-login';
+};
 
-  return url.toString();
+// Get logout URL
+export const getLogoutUrl = () => {
+  const apiUrl = getApiUrl();
+  return `${apiUrl}/api/auth/logout`;
 };

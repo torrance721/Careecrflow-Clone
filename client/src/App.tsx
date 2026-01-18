@@ -31,12 +31,14 @@ import FullInterview from "./pages/FullInterview";
 import ReActDemo from "./pages/ReActDemo";
 import Bookmarks from "./pages/Bookmarks";
 import TestLogin from "./pages/TestLogin";
+import Login from "./pages/Login";
 import AnalyticsDashboard from "./pages/AnalyticsDashboard";
 
 function Router() {
   return (
     <Switch>
-      {/* Test Login Route (Development Only) */}
+      {/* Login Routes */}
+      <Route path={"/login"} component={Login} />
       <Route path={"/test-login"} component={TestLogin} />
       
       {/* Analytics Dashboard (Admin Only) */}
