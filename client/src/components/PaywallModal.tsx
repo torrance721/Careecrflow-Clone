@@ -9,6 +9,8 @@ interface PaywallModalProps {
 
 export default function PaywallModal({ isOpen, onClose, triggerLocation = 'unknown', triggerReason = 'manual', featureName = 'unknown' }: PaywallModalProps & { triggerLocation?: string; triggerReason?: string; featureName?: string }) {
   const { trackPaywallShown, trackPaywallClick } = usePaywallTracking();
+  const [selectedPlan, setSelectedPlan] = useState('monthly');
+  const isZh = false; // 默认英文
 
   // Track paywall shown
   useEffect(() => {
@@ -90,9 +92,6 @@ export default function PaywallModal({ isOpen, onClose, triggerLocation = 'unkno
       ]
     }
   ];
-
-  const [selectedPlan, setSelectedPlan] = useState('monthly');
-  const isZh = false; // 默认英文
 
   const handleSubscribe = () => {
     console.log('User clicked subscribe:', selectedPlan);
