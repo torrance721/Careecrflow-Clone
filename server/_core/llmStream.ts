@@ -74,10 +74,10 @@ export async function invokeLLMStream(
   const { messages, tools, toolChoice, tool_choice } = params;
 
   const payload: Record<string, unknown> = {
-    model: "gemini-2.5-flash",
+    model: "gpt-4o-mini",
     messages: messages.map(normalizeMessage),
     stream: true, // 启用流式输出
-    max_tokens: 32768,
+    max_tokens: 16384,
   };
 
   if (tools && tools.length > 0) {
