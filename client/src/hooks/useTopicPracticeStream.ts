@@ -6,6 +6,7 @@
 
 import { useState, useCallback, useRef } from 'react';
 import type { StreamingStep, AgentInfo } from '../components/ReActViewer';
+import { getApiUrl } from '@/const';
 
 interface TopicPracticeStreamState {
   isStreaming: boolean;
@@ -66,8 +67,9 @@ export function useTopicPracticeStream(): UseTopicPracticeStreamReturn {
     abortControllerRef.current = new AbortController();
     
     // 使用 fetch + ReadableStream 处理 SSE
-    const endpoint = `/api/topic-practice/stream/${phase}`;
-    
+    // 使用 getApiUrl() 确保请求发送到 Render 后端，避免 Vercel 60秒超时限制
+    const endpoint = `${getApiUrl()}/api/topic-practice/stream/${phase}`;
+
     fetch(endpoint, {
       method: 'POST',
       headers: {
@@ -75,6 +77,7 @@ export function useTopicPracticeStream(): UseTopicPracticeStreamReturn {
       },
       body: JSON.stringify(params),
       signal: abortControllerRef.current.signal,
+      credentials: 'include', // 跨域请求携带 Cookie
     })
       .then(response => {
         if (!response.ok) {

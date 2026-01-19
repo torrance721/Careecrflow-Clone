@@ -12,6 +12,7 @@
  */
 
 import { useState, useCallback, useRef } from 'react';
+import { getApiUrl } from '@/const';
 
 interface CollectedInfoPoint {
   type: string;
@@ -103,11 +104,13 @@ export function useOptimizedFollowup(): UseOptimizedFollowupReturn {
     abortControllerRef.current = new AbortController();
     
     return new Promise((resolve, reject) => {
-      fetch('/api/topic-practice/optimized-followup', {
+      // 使用 getApiUrl() 确保请求发送到 Render 后端，避免 Vercel 60秒超时限制
+      fetch(`${getApiUrl()}/api/topic-practice/optimized-followup`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(params),
-        signal: abortControllerRef.current?.signal
+        signal: abortControllerRef.current?.signal,
+        credentials: 'include', // 跨域请求携带 Cookie
       })
         .then(response => {
           if (!response.ok) {

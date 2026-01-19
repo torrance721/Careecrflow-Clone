@@ -6,6 +6,7 @@
 
 import { useState, useCallback, useRef, useEffect } from 'react';
 import type { StreamingStep, AgentInfo } from '@/components/ReActViewer';
+import { getApiUrl } from '@/const';
 
 // ==================== 类型定义 ====================
 
@@ -83,9 +84,11 @@ export function useReActStream<TInput, TOutput>(
     try {
       // 使用 fetch + ReadableStream 处理 SSE
       // 因为 EventSource 不支持 POST 请求
+      // 使用 getApiUrl() 确保请求发送到 Render 后端，避免 Vercel 60秒超时限制
       abortControllerRef.current = new AbortController();
-      
-      const response = await fetch(endpoint, {
+
+      const fullUrl = `${getApiUrl()}${endpoint}`;
+      const response = await fetch(fullUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -93,6 +96,7 @@ export function useReActStream<TInput, TOutput>(
         },
         body: JSON.stringify(input),
         signal: abortControllerRef.current.signal,
+        credentials: 'include', // 跨域请求携带 Cookie
       });
       
       if (!response.ok) {

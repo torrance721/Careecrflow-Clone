@@ -5,6 +5,7 @@
  */
 
 import { useState, useCallback, useRef } from 'react';
+import { getApiUrl } from '@/const';
 
 interface StreamChunk {
   type: 'content' | 'done' | 'error';
@@ -63,13 +64,16 @@ export function useStreamingResponse(
     let fullContent = '';
 
     try {
-      const response = await fetch(endpoint, {
+      // 使用 getApiUrl() 确保请求发送到 Render 后端，避免 Vercel 60秒超时限制
+      const fullUrl = `${getApiUrl()}${endpoint}`;
+      const response = await fetch(fullUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(body),
         signal: abortControllerRef.current.signal,
+        credentials: 'include', // 跨域请求携带 Cookie
       });
 
       if (!response.ok) {

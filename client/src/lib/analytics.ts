@@ -2,6 +2,12 @@
  * Analytics SDK for tracking user behavior
  */
 
+// Get API URL for analytics requests
+const getAnalyticsApiUrl = () => {
+  const apiUrl = import.meta.env.VITE_API_URL || '';
+  return `${apiUrl}/api/trpc/analytics.track`;
+};
+
 export interface AnalyticsEvent {
   event_name: string;
   properties?: Record<string, any>;
@@ -135,14 +141,15 @@ class AnalyticsSDK {
     };
 
     try {
+      const analyticsUrl = getAnalyticsApiUrl();
       if (sync && typeof navigator !== 'undefined' && 'sendBeacon' in navigator) {
         // Use sendBeacon for synchronous flush (on page unload)
         const blob = new Blob([JSON.stringify(payload)], { type: 'application/json' });
-        navigator.sendBeacon('/api/trpc/analytics.track', blob);
+        navigator.sendBeacon(analyticsUrl, blob);
         this.log('Events flushed (sendBeacon)', { count: events.length });
       } else {
         // Use fetch for async flush
-        const response = await fetch('/api/trpc/analytics.track', {
+        const response = await fetch(analyticsUrl, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
